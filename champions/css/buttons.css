@@ -1,0 +1,17 @@
+.btnctn {
+    scroll-margin-top: 100%;
+    position: sticky;
+        top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 2% 0;
+}
+.btnctn button {
+    margin: 20px 0;
+    width: 50px;
+    height: 50px;
+}
