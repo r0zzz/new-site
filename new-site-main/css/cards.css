@@ -1,0 +1,91 @@
+/*declare custom fonts*/
+@font-face {
+    font-family: Beaufort;
+    src: url(Assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+}
+@font-face {
+    font-family: BeaufortBold;
+    src: url(Assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+}
+@font-face {
+    font-family: Spiegel;
+    src: url(Assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+}
+
+.cardctn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em;
+    margin: 5% 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    margin: 1em 1em;
+}
+.card h2 {
+    font-family: BeaufortBold;
+    font-style: italic;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    margin-top: 7.5%;
+    transition: .3s;
+}
+.cardimg{
+    position: relative;
+        top: 3%;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    transition: .3s;
+}
+.cardimg img {
+    max-width: 90%;
+}
+.cardframe {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    transition: .3s;
+    z-index: 2;
+}
+.cardframe img {
+    max-width: 80%;
+}
+.card:hover .cardimg {
+    transform: scale(.975);
+}
+.card:hover .cardframe {
+    transform: scale(1.025);
+}
+.card:hover h2 {
+    color: #C89B3C;
+    transform: scale(1.1);
+}
+
+
+/*adjust the ui based on screen width*/
+
+@media only screen and (max-width: 700px) {
+    .cardctn {
+        flex-direction: column;
+    }
+    .cardimg {
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .card {
+        flex: 50%;
+    }
+}
