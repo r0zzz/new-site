@@ -15,13 +15,12 @@
 footer {
     display: flex;
     flex-direction: row;
-    align-self: last baseline;
     align-items: center;
     width: 100%;
     height: fit-content;
     background-color: #282828;
     padding: 2em 0;
-    z-index: 2;
+    z-index: 3;
 }
 .logos, .rights, .links {
     display: flex;

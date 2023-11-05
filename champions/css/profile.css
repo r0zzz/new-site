@@ -1,0 +1,327 @@
+/*declare custom fonts*/
+@font-face {
+    font-family: Beaufort;
+    src: url(../../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+}
+@font-face {
+    font-family: BeaufortBold;
+    src: url(../../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+}
+@font-face {
+    font-family: Spiegel;
+    src: url(../../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #010A13;
+}
+.splash {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.mainsplash {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-top: 717px;
+}
+
+.mainsplash h1, .mainsplash h3 {
+    font-family: BeaufortBold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+.name h1 {
+    color: #C89B3C;
+    font-size: 700%;
+    margin: 0;
+}
+.name h3 {
+    font-size: 200%;
+    margin: 0;
+    color: #A09B8C;
+}
+
+.lore {
+    margin: 5% 10%;
+}
+
+.lore p {
+    text-align: center;
+    font-family: Spiegel;
+    font-size: 150%;
+    color: #A09B8C;
+}
+
+/*divider*/
+.divider {
+    width: 90%;
+    margin: 5% auto;
+}
+.divider img {
+    width: 100%;
+}
+/*catbar*/
+.catbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #282828;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+.catbar a {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+.catbar a p {
+    font-family: Spiegel;
+    font-weight: bold;
+    font-size: 150%;
+    color: #A09B8C;
+    text-transform: capitalize;
+    text-align: center;
+}
+.catbar a:hover {
+    background-color: #A09B8C25;
+}
+
+/*champ info*/
+h2 {
+    font-family: BeaufortBold;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 300%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #C89B3C;
+    scroll-margin: 50px;
+}
+.champinfo {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+.stattable {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    border: 2px solid #C89B3C;
+    max-width: 100%;
+    width: 100% 100%;
+}
+.stattable h3 {
+    font-family: Beaufort;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 175%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #C89B3C;
+    margin: 0;
+    padding: 2% 0;
+    border-bottom: 2px solid #C89B3C;
+}
+.tablectn {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.tablectn hr {
+    width: 2px;
+    height: 100%;
+    border: none;
+    background-color: #C89B3C;
+    margin: 0;
+}
+.stattable_1, .stattable_2 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.stat {
+    flex: 47%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 7.5% 0;
+}
+
+.stat h4, .stat p {
+    font-family: Spiegel;
+    font-size: 150%;
+    color: #A09B8C;
+    margin: auto;
+    width: fit-content;
+}
+
+.role {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    max-width: 100%;
+    width: 100% 100%;
+}
+.role img {
+    margin: 10% auto auto;
+}
+.role h3, .role p {
+    text-align: center;
+}
+.role h3 {
+    font-family: Beaufort;
+    font-weight: bolder;
+    font-size: 175%;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #C89B3C;
+    margin: 10% 10% 0;
+}
+.role p {
+    font-family: Spiegel;
+    font-size: 150%;
+    color: #A09B8C;
+    margin: 5% 10%;
+}
+
+
+/*skill*/
+
+.skillctn {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5% 5%;
+}
+.skillbar {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: space-around;
+    align-self: center;
+    width: 50%;
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5% auto 0;
+}
+.skillbar button {
+    font-family: Beaufort;
+    font-size: 250%;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #A09B8C;
+    padding: 10px;
+    width: 100%;
+    background-color: #282828;
+    border: none;
+    border-radius: 10px;
+}
+.skillbar button:hover {
+    background-color: #A09B8C25;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 5% auto;
+}
+.skillinfo {
+    flex: 50%;
+    flex-direction: column;
+    max-width: 50%;
+    border: 1px solid #C89B3C;
+}
+.skillheader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.skillname {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.skillname h3, .skillname h4 {
+    font-family: Beaufort;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 175%;
+    text-transform: uppercase;
+    margin: 0;
+}
+.skillname h3 {
+    color: #C89B3C;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.skillname h4 {
+    color: #5B5A56;
+    margin-left: 5%;
+}
+
+.skillheader img {
+    margin: 2.5%;
+    width: 15%;
+}
+
+.skilldescription {
+    font-family: Spiegel;
+    font-size: 150%;
+    color: #A09B8C;
+    margin: 10% 5% auto;
+}
+
+.preview {
+    position: relative;
+    flex: 50%;
+    flex-direction: column;
+    max-width: 50%;
+    
+}
+
+.preview video {
+    position: relative;
+    width: 100% 100%;
+    max-width: 100%;
+}
+.preview img {
+    position: absolute;
+    top: 5%;
+    left: -2.5%;
+    width: 100% 100%;
+    max-width: 100%;
+    z-index: 2;
+}
+
+.skill-show {
+    display: flex;
+}
+
+.skill-hide {
+    display: none;
+}

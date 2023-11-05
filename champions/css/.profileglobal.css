@@ -1,0 +1,292 @@
+/*declare custom fonts*/
+@font-face {
+    font-family: Beaufort;
+    src: url(../../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+}
+@font-face {
+    font-family: BeaufortBold;
+    src: url(../../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+}
+@font-face {
+    font-family: Spiegel;
+    src: url(../../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/*hide scrollbar*/
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    background-color: #010A13;
+    text-align: center;
+}
+#ctn {
+    position: relative;
+        top: -6.25vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: fit-content;
+}
+.splash {
+    position: relative;
+        top: 10vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 72.5vh;
+}
+.splash h1, h4 {
+    color: white;
+    font-family: BeaufortBold;
+    font-style: italic;
+    font-weight: bolder;
+}
+.splash h1 {
+    color: #C89B3C;
+    font-size: 500%;
+    margin-top: -5vh;
+    letter-spacing: .125vw;
+}
+
+.lore {
+    position: relative;
+    font-family: Spiegel;
+    font-size: 112.5;
+    text-align:center;
+    color: #A09B8C;
+    padding: 2.5vh 15vw 7.5vh;
+}
+
+.title {
+    color: #C89B3C;
+    font-family: BeaufortBold;
+    font-style: italic;
+    font-weight: bolder;
+    margin: 5vh 0 5vh 0;
+}
+
+/*divider*/
+.divider img {
+    width: 90%;
+}
+
+/*stats*/
+.sname {
+    font-weight: bold;
+    color: #C8AA6E;
+    font-family: Spiegel;
+}
+.text {
+    color: #A09B8C;
+    font-family: Spiegel;
+}
+.ctn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.stats {
+    width: 70%;
+    margin: auto;
+}
+.stats h4 {
+    position: relative;
+        top: 3vh;
+    color: #C8AA6E;
+    padding: 2vh 0;
+    border: #C8AA6E75 .5px solid;
+        border-bottom: 0;
+}
+.statctn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 5vh 0;
+    border: #C8AA6E75 1px solid;
+}
+.stat {
+    border: #C8AA6E75 .25px solid;
+        border-top: 0;
+        border-bottom: 0;
+}
+.stat table {
+    text-align: center;
+    padding: 1.5vh 1vw;
+    width: 100%;
+}
+
+.stat th img {
+    width: 1vw;
+}
+.rolectn {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 70%;
+    align-content: end;
+    margin: auto;
+}
+.rimg img {
+    width: 7.5vw;
+}
+.rname {
+    position: relative;
+    font-family: Beaufort;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 125%;
+    text-transform: uppercase;
+    color: #C8AA6E;
+}
+
+/*skills*/
+.skillctn {
+    padding: 0 10vw;
+    margin-bottom: 10vh;
+}
+.skill {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10vh auto;
+}
+.stype, .skillname {
+    color: #C8AA6E;
+    font-family: Beaufort;
+    font-weight: bold;
+    font-style: italic;
+}
+.skillinfo {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    border: #C8AA6E75 .5px solid;
+}
+.skillheader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1vh;
+}
+.skillheader div {
+    margin: 1vh 1vw;
+        margin-left: 1.5vw;
+    text-transform: uppercase;
+}
+.skillheader div h3 {
+    text-align: start;
+}
+.skillheader div p {
+    position: relative;
+        top: -2vh;
+    text-align: start;
+    color: #C8AA6E90;
+}
+.skillicon {
+    width: 100%;
+    text-align: end;
+}
+.skillicon img {
+    margin: 4vh 3vw;
+    border: #C89B3C 1px solid;
+}
+.skilldes {
+    position: relative;
+    color: #A09B8C;
+    font-family: Spiegel;
+    text-align: justify;
+    padding: 0 2vw;
+}
+.skilldes span {
+    font-weight: bold;
+    font-style: italic;
+}
+.skillvid {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.vid {
+    position: relative;
+        left: 2.5vw;
+    display: block;
+    margin: auto;
+}
+.vid video {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    z-index: 0;
+}
+.frame {
+    position: relative;
+        top: -1vh;
+        right: 14.25vw;
+    margin: auto;
+    width: 85%;
+    display: block;
+}
+.frame img{
+    position: absolute;
+        top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/*skins*/
+.skinctn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5vw;
+    margin: auto;
+}
+.skin {
+    margin: 5h 5vw;
+    width: 100%;
+}
+.skin img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.skin h3 {
+    font-family: Beaufort;
+    font-weight: bold;
+    font-style: italic;
+    color: #C8AA6E;
+    text-transform: uppercase;
+}
+
+.more {
+    margin: auto;
+    padding: 2.5vh 5vw;
+    width: fit-content;
+    display: grid;
+    color: #C8AA6E;
+    text-transform: uppercase;
+    font-family: Spiegel;
+    font-size: 90%;
+}
+.more p {
+    letter-spacing: 2px;
+}
+.more a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: auto;
+    width: auto;
+    color: #C89B3C;
+}
+.more a:hover {
+    color: #F0E6D2;
+}
+
+
