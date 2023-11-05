@@ -67,19 +67,19 @@ function filter(e) {
             card.classList.add('card-hide');
         }
     });
-
-    btns[0].classList.add('button-clicked');
-    // show all button function
-    btns[0].addEventListener('click', (e) => {
-        // run active btns function
-        setActiveBtn(e);
-
-        document.getElementById("roletext").innerHTML = "all";
-        // iterate through each .card
-        cards.forEach(card => {
-            //show all elements
-            card.classList.remove('card-hide');
-            card.classList.add('card-show');
-        });
-    })
 }
+
+btns[0].classList.add('button-clicked');
+// show all button function
+btns[0].addEventListener('click', (e) => {
+    // run active btns function
+    setActiveBtn(e);
+
+    document.getElementById("roletext").innerHTML = "all";
+    // iterate through each .card
+    cards.forEach(card => {
+        //show all elements
+        card.classList.remove('card-hide');
+        card.classList.add('card-show');
+    });
+})

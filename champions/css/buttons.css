@@ -14,15 +14,12 @@
     height: 5em;
     border: none;
     background-color: transparent;
-    transition: .15s;
+    transition: all .15s;
 }
 
-.btnctn button:hover {
+.btnctn button:hover, .btnctn .button-clicked{
     background-size: 3.5em;
-    border-bottom: 2px solid black;
 }
-
-.button-clicked {
-    background-size: 3.5em;
-    border-bottom: 2px solid black;
+.btnctn .button-clicked {
+    border-bottom: 3px solid black;
 }
