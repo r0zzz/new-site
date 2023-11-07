@@ -15,11 +15,14 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    justify-content: space-around;
 }
+
 h1 {
     font-family: BeaufortBold;
     font-weight: 900;
@@ -27,50 +30,23 @@ h1 {
     font-size: 5rem;
     text-transform: uppercase;
     width: fit-content;
-    margin: 5% auto 1%;
+    margin: 5% auto;
 }
+
 .catctn {
     position: sticky;
         top: 0;
-        z-index: 2;
-    padding: 1%;
     background-color: white;
-}
-.category {
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    justify-content: space-between;
-    width: 100%;
-    height: fit-content;
-    padding: 1% 0;
-}
-.btnctn {
     padding: 1%;
-    align-self: center;
-    z-index: 3;
-    margin: 0 3%;
-}
-.role {
-    width: fit-content;
-    margin: 0 3%;
-}
-h2 {
-    font-family: BeaufortBold;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 2rem;
-    text-transform: uppercase;
-    width: fit-content;
-    height: fit-content;
+    z-index: 2;
 }
 
-hr { 
+hr {
     margin: 1% 2.5% .25%;
 }
-.ctn {
-    margin: 2%;
-    width: 100% 100%;
+
+.itemctn {
     display: flex;
-    scroll-behavior: smooth;
+    flex-direction: column;
+    
 }

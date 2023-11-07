@@ -231,7 +231,7 @@ h2 {
     background-size: 5em;
     background-position: center;
     background-repeat: no-repeat;
-    transition: .15s;
+    transition: all .15s ease-in-out;
 }
 .skillbar button:hover, .skillbar .button-clicked {
     background-size: 6em;
@@ -246,7 +246,7 @@ h2 {
     flex-direction: row;
     gap: 5%;
     margin: 5% auto;
-    transition: .15s ease;
+    transition: all .15s ease-in-out;
 }
 .skillinfo {
     flex: 50%;
