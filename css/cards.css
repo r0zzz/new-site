@@ -20,12 +20,16 @@
     padding: 2em;
     margin: 5% 0;
 }
-
+a {
+    display: flex;
+    flex: 30%;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+}
 .card {
     position: relative;
     display: flex;
-    flex-direction: column;
-    flex: 30%;
     flex-direction: column;
     width: fit-content;
     text-align: center;
@@ -42,7 +46,6 @@
 }
 .cardimg{
     position: relative;
-        top: 3%;
     width: fit-content;
     height: fit-content;
     align-self: center;
@@ -53,6 +56,7 @@
 }
 .cardframe {
     position: absolute;
+    top: -3%;
     width: fit-content;
     height: fit-content;
     transition: .3s;

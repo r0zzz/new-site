@@ -1,12 +1,11 @@
-.btnctn {
-    scroll-margin-top: 100%;
-    position: sticky;
+.btns {
+    flex: 80%;
     display: flex;
     justify-content: space-around;
     align-content: center;
     width: 50%;
 }
-.btnctn button {
+.btns button {
     background-repeat: no-repeat;
     background-size: 3em;
     background-position: center;
@@ -17,9 +16,9 @@
     transition: all .15s;
 }
 
-.btnctn button:hover, .btnctn .button-clicked{
+.btns button:hover, .btns .button-clicked{
     background-size: 3.5em;
 }
-.btnctn .button-clicked {
+.btns .button-clicked {
     border-bottom: 3px solid black;
 }

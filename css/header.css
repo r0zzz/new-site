@@ -14,41 +14,48 @@
 
 header {
     margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: fit-content;
     background-color: #282828;
-    z-index: 2;
+    z-index: 3;
 }
 
 .btnctn {
+    flex: 95%;
     display: flex;
-    width: 100%;
     height: fit-content;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    margin: 1em auto;
+}
+.logoctn {
+    flex: 5%;
+    width: fit-content;
+    align-items: center;
+    margin: 1em auto;
 }
 .logoctn img {
-    width: 4em;
-    margin: 1em 3em;
+    width: 5em;
+    margin: auto 3em;
 }
 a {
     text-decoration: none;
 }
 .btn {
-    align-self: center;
+    margin-top: 1em;
 }
 .btnname {
-    width: fit-content;
     height: fit-content;
     border: none;
     border-radius: 10px;
     background-color: #282828;
     transition: .15s;
+    margin: auto 0;
 }
 .btnname p {
     padding: 1em;
@@ -56,12 +63,13 @@ a {
     font-weight: 650;
     font-size: 120%;
     color: #A09B8C;
+    margin: 0;
 }
 .btn hr {
-    height: 4px;
+    height: 5px;
     border: none;
     border-radius: 3px;
-    background-color: #0397AB;
+    background-color: #0AC8B9;
     transition: .15s;
     opacity: 0;
 }
@@ -72,7 +80,6 @@ a {
 }
 .btnname:hover ~hr {
     opacity: 1;
-    transform: scaleX(1.1);
 }
 
 

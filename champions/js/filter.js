@@ -1,5 +1,5 @@
 // get all elements using querySelector all; (classname, tag)
-const btns = document.querySelectorAll('.btnctn button'); // calls all <button> under the .btnctn class
+const btns = document.querySelectorAll('.btns button'); // calls all <button> under the .btnctn class
 const cards = document.querySelectorAll('.cardctn a'); // call all .card class
 const rolename = ["ASSASSIN", "FIGHTER", "MAGE", "MARKSMAN", "SUPPORT", "TANK"];
 
