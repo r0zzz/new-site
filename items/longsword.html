@@ -2,17 +2,17 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="css/itemprofile.css">
     </head>
 
     <body>
         <!--HEADER-->
         <header>
             <div class="logoctn">
-                <a href="main.html">
-                    <img src="assets/logo.white.png" alt="">
+                <a href="../main.html">
+                    <img src="assets/ui/logo.white.png" alt="">
                 </a>
             </div>
             <div class="btnctn">
@@ -54,31 +54,26 @@
                 </a>
             </div>
         </header>
-
-        <h1>contact us</h1>
-        <div class="formctn">
-            <form id="contact">
-                <div class="userinfo">
-                    <label for="username">name:</label>
-                    <input type="text" id="username" name="username" placeholder="Elon Musk" required>
-
-                    <label for="email">email:</label>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        
+            <div class="itemctn">
+                <div class="itemdinfo">
+                    <!--icon-->
+                    <!--description-->
+                    <!--stats-->
                 </div>
-                
-                <label id="messagelabel" for="message">message:</label>
-                <textarea type="text" name="message" id="message" placeholder="Message..." required></textarea>
 
-                <button type="submit">send message</button>
-                <p id="sent"></p>
-            </form>
-        </div>
+                <div class="itemtree">
+                    <!--builds into-->
+                    <!--recipe-->
+                </div>
+            </div>
 
+        
         <!--FOOTER-->
         <footer>
             <div class="logos">
-                <div><a href="https://leagueoflegends.com/" target="_blank"><img src="assets/icon.png" alt=""></a></div>
-                <div><img src="assets/teamlogo.png" alt=""></div>
+                <div><a href="https://leagueoflegends.com/" target="_blank"><img src="../assets/icon.png" alt=""></a></div>
+                <div><img src="../assets/teamlogo.png" alt=""></div>
             </div>
             <div class="rights">
                 <h3>archives of runeterra</h3>
@@ -90,8 +85,6 @@
                 <div><a href="#">contact us</a></div>
             </div>
         </footer>
-
-        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        <script src="js/contact.js"></script>
     </body>
+
 </html>
