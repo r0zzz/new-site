@@ -1,15 +1,15 @@
 /*declare custom fonts*/
 @font-face {
     font-family: Beaufort;
-    src: url(Assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+    src: url(assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
 }
 @font-face {
     font-family: BeaufortBold;
-    src: url(Assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+    src: url(assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
 }
 @font-face {
     font-family: Spiegel;
-    src: url(Assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+    src: url(assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
 }
 
 footer {
@@ -81,70 +81,4 @@ footer {
 /*on hover*/
 .links a:hover {
     color: #F0E6D2;
-}
-
-
-/*adjust the ui based on screen width*/
-
-@media only screen and (max-width: 600px) {
-    footer {
-        flex-direction: column;
-    }
-    .logos, .rights{
-        flex-direction: column;
-        margin: 1em 0;
-        align-items: center;
-    }
-    .logos {
-        order: 1;
-        width: 50%;
-    }
-    .links {
-        order: 2;
-        margin-bottom: 10%;
-    }
-    .logos img {
-        width: 100%;
-    }
-    .links div {
-        margin: 1em 0;
-    }
-    .links a {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    footer {
-        flex-direction: column;
-    }
-    .rights {
-        margin: 0;
-    }
-    .logos {
-        order: 1;
-        width: 60%;
-    }
-    .links {
-        order: 2;
-        margin-bottom: 10%;
-    }
-    .logos img {
-        width: 35%;
-    }
-    .links div {
-        margin: 1em 0;
-    }
-    .links a {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-    .logos img {
-        width: 50%;
-    }
-    .links a {
-        font-size: 1rem;
-    }
 }

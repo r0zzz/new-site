@@ -54,37 +54,3 @@ header {
     height: max-content;
     margin-left: .5em;
 }
-
-/*adjust the ui based on screen width*/
-
-@media only screen and (max-width: 700px) {
-    .titlectn {
-        gap: 0%;
-    }
-    .logo {
-        margin-left: 5%;
-    }
-    .title h1 {
-        font-size: 100%;
-        -webkit-text-stroke: 1%;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .logo img {
-        width: 75%;
-    }
-    .title h1 {
-        font-size: 75%;
-        -webkit-text-stroke: 1%;
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-    .logo img {
-        width: 80%;
-    }
-    .title h1 {
-        font-size: 100%; 
-    }
-}
