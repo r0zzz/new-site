@@ -162,21 +162,43 @@ h2 {
     flex: 50%;
     display: flex;
     flex-direction: column;
+    padding: 5%;
 }
 .stat {
     flex: 47%;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin: 7.5% 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.statheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5%;
+    width: 100%;
+    margin: 0 auto;
+}
+.statheader img {
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .stat h4, .stat p {
     font-family: Spiegel;
     font-size: 150%;
-    color: #A09B8C;
-    margin: auto;
+    text-transform: capitalize;
     width: fit-content;
+    margin: 0;
+}
+.stat h4 {
+    color: #C89B3C;
+    font-style: italic;
+}
+
+.stat p {
+    color: #A09B8C;
 }
 
 .role {

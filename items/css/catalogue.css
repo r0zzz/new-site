@@ -41,12 +41,39 @@ h1 {
     z-index: 2;
 }
 
-hr {
-    margin: 1% 2.5% .25%;
-}
-
 .itemctn {
     display: flex;
     flex-direction: column;
-    
+    margin: 2.5%;
+}
+.itemctn hr {
+    margin: 0;
+}
+h3 {
+    font-family: BeaufortBold;
+    font-size: 150%;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.itemcat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.itemctn a {
+    margin: 1% 0;
+}
+.item {
+    width: fit-content;
+    height: fit-content;
+}
+.item img {
+    width: 5em;
+    height: 5em;
+    transition: all .15s ease;
+}
+.itemctn a:hover .item img{
+    transform: scale(1.05);
 }

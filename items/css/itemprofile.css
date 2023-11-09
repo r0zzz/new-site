@@ -31,7 +31,7 @@ body {
 .iteminfo {
     flex: 48%;
     max-width: 50%;
-    padding: 5% 1% 10%;
+    padding: 5% 3% 10%;
     background-color: #1E2328;
     border-radius:0 20px 20px 0;
     text-align: justify;
@@ -44,6 +44,8 @@ body {
 .icon img {
     width: 6em;
     height: 6em;
+    margin-bottom: 7.5%;
+    border: 1px solid #C89B3C;
 }
 .description h2 {
     font-family: Beaufort;
@@ -59,7 +61,7 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 1%;
-    margin: 0;
+    margin: 0 auto 5%;
 }
 .cost img {
     width: 1.5em;
@@ -100,6 +102,7 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 1%;
+    margin-left: 5%;
 }
 .stat img {
     width: 1em;
@@ -128,13 +131,23 @@ body {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
+   align-items: baseline;
    width: 100%;
 }
 .recipeinfo {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
 }
+
 .recipe img {
+    width: 5em;
+    height: 5em;
+    border: 1px solid #C8AA6E;
+}
+.recipe .finalitem {
     width: 5em;
     height: 5em;
     padding: 10px;
