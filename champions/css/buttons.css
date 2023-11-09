@@ -1,9 +1,8 @@
 .btns {
-    flex: 80%;
+    flex: 60%;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    width: 50%;
 }
 .btns button {
     background-repeat: no-repeat;

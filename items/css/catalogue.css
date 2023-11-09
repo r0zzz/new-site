@@ -59,11 +59,20 @@ h3 {
 .itemcat {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 .itemctn a {
-    margin: 1% 0;
+    flex: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 2%;
+    padding-bottom: 2px;
+    border-bottom: 4px solid white;
+    transition: all .15s ease;
 }
 .item {
     width: fit-content;
@@ -76,4 +85,8 @@ h3 {
 }
 .itemctn a:hover .item img{
     transform: scale(1.05);
+}
+
+.itemctn a:hover {
+    border-bottom: 4px solid black;
 }

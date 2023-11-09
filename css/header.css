@@ -23,7 +23,7 @@ header {
     z-index: 3;
 }
 
-.btnctn {
+header .btnctn {
     flex: 95%;
     display: flex;
     height: fit-content;
@@ -33,23 +33,23 @@ header {
     width: 100%;
     margin: 1em auto;
 }
-.logoctn {
+header .logoctn {
     flex: 5%;
     width: fit-content;
     align-items: center;
     margin: 1em auto;
 }
-.logoctn img {
+header .logoctn img {
     width: 5em;
     margin: auto 3em;
 }
-a {
+header a {
     text-decoration: none;
 }
-.btn {
+header .btn {
     margin-top: 1em;
 }
-.btnname {
+header .btnname {
     height: fit-content;
     border: none;
     border-radius: 10px;
@@ -57,7 +57,7 @@ a {
     transition: .15s;
     margin: auto 0;
 }
-.btnname p {
+header .btnname p {
     padding: 1em;
     font-family: Spiegel;
     font-weight: 650;
@@ -65,7 +65,7 @@ a {
     color: #A09B8C;
     margin: 0;
 }
-.btn hr {
+header .btn hr {
     height: 5px;
     border: none;
     border-radius: 3px;
@@ -75,9 +75,9 @@ a {
 }
 
 /*btn on-hover*/
-.btnname:hover {
+header .btnname:hover {
     background-color: #5B5A5650;
 }
-.btnname:hover ~hr {
+header .btnname:hover ~hr {
     opacity: 1;
 }

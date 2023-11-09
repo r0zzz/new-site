@@ -12,68 +12,6 @@
     src: url(../../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
 }
 
-.btnctn {
-    flex: 95%;
-    display: flex;
-    height: fit-content;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin: 1em auto;
-}
-.logoctn {
-    flex: 5%;
-    width: fit-content;
-    align-items: center;
-    margin: 1em auto;
-}
-.logoctn img {
-    width: 5em;
-    margin: auto 3em;
-}
-a {
-    text-decoration: none;
-}
-.btn {
-    margin-top: 1em;
-}
-.btnname {
-    height: fit-content;
-    border: none;
-    border-radius: 10px;
-    background-color: #282828;
-    transition: .15s;
-    margin: auto 0;
-}
-.btnname p {
-    padding: 1em;
-    font-family: Spiegel;
-    font-weight: 650;
-    font-size: 120%;
-    color: #A09B8C;
-    margin: 0;
-}
-.btn hr {
-    height: 5px;
-    border: none;
-    border-radius: 3px;
-    background-color: #0AC8B9;
-    transition: .15s;
-    opacity: 0;
-}
-
-/*btn on-hover*/
-.btnname:hover {
-    background-color: #5B5A5650;
-}
-.btnname:hover ~hr {
-    opacity: 1;
-}
-
-
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -107,7 +45,7 @@ h1 {
     height: fit-content;
     padding: 1% 0;
 }
-.btns {
+.btnctn {
     padding: 1%;
     align-self: center;
     z-index: 3;
@@ -128,7 +66,7 @@ h2 {
     height: fit-content;
 }
 
-hr { 
+.catctn hr { 
     margin: 1% 2.5% .25%;
 }
 .ctn {
