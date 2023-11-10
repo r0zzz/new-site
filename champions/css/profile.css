@@ -101,6 +101,7 @@ header {
     font-size: 150%;
     color: #A09B8C;
     text-transform: capitalize;
+    text-decoration: none;
     text-align: center;
 }
 .catbar a:hover {
