@@ -94,6 +94,7 @@ header {
     height: fit-content;
     border-radius: 10px;
     padding: 0 20px;
+    text-decoration: none;
 }
 .catbar a p {
     font-family: Spiegel;
@@ -101,7 +102,6 @@ header {
     font-size: 150%;
     color: #A09B8C;
     text-transform: capitalize;
-    text-decoration: none;
     text-align: center;
 }
 .catbar a:hover {
