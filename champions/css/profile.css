@@ -30,14 +30,14 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 5%;
+    padding: 0 5%;
 }
 
 .mainsplash {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 717px;
 
 }
@@ -48,12 +48,12 @@ header {
     text-transform: uppercase;
     text-align: center;
 }
-.name h1 {
+.champname h1 {
     color: #C89B3C;
     font-size: 700%;
     margin: 0;
 }
-.name h3 {
+.champname h3 {
     font-size: 200%;
     margin: 0;
     color: #A09B8C;
