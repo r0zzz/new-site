@@ -1,10 +1,12 @@
+const skilltype = ["passive", "q", "w", "e", "ultimate"];
+
 fetch('./json/aatrox.json') // chnage file name to whatever champion.js
     .then(response => { // fetch from external json
         return response.json(); // return json strings as js objects
     })
     .then(data => {
         console.log(data);
-        
+
         // basic info
         const name = document.querySelector('#name');
         const title = document.querySelector('#title');
@@ -53,34 +55,83 @@ fetch('./json/aatrox.json') // chnage file name to whatever champion.js
 
 
         // skill
-        const pname = document.querySelector('#pname');
-        const pdesc = document.querySelector('#pdesc');
+        const btns = document.querySelectorAll('.skillbar button');
+        const stype = document.querySelector('#stype');
+        const preview = document.querySelectorAll('.preview')
+        const sname = document.querySelector('#sname');
+        const sdesc = document.querySelector('#sdesc');
 
-        pname.innerHTML = data[4]["p-name"];
-        pdesc.innerHTML = data[4]["p-desc"];
+        sname.innerHTML = data[4]["p-name"];
+        stype.innerHTML = skilltype[0];
+        sdesc.innerHTML = data[4]["p-desc"];
 
-        const qname = document.querySelector('#qname');
-        const qdesc = document.querySelector('#qdesc');
-        qname.innerHTML = data[5]["q-name"];
-        qdesc.innerHTML = data[5]["q-desc"];
 
-        const wname = document.querySelector('#wname');
-        const wdesc = document.querySelector('#wdesc');
+        preview.forEach(prev => {
+            prev.classList.remove('preview-show');
+            prev.classList.add('preview-hide');
+        });
 
-        wname.innerHTML = data[6]["w-name"];
-        wdesc.innerHTML = data[6]["w-desc"];
+        for (let j = 0; j < btns.length; j++) {
+            btns[j].addEventListener('click', filter);
+        }
 
-        const ename = document.querySelector('#ename');
-        const edesc = document.querySelector('#edesc');
+        function setActiveBtn(e) {
+            btns.forEach(btn => {
+                btn.classList.remove('button-clicked');
+            });
+            e.target.classList.add('button-clicked');
+        }
 
-        ename.innerHTML = data[7]["e-name"];
-        edesc.innerHTML = data[7]["e-desc"];
+        function filter(e) {
 
-        const rname = document.querySelector('#rname');
-        const rdesc = document.querySelector('#rdesc');
+            setActiveBtn(e)
+            
+            preview.forEach(prev => {
 
-        rname.innerHTML = data[8]["r-name"];    
-        rdesc.innerHTML = data[8]["r-desc"];
+                const previewdata = parseInt(prev.dataset.skill);
+                const btnskill = parseInt(e.target.dataset.icon);
+                
+                switch (btnskill) {
+                    case 1:
+                        sname.innerHTML = data[4]["p-name"];
+                        stype.innerHTML = skilltype[0];
+                        sdesc.innerHTML = data[4]["p-desc"];
+                        break;
+                    case 2:
+                        sname.innerHTML = data[5]["q-name"];
+                        stype.innerHTML = skilltype[1];
+                        sdesc.innerHTML = data[5]["q-desc"];
+                        break;
+                    case 3:
+                        sname.innerHTML = data[6]["w-name"];
+                        stype.innerHTML = skilltype[2];
+                        sdesc.innerHTML = data[6]["w-desc"];
+                        break;
+                    case 4:
+                        sname.innerHTML = data[7]["e-name"];
+                        stype.innerHTML = skilltype[3];
+                        sdesc.innerHTML = data[7]["e-desc"];
+                        break;
+                    case 5:
+                        sname.innerHTML = data[8]["r-name"];
+                        stype.innerHTML = skilltype[4];
+                        sdesc.innerHTML = data[8]["r-desc"];
+                        break;
+                }
 
+                if (previewdata === btnskill) {
+                    prev.classList.remove('preview-hide');
+                    prev.classList.add('preview-show');
+                } else {
+                    prev.classList.remove('preview-show');
+                    prev.classList.add('preview-hide');
+                }
+            });
+        }
+
+        btns[0].classList.add('button-clicked');
+        preview[0].classList.remove('preview-hide');
+        preview[0].classList.add('preview.show')
     })
     .catch(error => console.error(error));
+
