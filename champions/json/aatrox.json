@@ -24,11 +24,14 @@
     },
 
     {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
         "role-name": "juggernaut",
         "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
     },
 
     {   
+        "icon": "",
         "p-name": "deathbringer stance",
         "p-desc": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health."
     },

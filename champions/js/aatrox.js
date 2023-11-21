@@ -42,16 +42,20 @@ fetch('./json/aatrox.json') // chnage file name to whatever champion.js
         resource.innerHTML = data[2].resource;
         resourceregenname.innerHTML = data[2]["resource-regen-name"];
         resourceregen.innerHTML = data[2]["resource-regen"];
-        attackdamage.innerHTML = data[2]["attack-damage"];
+        attackdamage.innerHTML = data[2]["attack-damage"];  
         attackspeed.innerHTML = data[2]["attack-speed"];
         attackrange.innerHTML = data[2]["attack-range"];
 
 
         // role
+        const bgrole = document.querySelector('.champinfo');
         const role = document.querySelector('#role');
         const roledesc = document.querySelector('#roledesc');
+        const roleicon = document.querySelector('#roleicon');
+        bgrole.style.backgroundImage = url(data[3]["role-bg"]);
         role.innerHTML = data[3]["role-name"];
         roledesc.innerHTML = data[3]["role-desc"];
+        roleicon.src = data[3]["role-icon"];
 
 
         // skill
