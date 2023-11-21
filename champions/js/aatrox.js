@@ -133,4 +133,3 @@ fetch('./json/aatrox.json') // chnage file name to whatever champion.js
         preview[0].classList.add('preview.show')
     })
     .catch(error => console.error(error));
-
