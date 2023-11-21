@@ -65,7 +65,6 @@ fetch('./json/aatrox.json') // chnage file name to whatever champion.js
         stype.innerHTML = skilltype[0];
         sdesc.innerHTML = data[4]["p-desc"];
 
-
         preview.forEach(prev => {
             prev.classList.remove('preview-show');
             prev.classList.add('preview-hide');
