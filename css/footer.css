@@ -33,12 +33,14 @@ footer {
     align-items: center;
 }
 .logos div {
-    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
     flex: 50%;
     text-align: center;
 }
 .logos img {
-    max-width: 50%;
+    width: 100px;
 }
 
 .rights {

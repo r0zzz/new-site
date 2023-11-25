@@ -40,14 +40,83 @@ h1 {
     padding: 1%;
     z-index: 2;
 }
+.ctn {
+    display: flex;
+    flex-direction: row;
+}
+.infoctn {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    align-items: center;
+}
+.itemicon {
+    margin: 10%;
+    padding: 1%;
+    border: 2px solid #C89B3C;
+}
+.itemicon img {
+    width: 5em;
+    height: 5em;
+}
+.iteminfo {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    width: 90%;
+}
+#name {
+    margin: 0;
+    font-family: Beaufort;
+    text-transform: uppercase;
+    color: #C89B3C;
+}
+.cost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    gap: 1%;
+    width: 100%;
+    font-family: Spiegel;
+    font-size: 110%;
+    color: #C89B3C;
+}
+.cost img {
+    width: 1em;
+    height: 1em;
+}
+#desc {
+    font-family: Spiegel;
+    font-size: 110%;
+    color: #A09B8C;
+}
+.stat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+    font-family: Spiegel;
+    font-size: 110%;
+    color: #A09B8C;
+    margin: 0;
+    padding: 0;
+}
+.stat img {
+    width: 1em;
+    height: 1em;
+}
 
 .itemctn {
+    flex: 50%;
     display: flex;
     flex-direction: column;
     margin: 2.5%;
 }
 .itemctn hr {
-    margin: 0;
+    margin: 1% auto;
 }
 h3 {
     font-family: BeaufortBold;
@@ -60,23 +129,14 @@ h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content:first baseline;
     flex-wrap: wrap;
     max-width: 100%;
-}
-.itemctn a {
-    flex: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: fit-content;
-    margin: 2%;
-    padding-bottom: 2px;
-    border-bottom: 4px solid white;
-    transition: all .15s ease;
 }
 .item {
     width: fit-content;
     height: fit-content;
+    margin: 1%;
 }
 .item img {
     width: 5em;
