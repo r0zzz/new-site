@@ -52,7 +52,7 @@ h1 {
     flex-direction: column;
     background-color: #282828;
     align-items: center;
-    height: fit-content;
+    min-height: 100vh;
     position: sticky;
     top: 0;
 }

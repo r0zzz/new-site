@@ -12,23 +12,30 @@ fetch('starter.json')
                 
                 console.log(clickeditem);
 
-                $('#itemimg').attr("src", clickeditem.icon); // change image depending onthe clicked item
+                $('#icon').attr("src", clickeditem.icon); // change image depending onthe clicked item
                 $('#name').text(clickeditem.name); // name
                 $('#desc').text(clickeditem.desc); // description
                 $('#cost').text(clickeditem.cost); // cost
 
+
+                const statname = [
+                    "attack-damage", "attack-speed", "critical-strike-chance", "life-steal",
+                    "armor-penetration", "lethality", "ability-power", "ability-haste",
+                    "mana", "mana-regeneration", "heal-and-shield-power", "omnivamp",
+                    "magic-penetration", "health", "health-regeneration", "armor", "magic-resistance"
+                ];
+                
                 const stats = document.querySelectorAll('.stat');
                 const statval = document.querySelectorAll('.stat span');
-                let statpos = 4;
+                const statpos = 4;
 
                 for (let i = 0; i < statval.length; i++) {
-                    if (clickeditem[statpos + i] == 0) {
-                        stats[i].classList.remove('stat-show');
-                        stats[i].classList.add('stat-hide');
+
+                    if (clickeditem[statname[i]] == 0) {
+                        $(stats[i]).hide();
                     } else {
-                        stats.classList.remove('stat-hide');
-                        stats.classList.add('stat-show');
-                        statval[i].textContent = clickeditem[statpos + i];
+                        $(stats[i]).show();
+                        $(statval[i]).text(clickeditem[statname[i]]);
                     }
                 }
             });
