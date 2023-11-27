@@ -4,8 +4,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./../css/header.css">
         <link rel="stylesheet" href="css/catalogue.css">
-        <link rel="stylesheet" href="css/buttons.css">
-        <link rel="stylesheet" href="css/chcard.css">
         <link rel="stylesheet" href="./../css/footer.css">
     </head>
 
@@ -698,17 +696,17 @@
                 </div>
                 <div class="iteminfo">
                     <h3 id="name">name</h3>
-                    <div class="cost"><img src="assets/ui/gold.png" alt=""><p>0</p></div>
+                    <div class="cost"><img src="assets/ui/gold.png" alt=""><p id="#cost">0</p></div>
                     <p id="desc">decription</p>
 
                     <div class="stat" id="attackdamage"><img src="assets/stats/attack_damage.png" alt=""><p>attack damage +<span id="ad">0</span></p></div>
                     <div class="stat" id="attackspeed"><img src="assets/stats/attack_speed.png" alt=""><p>attack speed +<span id="as">0</span></p></div>
                     <div class="stat" id="criticalstrike"><img src="assets/stats/critical_chance.png" alt=""><p>critical strike chance +<span id="crit">0</span></p></div>
                     <div class="stat" id="lifesteal"><img src="assets/stats/life_steal.png" alt=""><p>life steal +<span id="ls">0</span></p></div>
-                    <div class="stat" id="armorpentration"><img src="assets/stats/armor_pen.png" alt=""><p>armor penetration +<span id="ap">0</span></p></div>
+                    <div class="stat" id="armorpentration"><img src="assets/stats/armor_pen.png" alt=""><p>armor penetration +<span id="apen">0</span></p></div>
                     <div class="stat" id="lethality"><img src="assets/stats/armor_pen.png" alt=""><p>lethality +<span id="leth">0</span></p></div>
 
-                    <div class="stat" id="abilitypower"><img src="assets/stats/ability_power.png" alt=""><p>ability power +<span id="apower">0</span></p></div>
+                    <div class="stat" id="abilitypower"><img src="assets/stats/ability_power.png" alt=""><p>ability power +<span id="ap">0</span></p></div>
                     <div class="stat" id="abilityhaste"><img src="assets/stats/cdr_reduction.png" alt=""><p>ability haste +<span id="ah">0</span></p></div>
                     <div class="stat" id="mana"><img src="assets/stats/mana.png" alt=""><p>mana +<span id="mana">0</span></p></div>
                     <div class="stat" id="manaregeneration"><img src="assets/stats/mana_regen.png" alt=""><p>mana regeneration +<span id="manaregen">0</span></p></div>
@@ -742,7 +740,8 @@
             </div>
         </footer>
 
-        <script src="js/filter.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="items.js"></script>
     </body>
 
 </html>

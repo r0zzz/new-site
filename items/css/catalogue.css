@@ -1,15 +1,15 @@
 /*declare custom fonts*/
 @font-face {
     font-family: Beaufort;
-    src: url(../../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+    src: url(../Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
 }
 @font-face {
     font-family: BeaufortBold;
-    src: url(../../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+    src: url(../Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
 }
 @font-face {
     font-family: Spiegel;
-    src: url(../../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+    src: url(../Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
 }
 
 html {
@@ -159,4 +159,11 @@ h3 {
 }
 .item:hover .item img{
     transform: scale(1.05);
+}
+
+.stat-show {
+    display: flex;
+}
+.stat-hide {
+    display: none;
 }
