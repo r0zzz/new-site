@@ -9,8 +9,6 @@ fetch('starter.json')
             $(".item").click(function() {
                 const itemdata = $(this).data('starter');
                 const clickeditem = data[itemdata];
-                
-                console.log(clickeditem);
 
                 $('#icon').attr("src", clickeditem.icon); // change image depending onthe clicked item
                 $('#name').text(clickeditem.name); // name
@@ -27,7 +25,6 @@ fetch('starter.json')
                 
                 const stats = document.querySelectorAll('.stat');
                 const statval = document.querySelectorAll('.stat span');
-                const statpos = 4;
 
                 for (let i = 0; i < statval.length; i++) {
 
