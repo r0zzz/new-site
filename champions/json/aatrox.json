@@ -31,7 +31,6 @@
     },
 
     {   
-        "icon": "",
         "p-name": "deathbringer stance",
         "p-desc": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health."
     },

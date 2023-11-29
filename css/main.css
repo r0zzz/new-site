@@ -58,29 +58,33 @@ header {
 .ctn {
     display: flex;
     flex-direction: row;
+    margin: 5%;
 }
 .patchnotes {
     flex: 50%;
     width: 100%;
+    height: 100%;
+    height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.patchnotes img {
-    width: 80%;
-    z-index: 1;
+    background-image: url(../assets/patchnote.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid black
 }
 .patchnotes .pntext {
+    height: 100%;
     position: relative;
     opacity: 0;
     z-index: 0;
     font-family: Spiegel;
     font-size: 125%;
-    color: white;
+    transition: all .3s ease-in-out;
 }
-.patchnotes:hover .patchnotes .pntext {
-    transform: translateY(-50%);
+.patchnotes:hover .pntext {
     opacity: 1;
     z-index: 0;
 }

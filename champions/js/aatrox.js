@@ -48,14 +48,14 @@ fetch('./json/aatrox.json') // chnage file name to whatever champion.js
 
 
         // role
-        const bgrole = document.querySelector('.champinfo');
+        const bgrole = document.getElementById("champinfo");
         const role = document.querySelector('#role');
         const roledesc = document.querySelector('#roledesc');
         const roleicon = document.querySelector('#roleicon');
-        bgrole.style.backgroundImage = url(data[3]["role-bg"]);
         role.innerHTML = data[3]["role-name"];
         roledesc.innerHTML = data[3]["role-desc"];
         roleicon.src = data[3]["role-icon"];
+        bgrole.style.backgroundImage = 'url(' + data[3]["role-bg"] + ')';
 
 
         // skill
@@ -85,6 +85,7 @@ fetch('./json/aatrox.json') // chnage file name to whatever champion.js
             e.target.classList.add('button-clicked');
         }
 
+        //change div values depending on what the value the button passes
         function filter(e) {
 
             setActiveBtn(e)
