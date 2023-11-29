@@ -1,0 +1,57 @@
+[
+    {
+        "name": "aatrox",
+        "title": "the darkin blade",
+        "lore": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance."
+    },
+    
+    {
+        "health": "650",
+        "health-regen": "3",
+        "armor": "38",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "60",
+        "attack-speed": ".651",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "deathbringer stance",
+        "p-desc": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health."
+    },
+
+    {
+        "q-name": "the darkin blade",
+        "q-desc": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect."
+    },
+
+    {
+        "w-name": "infernal blades",
+        "w-desc": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again."
+    },
+
+    {
+        "e-name": "umbral dash",
+        "e-desc": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction."
+    },
+
+    {
+        "r-name": "world ender",
+        "r-desc": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended."
+    }
+]

@@ -2,10 +2,11 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="css/profile.css">
+
+        <title>Aatrox, The Darkin Blade</title> <!--change to whatever the champion is-->
     </head>
 
     <body>
@@ -17,37 +18,37 @@
                 </a>
             </div>
             <div class="btnctn">
-                <a href="./0catalogue.html">
+                <a href="0catalogue.html">
                     <div class="btn">
                         <div class="btnname"><p>Champions</p></div>
                         <hr>
                     </div>
                 </a>
-                <a href="#">
+                <a href="../gameplay/gameplay.html">
                     <div class="btn">
                         <div class="btnname"><p>Gameplay</p></div>
                         <hr>
                     </div>
                 </a>
-                <a href="#">
+                <a href="../cosmetics/cosmetics.html">
                     <div class="btn">
                         <div class="btnname"><p>Cosmetics</p></div>
                         <hr>
                     </div>
                 </a>
-                <a href="#">
+                <a href="../items/0catalougue.html">
                     <div class="btn">
                         <div class="btnname"><p>Items</p></div>
                         <hr>
                     </div>
                 </a>
-                <a href="#">
+                <a href="../runes/runes.html">
                     <div class="btn">
                         <div class="btnname"><p>Runes</p></div>
                         <hr>
                     </div>
                 </a>
-                <a href="#">
+                <a href="../others/others.html">
                     <div class="btn">
                         <div class="btnname"><p>Others</p></div>
                         <hr>
@@ -57,15 +58,15 @@
         </header>
 
         <!--splash-->
-        <div class="splash" style="background-image: linear-gradient(to bottom, transparent, #010A13 75%), url(assets/bgprofile/Asset\ 166@3x.png)">
-            <div class="mainsplash" style="background-image: linear-gradient(to bottom, transparent, #010A13 92.5%), url(assets/champ/Aatrox/Aatrox_0.jpg)">
-                <div class="name">
-                    <h1>aatrox</h1>
-                    <h3>the darkin blade</h3>
+        <div class="splash" style="background-image: linear-gradient(to bottom, transparent, #010A13 75%), url(assets/bgprofile/Asset\ 166@3x.png)">  <!--change url to asset1 - 165 from ahri-->
+            <div class="mainsplash" style="background-image: linear-gradient(to bottom, transparent, #010A13 92.5%), url(assets/champ/Aatrox/Aatrox_0.jpg)"> <!--change to who the champ is-->
+                <div class="champname">
+                    <h1 id="name">name</h1>
+                    <h3 id="title">title</h3>
                 </div>
                 
                 <div class="lore">
-                    <p>Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.</p>
+                    <p id="lore">lore</p>
                 </div>
             </div>
         </div>
@@ -89,30 +90,45 @@
         </div>
         <!--stats-->
         <h2 id="info">champion info</h2>
-        <div class="champinfo" style="background-image: url(assets/role/ft.png);">
+        <div id="champinfo" class="champinfo" style="background-image: url();">  <!--change depending on role; inclomplete name is the one to use (as.png, ft.png, mg.png, mm.png, sp.png, tk.png)-->
             <div class="stattable">
                 <h3>base statistics</h3>
                 <div class="tablectn">
                     <div class="stattable_1">
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4>health</h4>
+                                <img src="assets/stats/health.png" alt="">
+                            </div>
+                            <p id="health">0</p> <!--change stats based on lol wiki-->
                         </div>
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4>health regen</h4>
+                                <img src="assets/stats/health_regen.png" alt="">
+                            </div>
+                            <p id="healthregen">0</p>
                         </div>
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4>armor</h4>
+                                <img src="assets/stats/armor.png" alt="">
+                            </div>
+                            <p id="armor">0</p>
                         </div>
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4>magic resistance</h4>
+                                <img src="assets/stats/magic_resist.png" alt="">
+                            </div>
+                            <p id="magicresistance">0</p>
                         </div>
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4>movement speed</h4>
+                                <img src="assets/stats/move_speed.png" alt="">
+                            </div>
+                            <p id="movementspeed">0</p>
                         </div>
                     </div>
 
@@ -120,124 +136,96 @@
 
                     <div class="stattable_2">
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4 id="resourcename">rs</h4>
+                                <img src="assets/stats/mana.png" alt="">
+                            </div>
+                            <p id="resource">0</p>
                         </div>
-                        
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4 id="resourceregenname">rs regen</h4>
+                                <img src="assets/stats/mana_regen.png" alt="">
+                            </div>
+                            <p id="resourceregen">0</p>
                         </div>
-                        
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4>attack damage</h4>
+                                <img src="assets/stats/attack_damage.png" alt="">
+                            </div>
+                            <p id="attackdamage">0</p>
                         </div>
-                        
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4>attack speed</h4>
+                                <img src="assets/stats/attack_speed.png" alt="">
+                            </div>
+                            <p id="attackspeed">0</p>
                         </div>
-                        
                         <div class="stat">
-                            <h4>Health <img src="assets/stats/health.png" alt=""></h4>
-                            <p>650 - 2588</p>
+                            <div class="statheader">
+                                <h4>attack range</h4>
+                                <img src="assets/stats/range.png" alt="">
+                            </div>
+                            <p id="attackrange">0</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="role">
-                <img src="assets/role/fighter.png" alt="">
+                <img id="roleicon" src="" alt="">
 
-                <h3>juggernaut</h3>
-                <p>Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility.</p>
+                <h3 id="role">role</h3> <!-- change based on lol wiki, same with its description-->
+                <p id="roledesc">role desc</p>
             </div>
         </div>
 
         <div class="divider">
             <img src="assets/ui/divider.png" alt="">
         </div>
+
+
+         <!--skills-->
         <h2 id="skill">skills</h2>
 
-        <div class="skillbar">
-            <button type="button" data-icon="1" style="background-image: url(assets/champ/Aatrox/skill/Aatrox_Passive.png);"></button>
-            <button type="button" data-icon="2" style="background-image: url(assets/champ/Aatrox/skill/AatroxQ.png);"></button>
-            <button type="button" data-icon="3" style="background-image: url(assets/champ/Aatrox/skill/AatroxW.png);"></button>
-            <button type="button" data-icon="4" style="background-image: url(assets/champ/Aatrox/skill/AatroxE.png);"></button>
-            <button type="button" data-icon="5" style="background-image: url(assets/champ/Aatrox/skill/AatroxR.png);"></button>
-        </div>
         <div class="skillctn">
-            <div class="skill" data-skill="1">
+            <div class="skill">
                 <div class="skillinfo">
                     <div class="skillheader">
-                        <h3>deathbringer stance</h3>
-                        <h4>passive</h4>
+                        <h3 id="sname">name</h3>
+                        <h4 id="stype">pqwer</h4>
                     </div>
                     <div class="skilldescription">
-                        <p>Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.</p>
+                        <p id="sdesc">description</p>
+                    </div>
+
+                    <div class="skillbar">  <!--change skill icons-->
+                        <button type="button" data-icon="1" style="background-image: url(assets/champ/Aatrox/skill/Aatrox_Passive.png);"></button>
+                        <button type="button" data-icon="2" style="background-image: url(assets/champ/Aatrox/skill/AatroxQ.png);"></button>
+                        <button type="button" data-icon="3" style="background-image: url(assets/champ/Aatrox/skill/AatroxW.png);"></button>
+                        <button type="button" data-icon="4" style="background-image: url(assets/champ/Aatrox/skill/AatroxE.png);"></button>
+                        <button type="button" data-icon="5" style="background-image: url(assets/champ/Aatrox/skill/AatroxR.png);"></button>
                     </div>
                 </div>
-                <div class="preview">
+
+                <div class="preview" data-skill="1"> <!--change preview-->
                     <video src="assets/champ/Aatrox/skill/ability_0266_P1.webm" autoplay="autoplay" loop="loop" muted="muted"></video>
                     <img src="assets/ui/frame.png" alt="">
                 </div>
-            </div>
-            <div class="skill" data-skill="2">
-                <div class="skillinfo">
-                    <div class="skillheader">
-                        <h3>deathbringer stance</h3>
-                        <h4>q</h4>
-                    </div>
-                    <div class="skilldescription">
-                        <p>Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.</p>
-                    </div>
-                </div>
-                <div class="preview">
+                <div class="preview" data-skill="2"> <!--change preview-->
                     <video src="assets/champ/Aatrox/skill/ability_0266_Q1.webm" autoplay="autoplay" loop="loop" muted="muted"></video>
                     <img src="assets/ui/frame.png" alt="">
                 </div>
-            </div>
-            <div class="skill" data-skill="3">
-                <div class="skillinfo">
-                    <div class="skillheader">
-                        <h3>deathbringer stance</h3>
-                        <h4>w</h4>
-                    </div>
-                    <div class="skilldescription">
-                        <p>Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.</p>
-                    </div>
-                </div>
-                <div class="preview">
+                <div class="preview" data-skill="3"> <!--change preview-->
                     <video src="assets/champ/Aatrox/skill/ability_0266_W1.webm" autoplay="autoplay" loop="loop" muted="muted"></video>
                     <img src="assets/ui/frame.png" alt="">
                 </div>
-            </div>
-            <div class="skill" data-skill="4">
-                <div class="skillinfo">
-                    <div class="skillheader">
-                        <h3>deathbringer stance</h3>
-                        <h4>e</h4>
-                    </div>
-                    <div class="skilldescription">
-                        <p>Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.</p>
-                    </div>
-                </div>
-                <div class="preview">
+                <div class="preview" data-skill="4"> <!--change preview-->
                     <video src="assets/champ/Aatrox/skill/ability_0266_E1.webm" autoplay="autoplay" loop="loop" muted="muted"></video>
                     <img src="assets/ui/frame.png" alt="">
                 </div>
-            </div>
-            <div class="skill" data-skill="5">
-                <div class="skillinfo">
-                    <div class="skillheader">
-                        <h3>deathbringer stance</h3>
-                        <h4>r</h4>
-                    </div>
-                    <div class="skilldescription">
-                        <p>Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.</p>
-                    </div>
-                </div>
-                <div class="preview">
+                <div class="preview" data-skill="5"> <!--change preview-->
                     <video src="assets/champ/Aatrox/skill/ability_0266_R1.webm" autoplay="autoplay" loop="loop" muted="muted"></video>
                     <img src="assets/ui/frame.png" alt="">
                 </div>
@@ -258,9 +246,13 @@
                 <div><a href="#">about</a></div>
                 <div><a href="#">legal</a></div>
                 <div><a href="#">contact us</a></div>
+                <div><a href="../about.html">about</a></div>
+                <div><a href="../legal.html">legal</a></div>
+                <div><a href="../contact.html">contact us</a></div>
             </div>
         </footer>
 
         <script src="js/skillfilter.js"></script>
+        <script src="js/aatrox.js"></script>
     </body>
 </html>

@@ -5,6 +5,7 @@ const emailInput = document.querySelector('#email');
 const messageInput = document.querySelector('#message');
 const confirmation = document.getElementById("sent");
 
+// emailjs ids to access email service
 const publicKey = "6CELj_EN5yCYBucaB";
 const serviceID = "service_9ma90i8";
 const templateID = "template_ghyspfh";
@@ -12,21 +13,21 @@ const templateID = "template_ghyspfh";
 
 emailjs.init(publicKey);
 
-form.addEventListener("submit", e => {
+form.addEventListener("submit", e => { // get input when clicked
     e.preventDefault();
     confirmation.innerHTML = "Sending Message";
 
     const inputVal = {
-        name: nameInput.value,
-        email: emailInput.value,
-        message: messageInput.value
+        name: nameInput.value, // name input value
+        email: emailInput.value, // email inpput value
+        message: messageInput.value // message input value
     }
 
-    emailjs.send(serviceID, templateID, inputVal)
+    emailjs.send(serviceID, templateID, inputVal) // pass value to process
         .then(() => {
             confirmation.innerHTML = "Message Sent";
 
-            nameInput.value = "";
+            nameInput.value = ""; // reset values to blank after sending email
             emailInput.value = "";
             messageInput.value = "";
         }, (error) => { 

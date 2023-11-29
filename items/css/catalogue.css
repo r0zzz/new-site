@@ -1,15 +1,15 @@
 /*declare custom fonts*/
 @font-face {
     font-family: Beaufort;
-    src: url(../../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+    src: url(../Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
 }
 @font-face {
     font-family: BeaufortBold;
-    src: url(../../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+    src: url(../Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
 }
 @font-face {
     font-family: Spiegel;
-    src: url(../../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+    src: url(../Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
 }
 
 html {
@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     margin: 0;
     justify-content: space-around;
+    background-color: #010A13;
 }
 
 h1 {
@@ -31,6 +32,7 @@ h1 {
     text-transform: uppercase;
     width: fit-content;
     margin: 5% auto;
+    color: #C89B3C;
 }
 
 .catctn {
@@ -40,13 +42,127 @@ h1 {
     padding: 1%;
     z-index: 2;
 }
-
-hr {
-    margin: 1% 2.5% .25%;
+.ctn {
+    display: flex;
+    flex-direction: row;
+}
+.infoctn {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+}
+.itemicon {
+    margin: 10%;
+    padding: 1%;
+    border: 2px solid #C89B3C;
+}
+.itemicon img {
+    width: 5em;
+    height: 5em;
+}
+.iteminfo {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    width: 90%;
+}
+#name {
+    margin: 0;
+    font-family: Beaufort;
+    text-transform: uppercase;
+    color: #C89B3C;
+}
+.cost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    gap: 1%;
+    width: 100%;
+    font-family: Spiegel;
+    font-size: 110%;
+    color: #C89B3C;
+}
+.cost img {
+    width: 1em;
+    height: 1em;
+}
+#desc {
+    font-family: Spiegel;
+    font-size: 110%;
+    color: #A09B8C;
+}
+.stat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+    font-family: Spiegel;
+    font-size: 110%;
+    color: #A09B8C;
+    margin: 0;
+    padding: 0;
+}
+.stat img {
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    padding: 0;
+}
+.stat p {
+    margin: 5px 0;
+    padding: 0;
 }
 
 .itemctn {
+    flex: 50%;
     display: flex;
     flex-direction: column;
-    
+    align-self: center;
+    margin: 2.5%;
+}
+.itemctn hr {
+    margin: 1% auto;
+    border: #C89B3C 1px solid;
+}
+h3 {
+    font-family: BeaufortBold;
+    font-size: 150%;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #A09B8C;
+}
+.itemcat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    gap: 1%;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.item {
+    width: fit-content;
+    height: fit-content;
+}
+.item img {
+    width: 5em;
+    height: 5em;
+    transition: all .15s ease;
+}
+.item:hover .item img{
+    transform: scale(1.05);
+}
+
+.stat-show {
+    display: flex;
+}
+.stat-hide {
+    display: none;
 }

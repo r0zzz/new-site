@@ -1,0 +1,41 @@
+/*declare custom fonts*/
+@font-face {
+    font-family: Beaufort;
+    src: url(../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+}
+@font-face {
+    font-family: BeaufortBold;
+    src: url(../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+}
+@font-face {
+    font-family: Spiegel;
+    src: url(../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.ctn {
+    margin: 5%;
+}
+.ctn h2, .ctn h3 {
+    font-family: Beaufort;
+    font-size: 175%;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.ctn h3 {
+    font-size: 125%;
+}
+.ctn p, .ctn a {
+    font-family: Spiegel;
+    font-size: 125%;
+}
+.ctn a {
+    text-decoration: none;
+    color: #C89B3C;
+}
+.ctn a:hover {
+    color: #785A28;
+}

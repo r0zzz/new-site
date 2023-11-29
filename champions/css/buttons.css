@@ -1,24 +1,32 @@
 .btns {
-    flex: 80%;
+    flex: 60%;
     display: flex;
     justify-content: space-around;
-    align-content: center;
-    width: 50%;
+    align-items: center;
 }
 .btns button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0 1em;
     background-repeat: no-repeat;
     background-size: 3em;
     background-position: center;
     width: 5em;
-    height: 5em;
+    height: 100%;
     border: none;
     background-color: transparent;
     transition: all .15s;
+    border-bottom: 2px solid transparent;
+
+    font-family: Spiegel;
+    text-transform: uppercase;
+}
+#allbtn {
+    padding: 0;
 }
 
 .btns button:hover, .btns .button-clicked{
     background-size: 3.5em;
-}
-.btns .button-clicked {
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }

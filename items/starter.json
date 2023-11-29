@@ -1,0 +1,80 @@
+[
+    {
+        "icon": "assets/card/starter/cull.png",
+        "name": "cull",
+        "desc": "cull desc",
+        "cost": "100",
+
+        "attack-damage": 1,
+        "attack-speed": 20,
+        "critical-strike-chance": 0,
+        "life-steal": 0,
+        "armor-penetration": 0,
+        "lethality": 0,
+
+        "ability-power": 0,
+        "ability-haste": 0,
+        "mana": 0,
+        "mana-regeneration": 0,
+        "heal-and-shield-power": 0,
+        "omnivamp": 0,
+        "magic-penetration": 0,
+
+        "health": 0,
+        "health-regeneration": 0,
+        "armor": 0,
+        "magic-resistance": 0
+    },
+    {
+        "icon": "assets/card/starter/darkseal.png",
+        "name": "cll",
+        "desc": "cull desc",
+        "cost": "0",
+
+        "attack-damage": 0,
+        "attack-speed": 0,
+        "critical-strike-chance": 0,
+        "life-steal": 0,
+        "armor-penetration": 0,
+        "lethality": 0,
+
+        "ability-power": 18,
+        "ability-haste": 0,
+        "mana": 0,
+        "mana-regeneration": 0,
+        "heal-and-shield-power": 0,
+        "omnivamp": 0,
+        "magic-penetration": 0,
+
+        "health": 0,
+        "health-regeneration": 0,
+        "armor": 0,
+        "magic-resistance": 25
+    },
+    {
+        "icon": "assets/card/starter/dblade.png",
+        "name": "cl",
+        "desc": "cull desc",
+        "cost": "cull cost",
+
+        "attack-damage": 16,
+        "attack-speed": 0,
+        "critical-strike-chance": 0,
+        "life-steal": 0,
+        "armor-penetration": 0,
+        "lethality": 0,
+
+        "ability-power": 0,
+        "ability-haste": 0,
+        "mana": 0,
+        "mana-regeneration": 0,
+        "heal-and-shield-power": 0,
+        "omnivamp": 0,
+        "magic-penetration": 0,
+
+        "health": 0,
+        "health-regeneration": 0,
+        "armor": 0,
+        "magic-resistance": 0
+    }
+]
