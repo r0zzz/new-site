@@ -1,4 +1,6 @@
 const skilltype = ["passive", "q", "w", "e", "ultimate"];
+const filepath = "./json/"
+const dataarray = ["aatrox.json", "akali.json", "akshan.json"];
 
 fetch('./json/aatrox.json') // chnage file name to whatever champion.js
     .then(response => { // fetch from external json
