@@ -337,10 +337,3 @@ h2 {
     max-width: 100%;
     z-index: 2;
 }
-
-.preview-show {
-    display: flex;
-}
-.preview-hide {
-    display: none;
-}

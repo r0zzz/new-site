@@ -1,10 +1,11 @@
 const skilltype = ["passive", "q", "w", "e", "ultimate"];
-const filepath = "./json/"
-const dataarray = ["aatrox.json", "akali.json", "akshan.json"]; 
 
-let file = filepath + dataarray[0];
+// file path to dynamically change contend depending on what card was clicked on the previous webpage
+const dataarray = ["aatrox.json", "akali.json", "akshan.json"];
 
-fetch(file) // chnage file name to whatever champion.js
+let file = "./json/"+ dataarray[0]; // call file based on the passed value
+
+fetch(file)
     .then(response => { // fetch from external json
         return response.json(); // return json strings as js objects
     })
@@ -12,10 +13,16 @@ fetch(file) // chnage file name to whatever champion.js
         console.log(data);
 
         let webpagetitle = data[0].name + ", " + data[0].title;
-        webpagetitle = webpagetitle.toUpperCase;
 
         // webpage title
         document.title = webpagetitle;
+
+        // splash and bg image
+        const bgsplash = document.querySelector('.splash');
+        const mainsplash = document.querySelector('.mainsplash');
+
+        bgsplash.style.backgroundImage = 'linear-gradient(to bottom, transparent, #010A13 92.5%), url('+ data[0].bg +')';
+        mainsplash.style.backgroundImage = 'linear-gradient(to bottom, transparent, #010A13 92.5%), url('+ data[0].splash +')'; 
 
         // basic info
         const name = document.querySelector('#name');
@@ -65,24 +72,27 @@ fetch(file) // chnage file name to whatever champion.js
         role.innerHTML = data[3]["role-name"];
         roledesc.innerHTML = data[3]["role-desc"];
         roleicon.src = data[3]["role-icon"];
-        bgrole.style.backgroundImage = 'url(' + data[3]["role-bg"] + ')';
+        bgrole.style.backgroundImage = 'url('+ data[3]["role-bg"] +')';
 
 
         // skill
         const btns = document.querySelectorAll('.skillbar button');
         const stype = document.querySelector('#stype');
-        const preview = document.querySelectorAll('.preview')
+        const preview = document.querySelector('.preview video');
         const sname = document.querySelector('#sname');
         const sdesc = document.querySelector('#sdesc');
+
+        btns[0].style.backgroundImage = 'url('+ data[4]["p-icon"] +')';
+        btns[1].style.backgroundImage = 'url('+ data[5]["q-icon"] +')';
+        btns[2].style.backgroundImage = 'url('+ data[6]["w-icon"] +')';
+        btns[3].style.backgroundImage = 'url('+ data[7]["e-icon"] +')';
+        btns[4].style.backgroundImage = 'url('+ data[8]["r-icon"] +')';
+
 
         sname.innerHTML = data[4]["p-name"];
         stype.innerHTML = skilltype[0];
         sdesc.innerHTML = data[4]["p-desc"];
 
-        preview.forEach(prev => {
-            prev.classList.remove('preview-show');
-            prev.classList.add('preview-hide');
-        });
 
         for (let j = 0; j < btns.length; j++) {
             btns[j].addEventListener('click', filter);
@@ -95,14 +105,13 @@ fetch(file) // chnage file name to whatever champion.js
             e.target.classList.add('button-clicked');
         }
 
-        //change div values depending on what the value the button passes
+        //change content depending on btn clicked
         function filter(e) {
 
             setActiveBtn(e)
             
-            preview.forEach(prev => {
+            btns.forEach(btn => {
 
-                const previewdata = parseInt(prev.dataset.skill);
                 const btnskill = parseInt(e.target.dataset.icon);
                 
                 switch (btnskill) {
@@ -110,41 +119,37 @@ fetch(file) // chnage file name to whatever champion.js
                         sname.innerHTML = data[4]["p-name"];
                         stype.innerHTML = skilltype[0];
                         sdesc.innerHTML = data[4]["p-desc"];
+                        preview.src = data[4]["p-vid"];
                         break;
                     case 2:
                         sname.innerHTML = data[5]["q-name"];
                         stype.innerHTML = skilltype[1];
                         sdesc.innerHTML = data[5]["q-desc"];
+                        preview.src = data[5]["q-vid"];
                         break;
                     case 3:
                         sname.innerHTML = data[6]["w-name"];
                         stype.innerHTML = skilltype[2];
                         sdesc.innerHTML = data[6]["w-desc"];
+                        preview.src = data[6]["w-vid"];
                         break;
                     case 4:
                         sname.innerHTML = data[7]["e-name"];
                         stype.innerHTML = skilltype[3];
                         sdesc.innerHTML = data[7]["e-desc"];
+                        preview.src = data[7]["e-vid"];
                         break;
                     case 5:
                         sname.innerHTML = data[8]["r-name"];
                         stype.innerHTML = skilltype[4];
                         sdesc.innerHTML = data[8]["r-desc"];
+                        preview.src = data[8]["r-vid"];
                         break;
-                }
-
-                if (previewdata === btnskill) {
-                    prev.classList.remove('preview-hide');
-                    prev.classList.add('preview-show');
-                } else {
-                    prev.classList.remove('preview-show');
-                    prev.classList.add('preview-hide');
                 }
             });
         }
 
         btns[0].classList.add('button-clicked');
-        preview[0].classList.remove('preview-hide');
-        preview[0].classList.add('preview.show')
+        preview.src = data[4]["p-vid"];
     })
     .catch(error => console.error(error));
