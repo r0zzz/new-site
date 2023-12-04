@@ -1,13 +1,21 @@
 const skilltype = ["passive", "q", "w", "e", "ultimate"];
 const filepath = "./json/"
-const dataarray = ["aatrox.json", "akali.json", "akshan.json"];
+const dataarray = ["aatrox.json", "akali.json", "akshan.json"]; 
 
-fetch('./json/aatrox.json') // chnage file name to whatever champion.js
+let file = filepath + dataarray[0];
+
+fetch(file) // chnage file name to whatever champion.js
     .then(response => { // fetch from external json
         return response.json(); // return json strings as js objects
     })
     .then(data => {
         console.log(data);
+
+        let webpagetitle = data[0].name + ", " + data[0].title;
+        webpagetitle = webpagetitle.toUpperCase;
+
+        // webpage title
+        document.title = webpagetitle;
 
         // basic info
         const name = document.querySelector('#name');

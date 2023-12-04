@@ -39,7 +39,7 @@ function filter(e) {
         const btnrole= parseInt(e.target.dataset.btn);
 
 
-        switch(btnrole) {
+        switch(btnrole) { // change category name depending on btn clicked
             case 1:
                 document.getElementById("roletext").innerHTML = rolename[0];
                 break;

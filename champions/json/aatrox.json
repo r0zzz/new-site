@@ -2,8 +2,8 @@
     {
         "bg": "assets/bgprofile/aatrox.png",
         "splash": "assets/champ/Aatrox_0.jpg",
-        "name": "aatrox",
-        "title": "the darkin blade",
+        "name": "Aatrox",
+        "title": "The Darkin Blade",
         "lore": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance."
     },
     
@@ -35,27 +35,35 @@
     {   
         "p-name": "deathbringer stance",
         "p-desc": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.",
-        "p-icon": "assets/champ/aatrox/p.png",
-        "p-vid": "assets/champ/aatrox/p.webm"
+        "p-icon": "assets/champ/aatrox/Ability/p.png",
+        "p-vid": "assets/champ/aatrox/Ability/p.webm"
     },
 
     {
         "q-name": "the darkin blade",
-        "q-desc": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect."
+        "q-desc": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+        "q-icon": "assets/champ/aatrox/Ability/q.png",
+        "q-vid": "assets/champ/aatrox/Ability/q.webm"
     },
 
     {
         "w-name": "infernal blades",
-        "w-desc": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again."
+        "w-desc": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
+        "w-icon": "assets/champ/aatrox/Ability/w.png",
+        "w-vid": "assets/champ/aatrox/Ability/w.webm"
     },
 
     {
         "e-name": "umbral dash",
-        "e-desc": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction."
+        "e-desc": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.",
+        "e-icon": "assets/champ/aatrox/Ability/e.png",
+        "e-vid": "assets/champ/aatrox/Ability/e.webm"
     },
 
     {
         "r-name": "world ender",
-        "r-desc": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended."
+        "r-desc": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended.",
+        "r-icon": "assets/champ/aatrox/Ability/r.png",
+        "r-vid": "assets/champ/aatrox/Ability/r.webm"
     }
 ]

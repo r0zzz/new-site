@@ -1,1 +1,0 @@
-const champ = parseInt(dat)
