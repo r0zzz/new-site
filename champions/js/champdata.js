@@ -3,7 +3,14 @@ const skilltype = ["passive", "q", "w", "e", "ultimate"];
 // file path to dynamically change contend depending on what card was clicked on the previous webpage
 const dataarray = ["aatrox.json", "akali.json", "akshan.json"];
 
-let file = "./json/"+ dataarray[0]; // call file based on the passed value
+function getQueryParam(name) {
+    const urlparams = new URLSearchParams(window.location.search);
+    return urlparams.get(name);
+}
+
+let datachamp = parseInt(getQueryParam('data-champ'));
+
+let file = "./json/"+ dataarray[datachamp]; // call file based on the passed value
 
 fetch(file)
     .then(response => { // fetch from external json
