@@ -1,0 +1,89 @@
+/*declare custom fonts*/
+@font-face {
+    font-family: Beaufort;
+    src: url(../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+}
+@font-face {
+    font-family: BeaufortBold;
+    src: url(../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+}
+@font-face {
+    font-family: Spiegel;
+    src: url(../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+}
+
+body {
+    margin: 0;
+}
+.ctn {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5%;
+}
+.runeheader {
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.runeheader h2 {
+    font-family: Beaufort;
+    font-size: 400%;
+}
+.runeheader p {
+    font-family: Spiegel;
+    font-size: 200%;
+}
+.runeinfo {
+    flex: 30%;
+    width: 100%;
+}
+.runes {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.runeinfo h3 {
+    font-family: Beaufort;
+    font-size: 175%;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.runeinfo p {
+    font-family: Spiegel;
+    font-size: 125%;
+}
+.runectn {
+    width: 100%;
+}
+.keystones, .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.row {
+    margin: 0;
+    background-color: #282828;
+}
+.keystone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.row img {
+    margin: 10% auto;
+}
+.keystone img {
+    width: 7.5em;
+    border: 1px solid black;
+}
+.shardctn img {
+    width: 5em;
+    border: 1px solid black;
+}
