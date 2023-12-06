@@ -18,7 +18,6 @@ body {
 .ctn {
     display: flex;
     flex-direction: row;
-    margin: 2.5%;
 }
 .runeheader {
     width: 100%;
@@ -27,6 +26,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    padding: 2.5%;
 }
 .runeheader h2 {
     font-family: Beaufort;
@@ -74,16 +74,32 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
 }
 .row img {
     margin: 10% auto;
 }
 .keystone img {
     width: 7.5em;
-    border: 1px solid black;
 }
 .shardctn img {
     width: 5em;
-    border: 1px solid black;
+}
+.sharddesc h3 {
+    color: white;
+    font-family: Beaufort;
+    font-size: 175%;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.sharddesc p {
+    color: white;
+    font-family: Spiegel;
+    font-size: 125%;
+}
+
+.runectn-show {
+    display: flex;
+}
+.runectn-hide {
+    display: none;
 }
