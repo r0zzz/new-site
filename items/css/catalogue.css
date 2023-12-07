@@ -51,9 +51,11 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
-    position: sticky;
-    top: 0;
+    border: 2px solid #C89B3C;
+    border-radius: 30px;
+    margin: 10px;
+    padding-bottom: 5%;
+    height: fit-content;
 }
 .itemicon {
     margin: 10%;
