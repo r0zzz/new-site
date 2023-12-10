@@ -2,16 +2,55 @@
 <html>
     <head>
         <link rel="stylesheet" href="runes.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
+        <!--header-->
+        <header>
+            <div class="logoctn">
+                <a href="../main.html">
+                    <img src="../assets/logo.white.png" alt="">
+                </a>
+            </div>
+            <div class="btnctn">
+                <a href="../champions/0catalogue.html">
+                    <div class="btn">
+                        <div class="btnname"><p>Champions</p></div>
+                        <hr>
+                    </div>
+                </a>
+                <a href="../gameplay/gameplay.html">
+                    <div class="btn">
+                        <div class="btnname"><p>Gameplay</p></div>
+                        <hr>
+                    </div>
+                </a>
+                <a href="../items/0catalougue.html">
+                    <div class="btn">
+                        <div class="btnname"><p>Items</p></div>
+                        <hr>
+                    </div>
+                </a>
+                <a href="../runes/runes.html">
+                    <div class="btn">
+                        <div class="btnname"><p>Runes</p></div>
+                        <hr>
+                    </div>
+                </a>
+            </div>
+        </header>
+
+        <!--runes-->
         <div class="runes">
             <!--precision-->
-            <div class="runeheader" data-rune="0" style="background-image: url(assets/runes/prec.png);" data-header="0">
-                <h2>Domination</h2>
-                <p>desc</p>
+            <div class="runeheader" id="precision" style="background-image: url(assets/runes/prec.png);" data-header="0">
+                <h2>Precision</h2>
+                <p>Improved attacks and sustained damage</p>
             </div>
-            <div class="runectn" data-info="0">
+            <div class="runectn" id="precisioninfo">
                 <div class="row">
                     <div class="keystones">
                         <div class="keystoneinfo">
@@ -19,35 +58,170 @@
                                 <img src="assets/runes/Precision/keystone/PressTheAttack.png" alt="">
                             </div>
                             <div class="sharddesc">
-                                <h3>head</h3>
-                                <p>desc</p>
+                                <h3>Press the Attack</h3>
+                                <p>Hitting an enemy champion with 3 consecutive basic attacks makes them vulnerable, dealing bonus damage and causing them to take more damage from all sources for 6s.</p>
                             </div>
                         </div>
                         <div class="keystoneinfo">
                             <div class="keystone">
-                                <img src="assets/runes/Precision/keystone/PressTheAttack.png" alt="">
+                                <img src="assets/runes/Precision/keystone/LethalTempo.png" alt="">
                             </div>
                             <div class="sharddesc">
-                                <h3>head</h3>
-                                <p>desc</p>
+                                <h3>Lethal Tempo</h3>
+                                <p>Basic attacks on-attack against enemy champions grant a stacks which gives you bonus attack speed per stack, max stacks gives more attack range and increasing the attack speed cap.</p>
                             </div>
                         </div>
                         <div class="keystoneinfo">
                             <div class="keystone">
-                                <img src="assets/runes/Precision/keystone/PressTheAttack.png" alt="">
+                                <img src="assets/runes/Precision/keystone/FleetFootwork.png" alt="">
                             </div>
                             <div class="sharddesc">
-                                <h3>head</h3>
-                                <p>desc</p>
+                                <h3>Fleet Footwork</h3>
+                                <p>Attacking and moving builds Energy stacks. At 100 stacks, your next attack heals you and grants increased MS.</p>
                             </div>
                         </div>
                         <div class="keystoneinfo">
                             <div class="keystone">
-                                <img src="assets/runes/Precision/keystone/PressTheAttack.png" alt="">
+                                <img src="assets/runes/Precision/keystone/Conqueror.png" alt="">
                             </div>
                             <div class="sharddesc">
-                                <h3>head</h3>
-                                <p>desc</p>
+                                <h3>Conqueror</h3>
+                                <p>Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/Overheal.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>Overheal</h3>
+                            <p>Excess healing on you becomes a shield.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/Triumph.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>triumph</h3>
+                            <p>Scoring a takedown against an enemy champion heals you for 2.5% of your maximum health (+5% of your missing health) and grants you an additional 20 gold.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/PresenceOfMind.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>presence of mind</h3>
+                            <p>Takedowns restore mana or energy, reduced for ranged champions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/LegendAlacrity.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>legend: aclarity</h3>
+                            <p>Takedowns on enemies grant permanent Attack Speed.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/LegendTenacity.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>legend: tenacity</h3>
+                            <p>Takedowns on enemies grant permanent Tenacity.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/LegendBloodline.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>legend: bloodline</h3>
+                            <p>Takedowns on enemies grant permanent Lifesteal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/CoupDeGrace.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>coup de grace</h3>
+                            <p>Deal more damage to low health enemy champions.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/CutDown.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>cut down</h3>
+                            <p>Deal more damage to champions with more max health than you.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Precision/LastStand.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>last stand</h3>
+                            <p>Deal more damage to champions while you are low on health.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--domination-->
+            <div class="runeheader" id="domination" style="background-image: url(assets/runes/domi.png);" data-header="0">
+                <h2>Domination</h2>
+                <p>Burst damage and target access</p>
+            </div>
+            <div class="runectn" id="dominationinfo">
+                <div class="row">
+                    <div class="keystones">
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Domination/keystone/Electrocute.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>Electrocute</h3>
+                                <p>Hitting a champion with 3 separate attacks or abilities in 3s deals bonus adaptive damage.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Domination/keystone/Predator.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>predator</h3>
+                                <p>Add an active effect to your boots that grants a large boost of MS and causes your next attack or ability to deal bonus adaptive damage.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Domination/keystone/DarkHarvest.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>dark harvest</h3>
+                                <p>Damaging a champion below 50% of their maximum health deals bonus Adaptive damage. This cannot happen again for 45 seconds, resetting to 1.5 seconds on champion takedown.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Domination/keystone/HailOfBlades.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>hail of blades</h3>
+                                <p>Basic attacking an enemy champion grants you greatly increased attack speed.</p>
                             </div>
                         </div>
                     </div>
@@ -55,93 +229,497 @@
                 <div class="row">
                     <div class="shardinfo">
                         <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
+                            <img src="assets/runes/Domination/CheapShot.png" alt="">
                         </div>
                         <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
+                            <h3>chep shot</h3>
+                            <p>Deal bonus true damage to enemies with impaired movement or actions.</p>
                         </div>
                     </div>
                     <div class="shardinfo">
                         <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
+                            <img src="assets/runes/Domination/TasteOfBlood.png" alt="">
                         </div>
                         <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
+                            <h3>taste of blood</h3>
+                            <p>Heal when you damage an enemy champion.</p>
                         </div>
                     </div>
                     <div class="shardinfo">
                         <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
+                            <img src="assets/runes/Domination/SuddenImpact.png" alt="">
                         </div>
                         <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="shardinfo">
-                        <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
-                        </div>
-                        <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
-                        </div>
-                    </div>
-                    <div class="shardinfo">
-                        <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
-                        </div>
-                        <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
-                        </div>
-                    </div>
-                    <div class="shardinfo">
-                        <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
-                        </div>
-                        <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
+                            <h3>sudden impact</h3>
+                            <p>Gain a burst of Lethality and Magic Penetration after using a dash, leap, blink. teleport, or when leaving stealth.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="shardinfo">
                         <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
+                            <img src="assets/runes/Domination/ZombieWard.png" alt="">
                         </div>
                         <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
+                            <h3>zombie ward</h3>
+                            <p>After killing an enemy ward, a friendly Zombie Ward is raised in its place. Clearing a ward grants 2 adaptive force up to 10 times (max 20). At 10 ward clears, gain an additional 10 adaptive force.</p>
                         </div>
                     </div>
                     <div class="shardinfo">
                         <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
+                            <img src="assets/runes/Domination/GhostPoro.png" alt="">
                         </div>
                         <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
+                            <h3>ghost poro</h3>
+                            <p>When your wards expire, they leave behind a Ghost Poro. The Ghost Poro grants vision until discovered. Gain permanent AD or AP, adaptive for each Ghost Poro and when your Ghost Poro spots an enemy champion, bonus upon completion.</p>
                         </div>
                     </div>
                     <div class="shardinfo">
                         <div class="shardctn">
-                            <img src="assets/runes/Precision/Overheal.png" alt="">
+                            <img src="assets/runes/Domination/EyeballCollection.png" alt="">
                         </div>
                         <div class="sharddesc">
-                            <h3>head</h3>
-                            <p>desc</p>
+                            <h3>eyeball collection</h3>
+                            <p>Collect eyeballs on champion takedowns. Gain permanent AD or AP, for each eyeball plus bonus upon collection completion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Domination/TreasureHunter.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>treasure hunter</h3>
+                            <p>Unique takedowns grants gold.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Domination/IngeniousHunter.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>ingenious hunter</h3>
+                            <p>Unique takedowns grant permanent item haste.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Domination/RelentlessHunter.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>relentless hunter</h3>
+                            <p>Unique takedowns grant permanent out of combat MS.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Domination/UltimateHunter.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>Ultimate Hunter</h3>
+                            <p>Unique takedowns grant permanent cooldown reduction on your Ultimate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sorcery-->
+            <div class="runeheader" id="sorcery" style="background-image: url(assets/runes/sorc.png);" data-header="0">
+                <h2>Sorcery</h2>
+                <p>Empowered abilities and resource manipulation</p>
+            </div>
+            <div class="runectn" id="sorceryinfo">
+                <div class="row">
+                    <div class="keystones">
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Sorcery/keystone/SummonAery.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>summon aery</h3>
+                                <p>Your attacks and abilities send Aery to a target, damaging enemies or shielding allies.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Sorcery/keystone/arcanecomet.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>arcane comet</h3>
+                                <p>Damaging a champion with an ability hurls a damaging comet at their location.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Sorcery/keystone/PhaseRush.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>phase rush</h3>
+                                <p>Hitting an enemy champion with 3 attacks or separate abilities or abilities grants a burst of MS and Slow Resistance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/nullifyingorb.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>nullifying orb</h3>
+                            <p>Gain a magic damage shield when taken to low health by magic damage.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/ManaflowBand.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>manaflow band</h3>
+                            <p>Hitting enemy champions with a spell grants 25 maximum mana, up to 250 mana. Upon earning 250 mana, Manaflow Band restores 1% of your missing mana every 5 seconds.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/NimbusCloak.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>Nimbus cloak</h3>
+                            <p>After casting a Summoner Spell, gain a short movement speed increase for a few seconds.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/Transcendence.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>transcendence</h3>
+                            <p>Gain bonuses upon reaching levels 5/8/11.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/Celerity.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>clerity</h3>
+                            <p>All movement speed bonuses are 7% more effective on you and you gain 1% Movement Speed.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/AbsoluteFocus.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>absolute focus</h3>
+                            <p>While above 70% health, gain extra adaptive damage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/Scorch.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>scorch</h3>
+                            <p>Your first ability hit every 10s burns champions.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/Waterwalking.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>waterwalking</h3>
+                            <p>Gain MS and AP or AD (Adaptive) in the river.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Sorcery/GatheringStorm.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>gathering storm</h3>
+                            <p>Gain increasing amounts of AD or AP (Adaptive) over the course of the game.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--resolve-->
+            <div class="runeheader" id="resolve" style="background-image: url(assets/runes/res.png);" data-header="0">
+                <h2>resolve</h2>
+                <p>Durability and crowd control</p>
+            </div>
+            <div class="runectn" id="resolveinfo">
+                <div class="row">
+                    <div class="keystones">
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Resolve/keystone/GraspOfTheUndying.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>Grasp of Undying</h3>
+                                <p>Every 3s of entering combat you generate a stack. After 4 stacks, your next basic attack consumes all stacks to deal bonus damage.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Resolve/keystone/Aftershock.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>Aftershock</h3>
+                                <p>After immobilizing an enemy champion gain defenses and later deal a burst of magic damage around you.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Resolve/keystone/Guardian.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>Guardian</h3>
+                                <p>While within 350 units of an allied champion, you raise your Guard. Allied champions you affect with unit-targeted abilities are also Guarded for 3 seconds, regardless of distance. If you or a Guarded ally would take damage within 2.5 seconds or lethal damage from an enemy champion, monster or turret, you both first gain a shield for 2 seconds. Guardian only goes on cooldown when the shield is triggered.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/Demolish.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>Demolish</h3>
+                            <p>Charge up a powerful attack against a tower while near it.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/FontOfLife.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>font of life</h3>
+                            <p>Impairing the movement of an enemy champion marks them. Your allies heal when attacking champions you've marked.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/ShieldBash.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>shield bash</h3>
+                            <p>Gain bonus armor and magic resistance while shielded. Whenever you gain a shield, your next basic attack against a champion deals bonus adaptive damage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/Conditioning.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>conditioning</h3>
+                            <p>After 12 minutes gain +8 Armor and +8 Magic Resist and increase your Armor and Magic Resist by 3%.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/SecondWind.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>second wind</h3>
+                            <p>After taking damage from an enemy champion, gain health regeneration for 10 seconds.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/BonePlating.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>bone plating</h3>
+                            <p>After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 less damage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/Overgrowth.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>overgrowth</h3>
+                            <p>Gain additional permanent health when minions or monsters die near you.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/Revitalize.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>revitalize</h3>
+                            <p>Heals and shields are 5% stronger and increased by an additional 10% on low health targets.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Resolve/Unflinching.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>unflinching</h3>
+                            <p>Gain slow resist and tenacity. This increases based on your missing health.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--inspiration-->
+            <div class="runeheader" id="inspiration" style="background-image: url(assets/runes/inspi.png);" data-header="0">
+                <h2>inspiration</h2>
+                <p>Creative tools and rule bending</p>
+            </div>
+            <div class="runectn" id="inspirationinfo">
+                <div class="row">
+                    <div class="keystones">
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Inspiration/keystone/GlacialAugment.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>glacial augment</h3>
+                                <p>Immobilizing an enemy champion will cause 3 glacial rays to emanate from them towards you and other nearby enemy champions, creating icy zones that slow enemies.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Inspiration/keystone/UnsealedSpellbook.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>unsealed spellbook</h3>
+                                <p>While out of combat, you can swap one of your equipped summoner spells to a new, single-use summoner spell. After using the single-use summoner spell, your original summoner spell will swap back in.</p>
+                            </div>
+                        </div>
+                        <div class="keystoneinfo">
+                            <div class="keystone">
+                                <img src="assets/runes/Inspiration/keystone/FirstStrike.png" alt="">
+                            </div>
+                            <div class="sharddesc">
+                                <h3>first strike</h3>
+                                <p>Dealing damage to enemies causes all your damage dealt to deal bonus damage and grants you gold afterwards.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/HextechFlashtraption.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>hextech flashtraption</h3>
+                            <p>While Flash is on cooldown it is replaced by Hexflash. Hexflash: Channel, then blink to a new location.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/MagicalFootwear.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>magical footwear</h3>
+                            <p>You get free boots at 12 minutes but you cannot buy boots before then. Each takedown you get makes your boots come 45 seconds sooner.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/PerfectTiming.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>perfect timing</h3>
+                            <p>Gain a free Replica Stopwatch. Replica Stopwatch has a one time use Stasis effect.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/FuturesMarket.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>future's market</h3>
+                            <p>You can enter debt to buy items.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/MinionDematerializer.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>minion dematerializer</h3>
+                            <p>Start the game with 3 Minion Dematerializers. Killing minions with the item gives permanent bonus damage vs. that minion type.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/BiscuitDelivery.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>biscuit delivery</h3>
+                            <p>Receive a Total Biscuit of Everlasting Will at 2:00, 4:00 and 6:00. If the inventory is full while receiving a biscuit, the biscuit(s) will appear as soon as a slot in the inventory is available. Consuming a Biscuit will instantly grant 40 mana and permanently increase your maximum mana by 40, in addition to its effects. You will also gain the increased mana if you sell the biscuit for 5 gold.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/CosmicInsight.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>cosmic insight</h3>
+                            <p>Gain 15 summoner spell haste and 10 item haste.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/ApproachVelocity.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>approach velocity</h3>
+                            <p>Gain bonus MS toward enemy champions with impaired movement. This bonus is doubled toward enemy champions whose movement you have impaired.</p>
+                        </div>
+                    </div>
+                    <div class="shardinfo">
+                        <div class="shardctn">
+                            <img src="assets/runes/Inspiration/TimeWarpTonic.png" alt="">
+                        </div>
+                        <div class="sharddesc">
+                            <h3>time warp tonic</h3>
+                            <p>Your potions or biscuits grant 30% of their health and mana immediately and grant you increased movement speed.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <!--FOOTER-->
+        <footer>
+            <div class="logos">
+                <div><a href="https://leagueoflegends.com/" target="_blank"><img src="./../assets/icon.png" alt=""></a></div>
+                <div><img src="./../assets/teamlogo.png" alt=""></div>
+            </div>
+            <div class="rights">
+                <h3>archives of runeterra</h3>
+                <p>all rights reserved</p>
+            </div>
+            <div class="links">
+                <div><a href="../about.html">about</a></div>
+                <div><a href="../contact.html">contact us</a></div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="runes.js"></script>
     </body>
 </html>

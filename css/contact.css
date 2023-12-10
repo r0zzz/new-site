@@ -11,7 +11,11 @@
     font-family: Spiegel;
     src: url(../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
 }
-
+header {
+    position: sticky;
+        top: 0;
+    z-index: 3;
+}
 body {
     margin: 0;
     padding: 0;

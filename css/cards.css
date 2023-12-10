@@ -25,6 +25,7 @@ a {
     width: fit-content;
     text-decoration: none;
     color: black;
+    max-width: 50%;
 }
 .card {
     position: relative;

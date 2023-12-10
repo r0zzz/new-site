@@ -71,21 +71,21 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid black
 }
 .pntext {
-    display: none;
     height: 100%;
-    opacity: 1;
-    z-index: 1;
     font-family: Spiegel;
     font-size: 125%;
     transition: all .3s ease-in-out;
 }
-.patchnotes:hover .pntext {
-    display: block;
+.pn img {
+    width: 100%;
+    transition: all .15s ease;
 }
 .cardctn {
     flex: 50%;
     width: 100%;
+}
+.pn:hover .patchnotes img {
+    transform: scale(0.985);
 }

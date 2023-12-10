@@ -11,7 +11,11 @@
     font-family: Spiegel;
     src: url(../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
 }
-
+header {
+    position: sticky;
+        top: 0;
+    z-index: 3;
+}
 body {
     margin: 0;
     padding: 0;
@@ -38,4 +42,14 @@ body {
 }
 .ctn a:hover {
     color: #785A28;
+}
+.profilectn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% auto;
+}
+.profilectn img {
+    width: 150px;
 }

@@ -1,0 +1,90 @@
+/*declare custom fonts*/
+@font-face {
+    font-family: Beaufort;
+    src: url(../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf)
+}
+@font-face {
+    font-family: BeaufortBold;
+    src: url(../assets/Fonts/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf)
+}
+@font-face {
+    font-family: Spiegel;
+    src: url(../assets/Fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf)
+}
+header {
+    position: sticky;
+        top: 0;
+    z-index: 3;
+}
+body {
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5%;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 2.5% auto;
+    border: 2px dashed black;
+    padding: 1%;
+    transition: all .15s ease;
+}
+.cardimg {
+    flex: 20%;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cardimg img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+}
+.carddesc {
+    flex: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: first baseline;
+}
+.carddesc h2, .carddesc p {
+    margin: auto 2.5%;
+    text-align: justify;
+}
+.carddesc h2 {
+    font-family: Beaufort;
+    font-size: 150%;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.carddesc p {
+    font-family: Spiegel;
+    font-size: 125%;
+}
+.moreinfo {
+    display: none;
+    flex-direction: column;
+    margin: 0 5%;
+}
+.moreinfo .card {
+    margin: 1.25% auto;
+}
+
+.moreinfo-hide {
+    display: none;
+}
+.moreinfo-show {
+    display: flex;
+}
+.card-clicked {
+    border: 2px solid #C89B3C;
+    background-color: #CDFAFA;
+}
