@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/drmundo.png",
+        "splash": "assets/champ/DrMundo_0.jpg",
+        "name": "Dr. Mundo",
+        "title": "the madman of zaun",
+        "lore": "Utterly mad, tragically homicidal, and horrifyingly purple, Dr. Mundo is what keeps many of Zaun's citizens indoors on particularly dark nights. Now a self-proclaimed physician, he was once a patient of Zaun's most infamous asylum. After curing the entire staff, Dr. Mundo established his practice in the empty wards that once treated him and began mimicking the highly unethical procedures he had so often experienced himself. With a full cabinet of medicines and zero medical knowledge, he now makes himself more monstrous with each injection and terrifies the hapless patients who wander near his office."
+    
+    },
+    
+    {
+        "health": "613",
+        "health-regen": "7",
+        "armor": "32",
+        "magic-resist": "29",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "61",
+        "attack-speed": "0.67",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "goes where he pleases",
+        "p-desc": "Dr. Mundo resists the first Immobilizing effect that hits him, instead losing Health and dropping a chemical cannister nearby. Dr. Mundo can pick it up by walking over it, restoring Health and reducing this Ability's Cooldown. Dr. Mundo also has significantly increased Health regeneration.",
+        "p-icon": "assets/champ/drmundo/Ability/p.png",
+        "p-vid": "assets/champ/darius/Ability/p.webm"
+    },
+
+    {
+        "q-name": "infected bonesaw",
+        "q-desc": "Dr. Mundo throws an infected bonesaw, dealing damage to the first enemy hit based on their current health and slowing them.",
+        "q-icon": "assets/champdrmundodarius/Ability/q.png",
+        "q-vid": "assets/champ/drmundo/Ability/q.webm"
+    },
+
+    {
+        "w-name": "heart zapper",
+        "w-desc": "Dr. Mundo electrocutes himself, dealing persistent damage to nearby enemies and storing a portion of damage he takes. At the end of the duration or on Recast, Dr. Mundo deals a burst of damage to nearby enemies. If the burst hit an enemy, he heals a percentage of the stored damage.",
+        "w-icon": "assets/champ/drmundo/Ability/w.png",
+        "w-vid": "assets/champ/drmundo/Ability/w.webm"
+    },
+
+    {
+        "e-name": "blunt force trauma",
+        "e-desc": "Passive - Dr. Mundo gains bonus Attack Damage, increasing based on his max Health. Active - Dr. Mundo slams his “medical” bag into an enemy, dealing additional damage based on his missing Health. If the enemy dies they are swatted away, dealing damage to enemies they pass through.",
+        "e-icon": "assets/champ/drmundo/Ability/e.png",
+        "e-vid": "assets/champ/drmundo/Ability/e.webm"
+    },
+
+    {
+        "r-name": "maximum dosage",
+        "r-desc": "Dr. Mundo pumps himself with chemicals, instantly healing a percent of his missing Health. He then gains Move Speed and regenerates a portion of his maximum Health over a long duration.",
+        "r-icon": "assets/champ/drmundo/Ability/r.png",
+        "r-vid": "assets/champ/drmundo/Ability/r.webm"
+    }
+]

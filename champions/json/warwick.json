@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/warwick.png",
+        "splash": "assets/champ/Warwick_0.jpg",
+        "name": "Warwick",
+        "title": "The Uncaged Wrath of Zaun",
+        "lore": "Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. Bursting out of the shadows, he preys upon those criminals who terrorize the city's depths. Warwick is drawn to blood, and driven mad by its scent. None who spill it can escape him."
+    
+    },
+    
+    {
+        "health": "620",
+        "health-regen": "4",
+        "armor": "33",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "280",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.45",
+        "attack-damage": "65",
+        "attack-speed": "0.638",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "eternal hunger",
+        "p-desc": "Warwick's basic attacks deal bonus magic damage. If Warwick is below 50% health, he heals the same amount. If Warwick is below 25% health, this healing triples.",
+        "p-icon": "assets/champ/warwick/Ability/p.png",
+        "p-vid": "assets/champ/warwick/Ability/p.webm"
+    },
+
+    {
+        "q-name": "jaws of the beast",
+        "q-desc": "Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.",
+        "q-icon": "assets/champ/warwick/Ability/q.png",
+        "q-vid": "assets/champ/warwick/Ability/q.webm"
+    },
+
+    {
+        "w-name": "blood hunt",
+        "w-desc": "Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them. When they fall below 20% health, he frenzies and these bonuses triple.",
+        "w-icon": "assets/champ/warwick/Ability/w.png",
+        "w-vid": "assets/champ/warwick/Ability/w.webm"
+    },
+
+    {
+        "e-name": "primal howl",
+        "e-desc": "Warwick gains damage reduction for 2.5 seconds. At the end, or if re-activated, he howls, causing nearby enemies to flee for 1 second.",
+        "e-icon": "assets/champ/warwick/Ability/e.png",
+        "e-vid": "assets/champ/warwick/Ability/e.webm"
+    },
+
+    {
+        "r-name": "infinite duress",
+        "r-desc": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
+        "r-icon": "assets/champ/warwick/Ability/r.png",
+        "r-vid": "assets/champ/warwick/Ability/r.webm"
+    }
+]

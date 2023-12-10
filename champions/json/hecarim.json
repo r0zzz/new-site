@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/hecarim.png",
+        "splash": "assets/champ/Hecarim_0.jpg",
+        "name": "Hecarim",
+        "title": "The Shadow of War",
+        "lore": "Hecarim is a spectral fusion of man and beast, cursed to ride down the souls of the living for all eternity. When the Blessed Isles fell into shadow, this proud knight was obliterated by the destructive energies of the Ruination, along with all his cavalry and their mounts. Now, whenever the Black Mist reaches out across Runeterra, he leads their devastating charge, reveling in the slaughter and crushing the foe beneath his armored hooves."
+    
+    },
+    
+    {
+        "health": "625",
+        "health-regen": "7",
+        "armor": "32",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "280",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "66",
+        "attack-speed": "0.67",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "warpath",
+        "p-desc": "Hecarim gains Attack Damage equal to a percentage of his bonus Move Speed.",
+        "p-icon": "assets/champ/hecarim/Ability/p.png",
+        "p-vid": "assets/champ/hecarim/Ability/p.webm"
+    },
+
+    {
+        "q-name": "rampage",
+        "q-desc": "Hecarim cleaves nearby enemies dealing physical damage. If Hecarim damages at least one enemy, he increases the damage and lowers the cooldown of subsequent Rampages.",
+        "q-icon": "assets/champ/hecarim/Ability/q.png",
+        "q-vid": "assets/champ/hecarim/Ability/q.webm"
+    },
+
+    {
+        "w-name": "spirit of dread",
+        "w-desc": "Hecarim gains Armor and Magic Resist. Hecarim deals magic damage to nearby enemies, and gains Health equal to a percentage of any damage those enemies suffer.",
+        "w-icon": "assets/champ/hecarim/Ability/w.png",
+        "w-vid": "assets/champ/hecarim/Ability/w.webm"
+    },
+
+    {
+        "e-name": "devastating charge",
+        "e-desc": "Hecarim gains increasing Move Speed and can move through units for a short duration. His next attack knocks the target back and deals additional physical damage based on the distance he has traveled since activating the ability.",
+        "e-icon": "assets/champ/hecarim/Ability/e.png",
+        "e-vid": "assets/champ/hecarim/Ability/e.webm"
+    },
+
+    {
+        "r-name": "onslaught of shadows",
+        "r-desc": "Hecarim summons spectral riders and charges forward, dealing magic damage in a line. Hecarim creates a shockwave when he finishes his charge, causing nearby enemies to flee in terror.",
+        "r-icon": "assets/champ/hecarim/Ability/r.png",
+        "r-vid": "assets/champ/hecarim/Ability/r.webm"
+    }
+]

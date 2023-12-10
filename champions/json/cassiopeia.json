@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/cassiopeia.png",
+        "splash": "assets/champ/Cassiopeia_0.jpg",
+        "name": "Cassiopeia",
+        "title": "The Serpent's Embrace",
+        "lore": "Cassiopeia is a deadly creature bent on manipulating others to her sinister will. Youngest and most beautiful daughter of the noble Du Couteau family of Noxus, she ventured deep into the crypts beneath Shurima in search of ancient power. There, she was bitten by a gruesome tomb guardian, whose venom transformed her into a viper-like predator. Cunning and agile, Cassiopeia now slithers under the veil of night, petrifying her enemies with her baleful gaze."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "5.5",
+        "armor": "18",
+        "magic-resist": "32",
+        "movement-speed": "328"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "53",
+        "attack-speed": "0.647",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Battlemage",
+        "role-desc": "Battlemages (also known as Warlocks) get into the middle of the fray, seeking to wreak havoc upon the entire enemy team with their overwhelming sustained area damage. Due to their relatively short (but not melee) combat ranges and the need to burn down their opponents over time, Battle Mages have significant defensive capabilities that range from sustaining endlessly to literally defying death for a short period of time."
+    },
+
+    {   
+        "p-name": "serpentine grace",
+        "p-desc": "Cassiopeia gains Move Speed per level, but she cannot purchase Boots items.",
+        "p-icon": "assets/champ/cassiopeia/Ability/p.png",
+        "p-vid": "assets/champ/cassiopeia/Ability/p.webm"
+    },
+
+    {
+        "q-name": "noxious blast",
+        "q-desc": "Cassiopeia blasts an area with Poison after a brief delay, granting her increased Move Speed if she hits an enemy champion.",
+        "q-icon": "assets/champ/cassiopeia/Ability/q.png",
+        "q-vid": "assets/champ/cassiopeia/Ability/q.webm"
+    },
+
+    {
+        "w-name": "miasma",
+        "w-desc": "Cassiopeia releases several clouds of poison, slowing, grounding, and lightly damaging enemies that pass through them. Grounded enemies cannot use Movement abilities.",
+        "w-icon": "assets/champ/cassiopeia/Ability/w.png",
+        "w-vid": "assets/champ/cassiopeia/Ability/w.webm"
+    },
+
+    {
+        "e-name": "twin fang",
+        "e-desc": "Cassiopeia lets loose an attack that deals increased damage to Poisoned targets and heals her for a percentage of the damage dealt. If the target dies from this attack, Cassiopeia regains Mana.",
+        "e-icon": "assets/champ/cassiopeia/Ability/e.png",
+        "e-vid": "assets/champ/cassiopeia/Ability/e.webm"
+    },
+
+    {
+        "r-name": "petrifying gaze",
+        "r-desc": "Cassiopeia releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back turned.",
+        "r-icon": "assets/champ/cassiopeia/Ability/r.png",
+        "r-vid": "assets/champ/cassiopeia/Ability/r.webm"
+    }
+]

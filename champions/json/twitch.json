@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/twitch.png",
+        "splash": "assets/champ/Twitch_0.jpg",
+        "name": "Twitch",
+        "title": "The Plague Rat",
+        "lore": "A Zaunite plague rat by birth, but a connoisseur of filth by passion, Twitch is not afraid to get his paws dirty. Aiming a chem-powered crossbow at the gilded heart of Piltover, he has vowed to show those in the city above just how filthy they really are. Always a sneaky sneak, when he's not rooting around in the Sump, he's digging deep into other people's garbage for discarded treasures… and perhaps a moldy sandwich."
+    
+    },
+    
+    {
+        "health": "682",
+        "health-regen": "3.75",
+        "armor": "27",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.25",
+        "attack-damage": "59",
+        "attack-speed": "0.679",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "deadly venom",
+        "p-desc": "Twitch's basic attacks infect the target, dealing true damage each second.",
+        "p-icon": "assets/champ/twitch/Ability/p.png",
+        "p-vid": "assets/champ/twitch/Ability/p.webm"
+    },
+
+    {
+        "q-name": "ambush",
+        "q-desc": "Twitch becomes Camouflaged for a short duration and gains Move Speed. When leaving Camouflage, Twitch gains Attack Speed for a short duration. When an enemy champion with Deadly Venom dies, Ambush's cooldown is reset.",
+        "q-icon": "assets/champ/twitch/Ability/q.png",
+        "q-vid": "assets/champ/twitch/Ability/q.webm"
+    },
+
+    {
+        "w-name": "venom cask",
+        "w-desc": "Twitch hurls a cask of venom that explodes in an area, slowing targets and applying deadly venom to the target.",
+        "w-icon": "assets/champ/twitch/Ability/w.png",
+        "w-vid": "assets/champ/twitch/Ability/w.webm"
+    },
+
+    {
+        "e-name": "contaminate",
+        "e-desc": "Twitch wreaks further havoc on poisoned enemies with a blast of his vile diseases.",
+        "e-icon": "assets/champ/twitch/Ability/e.png",
+        "e-vid": "assets/champ/twitch/Ability/e.webm"
+    },
+
+    {
+        "r-name": "spray and pray",
+        "r-desc": "Twitch unleashes the full power of his crossbow, shooting bolts over a great distance that pierce all enemies caught in their path.",
+        "r-icon": "assets/champ/twitch/Ability/r.png",
+        "r-vid": "assets/champ/twitch/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/garen.png",
+        "splash": "assets/champ/Garen_0.jpg",
+        "name": "Garen",
+        "title": "The Might of Demacia",
+        "lore": "A proud and noble warrior, Garen fights as one of the Dauntless Vanguard. He is popular among his fellows, and respected well enough by his enemies—not least as a scion of the prestigious Crownguard family, entrusted with defending Demacia and its ideals. Clad in magic-resistant armor and bearing a mighty broadsword, Garen stands ready to confront mages and sorcerers on the field of battle, in a veritable whirlwind of righteous steel."
+    
+    },
+    
+    {
+        "health": "690",
+        "health-regen": "8",
+        "armor": "38",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "resouce",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "69",
+        "attack-speed": "0.625",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "perseverance",
+        "p-desc": "If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.",
+        "p-icon": "assets/champ/garen/Ability/p.png",
+        "p-vid": "assets/champ/garen/Ability/p.webm"
+    },
+
+    {
+        "q-name": "decisive strike",
+        "q-desc": "Garen gains a burst of Move Speed, breaking free of all slows affecting him. His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.",
+        "q-icon": "assets/champ/garen/Ability/q.png",
+        "q-vid": "assets/champ/garen/Ability/q.webm"
+    },
+
+    {
+        "w-name": "courage",
+        "w-desc": "Garen passively increases his armor and magic resist by killing enemies. He may also activate this ability to give him a shield and tenacity for a brief moment followed by a lesser amount of damage reduction for a longer duration.",
+        "w-icon": "assets/champ/garen/Ability/w.png",
+        "w-vid": "assets/champ/garen/Ability/w.webm"
+    },
+
+    {
+        "e-name": "judgement",
+        "e-desc": "Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.",
+        "e-icon": "assets/champ/garen/Ability/e.png",
+        "e-vid": "assets/champ/garen/Ability/e.webm"
+    },
+
+    {
+        "r-name": "demacian justice",
+        "r-desc": "Garen calls upon the might of Demacia to attempt to execute an enemy champion.",
+        "r-icon": "assets/champ/garen/Ability/r.png",
+        "r-vid": "assets/champ/garen/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/chogath.png",
+        "splash": "assets/champ/Chogath_0.jpg",
+        "name": "Cho'Gath",
+        "title": "The Terror of the Void",
+        "lore": "From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts matter into new bodily growth—increasing its muscle mass and density, or hardening its outer carapace like organic diamond. When growing larger does not suit the Void-spawn's needs, it vomits out the excess material as razor-sharp spines, leaving prey skewered and ready to feast upon later."
+    
+    },
+    
+    {
+        "health": "644",
+        "health-regen": "9",
+        "armor": "38",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "270",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.2",
+        "attack-damage": "69",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+    {   
+        "p-name": "carnivore",
+        "p-desc": "Whenever Cho'Gath kills a unit, he recovers Health and Mana. The values restored increase with Cho'Gath's level.",
+        "p-icon": "assets/champ/chogath/Ability/p.png",
+        "p-vid": "assets/champ/chogath/Ability/p.webm"
+    },
+
+    {
+        "q-name": "rupture",
+        "q-desc": "Ruptures the ground at target location, popping enemy units into the air, dealing damage and slowing them.",
+        "q-icon": "assets/champ/chogath/Ability/q.png",
+        "q-vid": "assets/champ/chogath/Ability/q.webm"
+    },
+
+    {
+        "w-name": "feral scream",
+        "w-desc": "Cho'Gath unleashes a terrible scream at enemies in a cone, dealing magic damage and Silencing enemies for a few seconds.",
+        "w-icon": "assets/champ/chogath/Ability/w.png",
+        "w-vid": "assets/champ/chogath/Ability/w.webm"
+    },
+
+    {
+        "e-name": "vorpal spikes",
+        "e-desc": "Cho'Gath's attacks release deadly spikes, dealing damage and slowing all enemy units in front of him.",
+        "e-icon": "assets/champ/chogath/Ability/e.png",
+        "e-vid": "assets/champ/chogath/Ability/e.webm"
+    },
+
+    {
+        "r-name": "feast",
+        "r-desc": "Devours an enemy unit, dealing a high amount of true damage. If the target is killed, Cho'Gath grows, gaining maximum Health.",
+        "r-icon": "assets/champ/chogath/Ability/r.png",
+        "r-vid": "assets/champ/chogath/Ability/r.webm"
+    }
+]

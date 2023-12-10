@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/jax.png",
+        "splash": "assets/champ/Jax_0.jpg",
+        "name": "Jax",
+        "title": "Grandmaster At Arms",
+        "lore": "Unmatched in both his skill with unique armaments and his biting sarcasm, Jax is the last known weapons master of Icathia. After his homeland was laid low by its own hubris in unleashing the Void, Jax and his kind vowed to protect what little remained. As magic now rises in the world, this slumbering threat stirs once more, and Jax roams Valoran, wielding the last light of Icathia and testing all warriors he meets to see if any are strong enough to stand beside him..."
+    
+    },
+    
+    {
+        "health": "665",
+        "health-regen": "8.5",
+        "armor": "36",
+        "magic-resist": "32",
+        "movement-speed": "350"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "339",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.6",
+        "attack-damage": "68",
+        "attack-speed": "0.638",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "relentless assault",
+        "p-desc": "Jax's consecutive basic attacks continuously increase his Attack Speed.",
+        "p-icon": "assets/champ/jax/Ability/p.png",
+        "p-vid": "assets/champ/jax/Ability/p.webm"
+    },
+
+    {
+        "q-name": "leap strike",
+        "q-desc": "Jax leaps toward a unit. If they are an enemy, he strikes them with his weapon.",
+        "q-icon": "assets/champ/jax/Ability/q.png",
+        "q-vid": "assets/champ/jax/Ability/q.webm"
+    },
+
+    {
+        "w-name": "empower",
+        "w-desc": "Jax charges his weapon with energy, causing his next attack to deal additional damage.",
+        "w-icon": "assets/champ/jax/Ability/w.png",
+        "w-vid": "assets/champ/jax/Ability/w.webm"
+    },
+
+    {
+        "e-name": "counter strike",
+        "e-desc": "Jax's combat prowess allows him to dodge all incoming attacks for a short duration and then quickly counterattack, stunning all surrounding enemies.",
+        "e-icon": "assets/champ/jax/Ability/e.png",
+        "e-vid": "assets/champ/jax/Ability/e.webm"
+    },
+
+    {
+        "r-name": "grandmaster-at-arms",
+        "r-desc": "Every third consecutive attack deals additional Magic Damage. Additionally, Jax can activate this ability to deal damage around himself and strengthen his resolve, increasing his Armor and Magic Resist for a short duration.",
+        "r-icon": "assets/champ/jax/Ability/r.png",
+        "r-vid": "assets/champ/jax/Ability/r.webm"
+    }
+]

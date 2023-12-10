@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/jinx.png",
+        "splash": "assets/champ/Jinx_0.jpg",
+        "name": "Jinx",
+        "title": "The Loose Cannon",
+        "lore": "A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom, and gleefully brings her own chaotic brand of pandemonium wherever she goes."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "3.75",
+        "armor": "26",
+        "magic-resist": "30",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "260",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6.7",
+        "attack-damage": "59",
+        "attack-speed": "0.625",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "get excited!",
+        "p-desc": "Jinx receives massively increased Move Speed and Attack Speed whenever she helps kill or destroy an enemy champions epic jungle monster, or structure.",
+        "p-icon": "assets/champ/jinx/Ability/p.png",
+        "p-vid": "assets/champ/jinx/Ability/p.webm"
+    },
+
+    {
+        "q-name": "switcheroo!",
+        "q-desc": "Jinx modifies her basic attacks by swapping between Pow-Pow, her minigun and Fishbones, her rocket launcher. Attacks with Pow-Pow grant Attack Speed, while attacks with Fishbones deal area of effect damage, gain increased range, but drain Mana and attack slower.",
+        "q-icon": "assets/champ/jinx/Ability/q.png",
+        "q-vid": "assets/champ/jinx/Ability/q.webm"
+    },
+
+    {
+        "w-name": "zap!",
+        "w-desc": "Jinx uses Zapper, her shock pistol, to fire a blast that deals damage to the first enemy hit, slowing and revealing it.",
+        "w-icon": "assets/champ/jinx/Ability/w.png",
+        "w-vid": "assets/champ/jinx/Ability/w.webm"
+    },
+
+    {
+        "e-name": "flame chompers!",
+        "e-desc": "Jinx throws out a line of snare grenades that explode after 5 seconds, lighting enemies on fire. Flame Chompers will bite enemy champions who walk over them, rooting them in place.",
+        "e-icon": "assets/champ/jinx/Ability/e.png",
+        "e-vid": "assets/champ/jinx/Ability/e.webm"
+    },
+
+    {
+        "r-name": "super mega death rocket!",
+        "r-desc": "Jinx fires a super rocket across the map that gains damage as it travels. The rocket will explode upon colliding with an enemy champion, dealing damage to it and surrounding enemies based on their missing Health.",
+        "r-icon": "assets/champ/jinx/Ability/r.png",
+        "r-vid": "assets/champ/jinx/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/sivir.png",
+        "splash": "assets/champ/Sivir_0.jpg",
+        "name": "Sivir",
+        "title": "The Battle Mistress",
+        "lore": "Sivir is a renowned fortune hunter and mercenary captain who plies her trade in the deserts of Shurima. Armed with her legendary jeweled crossblade, she has fought and won countless battles for those who can afford her exorbitant price. Known for her fearless resolve and endless ambition, she prides herself on recovering buried treasures from the perilous tombs of Shurima—for a generous bounty. With ancient forces stirring the very bones of Shurima, Sivir finds herself torn between conflicting destinies."
+    
+    },
+    
+    {
+        "health": "600",
+        "health-regen": "3.25",
+        "armor": "26",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "340",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "58",
+        "attack-speed": "0.625",
+        "attack-range": "500"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "fleet of foot",
+        "p-desc": "Sivir gains a short burst of Move Speed when she attacks an enemy champion.",
+        "p-icon": "assets/champ/sivir/Ability/p.png",
+        "p-vid": "assets/champ/sivir/Ability/p.webm"
+    },
+
+    {
+        "q-name": "boomerang blade",
+        "q-desc": "Sivir hurls her crossblade like a boomerang, dealing damage each way.",
+        "q-icon": "assets/champ/sivir/Ability/q.png",
+        "q-vid": "assets/champ/sivir/Ability/q.webm"
+    },
+
+    {
+        "w-name": "ricochet",
+        "w-desc": "Sivir's next few basic attacks gain additional attack speed and bounce to nearby targets, dealing reduced damage while bouncing.",
+        "w-icon": "assets/champ/sivir/Ability/w.png",
+        "w-vid": "assets/champ/sivir/Ability/w.webm"
+    },
+
+    {
+        "e-name": "spell shield",
+        "e-desc": "Creates a magical barrier that blocks a single enemy ability cast on Sivir. She receives health and a burst of movement speed if a spell is blocked.",
+        "e-icon": "assets/champ/sivir/Ability/e.png",
+        "e-vid": "assets/champ/sivir/Ability/e.webm"
+    },
+
+    {
+        "r-name": "on the hunt",
+        "r-desc": "Sivir leads her allies in battle, granting them a surge of Move Speed for a period of time. In addition, Sivir's attacks reduce her spell cooldowns.",
+        "r-icon": "assets/champ/sivir/Ability/r.png",
+        "r-vid": "assets/champ/sivir/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/belveth.png",
+        "splash": "assets/champ/BelVeth_0.jpg",
+        "name": "Bel'Veth",
+        "title": "The Empress of the Void",
+        "lore": "A nightmarish empress created from the raw material of an entire devoured city, Bel'Veth is the end of Runeterra itself... and the beginning of a monstrous reality of her own design. Driven by epochs of repurposed history, knowledge, and memories from the world above, she voraciously feeds an ever-expanding need for new experiences and emotions, consuming all that crosses her path. Yet her wants could never be sated by only one world as she turns her hungry eyes toward the Void's old masters..."
+    
+    },
+    
+    {
+        "health": "610",
+        "health-regen": "6",
+        "armor": "32",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "60",
+        "attack-speed": "0.85",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "death in lavender",
+        "p-desc": "Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions. She also gains temporary bonus attack speed after using an ability.",
+        "p-icon": "assets/champ/belveth/Ability/p.png",
+        "p-vid": "assets/champ/belveth/Ability/p.webm"
+    },
+
+    {
+        "q-name": "void surge",
+        "q-desc": "Bel'Veth dashes in a chosen direction and damages all enemies she passes through.",
+        "q-icon": "assets/champ/belveth/Ability/q.png",
+        "q-vid": "assets/champ/belveth/Ability/q.webm"
+    },
+
+    {
+        "w-name": "above and below",
+        "w-desc": "Bel'Veth slams her tail to the ground, damaging, knocking up, and slowing her enemies.",
+        "w-icon": "assets/champ/belveth/Ability/w.png",
+        "w-vid": "assets/champ/belveth/Ability/w.webm"
+    },
+
+    {
+        "e-name": "royal maelstrom",
+        "e-desc": "Bel'Veth roots herself in place, channeling a storm of slashes around her that targets the lowest-health enemy and grants her lifesteal and damage reduction.",
+        "e-icon": "assets/champ/belveth/Ability/e.png",
+        "e-vid": "assets/champ/belveth/Ability/e.webm"
+    },
+
+    {
+        "r-name": "endless banquet",
+        "r-desc": "Bel'Veth consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, attack speed, and out-of-combat move speed. Consuming the Void coral remnants of a Void epic monster will grant her a longer ultimate duration, as well as the power to summon Void remora.",
+        "r-icon": "assets/champ/belveth/Ability/r.png",
+        "r-vid": "assets/champ/belveth/Ability/r.webm"
+    }
+]

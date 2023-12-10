@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/vex.png",
+        "splash": "assets/champ/Vex_0.jpg",
+        "name": "Vex",
+        "title": "The Gloomist",
+        "lore": "In the black heart of the Shadow Isles, a lone yordle trudges through the spectral fog, content in its murky misery. With an endless supply of teen angst and a powerful shadow in tow, Vex lives in her own self-made slice of gloom, far from the revolting cheer of the “normie” world. Though she lacks ambition, she is quick to strike down color and happiness, stopping all would-be interlopers with her magical malaise."
+    
+    },
+    
+    {
+        "health": "590",
+        "health-regen": "6.5",
+        "armor": "23",
+        "magic-resist": "28",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "490",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "54",
+        "attack-speed": "0.669",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Burst Mage",
+        "role-desc": "Burst Mages aim to single out vulnerable targets by locking them down and following up with a devastating barrage of damage from range. They are strongest when using their full suite of spells executed perfectly to maximum effect, and most vulnerable when they cannot deliver."
+    },
+
+    {   
+        "p-name": "doom 'n gloom",
+        "p-desc": "Vex periodically becomes empowered, causing her next basic Ability to fear enemies and interrupt dashes. Whenever a nearby enemy dashes, Vex applies a mark that can be consumed for bonus damage that also reduces the cooldown of her empowered state.",
+        "p-icon": "assets/champ/vex/Ability/p.png",
+        "p-vid": "assets/champ/vex/Ability/p.webm"
+    },
+
+    {
+        "q-name": "mistral bolt",
+        "q-desc": "Launch a damaging missile that accelerates mid-flight.",
+        "q-icon": "assets/champ/vex/Ability/q.png",
+        "q-vid": "assets/champ/vex/Ability/q.webm"
+    },
+
+    {
+        "w-name": "personal space",
+        "w-desc": "Gain a shield and damage nearby enemies.",
+        "w-icon": "assets/champ/vex/Ability/w.png",
+        "w-vid": "assets/champ/vex/Ability/w.webm"
+    },
+
+    {
+        "e-name": "looming darkness",
+        "e-desc": "Summon a damaging and slowing zone that applies Gloom to enemies.",
+        "e-icon": "assets/champ/vex/Ability/e.png",
+        "e-vid": "assets/champ/vex/Ability/e.webm"
+    },
+
+    {
+        "r-name": "shadow surge",
+        "r-desc": "Fire a missile that marks an enemy champion. Recast to dash to them and deal damage.",
+        "r-icon": "assets/champ/vex/Ability/r.png",
+        "r-vid": "assets/champ/vex/Ability/r.webm"
+    }
+]

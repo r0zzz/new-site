@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/taric.png",
+        "splash": "assets/champ/Taric_0.jpg",
+        "name": "Taric",
+        "title": "The Shield of Valoran",
+        "lore": "Taric is the Aspect of the Protector, wielding incredible power as Runeterra's guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount Targon to find redemption, only to discover a higher calling among the stars. Imbued with the might of ancient Targon, the Shield of Valoran now stands ever vigilant against the insidious corruption of the Void."
+    
+    },
+    
+    {
+        "health": "645",
+        "health-regen": "6",
+        "armor": "40",
+        "magic-resist": "28",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.5",
+        "attack-damage": "55",
+        "attack-speed": "0.625",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Enchanter",
+        "role-desc": "Enchanters focus on amplifying their allies' effectiveness by directly augmenting them and defending them from incoming threats. Enchanters themselves are often quite fragile and bring relatively low damage to the table, meaning they really only shine when grouped together with others."
+    },
+
+    {   
+        "p-name": "bravado",
+        "p-desc": "Spellcasts empower Taric's next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession.",
+        "p-icon": "assets/champ/taric/Ability/p.png",
+        "p-vid": "assets/champ/taric/Ability/p.webm"
+    },
+
+    {
+        "q-name": "starlight's touch",
+        "q-desc": "Heals nearby allied champions based on charges stored. Bravado-empowered attacks grant a charge of Starlight's Touch.",
+        "q-icon": "assets/champ/taric/Ability/q.png",
+        "q-vid": "assets/champ/taric/Ability/q.webm"
+    },
+
+    {
+        "w-name": "bastion",
+        "w-desc": "Passively increase the Armor of Taric and any allied champion with Bastion. Actively shields an ally and grants them Bastion for as long as they remain near Taric. Taric's spells also cast off the ally with Bastion.",
+        "w-icon": "assets/champ/taric/Ability/w.png",
+        "w-vid": "assets/champ/taric/Ability/w.webm"
+    },
+
+    {
+        "e-name": "dazzle",
+        "e-desc": "Taric readies a beam of starlight that, after a brief delay, deals magic damage and stuns enemies.",
+        "e-icon": "assets/champ/taric/Ability/e.png",
+        "e-vid": "assets/champ/taric/Ability/e.webm"
+    },
+
+    {
+        "r-name": "cosmic radiance",
+        "r-desc": "Pulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration.",
+        "r-icon": "assets/champ/taric/Ability/r.png",
+        "r-vid": "assets/champ/taric/Ability/r.webm"
+    }
+]

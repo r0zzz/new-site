@@ -1,0 +1,71 @@
+[
+    {
+        "bg": "assets/bgprofile/gnar.png",
+        "splash": "assets/champ/Gnar_0.jpg",
+        "name": "Gnar",
+        "title": "The Missing Link",
+        "lore": "Gnar is a primeval yordle whose playful antics can erupt into a toddler's outrage in an instant, transforming him into a massive beast bent on destruction. Frozen in True Ice for millennia, the curious creature broke free and now hops about a changed world he sees as exotic and wondrous. Delighted by danger, Gnar flings whatever he can at his enemies, be it his bonetooth boomerang, or a nearby building."
+    
+    },
+    
+    {
+        "health": "540",
+        "health-regen": "4.5",
+        "armor": "32",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "resouce",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "57",
+        "attack-speed": "0.625",
+        "attack-range": "400"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+
+    {   
+        "p-name": "rage gene",
+        "p-desc": "While in combat Gnar generates Rage. At maximum Rage his next ability will transform him into Mega Gnar, granting increased survivability and access to new spells.",
+        "p-icon": "assets/champ/gnar/Ability/p.png",
+        "p-vid": "assets/champ/gnar/Ability/p.webm"
+    },
+
+    {
+        "q-name": "boomerang throw / boulder toss",
+        "q-desc": "Gnar throws a boomerang that damages and slows enemies it hits before returning to him. If he catches the boomerang its cooldown is reduced. Mega Gnar instead throws a boulder that stops on the first unit hit, damaging and slowing everything nearby. It can then be picked up to reduce the cooldown.",
+        "q-icon": "assets/champ/gnar/Ability/q.png",
+        "q-vid": "assets/champ/gnar/Ability/q.webm"
+    },
+
+    {
+        "w-name": "hyper / wallop",
+        "w-desc": "Gnar's attacks and spells hype him up, dealing bonus damage and granting him Move Speed. Mega Gnar is too enraged to be hyper and instead can rear up on his hind legs and smash down on the area in front of him, stunning enemies in an area.",
+        "w-icon": "assets/champ/gnar/Ability/w.png",
+        "w-vid": "assets/champ/gnar/Ability/w.webm"
+    },
+
+    {
+        "e-name": "hop / crunch",
+        "e-desc": "Gnar leaps to a location and bounces off the head of any unit he lands on, traveling further. Mega Gnar is too large to bounce and instead lands with earth-shattering force, dealing damage in an area around him.",
+        "e-icon": "assets/champ/gnar/Ability/e.png",
+        "e-vid": "assets/champ/gnar/Ability/e.webm"
+    },
+
+    {
+        "r-name": "gnar!",
+        "r-desc": "Mega Gnar throws everything around him in a chosen direction, dealing damage and slowing them. Any enemy that hits a wall is stunned and takes bonus damage.",
+        "r-icon": "assets/champ/gnar/Ability/r.png",
+        "r-vid": "assets/champ/gnar/Ability/r.webm"
+    }
+]

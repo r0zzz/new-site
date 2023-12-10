@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/xayah.png",
+        "splash": "assets/champ/Xayah_0.jpg",
+        "name": "Xayah",
+        "title": "The Rebel",
+        "lore": "Deadly and precise, Xayah is a vastayan revolutionary waging a personal war to save her people. She uses her speed, guile, and razor-sharp feather blades to cut down anyone who stands in her way. Xayah fights alongside her partner and lover, Rakan, to protect their dwindling tribe, and restore their race to her vision of its former glory."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "3.25",
+        "armor": "25",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "340",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.25",
+        "attack-damage": "60",
+        "attack-speed": "0.658",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "clean cuts",
+        "p-desc": "After using an ability, Xayah's next basic attacks will hit all targets along their path and leave a Feather.",
+        "p-icon": "assets/champ/xayah/Ability/p.png",
+        "p-vid": "assets/champ/xayah/Ability/p.webm"
+    },
+
+    {
+        "q-name": "double daggers",
+        "q-desc": "Xayah throws two damaging daggers that also drop Feathers she can recall.",
+        "q-icon": "assets/champ/xayah/Ability/q.png",
+        "q-vid": "assets/champ/xayah/Ability/q.webm"
+    },
+
+    {
+        "w-name": "deadly plumage",
+        "w-desc": "Xayah creates a storm of blades that increase her Attack Speed and damage while also granting her Move Speed if she attacks a champion.",
+        "w-icon": "assets/champ/xayah/Ability/w.png",
+        "w-vid": "assets/champ/xayah/Ability/w.webm"
+    },
+
+    {
+        "e-name": "bladecaller",
+        "e-desc": "Xayah calls back all her dropped Feathers dealing damage and rooting enemies.",
+        "e-icon": "assets/champ/xayah/Ability/e.png",
+        "e-vid": "assets/champ/xayah/Ability/e.webm"
+    },
+
+    {
+        "r-name": "featherstorm",
+        "r-desc": "Xayah leaps into the air becoming untargetable and throwing out a fan of daggers, dropping Feathers she can recall.",
+        "r-icon": "assets/champ/xayah/Ability/r.png",
+        "r-vid": "assets/champ/xayah/Ability/r.webm"
+    }
+]

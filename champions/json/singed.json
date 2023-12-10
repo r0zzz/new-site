@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/singed.png",
+        "splash": "assets/champ/Singed_0.jpg",
+        "name": "Singed",
+        "title": "The Mad Chemist",
+        "lore": "Singed is a Zaunite alchemist of unmatched intellect, who has devoted his life to pushing the boundaries of knowledge—with no price, even his own sanity, too high to pay. Is there a method to his madness? His concoctions rarely fail, but it appears to many that Singed has lost all sense of humanity, leaving a toxic trail of misery and terror in his wake."
+    
+    },
+    
+    {
+        "health": "650",
+        "health-regen": "9.5",
+        "armor": "34",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "330",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "63",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+    {   
+        "p-name": "noxious slipstream",
+        "p-desc": "Singed drafts off nearby champions, gaining a burst of Move Speed when passing them.",
+        "p-icon": "assets/champ/singed/Ability/p.png",
+        "p-vid": "assets/champ/singed/Ability/p.webm"
+    },
+
+    {
+        "q-name": "poison trail",
+        "q-desc": "Leaves a trail of poison behind Singed, dealing damage to enemies caught in the path.",
+        "q-icon": "assets/champ/singed/Ability/q.png",
+        "q-vid": "assets/champ/singed/Ability/q.webm"
+    },
+
+    {
+        "w-name": "mega adhesive",
+        "w-desc": "Throws a vial of mega adhesive on the ground, slowing and grounding enemies who walk on it.",
+        "w-icon": "assets/champ/singed/Ability/w.png",
+        "w-vid": "assets/champ/singed/Ability/w.webm"
+    },
+
+    {
+        "e-name": "fling",
+        "e-desc": "Damages target enemy unit and flings them into the air behind Singed. If the target Singed flings lands in his Mega Adhesive, they are also rooted.",
+        "e-icon": "assets/champ/singed/Ability/e.png",
+        "e-vid": "assets/champ/singed/Ability/e.webm"
+    },
+
+    {
+        "r-name": "insanity potion",
+        "r-desc": "Singed drinks a potent brew of chemicals, granting him increased combat stats, and making his Poison Trail apply Grievous Wounds.",
+        "r-icon": "assets/champ/singed/Ability/r.png",
+        "r-vid": "assets/champ/singed/Ability/r.webm"
+    }
+]

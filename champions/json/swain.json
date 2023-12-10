@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/swain.png",
+        "splash": "assets/champ/Swain_0.jpg",
+        "name": "Swain",
+        "title": "The Noxian Grand General",
+        "lore": "Jericho Swain is the visionary ruler of Noxus, an expansionist nation that reveres only strength. Though he was cast down and crippled in the Ionian wars, his left arm severed, he seized control of the empire with ruthless determination… and a new, demonic hand. Now, Swain commands from the front lines, marching against a coming darkness that only he can see—in glimpses gathered by shadowy ravens from the corpses all around him. In a swirl of sacrifice and secrets, the greatest secret of all is that the true enemy lies within."
+    
+    },
+    
+    {
+        "health": "595",
+        "health-regen": "7",
+        "armor": "26",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "468",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "58",
+        "attack-speed": "0.625",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Battlemage",
+        "role-desc": "Battlemages (also known as Warlocks) get into the middle of the fray, seeking to wreak havoc upon the entire enemy team with their overwhelming sustained area damage. Due to their relatively short (but not melee) combat ranges and the need to burn down their opponents over time, Battle Mages have significant defensive capabilities that range from sustaining endlessly to literally defying death for a short period of time."
+    },
+
+    {   
+        "p-name": "ravenous flock",
+        "p-desc": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health.",
+        "p-icon": "assets/champ/swain/Ability/p.png",
+        "p-vid": "assets/champ/swain/Ability/p.webm"
+    },
+
+    {
+        "q-name": "death's hand",
+        "q-desc": "Swain unleashes several bolts of eldritch power that pierce through enemies. Enemies hit take more damage for each bolt they are struck by.",
+        "q-icon": "assets/champ/swain/Ability/q.png",
+        "q-vid": "assets/champ/swain/Ability/q.webm"
+    },
+
+    {
+        "w-name": "vision of empire",
+        "w-desc": "Swain opens a demon eye that deals damage and slows enemies. Champions hit are revealed and also grant Swain a Soul Fragment.",
+        "w-icon": "assets/champ/swain/Ability/w.png",
+        "w-vid": "assets/champ/swain/Ability/w.webm"
+    },
+
+    {
+        "e-name": "nevermore",
+        "e-desc": "Swain launches a wave of demonic power forward. It then returns to Swain and roots enemies it hits. Swain can then choose to pull all rooted champions closer. This ability has a shorter cooldown during Demonic Ascension.",
+        "e-icon": "assets/champ/swain/Ability/e.png",
+        "e-vid": "assets/champ/swain/Ability/e.webm"
+    },
+
+    {
+        "r-name": "demonic ascension",
+        "r-desc": "Swain transforms into a demon and drains health from nearby enemy champions, minions, and neutral monsters. Swain can cast Demonflare to decimate and slow nearby enemies with a nova of soulfire. This form is indefinite as long as Swain drains enemy champions.",
+        "r-icon": "assets/champ/swain/Ability/r.png",
+        "r-vid": "assets/champ/swain/Ability/r.webm"
+    }
+]

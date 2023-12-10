@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/draven.png",
+        "splash": "assets/champ/Draven_0.jpg",
+        "name": "Draven",
+        "title": "The Glorious Executioner",
+        "lore": "In Noxus, warriors known as Reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, and his unparalleled skill with his spinning axes. Addicted to the spectacle of his own brash perfection, Draven has sworn to defeat whomever he must to ensure that his name is chanted throughout the empire forever more."
+    
+    },
+    
+    {
+        "health": "675",
+        "health-regen": "3.75",
+        "armor": "29",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "361",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.05",
+        "attack-damage": "62",
+        "attack-speed": "0.679",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "league of draven",
+        "p-desc": "Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has.",
+        "p-icon": "assets/champ/draven/Ability/p.png",
+        "p-vid": "assets/champ/draven/Ability/p.webm"
+    },
+
+    {
+        "q-name": "spinning axe",
+        "q-desc": "Draven's next attack will deal bonus physical damage. This axe will ricochet off the target high up into the air. If Draven catches it, he automatically readies another Spinning Axe. Draven can have two Spinning Axes at once.",
+        "q-icon": "assets/champ/draven/Ability/q.png",
+        "q-vid": "assets/champ/draven/Ability/q.webm"
+    },
+
+    {
+        "w-name": "blood rush",
+        "w-desc": "Draven gains increased Move Speed and Attack Speed. The Move Speed bonus decreases rapidly over its duration. Catching a Spinning Axe will refresh the cooldown of Blood Rush.",
+        "w-icon": "assets/champ/draven/Ability/w.png",
+        "w-vid": "assets/champ/draven/Ability/w.webm"
+    },
+
+    {
+        "e-name": "stand aside",
+        "e-desc": "Draven throws his axes, dealing physical damage to targets hit and knocking them aside. Targets hit are slowed.",
+        "e-icon": "assets/champ/draven/Ability/e.png",
+        "e-vid": "assets/champ/ashe/Ability/e.webm"
+    },
+
+    {
+        "r-name": "whirling death",
+        "r-desc": "Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction. Executes enemies who have less health than Draven's number of Adoration stacks.",
+        "r-icon": "assets/champ/dravenashe/Ability/r.png",
+        "r-vid": "assets/champ/draven/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/heimerdinger.png",
+        "splash": "assets/champ/Heimerdinger_0.jpg",
+        "name": "Heimerdinger",
+        "title": "The Revered Inventor",
+        "lore": "A brilliant yet eccentric yordle scientist, Professor Cecil B. Heimerdinger is one of the most innovative and esteemed inventors Piltover has ever known. Relentless in his work to the point of neurotic obsession, he thrives on answering the universe's most impenetrable questions. Though his theories often appear opaque and esoteric, Heimerdinger has crafted some of Piltover's most miraculous—not to mention lethal—machinery, and constantly tinkers with his inventions to make them even more efficient."
+    
+    },
+    
+    {
+        "health": "558",
+        "health-regen": "7",
+        "armor": "19",
+        "magic-resist": "30",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "385",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "56",
+        "attack-speed": "0.658",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+    {   
+        "p-name": "hextech affinity",
+        "p-desc": "Gain Move Speed while near allied towers and turrets deployed by Heimerdinger.",
+        "p-icon": "assets/champ/heimerdinger/Ability/p.png",
+        "p-vid": "assets/champ/heimerdinger/Ability/p.webm"
+    },
+
+    {
+        "q-name": "h-28 evolution turret",
+        "q-desc": "Heimerdinger lays down a rapid-fire cannon turret equipped with a secondary pass-through beam attack (turrets deal half damage to towers).",
+        "q-icon": "assets/champ/heimerdinger/Ability/q.png",
+        "q-vid": "assets/champ/heimerdinger/Ability/q.webm"
+    },
+
+    {
+        "w-name": "hextech micro-rockets",
+        "w-desc": "Heimerdinger fires long-range rockets that converge on his cursor.",
+        "w-icon": "assets/champ/heimerdinger/Ability/w.png",
+        "w-vid": "assets/champ/heimerdinger/Ability/w.webm"
+    },
+
+    {
+        "e-name": "ch-2 electron storm grenade",
+        "e-desc": "Heimerdinger lobs a grenade at a location, dealing damage to enemy units, as well as stunning anyone directly hit and slowing surrounding units.",
+        "e-icon": "assets/champ/heimerdinger/Ability/e.png",
+        "e-vid": "assets/champ/heimerdinger/Ability/e.webm"
+    },
+
+    {
+        "r-name": "upgrade!!!",
+        "r-desc": "Heimerdinger invents an upgrade, causing his next spell to have increased effects.",
+        "r-icon": "assets/champ/heimerdinger/Ability/r.png",
+        "r-vid": "assets/champ/heimerdinger/Ability/r.webm"
+    }
+]

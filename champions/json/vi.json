@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/vi.png",
+        "splash": "assets/champ/Vi_0.jpg",
+        "name": "Vi",
+        "title": "The Piltover Enforcer",
+        "lore": "Once a criminal from the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed finely honed survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens of Piltover to keep the peace, she wields mighty hextech gauntlets that can punch through walls and suspects with equal ease."
+    
+    },
+    
+    {
+        "health": "655",
+        "health-regen": "10",
+        "armor": "30",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "295",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "63",
+        "attack-speed": "0.644",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "blast shield",
+        "p-desc": "Vi charges a shield over time. The shield can be activated by hitting an enemy with an ability.",
+        "p-icon": "assets/champ/vi/Ability/p.png",
+        "p-vid": "assets/champ/vi/Ability/p.webm"
+    },
+
+    {
+        "q-name": "vault breaker",
+        "q-desc": "Vi charges her gauntlets and unleashes a vault shattering punch, carrying her forward. Enemies she hits are knocked back and receive a stack of Denting Blows.",
+        "q-icon": "assets/champ/vi/Ability/q.png",
+        "q-vid": "assets/champ/vi/Ability/q.webm"
+    },
+
+    {
+        "w-name": "denting blows",
+        "w-desc": "Vi's punches break her opponent's Armor, dealing bonus damage and granting her Attack Speed.",
+        "w-icon": "assets/champ/vi/Ability/w.png",
+        "w-vid": "assets/champ/vi/Ability/w.webm"
+    },
+
+    {
+        "e-name": "relentless force",
+        "e-desc": "Vi's next attack blasts through her target, dealing damage to enemies behind it.",
+        "e-icon": "assets/champ/vi/Ability/e.png",
+        "e-vid": "assets/champ/vi/Ability/e.webm"
+    },
+
+    {
+        "r-name": "cease and desist",
+        "r-desc": "Vi runs down an enemy, knocking aside anyone in the way. When she reaches her target she knocks it into the air, jumps after it, and slams it back into the ground.",
+        "r-icon": "assets/champ/vi/Ability/r.png",
+        "r-vid": "assets/champ/vi/Ability/r.webm"
+    }
+]

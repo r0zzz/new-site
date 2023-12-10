@@ -1,0 +1,69 @@
+[
+    {
+        "bg": "assets/bgprofile/diana.png",
+        "splash": "assets/champ/Diana_0.jpg",
+        "name": "Diana",
+        "title": "Scorn of the Moon",
+        "lore": "Bearing her crescent moonblade, Diana fights as a warrior of the Lunari—a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued with the essence of an Aspect from beyond Targon's towering summit, Diana is no longer wholly human, and struggles to understand her power and purpose in this world."
+    },
+    
+    {
+        "health": "640",
+        "health-regen": "6.5",
+        "armor": "31",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "375",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "57",
+        "attack-speed": "0.625",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "moonsilver blade",
+        "p-desc": "Every third strike cleaves nearby enemies for an additional magic damage. After casting a spell, Diana gains Attack Speed for her next 3 attacks.",
+        "p-icon": "assets/champ/diana/Ability/p.png",
+        "p-vid": "assets/champ/diana/Ability/p.webm"
+    },
+
+    {
+        "q-name": "crescent strike",
+        "q-desc": "Unleashes a bolt of lunar energy in an arc dealing magic damage. Afflicts enemies struck with Moonlight, revealing them if they are not stealthed for 3 seconds.",
+        "q-icon": "assets/champ/diana/Ability/q.png",
+        "q-vid": "assets/champ/diana/Ability/q.webm"
+    },
+
+    {
+        "w-name": "pale cascade",
+        "w-desc": "Diana creates three orbiting spheres that detonate on contact with enemies to deal damage in an area. She also gains a temporary shield that absorbs damage. If her third sphere detonates, the shield gains additional strength.",
+        "w-icon": "assets/champ/diana/Ability/w.png",
+        "w-vid": "assets/champ/diana/Ability/w.webm"
+    },
+
+    {
+        "e-name": "lunar rush",
+        "e-desc": "Becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage. Lunar Rush has no cooldown when used to dash to an enemy afflicted with Moonlight. All other enemies will have the Moonlight debuff removed regardless of whether they were the target of Lunar Rush.",
+        "e-icon": "assets/champ/diana/Ability/e.png",
+        "e-vid": "assets/champ/diana/Ability/e.webm"
+    },
+
+    {
+        "r-name": "moonfall",
+        "r-desc": "Diana reveals and draws in all nearby enemies and slows them. If Diana pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.",
+        "r-icon": "assets/champ/diana/Ability/r.png",
+        "r-vid": "assets/champ/diana/Ability/r.webm"
+    }
+]

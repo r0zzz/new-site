@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/soraka.png",
+        "splash": "assets/champ/Soraka_0.jpg",
+        "name": "Soraka",
+        "title": "The Starchild",
+        "lore": "A wanderer from the celestial dimensions beyond Mount Targon, Soraka gave up her immortality to protect the mortal races from their own more violent instincts. She endeavors to spread the virtues of compassion and mercy to everyone she meets—even healing those who would wish harm upon her. And, for all Soraka has seen of this world's struggles, she still believes the people of Runeterra have yet to reach their full potential."
+    
+    },
+    
+    {
+        "health": "605",
+        "health-regen": "2.5",
+        "armor": "32",
+        "magic-resist": "30",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "425",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.5",
+        "attack-damage": "50",
+        "attack-speed": "0.625",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Enchanter",
+        "role-desc": "Enchanters focus on amplifying their allies' effectiveness by directly augmenting them and defending them from incoming threats. Enchanters themselves are often quite fragile and bring relatively low damage to the table, meaning they really only shine when grouped together with others."
+    },
+
+    {   
+        "p-name": "salvation",
+        "p-desc": "Soraka runs faster towards nearby low health allies.",
+        "p-icon": "assets/champ/soraka/Ability/p.png",
+        "p-vid": "assets/champ/soraka/Ability/p.webm"
+    },
+
+    {
+        "q-name": "starcall",
+        "q-desc": "A star falls from the sky at the target location dealing magic damage and slowing enemies. If an enemy champion is hit by Starcall, Soraka recovers Health.",
+        "q-icon": "assets/champ/soraka/Ability/q.png",
+        "q-vid": "assets/champ/soraka/Ability/q.webm"
+    },
+
+    {
+        "w-name": "astral infusion",
+        "w-desc": "Soraka sacrifices a portion of her own health to heal another friendly champion.",
+        "w-icon": "assets/champ/soraka/Ability/w.png",
+        "w-vid": "assets/champ/soraka/Ability/w.webm"
+    },
+
+    {
+        "e-name": "equinox",
+        "e-desc": "Creates a zone at a location that silences all enemies inside. When the zone expires, all enemies still inside are rooted.",
+        "e-icon": "assets/champ/soraka/Ability/e.png",
+        "e-vid": "assets/champ/soraka/Ability/e.webm"
+    },
+
+    {
+        "r-name": "wish",
+        "r-desc": "Soraka fills her allies with hope, instantly restoring health to herself and all allied champions.",
+        "r-icon": "assets/champ/soraka/Ability/r.png",
+        "r-vid": "assets/champ/soraka/Ability/r.webm"
+    }
+]

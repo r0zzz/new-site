@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/shaco.png",
+        "splash": "assets/champ/Shaco_0.jpg",
+        "name": "Shaco",
+        "title": "The Demon Jester",
+        "lore": "Crafted long ago as a plaything for a lonely prince, the enchanted marionette Shaco now delights in murder and mayhem. Corrupted by dark magic and the loss of his beloved charge, the once-kind puppet finds pleasure only in the misery of the poor souls he torments. He uses toys and simple tricks to deadly effect, finding the results of his bloody “games” hilarious—and for those who hear a dark chuckle in the dead of night, the Demon Jester may have marked them as his next plaything."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "8.5",
+        "armor": "30",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "297",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "63",
+        "attack-speed": "0.694",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "backstab",
+        "p-desc": "Shaco's basic attacks and Two-Shiv Poison deal additional damage when striking from behind.",
+        "p-icon": "assets/champ/shaco/Ability/p.png",
+        "p-vid": "assets/champ/shaco/Ability/p.webm"
+    },
+
+    {
+        "q-name": "deceive",
+        "q-desc": "Shaco becomes Invisible and teleports to target location. His first attack while Invisible is empowered, dealing bonus damage and critically striking if he attacks from behind.",
+        "q-icon": "assets/champ/shaco/Ability/q.png",
+        "q-vid": "assets/champ/shaco/Ability/q.webm"
+    },
+
+    {
+        "w-name": "jack in the box",
+        "w-desc": "Shaco creates a hidden animated Jack-in-the-Box. When triggered, it will fear and attack nearby enemies.",
+        "w-icon": "assets/champ/shaco/Ability/w.png",
+        "w-vid": "assets/champ/shaco/Ability/w.webm"
+    },
+
+    {
+        "e-name": "two-shiv poison",
+        "e-desc": "Shaco's Shivs passively poison targets on hit, slowing their Move Speed. He can throw his Shivs to deal damage and poison the target. The thrown Shiv deals bonus damage if the target is below 30% health.",
+        "e-icon": "assets/champ/shaco/Ability/e.png",
+        "e-vid": "assets/champ/shaco/Ability/e.webm"
+    },
+
+    {
+        "r-name": "hallucinate",
+        "r-desc": "Shaco creates an illusion of himself near him, which can attack nearby enemies (Deals reduced damage to turrets). Upon death, it explodes, spawning three mini Jack in the Boxes and dealing damage to nearby enemies.",
+        "r-icon": "assets/champ/shaco/Ability/r.png",
+        "r-vid": "assets/champ/shaco/Ability/r.webm"
+    }
+]

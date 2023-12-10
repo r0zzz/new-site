@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/xerath.png",
+        "splash": "assets/champ/Xerath_0.jpg",
+        "name": "Xerath",
+        "title": "The Magus Ascendante",
+        "lore": "Xerath is an Ascended Magus of ancient Shurima, a being of arcane energy writhing in the broken shards of a magical sarcophagus. For millennia, he was trapped beneath the desert sands, but the rise of Shurima freed him from his ancient prison. Driven insane with power, he now seeks to take what he believes is rightfully his and replace the upstart civilizations of the world with one fashioned in his image."
+    
+    },
+    
+    {
+        "health": "596",
+        "health-regen": "5.5",
+        "armor": "  22",
+        "magic-resist": "30",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "400",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6.85",
+        "attack-damage": "55",
+        "attack-speed": "0.658",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Artillery",
+        "role-desc": "Artillery Mages are the masters of range, and they leverage that advantage to whittle down their opponents over time from great distances. In turn, Artillery Mages are severely punished when enemies finally succeed in closing in on them, due to their extreme fragility and limited mobility."
+    },
+
+    {   
+        "p-name": "mana surge",
+        "p-desc": "Xerath's basic attacks periodically restore Mana. Whenever Xerath kills a unit, this cooldown is reduced.",
+        "p-icon": "assets/champ/xerath/Ability/p.png",
+        "p-vid": "assets/champ/xerath/Ability/p.webm"
+    },
+
+    {
+        "q-name": "arcanopulse",
+        "q-desc": "Fires a long-range beam of energy, dealing magic damage to all targets hit.",
+        "q-icon": "assets/champ/xerath/Ability/q.png",
+        "q-vid": "assets/champ/xerath/Ability/q.webm"
+    },
+
+    {
+        "w-name": "eye of destruction",
+        "w-desc": "Calls down a barrage of arcane energy, slowing and dealing magic damage to all enemies in an area. Targets in the middle receive additional damage and a stronger slow.",
+        "w-icon": "assets/champ/xerath/Ability/w.png",
+        "w-vid": "assets/champ/xerath/Ability/w.webm"
+    },
+
+    {
+        "e-name": "shocking orb",
+        "e-desc": "Deals magic damage to an enemy and stuns them.",
+        "e-icon": "assets/champ/xerath/Ability/e.png",
+        "e-vid": "assets/champ/xerath/Ability/e.webm"
+    },
+
+    {
+        "r-name": "rite of the arcane",
+        "r-desc": "Xerath immobilizes himself and gains numerous long-range barrages.",
+        "r-icon": "assets/champ/xerath/Ability/r.png",
+        "r-vid": "assets/champ/xerath/Ability/r.webm"
+    }
+]

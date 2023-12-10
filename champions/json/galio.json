@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/galio.png",
+        "splash": "assets/champ/Galio_0.jpg",
+        "name": "Galio",
+        "title": "The Colossus",
+        "lore": "Outside the gleaming city of Demacia, the stone colossus Galio keeps vigilant watch. Built as a bulwark against enemy mages, he often stands motionless for decades until the presence of powerful magic stirs him to life. Once activated, Galio makes the most of his time, savoring the thrill of a fight and the rare honor of defending his countrymen. But his triumphs are always bittersweet, for the magic he destroys is also his source of reanimation, and each victory leaves him dormant once again."
+    
+    },
+    
+    {
+        "health": "632",
+        "health-regen": "8",
+        "armor": "24",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "500",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "9.5",
+        "attack-damage": "59",
+        "attack-speed": "0.625",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Warden",
+        "role-desc": "Wardens are defensive tanks. Wardens stand steadfast, seeking to hold the line by persistently locking down any on-comers who try to pass them. Wardens keep their allies out of harm’s way and allow them to safely deal with enemies caught in the fray."
+    },
+
+    {   
+        "p-name": "colossal smash",
+        "p-desc": "Every few seconds, Galio's next basic attack deals bonus magic damage in an area.",
+        "p-icon": "assets/champ/galio/Ability/p.png",
+        "p-vid": "assets/champ/galio/Ability/p.webm"
+    },
+
+    {
+        "q-name": "winds of war",
+        "q-desc": "Galio fires two windblasts that converge into a large tornado that deals damage over time.",
+        "q-icon": "assets/champ/galio/Ability/q.png",
+        "q-vid": "assets/champ/galio/Ability/q.webm"
+    },
+
+    {
+        "w-name": "shield of durand",
+        "w-desc": "Galio charges a defensive stance, moving slowly. Upon releasing the charge, Galio will taunt and damage nearby enemies.",
+        "w-icon": "assets/champ/galio/Ability/w.png",
+        "w-vid": "assets/champ/galio/Ability/w.webm"
+    },
+
+    {
+        "e-name": "justice punch",
+        "e-desc": "Galio will briefly step back and charge, knocking up the first enemy champion he encounters.",
+        "e-icon": "assets/champ/galio/Ability/e.png",
+        "e-vid": "assets/champ/galio/Ability/e.webm"
+    },
+
+    {
+        "r-name": "hero's entrance",
+        "r-desc": "Galio designates an ally's position as his landing spot, granting all allies in the area a magic shield. After a delay Galio smashes down location, knocking up nearby enemies.",
+        "r-icon": "assets/champ/galio/Ability/r.png",
+        "r-vid": "assets/champ/galio/Ability/r.webm"
+    }
+]

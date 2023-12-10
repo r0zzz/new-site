@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/fizz.png",
+        "splash": "assets/champ/Fizz_0.jpg",
+        "name": "Fizz",
+        "title": "The Tidal Trickster",
+        "lore": "Fizz is an amphibious yordle, who dwells among the reefs surrounding Bilgewater. He often retrieves and returns the tithes cast into the sea by superstitious captains, but even the saltiest of sailors know better than to cross him—for many are the tales of those who have underestimated this slippery character. Often mistaken for some manner of capricious ocean spirit, he seems able to command the beasts of the deep, and delights in confounding his allies and enemies alike."
+    
+    },
+    
+    {
+        "health": "640",
+        "health-regen": "8",
+        "armor": "22",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "317",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "58",
+        "attack-speed": "0.658",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "nimble fighter",
+        "p-desc": "Fizz can move through units and takes a flat amount of reduced damage from all sources",
+        "p-icon": "assets/champ/fizz/Ability/p.png",
+        "p-vid": "assets/champ/fizz/Ability/p.webm"
+    },
+
+    {
+        "q-name": "urchin strike",
+        "q-desc": "Fizz dashes through his target, dealing magic damage and applying on hit effects.",
+        "q-icon": "assets/champ/fizz/Ability/q.png",
+        "q-vid": "assets/champ/fizz/Ability/q.webm"
+    },
+
+    {
+        "w-name": "seastone trident",
+        "w-desc": "Fizz's attacks bleed his enemies, dealing magic damage over several seconds. Fizz can empower his next attack to deal bonus damage and empower his further attacks for a short time.",
+        "w-icon": "assets/champ/fizz/Ability/w.png",
+        "w-vid": "assets/champ/fizz/Ability/w.webm"
+    },
+
+    {
+        "e-name": "playful / trickster",
+        "e-desc": "Fizz hops into the air, landing gracefully upon his spear and becoming untargetable. From this position, Fizz can either slam the ground or choose to jump again before smashing back down.",
+        "e-icon": "assets/champ/fizz/Ability/e.png",
+        "e-vid": "assets/champ/fizz/Ability/e.webm"
+    },
+
+    {
+        "r-name": "chum the waters",
+        "r-desc": "Fizz tosses a fish in a direction that attaches to any champion that touches it, slowing the target. After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
+        "r-icon": "assets/champ/fizz/Ability/r.png",
+        "r-vid": "assets/champ/fizz/Ability/r.webm"
+    }
+]

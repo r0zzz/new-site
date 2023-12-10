@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/illaoi.png",
+        "splash": "assets/champ/Illaoi_0.jpg",
+        "name": "Illaoi",
+        "title": "The Kraken Priestess",
+        "lore": "Illaoi's powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol to rip her foes' spirits from their bodies and shatter their perception of reality. All who challenge the “Truth Bearer of Nagakabouros” soon discover Illaoi never battles alone—the god of the Serpent Isles fights by her side."
+    
+    },
+    
+    {
+        "health": "656",
+        "health-regen": "9.5",
+        "armor": "35",
+        "magic-resist": "32",
+        "movement-speed": "350"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "68",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "prophet of an elder god",
+        "p-desc": "Illaoi and the Vessels she creates spawn Tentacles on nearby impassible terrain. Tentacles swing at spirits, Vessels, and victims of Illaoi's Harsh lesson. Tentacles deal physical damage to enemies hit, and will heal Illaoi if they damage a champion.",
+        "p-icon": "assets/champ/illaoi/Ability/p.png",
+        "p-vid": "assets/champ/illaoi/Ability/p.webm"
+    },
+
+    {
+        "q-name": "tentacle smash",
+        "q-desc": "Increases the damage dealt by Tentacles. When activated, Illaoi smashes down a Tentacle that deals physical damage.",
+        "q-icon": "assets/champ/illaoi/Ability/q.png",
+        "q-vid": "assets/champ/illaoi/Ability/q.webm"
+    },
+
+    {
+        "w-name": "harsh lesson",
+        "w-desc": "Illaoi leaps to her target, dealing physical damage and causing nearby Tentacles to also swing at the target.",
+        "w-icon": "assets/champ/illaoi/Ability/w.png",
+        "w-vid": "assets/champ/illaoi/Ability/w.webm"
+    },
+
+    {
+        "e-name": "test of spirit",
+        "e-desc": "Illaoi rips the spirit from a foe's body, forcing it to stand before her. Spirits echo a percentage of the damage they take to the original target. If killed, or if the target gets too far from the spirit, the target will become a Vessel and begin spawning Tentacles.",
+        "e-icon": "assets/champ/illaoi/Ability/e.png",
+        "e-vid": "assets/champ/illaoi/Ability/e.webm"
+    },
+
+    {
+        "r-name": "leap of faith",
+        "r-desc": "Illaoi smashes her idol into the ground, dealing physical damage to nearby enemies. A Tentacle spawns for each enemy champion hit.",
+        "r-icon": "assets/champ/illaoi/Ability/r.png",
+        "r-vid": "assets/champ/illaoi/Ability/r.webm"
+    }
+]

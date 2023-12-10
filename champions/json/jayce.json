@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/jayce.png",
+        "splash": "assets/champ/Jayce_0.jpg",
+        "name": "Jayce",
+        "title": "The Defender of Tomorrow",
+        "lore": "Jayce is a brilliant inventor who has pledged his life to the defense of Piltover and its unyielding pursuit of progress. With his transforming hextech hammer in hand, Jayce uses his strength, courage, and considerable intelligence to protect his hometown. While revered throughout the city as a hero, he hasn't taken well to the attention heroism brings. Still, Jayce's heart is in the right place, and even those who envy his natural skills are grateful for his protection in the City of Progress."
+    
+    },
+    
+    {
+        "health": "590",
+        "health-regen": "6",
+        "armor": "22",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "375",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "57",
+        "attack-speed": "0.658",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Artillery Mage",
+        "role-desc": "Artillery Mages are the masters of range, and they leverage that advantage to whittle down their opponents over time from great distances. In turn, Artillery Mages are severely punished when enemies finally succeed in closing in on them, due to their extreme fragility and limited mobility."
+    },
+
+    {   
+        "p-name": "hextech capacitor",
+        "p-desc": "When Jayce swaps weapons he gains Move Speed for a short duration.",
+        "p-icon": "assets/champ/jayce/Ability/p.png",
+        "p-vid": "assets/champ/jayce/Ability/p.webm"
+    },
+
+    {
+        "q-name": "to the skies! / shock blast",
+        "q-desc": "Hammer Stance: Leaps to an enemy dealing physical damage and slowing enemies. Cannon Stance: Fires an orb of electricity that detonates upon hitting an enemy (or reaching the end of its path) dealing physical damage to all enemies hit.",
+        "q-icon": "assets/champ/jayce/Ability/q.png",
+        "q-vid": "assets/champ/jayce/Ability/q.webm"
+    },
+
+    {
+        "w-name": "lightning field / hyper charge",
+        "w-desc": "Hammer Stance: Passive: Restores Mana per strike. Active: Creates a field of lightning damaging nearby enemies for several seconds. Cannon Stance: Gains a burst of energy, increasing Attack Speed to maximum for several attacks.",
+        "w-icon": "assets/champ/jayce/Ability/w.png",
+        "w-vid": "assets/champ/jayce/Ability/w.webm"
+    },
+
+    {
+        "e-name": "thundering blow / acceleration gate",
+        "e-desc": "Hammer Stance: Deals magic damage to an enemy and knocks them back a short distance. Cannon Stance: Deploys an Acceleration Gate increasing the Move Speed of all allied champions who pass through it. If Shock Blast is fired through the gate the missile speed, range, and damage will increase.",
+        "e-icon": "assets/champ/jayce/Ability/e.png",
+        "e-vid": "assets/champ/jayce/Ability/e.webm"
+    },
+
+    {
+        "r-name": "mercury cannon / mercury hammer",
+        "r-desc": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range. The first attack in this form reduces the target's Armor and Magic Resist. Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist. The first attack in this form deals additional magic damage.",
+        "r-icon": "assets/champ/jayce/Ability/r.png",
+        "r-vid": "assets/champ/jayce/Ability/r.webm"
+    }
+]

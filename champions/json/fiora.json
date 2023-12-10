@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/fiora.png",
+        "splash": "assets/champ/Fiora_0.jpg",
+        "name": "Fiora",
+        "title": "The Grand Duelist",
+        "lore": "The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and cunning mind as she is for the speed of her bluesteel rapier. Born to House Laurent in the kingdom of Demacia, Fiora took control of the family from her father in the wake of a scandal that nearly destroyed them. House Laurent's reputation was sundered, but Fiora bends her every effort to restore her family's honor and return them to their rightful place among the great and good of Demacia."
+    
+    },
+    
+    {
+        "health": "620",
+        "health-regen": "8.5",
+        "armor": "33",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "68",
+        "attack-speed": "0.69",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "duelist's dance",
+        "p-desc": "Fiora has revealed a Vital on this Champion. If she hits the Vital, she restores Health and gains Move Speed.",
+        "p-icon": "assets/champ/fiora/Ability/p.png",
+        "p-vid": "assets/champ/fiora/Ability/p.webm"
+    },
+
+    {
+        "q-name": "lunge",
+        "q-desc": "Fiora lunges in a direction and stabs a nearby enemy, dealing physical damage and applying on-hit effects.",
+        "q-icon": "assets/champ/fiora/Ability/q.png",
+        "q-vid": "assets/champ/fiora/Ability/q.webm"
+    },
+
+    {
+        "w-name": "riposte",
+        "w-desc": "Fiora parries all incoming damage and disables for a short time, then stabs in a direction. This stab slows the first enemy champion hit, or stuns them if Fiora blocked an immobilizing effect with this ability.",
+        "w-icon": "assets/champ/fiora/Ability/w.png",
+        "w-vid": "assets/champ/fiora/Ability/w.webm"
+    },
+
+    {
+        "e-name": "bladework",
+        "e-desc": "Fiora has increased attack speed for the next two attacks. The first attack slows the target, and the second attack will critically strike.",
+        "e-icon": "assets/champ/fiora/Ability/e.png",
+        "e-vid": "assets/champ/fiora/Ability/e.webm"
+    },
+
+    {
+        "r-name": "grand challenge",
+        "r-desc": "Fiora reveals all four Vitals on an enemy champion and gains Move Speed while near them. If Fiora hits all four Vitals or if the target dies after she has hit at least one, Fiora and her allies in the area are healed over the next few seconds.",
+        "r-icon": "assets/champ/fiora/Ability/r.png",
+        "r-vid": "assets/champ/fiora/Ability/r.webm"
+    }
+]

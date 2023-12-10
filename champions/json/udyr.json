@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/udyr.png",
+        "splash": "assets/champ/Udyr_0.jpg",
+        "name": "Udyr",
+        "title": "The Spirit Walker",
+        "lore": "The most powerful spirit walker alive, Udyr communes with all the spirits of the Freljord, whether by empathically understanding their needs, or by channeling and transforming their ethereal energy into his own primal fighting style. He seeks balance within, so that his mind does not get lost amidst others, but he also seeks balance without—for the Freljord's mystical landscape can only thrive with the growth that comes from conflict and struggle, and Udyr knows that sacrifices must be made to keep peaceful stagnance at bay."
+    
+    },
+    
+    {
+        "health": "664",
+        "health-regen": "6",
+        "armor": "31",
+        "magic-resist": "32",
+        "movement-speed": "350"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "271",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "62",
+        "attack-speed": "0.65",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "bridge between",
+        "p-desc": "Udyr has four basic Abilities that swap between Stances and can Recast an Ability to renew it with additional benefits. Additionally, after using an Ability, Udyr's next two Attacks gain Attack Speed.",
+        "p-icon": "assets/champ/udyr/Ability/p.png",
+        "p-vid": "assets/champ/udyr/Ability/p.webm"
+    },
+
+    {
+        "q-name": "wilding claw",
+        "q-desc": "Udyr gains attack speed and his next two attacks deal bonus physical damage. Recast: Gain even more attack speed, and the next two attacks call lightning to strike the target.",
+        "q-icon": "assets/champ/udyr/Ability/q.png",
+        "q-vid": "assets/champ/udyr/Ability/q.webm"
+    },
+
+    {
+        "w-name": "iron mantle",
+        "w-desc": "Udyr gains a shield and his next two attacks heal him. Recast: Gain an even bigger shield and heal based on max health over the next couple seconds.",
+        "w-icon": "assets/champ/udyr/Ability/w.png",
+        "w-vid": "assets/champ/udyr/Ability/w.webm"
+    },
+
+    {
+        "e-name": "blazing stampede",
+        "e-desc": "Udyr gains movement speed and his first attack against each target will Stun them. Recast: Gain even more movement speed and immunity to immobilizing effects for a couple seconds.",
+        "e-icon": "assets/champ/udyr/Ability/e.png",
+        "e-vid": "assets/champ/udyr/Ability/e.webm"
+    },
+
+    {
+        "r-name": "wingborne storm",
+        "r-desc": "Udyr surrounds himself in a glacial storm, damaging and slowing nearby enemies. Recast: Empower and unleash the storm, causing it to track enemies and deal additional damage.",
+        "r-icon": "assets/champ/udyr/Ability/r.png",
+        "r-vid": "assets/champ/udyr/Ability/r.webm"
+    }
+]

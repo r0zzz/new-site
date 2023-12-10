@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/wukong.png",
+        "splash": "assets/champ/Wukong_0.jpg",
+        "name": "Wukong",
+        "title": "The Monkey King",
+        "lore": "Wukong is a vastayan trickster who uses his strength, agility, and intelligence to confuse his opponents and gain the upper hand. After finding a lifelong friend in the warrior known as Master Yi, Wukong became the last student of the ancient martial art known as Wuju. Armed with an enchanted staff, Wukong seeks to prevent Ionia from falling to ruin."
+    
+    },
+    
+    {
+        "health": "610",
+        "health-regen": "3.5",
+        "armor": "31",
+        "magic-resist": "28",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "66",
+        "attack-speed": "0.69",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "stone skin",
+        "p-desc": "Wukong gains stacking armor and max health regeneration while fighting champions and monsters.",
+        "p-icon": "assets/champ/warwick/Ability/p.png",
+        "p-vid": "assets/champ/warwick/Ability/p.webm"
+    },
+
+    {
+        "q-name": "crushing blow",
+        "q-desc": "Wukong's next attack gains attack range, deals bonus damage, and reduces the target's armor for a few seconds",
+        "q-icon": "assets/champ/warwick/Ability/q.png",
+        "q-vid": "assets/champ/warwick/Ability/q.webm"
+    },
+
+    {
+        "w-name": "warrior trickster",
+        "w-desc": "Wukong becomes Invisible and dashes in a direction, leaving behind a clone that will attack nearby enemies.",
+        "w-icon": "assets/champ/warwick/Ability/w.png",
+        "w-vid": "assets/champ/warwick/Ability/w.webm"
+    },
+
+    {
+        "e-name": "nimbus strike",
+        "e-desc": "Wukong dashes to a targeted enemy and sends out images to attack enemies near his target, dealing damage to each enemy struck.",
+        "e-icon": "assets/champ/warwick/Ability/e.png",
+        "e-vid": "assets/champ/warwick/Ability/e.webm"
+    },
+
+    {
+        "r-name": "cyclone",
+        "r-desc": "Wukong's extends his staff and spins it around repeatedly, gaining Move Speed. Enemies struck take damage and are knocked up.",
+        "r-icon": "assets/champ/warwick/Ability/r.png",
+        "r-vid": "assets/champ/warwick/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/zed.png",
+        "splash": "assets/champ/Zed_0.jpg",
+        "name": "Zed",
+        "title": "The Master of Shadows",
+        "lore": "Utterly ruthless and without mercy, Zed is the leader of the Order of Shadow, an organization he created with the intent of militarizing Ionia's magical and martial traditions to drive out Noxian invaders. During the war, desperation led him to unlock the secret shadow form—a malevolent spirit magic as dangerous and corrupting as it is powerful. Zed has mastered all of these forbidden techniques to destroy anything he sees as a threat to his nation, or his new order."
+    
+    },
+    
+    {
+        "health": "654",
+        "health-regen": "7",
+        "armor": "32",
+        "magic-resist": "29",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "energy",
+        "resource": "200",
+        "resource-regen-name": "energy regen",
+        "resource-regen": "50",
+        "attack-damage": "63",
+        "attack-speed": "0.651",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "contempt for the weak",
+        "p-desc": "Zed's basic attacks against low health targets deals bonus Magic Damage. This effect can only occur once every few seconds against the same enemy champion.",
+        "p-icon": "assets/champ/zed/Ability/p.png",
+        "p-vid": "assets/champ/zed/Ability/p.webm"
+    },
+
+    {
+        "q-name": "razor shuriken",
+        "q-desc": "Zed and his shadows throw their shurikens. Each shuriken deals damage to every enemy hit.",
+        "q-icon": "assets/champ/zed/Ability/q.png",
+        "q-vid": "assets/champ/zed/Ability/q.webm"
+    },
+
+    {
+        "w-name": "living shadow",
+        "w-desc": "Passive: Zed gains energy whenever he and his shadows strike an enemy with the same ability. Energy can only be gained once per cast ability. Active: Zed's shadow dashes forward, remaining in place for a few seconds. Reactivating Living Shadow will cause Zed to switch positions with this shadow.",
+        "w-icon": "assets/champ/zed/Ability/w.png",
+        "w-vid": "assets/champ/zed/Ability/w.webm"
+    },
+
+    {
+        "e-name": "shadow slash",
+        "e-desc": "Zed and his Shadows slash, dealing damage to nearby enemies. Enemies hit by a Shadow's slash are slowed.",
+        "e-icon": "assets/champ/zed/Ability/e.png",
+        "e-vid": "assets/champ/zed/Ability/e.webm"
+    },
+
+    {
+        "r-name": "death mark",
+        "r-desc": "Zed becomes untargetable and dashes to an enemy champion, marking them. After 3 seconds the mark triggers, repeating a portion of all the damage Zed dealt to the target while they were marked.",
+        "r-icon": "assets/champ/zed/Ability/r.png",
+        "r-vid": "assets/champ/zed/Ability/r.webm"
+    }
+]

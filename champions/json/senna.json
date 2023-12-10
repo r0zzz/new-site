@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/senna.png",
+        "splash": "assets/champ/Senna_0.jpg",
+        "name": "Senna",
+        "title": "The Redeemer",
+        "lore": "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light, and fiercely fought back—only to be killed, her soul imprisoned in a lantern by the cruel wraith Thresh. But refusing to lose hope, within the lantern Senna learned to use the Mist, and reemerged to new life, forever changed. Now wielding darkness along with light, Senna seeks to end the Black Mist by turning it against itself—with every blast of her relic weapon, redeeming the souls lost within."
+    
+    },
+    
+    {
+        "health": "530",
+        "health-regen": "3.5",
+        "armor": "28",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.5",
+        "attack-damage": "50",
+        "attack-speed": "0.625",
+        "attack-range": "600"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "absolution",
+        "p-desc": "When units die near Senna, their souls are periodically trapped by the Black Mist. Senna can attack these souls to free them, absorbing the Mist that held them in death. Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance. Attacks from Senna's Relic Cannon take longer to fire, deal bonus damage, and briefly grant her a portion of her target's Move Speed.",
+        "p-icon": "assets/champ/senna/Ability/p.png",
+        "p-vid": "assets/champ/senna/Ability/p.webm"
+    },
+
+    {
+        "q-name": "piercing darkness",
+        "q-desc": "From the twin barrels of her Relic Cannon, Senna fires a unified beam of light and shadow through a target, healing allies and damaging enemies.",
+        "q-icon": "assets/champ/senna/Ability/q.png",
+        "q-vid": "assets/champ/senna/Ability/q.webm"
+    },
+
+    {
+        "w-name": "last embrace",
+        "w-desc": "Senna sends forth a wave of Black Mist. If it hits an enemy it latches onto them hungrily, rooting them and everything nearby after a brief delay.",
+        "w-icon": "assets/champ/senna/Ability/w.png",
+        "w-vid": "assets/champ/senna/Ability/w.webm"
+    },
+
+    {
+        "e-name": "curse of the black mist",
+        "e-desc": "Senna draws the Mist she has stored in her weapon into a storm around her, embracing darkness and becoming a wraith within. Allies who enter the area are camouflaged and also appear as wraiths as the Mist shrouds them. Wraiths gain increased Move Speed, are unselectable, and hide their identities.",
+        "e-icon": "assets/champ/senna/Ability/e.png",
+        "e-vid": "assets/champ/senna/Ability/e.webm"
+    },
+
+    {
+        "r-name": "dawning shadow",
+        "r-desc": "Senna calls upon the relic stones of fallen Sentinels, splitting her relic cannon into a holy array of shadow and light. She then fires a global beam that shields allies from harm, while damaging enemies caught in the center.",
+        "r-icon": "assets/champ/senna/Ability/r.png",
+        "r-vid": "assets/champ/senna/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/zac.png",
+        "splash": "assets/champ/Zac_0.jpg",
+        "name": "Zac",
+        "title": "The Secret Weapon",
+        "lore": "Zac is the product of a toxic spill that ran through a chemtech seam and pooled in an isolated cavern deep in Zaun's Sump. Despite such humble origins, Zac has grown from primordial ooze into a thinking being who dwells in the city's pipes, occasionally emerging to help those who cannot help themselves or to rebuild the broken infrastructure of Zaun."
+    
+    },
+    
+    {
+        "health": "685",
+        "health-regen": "8",
+        "armor": "33",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "60",
+        "attack-speed": "0.736",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "cell division",
+        "p-desc": "Each time Zac hits an enemy with an ability, he sheds a chunk of himself that can be reabsorbed to restore Health. Upon taking fatal damage, Zac splits into 4 bloblets that attempt to recombine. If any bloblets remain, he will revive with an amount of Health depending on the Health of the surviving bloblets. Each bloblet has a percentage of Zac's maximum Health, Armor and Magic Resistance. This ability has a 5 minute cooldown.",
+        "p-icon": "assets/champ/zac/Ability/p.png",
+        "p-vid": "assets/champ/zac/Ability/p.webm"
+    },
+
+    {
+        "q-name": "stretching strikes",
+        "q-desc": "Zac stretches an arm, grabbing an enemy. Attacking a different enemy will cause him to throw both targets towards each other.",
+        "q-icon": "assets/champ/zac/Ability/q.png",
+        "q-vid": "assets/champ/zac/Ability/q.webm"
+    },
+
+    {
+        "w-name": "unstable matter",
+        "w-desc": "Zac explodes outward towards nearby enemies, dealing a percentage of their maximum health as magic damage.",
+        "w-icon": "assets/champ/zac/Ability/w.png",
+        "w-vid": "assets/champ/zac/Ability/w.webm"
+    },
+
+    {
+        "e-name": "elastic slingshot",
+        "e-desc": "Zac attaches his arms to the ground and stretches back, launching himself forward.",
+        "e-icon": "assets/champ/zac/Ability/e.png",
+        "e-vid": "assets/champ/zac/Ability/e.webm"
+    },
+
+    {
+        "r-name": "let's bounce!",
+        "r-desc": "Zac bounces four times, knocking up enemies hit and slowing them.",
+        "r-icon": "assets/champ/zac/Ability/r.png",
+        "r-vid": "assets/champ/zac/Ability/r.webm"
+    }
+]

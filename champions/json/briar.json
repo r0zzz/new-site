@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/briar.png",
+        "splash": "assets/champ/Briar_0.jpg",
+        "name": "Briar",
+        "title": "The Restrained Hunger",
+        "lore": "A failed experiment by the Black Rose, Briar's uncontrollable bloodlust required a special pillory to focus her frenzied mind. After years of confinement, this living weapon broke free from her restraints and unleashed herself into the world. Now she's controlled by no one—following only her hunger for knowledge and blood—and relishes the opportunities to let loose, even if reining back the frenzy isn't easy."
+    
+    },
+    
+    {
+        "health": "610",
+        "health-regen": "0",
+        "armor": "32",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "60",
+        "attack-speed": "0.664",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "crimson curse",
+        "p-desc": "Briar's attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals. Perpetually hungry, she gains increased healing based on her missing Health, but lacks innate Health Regeneration.",
+        "p-icon": "assets/champ/briar/Ability/p.png",
+        "p-vid": "assets/champ/briar/Ability/p.webm"
+    },
+
+    {
+        "q-name": "head rush",
+        "q-desc": "Briar leaps to a unit and hits enemies with The Heel Wheel (of Pain), stunning them and breaking their Armor.",
+        "q-icon": "assets/champ/briar/Ability/q.png",
+        "q-vid": "assets/champ/briar/Ability/q.webm"
+    },
+
+    {
+        "w-name": "blood frenzt / snack attack",
+        "w-desc": "Briar leaps forward and shatters her pillory, entering a Blood Frenzy that causes her to relentlessly pursue the nearest enemy (prioritizing champions). While frenzied, she gains increased Attack Speed and Move Speed, and her attacks deal damage in an area around her target. Briar can reactivate this ability while frenzied to take a CHOMP out of her target on her next attack, dealing additional damage based on their missing Health, and healing Briar based on the damage she deals.",
+        "w-icon": "assets/champ/briar/Ability/w.png",
+        "w-vid": "assets/champ/briar/Ability/w.webm"
+    },
+
+    {
+        "e-name": "chilling scream",
+        "e-desc": "Briar refocuses her mind, removing Blood Frenzy and channeling energy into a powerful scream that damages and slows enemies. While charging, she takes reduced damage and heals for a portion of her max Health. A fully charged scream knocks foes back, dealing additional damage and stunning those who collide with a wall.",
+        "e-icon": "assets/champ/briar/Ability/e.png",
+        "e-vid": "assets/champ/briar/Ability/e.webm"
+    },
+
+    {
+        "r-name": "certain death",
+        "r-desc": "Briar kicks her pillory's hemolith gemstone, marking the first champion it hits as her prey. She then beelines straight to them, fearing other surrounding enemies upon arriving at her target, and enters a state of complete hemomania. She will pursue her prey until death, gaining the benefits of Blood Frenzy as well as additional Armor, Magic Resistance, Life Steal, and Move Speed.",
+        "r-icon": "assets/champ/briar/Ability/r.png",
+        "r-vid": "assets/champ/briar/Ability/r.webm"
+    }
+]

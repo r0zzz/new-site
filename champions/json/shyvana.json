@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/shyvana.png",
+        "splash": "assets/champ/Shyvana_0.jpg",
+        "name": "Shyvana",
+        "title": "The Half-dragon",
+        "lore": "Shyvana is a creature with the magic of a rune shard burning within her heart. Though she often appears humanoid, she can take her true form as a fearsome dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan IV, Shyvana now serves uneasily in his royal guard, struggling to find acceptance among the suspicious people of Demacia."
+    
+    },
+    
+    {
+        "health": "665",
+        "health-regen": "8.5",
+        "armor": "38",
+        "magic-resist": "32",
+        "movement-speed": "350"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "66",
+        "attack-speed": "0.658",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "fury of the dragonborn",
+        "p-desc": "Shyvana deals bonus damage to dragons and gains Armor and Magic Resistance. As Shyvana and her allies slay more dragons, she gains more bonus Armor and Magic Resistance.",
+        "p-icon": "assets/champ/shyvana/Ability/p.png",
+        "p-vid": "assets/champ/shyvana/Ability/p.webm"
+    },
+
+    {
+        "q-name": "twin bite",
+        "q-desc": "Shyvana strikes twice on her next attack and grants herself Attack Speed for her next attacks. Basic attacks reduce the cooldown of Twin Bite by 0.5 seconds. Dragon Form: Twin Bite cleaves all units in front of Shyvana.",
+        "q-icon": "assets/champ/shyvana/Ability/q.png",
+        "q-vid": "assets/champ/shyvana/Ability/q.webm"
+    },
+
+    {
+        "w-name": "burnout",
+        "w-desc": "Shyvana surrounds herself in fire, dealing magic damage per second to nearby enemies and moving faster for 3 seconds, part of this damage is applied again when Shyvana basic attacks an enemy with Burnout active. The Move Speed reduces over the duration of the spell. Basic attacks extend the duration of Burnout. Dragon Form: Burnout grows in size.",
+        "w-icon": "assets/champ/shyvana/Ability/w.png",
+        "w-vid": "assets/champ/shyvana/Ability/w.webm"
+    },
+
+    {
+        "e-name": "flame breath",
+        "e-desc": "Shyvana unleashes a fireball that deals damage to all enemies it encounters and leaves cinders on the target, marking them for 5 seconds. Shyvana's basic attacks on marked targets deal a percentage of their maximum Health as damage on-hit. Dragon Form: Flame Breath explodes on impact or at target location, dealing bonus damage and scorching the earth for a short duration.",
+        "e-icon": "assets/champ/shyvana/Ability/e.png",
+        "e-vid": "assets/champ/shyvana/Ability/e.webm"
+    },
+
+    {
+        "r-name": "dragon's descent",
+        "r-desc": "Shyvana transforms into a dragon and takes flight to a target location. Enemies along her path take damage and are knocked toward her target location. Shyvana passively gains Fury per second and gains 2 Fury on basic attack.",
+        "r-icon": "assets/champ/shyvana/Ability/r.png",
+        "r-vid": "assets/champ/shyvana/Ability/r.webm"
+    }
+]

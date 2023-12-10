@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/gangplank.png",
+        "splash": "assets/champ/Gangplank_0.jpg",
+        "name": "Gangplank",
+        "title": "The Saltwater Scourge",
+        "lore": "As unpredictable as he is brutal, the dethroned reaver king Gangplank is feared far and wide. Once, he ruled the port city of Bilgewater, and while his reign is over, there are those who believe this has only made him more dangerous. Gangplank would see Bilgewater bathed in blood once more before letting someone else take it—and now with pistol, cutlass, and barrels of gunpowder, he is determined to reclaim what he has lost."
+    
+    },
+    
+    {
+        "health": "600",
+        "health-regen": "6",
+        "armor": "31",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "280",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "64",
+        "attack-speed": "0.658",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+    {   
+        "p-name": "trial by fire",
+        "p-desc": "Every few seconds, Gangplank's melee strike will set his opponent on fire.",
+        "p-icon": "assets/champ/gangplank/Ability/p.png",
+        "p-vid": "assets/champ/gangplank/Ability/p.webm"
+    },
+
+    {
+        "q-name": "parrrley",
+        "q-desc": "Shoots target, plundering Gold for each enemy unit killed.",
+        "q-icon": "assets/champ/azir/Ability/q.png",
+        "q-vid": "assets/champ/gangplank/Ability/q.webm"
+    },
+
+    {
+        "w-name": "removes scurvy",
+        "w-desc": "Eats citrus to cure crowd control effects and restore Health.",
+        "w-icon": "assets/champgangplankazir/Ability/w.png",
+        "w-vid": "assets/champ/gangplank/Ability/w.webm"
+    },
+
+    {
+        "e-name": "powder keg",
+        "e-desc": "Gangplank uncovers a powder keg at target location. If he attacks it, it explodes, spreading the attack's damage to enemies in the area, slowing them.",
+        "e-icon": "assets/champ/gangplank/Ability/e.png",
+        "e-vid": "assets/champ/gangplank/Ability/e.webm"
+    },
+
+    {
+        "r-name": "cannon barrage",
+        "r-desc": "Gangplank signals his ship to bombard an area, slowing and damaging enemies.",
+        "r-icon": "assets/champ/gangplank/Ability/r.png",
+        "r-vid": "assets/champ/gangplank/Ability/r.webm"
+    }
+]

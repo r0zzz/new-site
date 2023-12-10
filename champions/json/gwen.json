@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/gwen.png",
+        "splash": "assets/champ/Gwen_0.jpg",
+        "name": "Gwen",
+        "title": "The Hallowed Seamstress",
+        "lore": "A former doll transformed and brought to life by magic, Gwen wields the very tools that once created her. She carries the weight of her maker's love with every step, taking nothing for granted. At her command is the Hallowed Mist, an ancient and protective magic that has blessed Gwen's scissors, needles, and sewing thread. So much is new to her, but Gwen remains joyfully determined to fight for the good that survives in a broken world."
+    
+    },
+    
+    {
+        "health": "620",
+        "health-regen": "9",
+        "armor": "39",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "330",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "63",
+        "attack-speed": "0.69",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "a thousand cuts",
+        "p-desc": "Gwen's attacks deal bonus magic damage based on the targets health. She heals for a portion of the damage dealt to champions by this effect.",
+        "p-icon": "assets/champ/gwen/Ability/p.png",
+        "p-vid": "assets/champ/gwen/Ability/p.webm"
+    },
+
+    {
+        "q-name": "snip snip!",
+        "q-desc": "Gwen snips her scissors in a cone up to 6 times dealing magic damage. Gwen deals true damage to units in the center and applies her passive to them on each snip.",
+        "q-icon": "assets/champ/gwen/Ability/q.png",
+        "q-vid": "assets/champ/gwen/Ability/q.webm"
+    },
+
+    {
+        "w-name": "hallowed mist",
+        "w-desc": "Gwen summons mist that protects her from enemies outside of it. She can only be targeted by enemies who enter the mist.",
+        "w-icon": "assets/champ/gwen/Ability/w.png",
+        "w-vid": "assets/champ/gwen/Ability/w.webm"
+    },
+
+    {
+        "e-name": "skip 'n slash",
+        "e-desc": "Gwen dashes a short distance then gains Attack Speed, attack range, and magic damage On-Hit for a few seconds. If she hits an enemy during that time, this Ability's cooldown is partially refunded.",
+        "e-icon": "assets/champ/gwen/Ability/e.png",
+        "e-vid": "assets/champ/gwen/Ability/e.webm"
+    },
+
+    {
+        "r-name": "needlework",
+        "r-desc": "Gwen hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit. This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage. Gwen must hit an enemy between each cast to unlock the next one.",
+        "r-icon": "assets/champ/gwen/Ability/r.png",
+        "r-vid": "assets/champ/gwen/Ability/r.webm"
+    }
+]

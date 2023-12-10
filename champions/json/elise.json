@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/elise.png",
+        "splash": "assets/champ/Elise_0.jpg",
+        "name": "Elise",
+        "title": "The Spider Queen",
+        "lore": "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly inhuman—a spider-like creature, drawing unsuspecting prey into her web. To maintain her eternal youth, Elise now prefers to feed upon the naive and the faithless, and there are few who can resist her seductions."
+    
+    },
+    
+    {
+        "health": "650",
+        "health-regen": "5.5",
+        "armor": "30",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "324",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "55",
+        "attack-speed": "0.625",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "spider queen",
+        "p-desc": "Human Form: When Elise's abilities hit an enemy, she gains a dormant Spiderling. Spider Form: Basic attacks deal bonus magic damage and restore health to Elise.",
+        "p-icon": "assets/champ/elise/Ability/p.png",
+        "p-vid": "assets/champ/elise/Ability/p.webm"
+    },
+
+    {
+        "q-name": "neurotoxin / venomous bite",
+        "q-desc": "Human Form: Deals damage based upon how high the target's Health is. Spider Form: Lunges at an enemy and deals damage based upon how low their Health is.",
+        "q-icon": "assets/champ/elise/Ability/q.png",
+        "q-vid": "assets/champ/elise/Ability/q.webm"
+    },
+
+    {
+        "w-name": "volatile spiderling / skittering frenzy",
+        "w-desc": "Human Form: Releases a venom-gorged Spiderling that explodes when it nears a target. Spider Form: Elise and her Spiderlings gain Attack Speed.",
+        "w-icon": "assets/champ/elise/Ability/w.png",
+        "w-vid": "assets/champ/elise/Ability/w.webm"
+    },
+
+    {
+        "e-name": "cocoon / rappel",
+        "e-desc": "Human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed. Spider Form: Elise and her Spiderlings ascend into the air and then descend upon target enemy. After descending on an enemy target, Elise's bonus damage and healing from Spider Queen is increased.",
+        "e-icon": "assets/champ/elise/Ability/e.png",
+        "e-vid": "assets/champ/elise/Ability/e.webm"
+    },
+
+    {
+        "r-name": "spider form",
+        "r-desc": "Transforms into a menacing spider, reducing her attack range in exchange for Move Speed, new abilities, and a Spiderling swarm that will attack her foes.",
+        "r-icon": "assets/champ/elise/Ability/r.png",
+        "r-vid": "assets/champ/elise/Ability/r.webm"
+    }
+]

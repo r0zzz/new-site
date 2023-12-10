@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/janna.png",
+        "splash": "assets/champ/Janna_0.jpg",
+        "name": "Janna",
+        "title": "The Storm's Fury",
+        "lore": "Armed with the power of Runeterra's gales, Janna is a mysterious, elemental wind spirit who protects the dispossessed of Zaun. Some believe she was brought into existence by the pleas of Runeterra's sailors who prayed for fair winds as they navigated treacherous waters and braved rough tempests. Her favor and protection has since been called into the depths of Zaun, where Janna has become a beacon of hope to those in need. No one knows where or when she will appear, but more often than not, she's come to help."
+    
+    },
+    
+    {
+        "health": "570",
+        "health-regen": "5.5",
+        "armor": "28",
+        "magic-resist": "30",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "360",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.5",
+        "attack-damage": "47",
+        "attack-speed": "0.625",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Enchanter",
+        "role-desc": "Enchanters focus on amplifying their allies' effectiveness by directly augmenting them and defending them from incoming threats. Enchanters themselves are often quite fragile and bring relatively low damage to the table, meaning they really only shine when grouped together with others."
+    },
+
+    {   
+        "p-name": "tailwind",
+        "p-desc": "Janna's allies gain Move Speed moving towards her. Janna deals a portion of bonus Move Speed as bonus magic damage on hit and with Zephyr.",
+        "p-icon": "assets/champ/janna/Ability/p.png",
+        "p-vid": "assets/champ/janna/Ability/p.webm"
+    },
+
+    {
+        "q-name": "howling gale",
+        "q-desc": "By creating a localized change in pressure and temperature, Janna is able to create a small storm that grows in size with time. She can activate the spell again to release the storm. On release this storm will fly towards the direction it was cast in, dealing damage and knocking away any enemies in its path.",
+        "q-icon": "assets/champ/janna/Ability/q.png",
+        "q-vid": "assets/champ/janna/Ability/q.webm" 
+    },
+
+    {
+        "w-name": "zephyr",
+        "w-desc": "Janna summons an air elemental that passively increases her Move Speed and enables her to pass through units. She may also activate this ability to deal damage and slow an enemy's Move Speed.",
+        "w-icon": "assets/champ/janna/Ability/w.png",
+        "w-vid": "assets/champ/janna/Ability/w.webm"
+    },
+
+    {
+        "e-name": "eye of the storm",
+        "e-desc": "Janna conjures a defensive gale that shields an ally champion or turret from incoming damage and increases their Attack Damage.",
+        "e-icon": "assets/champ/janna/Ability/e.png",
+        "e-vid": "assets/champ/janna/Ability/e.webm"
+    },
+
+    {
+        "r-name": "monsoon",
+        "r-desc": "Janna surrounds herself in a magical storm, throwing enemies back. After the storm has settled, soothing winds heal nearby allies while the ability is active.",
+        "r-icon": "assets/champ/janna/Ability/r.png",
+        "r-vid": "assets/champ/janna/Ability/r.webm"
+    }
+]

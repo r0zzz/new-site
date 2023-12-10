@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/teemo.png",
+        "splash": "assets/champ/Teemo_0.jpg",
+        "name": "Teemo",
+        "title": "The Swift Scout",
+        "lore": "Undeterred by even the most dangerous and threatening of obstacles, Teemo scouts the world with boundless enthusiasm and a cheerful spirit. A yordle with an unwavering sense of morality, he takes pride in following the Bandle Scout's Code, sometimes with such eagerness that he is unaware of the broader consequences of his actions. Though some say the existence of the Scouts is questionable, one thing is for certain: Teemo's conviction is nothing to be trifled with."
+    
+    },
+    
+    {
+        "health": "598",
+        "health-regen": "5.5",
+        "armor": "24",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "334",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "9.6",
+        "attack-damage": "54",
+        "attack-speed": "0.69",
+        "attack-range": "500"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+    {   
+        "p-name": "guerrilla warfare",
+        "p-desc": "If Teemo stands still and takes no actions for a short duration, he becomes Invisible indefinitely. If he's in brush, Teemo can enter and maintain his Invisibility while moving. After leaving Invisibility, Teemo gains the Element of Surprise, increasing his Attack Speed for a few seconds.",
+        "p-icon": "assets/champ/teemo/Ability/p.png",
+        "p-vid": "assets/champ/teemo/Ability/p.webm"
+    },
+
+    {
+        "q-name": "blinding dart",
+        "q-desc": "Obscures an enemy's vision with a powerful venom, dealing damage to the target unit and blinding it for the duration.",
+        "q-icon": "assets/champ/teemo/Ability/q.png",
+        "q-vid": "assets/champ/teemo/Ability/q.webm"
+    },
+
+    {
+        "w-name": "move quick",
+        "w-desc": "Teemo scampers around, passively increasing his Move Speed until he is struck by an enemy champion or turret. Teemo can sprint to gain bonus Move Speed that isn't stopped by being struck for a short time.",
+        "w-icon": "assets/champ/teemo/Ability/w.png",
+        "w-vid": "assets/champ/teemo/Ability/w.webm"
+    },
+
+    {
+        "e-name": "toxic shot",
+        "e-desc": "Each of Teemo's attacks will poison the target, dealing damage on impact and each second after for 4 seconds.",
+        "e-icon": "assets/champ/teemo/Ability/e.png",
+        "e-vid": "assets/champ/teemo/Ability/e.webm"
+    },
+
+    {
+        "r-name": "noxious trap",
+        "r-desc": "Teemo throws an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap, it will release a poisonous cloud, slowing enemies and damaging them over time. If Teemo throws a mushroom onto another mushroom it will bounce, gaining additional range.",
+        "r-icon": "assets/champ/teemo/Ability/r.png",
+        "r-vid": "assets/champ/teemo/Ability/r.webm"
+    }
+]

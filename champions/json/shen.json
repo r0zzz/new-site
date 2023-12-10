@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/shen.png",
+        "splash": "assets/champ/Shen_0.jpg",
+        "name": "Shen",
+        "title": "The Eye of Twilight",
+        "lore": "Among the secretive, Ionian warriors known as the Kinkou, Shen serves as their leader, the Eye of Twilight. He longs to remain free from the confusion of emotion, prejudice, and ego, and walks the unseen path of dispassionate judgment between the spirit realm and the physical world. Tasked with enforcing the equilibrium between them, Shen wields blades of steel and arcane energy against any who would threaten it."
+    
+    },
+    
+    {
+        "health": "610",
+        "health-regen": "8.5",
+        "armor": "34",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "energy",
+        "resource": "400",
+        "resource-regen-name": "energy regen",
+        "resource-regen": "50",
+        "attack-damage": "60",
+        "attack-speed": "0.751",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Warden",
+        "role-desc": "Wardens are defensive tanks. Wardens stand steadfast, seeking to hold the line by persistently locking down any on-comers who try to pass them. Wardens keep their allies out of harm’s way and allow them to safely deal with enemies caught in the fray."
+    },
+
+    {   
+        "p-name": "ki barrier",
+        "p-desc": "After casting a spell, Shen gets a shield. Affecting other champions reduces the cooldown of this effect.",
+        "p-icon": "assets/champ/shen/Ability/p.png",
+        "p-vid": "assets/champ/shen/Ability/p.webm"
+    },
+
+    {
+        "q-name": "twilight assault",
+        "q-desc": "Shen recalls his spirit blade to attack with it, dealing damage based on the target's max health. The attacks are greatly empowered if it collides with an enemy champion, and all collided enemies are slowed while running away from Shen.",
+        "q-icon": "assets/champ/shen/Ability/q.png",
+        "q-vid": "assets/champ/shen/Ability/q.webm"
+    },
+
+    {
+        "w-name": "spirit's refuge",
+        "w-desc": "Attacks that would hit Shen or his allies near his spirit blade are blocked.",
+        "w-icon": "assets/champ/shen/Ability/w.png",
+        "w-vid": "assets/champ/shen/Ability/w.webm"
+    },
+
+    {
+        "e-name": "shadow dash",
+        "e-desc": "Shen dashes in a direction, taunting enemies in his path.",
+        "e-icon": "assets/champ/shen/Ability/e.png",
+        "e-vid": "assets/champ/shen/Ability/e.webm"
+    },
+
+    {
+        "r-name": "stand united",
+        "r-desc": "Shen shields target allied champion from incoming damage, and soon after teleports to their location.",
+        "r-icon": "assets/champ/shen/Ability/r.png",
+        "r-vid": "assets/champ/shen/Ability/r.webm"
+    }
+]

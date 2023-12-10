@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/zoe.png",
+        "splash": "assets/champ/Zoe_0.jpg",
+        "name": "Zoe",
+        "title": "The Aspect of Twilight",
+        "lore": "As the embodiment of mischief, imagination, and change, Zoe acts as the cosmic messenger of Targon, heralding major events that reshape worlds. Her mere presence warps the arcane mathematics governing realities, sometimes causing cataclysms without conscious effort or malice. This perhaps explains the breezy nonchalance with which Zoe approaches her duties, giving her plenty of time to focus on playing games, tricking mortals, or otherwise amusing herself. An encounter with Zoe can be joyous and life affirming, but it is always more than it appears and often extremely dangerous."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "7.5",
+        "armor": "21",
+        "magic-resist": "30",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "425",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "58",
+        "attack-speed": "0.658",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Burst Mage",
+        "role-desc": "Burst Mages aim to single out vulnerable targets by locking them down and following up with a devastating barrage of damage from range. They are strongest when using their full suite of spells executed perfectly to maximum effect, and most vulnerable when they cannot deliver."
+    },
+
+    {   
+        "p-name": "more sparkles!",
+        "p-desc": "Zoe's next basic attack after casting a spell deals bonus magic damage.",
+        "p-icon": "assets/champ/zoe/Ability/p.png",
+        "p-vid": "assets/champ/zoe/Ability/p.webm"
+    },
+
+    {
+        "q-name": "paddle star!",
+        "q-desc": "Zoe fires a missile that she can redirect in flight. Deals more damage the longer it flies in a straight line.",
+        "q-icon": "assets/champ/zoe/Ability/q.png",
+        "q-vid": "assets/champ/zoe/Ability/q.webm"
+    },
+
+    {
+        "w-name": "spell thief",
+        "w-desc": "Zoe can pick up the remnants of enemy summoner spell and active item casts and cast them once herself. Whenever she casts a summoner spell, she gains 3 missiles that fire at the nearest target.",
+        "w-icon": "assets/champ/zoe/Ability/w.png",
+        "w-vid": "assets/champ/zoe/Ability/w.webm"
+    },
+
+    {
+        "e-name": "sleepy trouble bubble",
+        "e-desc": "Causes the target to become drowsy, then fall asleep. While asleep, the target's Magic Resist is reduced. The first source of damage that breaks the sleep is doubled, up to a cap.",
+        "e-icon": "assets/champ/zoe/Ability/e.png",
+        "e-vid": "assets/champ/zoe/Ability/e.webm"
+    },
+
+    {
+        "r-name": "portal jump",
+        "r-desc": "Blink to a nearby position for 1 second. Then blink back.",
+        "r-icon": "assets/champ/zoe/Ability/r.png",
+        "r-vid": "assets/champ/zoe/Ability/r.webm"
+    }
+]

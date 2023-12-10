@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/evelynn.png",
+        "splash": "assets/champ/Evelynn_0.jpg",
+        "name": "Evelynn",
+        "title": "Agony's Embrace",
+        "lore": "Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn's true form is unleashed. She then subjects her victim to unspeakable torment, gratifying herself with their pain. To the demon, these liaisons are innocent flings. To the rest of Runeterra, they are ghoulish tales of lust gone awry and horrific reminders of the cost of wanton desire."
+    
+    },
+    
+    {
+        "health": "642",
+        "health-regen": "8.5",
+        "armor": "37",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "315",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.11",
+        "attack-damage": "61",
+        "attack-speed": "0.667",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "demon shade",
+        "p-desc": "When out of combat, Evelynn enters Demon Shade. Demon Shade heals Evelynn when she is low on health and grants Camouflage after level 6.",
+        "p-icon": "assets/champ/evelynn/Ability/p.png",
+        "p-vid": "assets/champ/evelynn/Ability/p.webm"
+    },
+
+    {
+        "q-name": "hate spike",
+        "q-desc": "Evelynn strikes out with her Lasher, dealing damage to the first unit hit. Then, Evelynn can shoot a line of spikes at nearby foes up to 3 times.",
+        "q-icon": "assets/champ/evelynn/Ability/q.png",
+        "q-vid": "assets/champ/evelynn/Ability/q.webm"
+    },
+
+    {
+        "w-name": "allure",
+        "w-desc": "Evelynn curses her target, causing her next attack or spell after a delay to charm her target and reduce their magic resist.",
+        "w-icon": "assets/champ/evelynn/Ability/w.png",
+        "w-vid": "assets/champ/evelynn/Ability/w.webm"
+    },
+
+    {
+        "e-name": "whiplash",
+        "e-desc": "Evelynn whips her target with her Lasher, dealing damage. She then gains Move Speed for a short duration.",
+        "e-icon": "assets/champ/evelynn/Ability/e.png",
+        "e-vid": "assets/champ/evelynn/Ability/e.webm"
+    },
+
+    {
+        "r-name": "last caress",
+        "r-desc": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
+        "r-icon": "assets/champ/evelynn/Ability/r.png",
+        "r-vid": "assets/champ/evelynn/Ability/r.webm"
+    }
+]

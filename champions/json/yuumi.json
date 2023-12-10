@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/yuumi.png",
+        "splash": "assets/champ/Yuumi_0.jpg",
+        "name": "Yuumi",
+        "title": "The Magical Cat",
+        "lore": "A magical cat from Bandle City, Yuumi was once the familiar of a yordle enchantress, Norra. When her master mysteriously disappeared, Yuumi became the Keeper of Norra's sentient Book of Thresholds, traveling through portals in its pages to search for her. Yearning for affection, Yuumi seeks friendly companions to partner with on her journey, protecting them with luminous shields and fierce resolve. While Book strives to keep her on task, Yuumi is often drawn to worldly comforts, such as naps and fish. In the end, however, she always returns to her quest to find her friend."
+    
+    },
+    
+    {
+        "health": "500",
+        "health-regen": "5",
+        "armor": "25",
+        "magic-resist": "25",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "440",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "10",
+        "attack-damage": "49",
+        "attack-speed": "0.625",
+        "attack-range": "425"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Enchanter",
+        "role-desc": "Enchanters focus on amplifying their allies' effectiveness by directly augmenting them and defending them from incoming threats. Enchanters themselves are often quite fragile and bring relatively low damage to the table, meaning they really only shine when grouped together with others."
+    },
+
+    {   
+        "p-name": "feline friendship",
+        "p-desc": "Periodically, when Yuumi strikes a champion with an attack or ability, she restores health to herself and the next ally she Attaches to. While Attached, Yuumi generates a special bond with her allies. The ally with the strongest bond enhances Yuumi's abilities while she is Attached to them.",
+        "p-icon": "assets/champ/yuumi/Ability/p.png",
+        "p-vid": "assets/champ/yuumi/Ability/p.webm"
+    },
+
+    {
+        "q-name": "prowling projectile",
+        "q-desc": "Yuumi fires a missile, dealing damage and slowing first target hit. It deals bonus damage and an enchanced slow if it takes at least 1.35 seconds to get to its target. While on her Best Friend, the slow is always enhanced and grants bonus On-Hit damage to her ally. While Attached, the missile can be controlled with your cursor for a brief period.",
+        "q-icon": "assets/champ/yuumi/Ability/q.png",
+        "q-vid": "assets/champ/yuumi/Ability/q.webm"
+    },
+
+    {
+        "w-name": "you and me!",
+        "w-desc": "Yuumi dashes to a target ally, becoming untargetable from everything except turrets. While on her Best Friend, she gains Heal & Shield Power and grants her Ally On-Hit healing.",
+        "w-icon": "assets/champ/yuumi/Ability/w.png",
+        "w-vid": "assets/champ/yuumi/Ability/w.webm"
+    },
+
+    {
+        "e-name": "zoomies",
+        "e-desc": "Shields Yuumi and boosts Move Speed and Attack Speed. If she's attached, she passes it to her ally instead.",
+        "e-icon": "assets/champ/yuumi/Ability/e.png",
+        "e-vid": "assets/champ/yuumi/Ability/e.webm"
+    },
+
+    {
+        "r-name": "final chapter",
+        "r-desc": "Yuumi channels five waves that damage enemies and heal allies. Yuumi can move, attach, and cast Zoomies! while channeling. While on her Best Friend, this spell also follows her mouse.",
+        "r-icon": "assets/champ/yuumi/Ability/r.png",
+        "r-vid": "assets/champ/yuumi/Ability/r.webm"
+    }
+]

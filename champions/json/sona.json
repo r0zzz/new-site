@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/sona.png",
+        "splash": "assets/champ/Sona_0.jpg",
+        "name": "Sona",
+        "title": "Maven of the Strings",
+        "lore": "Sona is Demacia's foremost virtuoso of the stringed etwahl, speaking only through her graceful chords and vibrant arias. This genteel manner has endeared her to the highborn, though others suspect her spellbinding melodies to actually emanate magic—a Demacian taboo. Silent to outsiders but somehow understood by close companions, Sona plucks her harmonies not only to soothe injured allies, but also to strike down unsuspecting enemies."
+    
+    },
+    
+    {
+        "health": "550",
+        "health-regen": "5.5",
+        "armor": "  26",
+        "magic-resist": "30",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "340",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.5",
+        "attack-damage": "49",
+        "attack-speed": "0.644",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Enchanter",
+        "role-desc": "Enchanters focus on amplifying their allies' effectiveness by directly augmenting them and defending them from incoming threats. Enchanters themselves are often quite fragile and bring relatively low damage to the table, meaning they really only shine when grouped together with others."
+    },
+
+    {   
+        "p-name": "power chord",
+        "p-desc": "Accelerando: Sona gains non-Ultimate ability haste permanently for her basic abilities as she uses her abilities well, up to a cap. Beyond that cap, further successful uses reduce her ultimate's remaining cooldown instead. Power Chord: Every few spell casts, Sona's next attack will deal bonus magic damage in addition to an additional effect based on what basic Ability Sona last activated.",
+        "p-icon": "assets/champ/sona/Ability/p.png",
+        "p-vid": "assets/champ/sona/Ability/p.webm"
+    },
+
+    {
+        "q-name": "hymn of valor",
+        "q-desc": "Sona plays the Hymn of Valor, sends out bolts of sound, dealing magic damage to two nearby enemies, prioritizing champions and monsters. Sona gains a temporary aura that grants allies tagged by the zone bonus damage on their next attack against enemies.",
+        "q-icon": "assets/champ/sona/Ability/q.png",
+        "q-vid": "assets/champ/sona/Ability/q.webm"
+    },
+
+    {
+        "w-name": "aria of perseverance",
+        "w-desc": "Sona plays the Aria of Perseverance, sending out protective melodies, healing Sona and a nearby wounded ally. Sona gains a temporary aura that grants allies tagged by the zone a temporary shield.",
+        "w-icon": "assets/champ/sona/Ability/w.png",
+        "w-vid": "assets/champ/sona/Ability/w.webm"
+    },
+
+    {
+        "e-name": "song of celerity",
+        "e-desc": "Sona plays the Song of Celerity, granting nearby allies bonus Move Speed. Sona gains a temporary aura that grants allied champions tagged by the zone bonus Move Speed.",
+        "e-icon": "assets/champ/sona/Ability/e.png",
+        "e-vid": "assets/champ/sona/Ability/e.webm"
+    },
+
+    {
+        "r-name": "crescendo",
+        "r-desc": "Sona plays her ultimate chord, stunning enemy champions and forcing them to dance and dealing magic damage to them. Each rank reduces the base cooldown of Sona's basic abilities.",
+        "r-icon": "assets/champ/sona/Ability/r.png",
+        "r-vid": "assets/champ/sona/Ability/r.webm"
+    }
+]

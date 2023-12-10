@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/viego.png",
+        "splash": "assets/champ/Viego_0.jpg",
+        "name": "Viego",
+        "title": "The Ruined King",
+        "lore": "Once ruler of a long-lost kingdom, Viego perished over a thousand years ago when his attempt to bring his wife back from the dead triggered the magical catastrophe known as the Ruination. Transformed into a powerful, unliving wraith tortured by an obsessive longing for his centuries-dead queen, Viego now stands as the Ruined King, controlling the deadly Harrowings as he scours Runeterra for anything that might one day restore her, and destroying all in his path as the Black Mist pours endlessly from his cruel, broken heart."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "7",
+        "armor": "34",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "57",
+        "attack-speed": "0.658",
+        "attack-range": "200"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "sovereign's domination",
+        "p-desc": "Enemies who fall before Viego become wraiths. By attacking a wraith, Viego temporarily seizes control of the dead enemy's body, healing for a percentage of his target's max health and gaining access to their basic abilities and items. He replaces their Ultimate with a free cast of his own.",
+        "p-icon": "assets/champ/viego/Ability/p.png",
+        "p-vid": "assets/champ/viego/Ability/p.webm"
+    },
+
+    {
+        "q-name": "blade of the ruined king",
+        "q-desc": "Viego's spectral blade passively deals bonus percent current Health damage On-Hit and strikes twice vs. enemies he recently hit with an Ability, stealing Health. Viego can activate this Ability to thrust his zweihander forward, impaling enemies in front of him.",
+        "q-icon": "assets/champ/viego/Ability/q.png",
+        "q-vid": "assets/champ/viego/Ability/q.webm"
+    },
+
+    {
+        "w-name": "spectral maw",
+        "w-desc": "Viego charges up before dashing forward, releasing a ball of concentrated Black Mist that stuns the first enemy hit.",
+        "w-icon": "assets/champ/viego/Ability/w.png",
+        "w-vid": "assets/champ/viego/Ability/w.webm"
+    },
+
+    {
+        "e-name": "harrowed path",
+        "e-desc": "Viego commands the Black Mist to haunt and surround a piece of terrain. Viego can hide in the Mist as a wraith, gaining camouflage, Move Speed, and Attack Speed.",
+        "e-icon": "assets/champ/viego/Ability/e.png",
+        "e-vid": "assets/champ/viego/Ability/e.webm"
+    },
+
+    {
+        "r-name": "heartbreaker",
+        "r-desc": "Viego teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that knocks away their allies.",
+        "r-icon": "assets/champ/viego/Ability/r.png",
+        "r-vid": "assets/champ/viego/Ability/r.webm"
+    }
+]

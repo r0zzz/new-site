@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/taliyah.png",
+        "splash": "assets/champ/Taliyah_0.jpg",
+        "name": "Taliyah",
+        "title": "The Stoneweaver",
+        "lore": "Taliyah is a nomadic mage from Shurima, torn between teenage wonder and adult responsibility. She has crossed nearly all of Valoran on a journey to learn the true nature of her growing powers, though more recently she has returned to protect her tribe. Some have mistaken her compassion for weakness and paid the ultimate price—for beneath Taliyah's youthful demeanor is a will strong enough to move mountains, and a spirit fierce enough to make the earth itself tremble."
+    
+    },
+    
+    {
+        "health": "550",
+        "health-regen": "6.5",
+        "armor": "18",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "470",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "58",
+        "attack-speed": "0.658",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Battlemage",
+        "role-desc": "Battlemages (also known as Warlocks) get into the middle of the fray, seeking to wreak havoc upon the entire enemy team with their overwhelming sustained area damage. Due to their relatively short (but not melee) combat ranges and the need to burn down their opponents over time, Battle Mages have significant defensive capabilities that range from sustaining endlessly to literally defying death for a short period of time."
+    },
+
+    {   
+        "p-name": "rock surfing",
+        "p-desc": "Taliyah gains Move Speed near walls.",
+        "p-icon": "assets/champ/taliyah/Ability/p.png",
+        "p-vid": "assets/champ/taliyah/Ability/p.webm"
+    },
+
+    {
+        "q-name": "threaded volley",
+        "q-desc": "Taliyah throws a volley of rocks in a target direction, moving freely as she casts. This creates Worked Ground below her. If Taliyah casts Threaded Volley on Worked Ground, she consumes the ground to throw a stronger boulder that slows enemies.",
+        "q-icon": "assets/champ/taliyah/Ability/q.png",
+        "q-vid": "assets/champ/taliyah/Ability/q.webm"
+    },
+
+    {
+        "w-name": "seismic shove",
+        "w-desc": "Taliyah causes an area of ground to erupt and throws enemies within it in a direction of her choosing.",
+        "w-icon": "assets/champ/taliyah/Ability/w.png",
+        "w-vid": "assets/champ/taliyah/Ability/w.webm"
+    },
+
+    {
+        "e-name": "unraveled earth",
+        "e-desc": "Taliyah creates a slowing minefield. If enemies dash through it or are knocked through it, the mines explode and stun them.",
+        "e-icon": "assets/champ/taliyah/Ability/e.png",
+        "e-vid": "assets/champ/taliyah/Ability/e.webm"
+    },
+
+    {
+        "r-name": "weaver's wall",
+        "r-desc": "Taliyah creates a very long wall and then surfs it.",
+        "r-icon": "assets/champ/taliyah/Ability/r.png",
+        "r-vid": "assets/champ/taliyah/Ability/r.webm"
+    }
+]

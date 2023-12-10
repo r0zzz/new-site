@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/camille.png",
+        "splash": "assets/champ/Camille_0.jpg",
+        "name": "Camille",
+        "title": "The Steel Shadow",
+        "lore": "Weaponized to operate outside the boundaries of the law, Camille is the Principal Intelligencer of Clan Ferros—an elegant and elite agent who ensures the Piltover machine and its Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy technique as an embarrassment that must be put to order. With a mind as sharp as the blades she bears, Camille's pursuit of superiority through hextech body augmentation has left many to wonder if she is now more machine than woman."
+    
+    },
+    
+    {
+        "health": "646",
+        "health-regen": "8.5",
+        "armor": "35",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "339",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.15",
+        "attack-damage": "68",
+        "attack-speed": "0.644",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "adaptive defenses",
+        "p-desc": "Basic attacks on champions grant a shield equal to a percentage of Camille's maximum health against their damage type (Physical or Magic) for a brief duration.",
+        "p-icon": "assets/champ/camille/Ability/p.png",
+        "p-vid": "assets/champ/camille/Ability/p.webm"
+    },
+
+    {
+        "q-name": "precision protocol",
+        "q-desc": "Camille's next attack deals bonus damage and grants bonus Move Speed. This spell can be recast for a short period of time, doing significantly increased bonus damage if Camille delays a period of time between the two attacks.",
+        "q-icon": "assets/champ/camille/Ability/q.png",
+        "q-vid": "assets/champ/camille/Ability/q.webm"
+    },
+
+    {
+        "w-name": "tactical sweep",
+        "w-desc": "Camille blasts in a cone after a delay, dealing damage. Enemies in the outer half are slowed and take extra damage, while also healing Camille.",
+        "w-icon": "assets/champ/camille/Ability/w.png",
+        "w-vid": "assets/champ/camille/Ability/w.webm"
+    },
+
+    {
+        "e-name": "hookshot",
+        "e-desc": "Camille pulls herself to a wall, leaping off and knocking up enemy champions upon landing.",
+        "e-icon": "assets/champ/camille/Ability/e.png",
+        "e-vid": "assets/champ/camille/Ability/e.webm"
+    },
+
+    {
+        "r-name": "the hextech ultimatum",
+        "r-desc": "Camille dashes to target champion, anchoring them to the area. She also deals bonus magic damage to the target with her basic attacks.",
+        "r-icon": "assets/champ/camille/Ability/r.png",
+        "r-vid": "assets/champ/camille/Ability/r.webm"
+    }
+]

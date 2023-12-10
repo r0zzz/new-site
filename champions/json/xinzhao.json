@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/xinzhao.png",
+        "splash": "assets/champ/XinZhao_0.jpg",
+        "name": "Xin Zhao",
+        "title": "The Seneschal of Demacia",
+        "lore": "Xin Zhao is a resolute warrior loyal to the ruling Lightshield dynasty. Once condemned to the fighting pits of Noxus, he survived countless gladiatorial bouts, but after being freed by Demacian forces, he swore his life and allegiance to these brave liberators. Armed with his favored three-talon spear, Xin Zhao now fights for his adopted kingdom, audaciously challenging any foe, no matter the odds."
+    
+    },
+    
+    {
+        "health": "640",
+        "health-regen": "8",
+        "armor": "35",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "274",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.25",
+        "attack-damage": "63",
+        "attack-speed": "0.645",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "determination",
+        "p-desc": "Every third attack deals bonus damage and heals Xin Zhao.",
+        "p-icon": "assets/champ/xinzhao/Ability/p.png",
+        "p-vid": "assets/champ/xinzhao/Ability/p.webm"
+    },
+
+    {
+        "q-name": "three talon strike",
+        "q-desc": "Xin Zhao's next 3 standard attacks deal increased damage with the third attack knocking an opponent into the air.",
+        "q-icon": "assets/champ/xinzhao/Ability/q.png",
+        "q-vid": "assets/champ/xinzhao/Ability/q.webm"
+    },
+
+    {
+        "w-name": "wind becomes lightning",
+        "w-desc": "Xin Zhao slashes in front of himself with his spear, then thrusts it forward, slowing affected enemies and marking them as Challenged.",
+        "w-icon": "assets/champ/xinzhao/Ability/w.png",
+        "w-vid": "assets/champ/xinzhao/Ability/w.webm"
+    },
+
+    {
+        "e-name": "audacious charge",
+        "e-desc": "Xin Zhao charges to an enemy, gaining increased Attack Speed and dealing damage to all enemies in the area, slowing them briefly. Audacious Charge gains increased range against Challenged targets.",
+        "e-icon": "assets/champ/xinzhao/Ability/e.png",
+        "e-vid": "assets/champ/xinzhao/Ability/e.webm"
+    },
+
+    {
+        "r-name": "crescent guard",
+        "r-desc": "Xin Zhao challenges an enemy he damaged recently. Xin Zhao deals damage to nearby enemies based on their current Health and knocks non-challenged targets back, becoming impervious to damage dealt by champions outside of the circle created.",
+        "r-icon": "assets/champ/xinzhao/Ability/r.png",
+        "r-vid": "assets/champ/xinzhao/Ability/r.webm"
+    }
+]

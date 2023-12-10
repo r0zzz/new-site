@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/talon.png",
+        "splash": "assets/champ/Talon_0.jpg",
+        "name": "Talon",
+        "title": "The Blade's Shadow",
+        "lore": "Talon is the knife in the darkness, a merciless killer able to strike without warning and escape before any alarm is raised. He carved out a dangerous reputation on the brutal streets of Noxus, where he was forced to fight, kill, and steal to survive. Adopted by the notorious Du Couteau family, he now plies his deadly trade at the empire's command, assassinating enemy leaders, captains, and heroes… as well as any Noxian foolish enough to earn the scorn of their masters."
+    
+    },
+    
+    {
+        "health": "658",
+        "health-regen": "8.5",
+        "armor": "30",
+        "magic-resist": "39",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "400",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.6",
+        "attack-damage": "68",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "blade's end",
+        "p-desc": "Talon's spells Wound champions and large monsters, stacking up to 3 times. When Talon attacks a champion with 3 stacks of Wound, they bleed for heavy damage over time.",
+        "p-icon": "assets/champ/talon/Ability/p.png",
+        "p-vid": "assets/champ/talon/Ability/p.webm"
+    },
+
+    {
+        "q-name": "noxian diplomacy",
+        "q-desc": "Talon stabs the target unit. If they are within melee range, this attack deals critical damage. If they are outside melee range, Talon will leap at his target before stabbing them. Talon refunds some health and cooldown if this ability kills the target.",
+        "q-icon": "assets/champ/talon/Ability/q.png",
+        "q-vid": "assets/champ/talon/Ability/q.webm"
+    },
+
+    {
+        "w-name": "rake",
+        "w-desc": "Talon sends out a volley of daggers that then return back to him, dealing physical damage every time it passes through an enemy. The returning blades deal bonus damage and slow units hit.",
+        "w-icon": "assets/champ/talon/Ability/w.png",
+        "w-vid": "assets/champ/talon/Ability/w.webm"
+    },
+
+    {
+        "e-name": "assassin's path",
+        "e-desc": "Talon vaults over any terrain or structure, up to a max distance. This ability has a low cooldown, but puts the used terrain on a long cooldown.",
+        "e-icon": "assets/champ/talon/Ability/e.png",
+        "e-vid": "assets/champ/talon/Ability/e.webm"
+    },
+
+    {
+        "r-name": "shadow assault",
+        "r-desc": "Talon disperses a ring of blades and becomes Invisible while gaining additional Move Speed. When Talon emerges from Invisibility, the blades converge on his location. Each time the blades move, Shadow Assault deals physical damage to enemies hit by at least one blade.",
+        "r-icon": "assets/champ/talon/Ability/r.png",
+        "r-vid": "assets/champ/talon/Ability/r.webm"
+    }
+]

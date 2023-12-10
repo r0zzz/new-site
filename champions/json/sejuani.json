@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/sejuani.png",
+        "splash": "assets/champ/Sejuani_0.jpg",
+        "name": "Sejuani",
+        "title": "Fury of the North",
+        "lore": "Sejuani is the brutal, unforgiving Iceborn warmother of the Winter's Claw, one of the most feared tribes of the Freljord. Her people's survival is a constant, desperate battle against the elements, forcing them to raid Noxians, Demacians, and Avarosans alike to survive the harsh winters. Sejuani herself spearheads the most dangerous of these attacks from the saddle of her drüvask boar Bristle, using her True Ice flail to freeze and shatter her enemies."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "8.5",
+        "armor": "34",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "400",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "66",
+        "attack-speed": "0.688",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "fury of the north",
+        "p-desc": "After being out of combat, Sejuani gains Frost Armor which grants Armor and Magic Resist and immunity to slows. Frost Armor persists for a short time after Sejuani takes damage. Sejuani can damage a stunned enemy to shatter it, dealing massive magic damage.",
+        "p-icon": "assets/champ/sejuani/Ability/p.png",
+        "p-vid": "assets/champ/sejuani/Ability/p.webm"
+    },
+
+    {
+        "q-name": "arctic assault",
+        "q-desc": "Sejuani charges forward, knocking enemies into the air. The charge stops after hitting an enemy champion.",
+        "q-icon": "assets/champ/sejuani/Ability/q.png",
+        "q-vid": "assets/champ/sejuani/Ability/q.webm"
+    },
+
+    {
+        "w-name": "winter's wrath",
+        "w-desc": "Sejuani swings her mace twice, dealing damage, slowing enemies and applying Frost stacks.",
+        "w-icon": "assets/champ/sejuani/Ability/w.png",
+        "w-vid": "assets/champ/sejuani/Ability/w.webm"
+    },
+
+    {
+        "e-name": "permafrost",
+        "e-desc": "Sejuani freezes and stuns an enemy champion that has maximum Frost stacks.",
+        "e-icon": "assets/champ/sejuani/Ability/e.png",
+        "e-vid": "assets/champ/sejuani/Ability/e.webm"
+    },
+
+    {
+        "r-name": "glacial prison",
+        "r-desc": "Sejuani throws her bola that freezes and stuns the first champion hit and creates an ice storm that slows other enemies.",
+        "r-icon": "assets/champ/sejuani/Ability/r.png",
+        "r-vid": "assets/champ/sejuani/Ability/r.webm"
+    }
+]

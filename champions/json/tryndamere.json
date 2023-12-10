@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/tryndamere.png",
+        "splash": "assets/champ/Tryndamere_0.jpg",
+        "name": "Tryndamere",
+        "title": "The Barbarian King",
+        "lore": "Fueled by unbridled fury and rage, Tryndamere once carved his way through the Freljord, openly challenging the greatest warriors of the north to prepare himself for even darker days ahead. The wrathful barbarian has long sought revenge for the annihilation of his clan, though more recently he has found companionship with Ashe, the Avarosan warmother, and a home with her people. His almost inhuman strength and fortitude is legendary, and has delivered him and his new allies countless victories against the greatest of odds."
+    
+    },
+    
+    {
+        "health": "696",
+        "health-regen": "8.5",
+        "armor": "33",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "66",
+        "attack-speed": "0.67",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "battle fury",
+        "p-desc": "Tryndamere gains Fury for each attack, critical strike, and killing blow he makes. Fury passively increases his Critical Strike Chance and can be consumed with his Bloodlust spell.",
+        "p-icon": "assets/champ/tryndamere/Ability/p.png",
+        "p-vid": "assets/champ/tryndamere/Ability/p.webm"
+    },
+
+    {
+        "q-name": "bloodlust",
+        "q-desc": "Tryndamere thrives on the thrills of combat, increasing his Attack Damage as he is more and more wounded. He can cast Bloodlust to consume his Fury and heal himself.",
+        "q-icon": "assets/champ/tryndamere/Ability/q.png",
+        "q-vid": "assets/champ/tryndamere/Ability/q.webm"
+    },
+
+    {
+        "w-name": "mocking shout",
+        "w-desc": "Tryndamere lets out an insulting cry, decreasing surrounding champions' Attack Damage. Enemies with their backs turned to Tryndamere also have their Move Speed reduced.",
+        "w-icon": "assets/champ/tryndamere/Ability/w.png",
+        "w-vid": "assets/champ/tryndamere/Ability/w.webm"
+    },
+
+    {
+        "e-name": "spinning slash",
+        "e-desc": "Tryndamere slices toward a target unit, dealing damage to enemies in his path.",
+        "e-icon": "assets/champ/tryndamere/Ability/e.png",
+        "e-vid": "assets/champ/tryndamere/Ability/e.webm"
+    },
+
+    {
+        "r-name": "undying rage",
+        "r-desc": "Tryndamere's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+        "r-icon": "assets/champ/tryndamere/Ability/r.png",
+        "r-vid": "assets/champ/tryndamere/Ability/r.webm"
+    }
+]

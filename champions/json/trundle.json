@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/trundle.png",
+        "splash": "assets/champ/Trundle_0.jpg",
+        "name": "Trundle",
+        "title": "The Troll King",
+        "lore": "Trundle is a hulking and devious troll with a particularly vicious streak, and there is nothing he cannot bludgeon into submission—not even the Freljord itself. Fiercely territorial, he chases down anyone foolish enough to enter his domain. Then, his massive club of True Ice at the ready, he chills his enemies to the bone and impales them with jagged, frozen pillars, laughing as they bleed out onto the tundra."
+    
+    },
+    
+    {
+        "health": "686",
+        "health-regen": "6",
+        "armor": "37",
+        "magic-resist": "32",
+        "movement-speed": "350"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "340",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "68",
+        "attack-speed": "0.67",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "king's tribute",
+        "p-desc": "When an enemy unit dies near Trundle, he heals for a percent of its maximum Health.",
+        "p-icon": "assets/champ/trundle/Ability/p.png",
+        "p-vid": "assets/champ/trundle/Ability/p.webm"
+    },
+
+    {
+        "q-name": "chomp",
+        "q-desc": "Trundle bites his opponent, dealing damage, briefly slowing and sapping some of their Attack Damage.",
+        "q-icon": "assets/champ/trundle/Ability/q.png",
+        "q-vid": "assets/champ/trundle/Ability/q.webm"
+    },
+
+    {
+        "w-name": "frozen domain",
+        "w-desc": "Trundle turns target location into his domain, gaining Attack Speed, Move Speed, and increased healing from all sources while on it.",
+        "w-icon": "assets/champ/trundle/Ability/w.png",
+        "w-vid": "assets/champ/trundle/Ability/w.webm"
+    },
+
+    {
+        "e-name": "pillar of ice",
+        "e-desc": "Trundle creates an ice pillar at target location, becoming impassable terrain and slowing all nearby enemy units.",
+        "e-icon": "assets/champ/trundle/Ability/e.png",
+        "e-vid": "assets/champ/trundle/Ability/e.webm"
+    },
+
+    {
+        "r-name": "subjugate",
+        "r-desc": "Trundle immediately steals a percent of his target's Health, Armor and Magic Resistance. Over the next 4 seconds the amount of Health, Armor, and Magic Resistance stolen is doubled.",
+        "r-icon": "assets/champ/trundle/Ability/r.png",
+        "r-vid": "assets/champ/trundle/Ability/r.webm"
+    }
+]

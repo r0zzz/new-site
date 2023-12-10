@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/fiddlesticks.png",
+        "splash": "assets/champ/Fiddlesticks_0.jpg",
+        "name": "Fiddlesticks",
+        "title": "The Ancient Fear",
+        "lore": "Something has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe, the haggard, makeshift creature reaps fear itself, shattering the minds of those unlucky enough to survive in its wake. Beware the sounding of the crow, or the whispering of the shape that appears <i>almost</i> human… Fiddlesticks has returned."
+    
+    },
+    
+    {
+        "health": "650",
+        "health-regen": "5.5",
+        "armor": "34",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "500",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "55",
+        "attack-speed": "0.625",
+        "attack-range": "480"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+    {   
+        "p-name": "a harmless scarecrow",
+        "p-desc": "Fiddlesticks' trinket is replaced by scarecrow effigies.",
+        "p-icon": "assets/champ/fiddlesticks/Ability/p.png",
+        "p-vid": "assets/champ/fiddlesticks/Ability/p.webm"
+    },
+
+    {
+        "q-name": "terrify",
+        "q-desc": "Fiddlesticks damaging enemies with spells while unseen or targeting an enemy with Terrify's activation strikes a target unit with fear, causing it to flee in terror for a duration.",
+        "q-icon": "assets/champ/fiddlesticks/Ability/q.png",
+        "q-vid": "assets/champ/fiddlesticks/Ability/q.webm"
+    },
+
+    {
+        "w-name": "bountiful harvest",
+        "w-desc": "Fiddlesticks drains health from nearby enemies, dealing bonus execute damage at the end of the duration.",
+        "w-icon": "assets/champ/fiddlesticks/Ability/w.png",
+        "w-vid": "assets/champ/fiddlesticks/Ability/w.webm"
+    },
+
+    {
+        "e-name": "reap",
+        "e-desc": "Fiddlesticks slashes an area with its scythe, slowing all enemies hit and silencing enemies hit in the center of the slash.",
+        "e-icon": "assets/champ/fiddlesticks/Ability/e.png",
+        "e-vid": "assets/champ/fiddlesticks/Ability/e.webm"
+    },
+
+    {
+        "r-name": "crowstorm",
+        "r-desc": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area.",
+        "r-icon": "assets/champ/fiddlesticks/Ability/r.png",
+        "r-vid": "assets/champ/fiddlesticks/Ability/r.webm"
+    }
+]

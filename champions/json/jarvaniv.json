@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/jarvaniv.png",
+        "splash": "assets/champ/JarvanIV_0.jpg",
+        "name": "Jarvan IV",
+        "title": "The Exemplar of Demacia",
+        "lore": "Prince Jarvan, scion of the Lightshield dynasty, is heir apparent to the throne of Demacia. Raised to be a paragon of his nation's greatest virtues, he is forced to balance the heavy expectations placed upon him with his own desire to fight on the front lines. Jarvan inspires his troops with his fearsome courage and selfless determination, raising his family's colors high and revealing his true strength as a future leader of his people."
+    
+    },
+    
+    {
+        "health": "640",
+        "health-regen": "8",
+        "armor": "36",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6.5",
+        "attack-damage": "64",
+        "attack-speed": "0.658",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "martial cadence",
+        "p-desc": "Jarvan's first basic attack on an enemy deals bonus physical damage based on their current Health. This effect cannot occur again on the same enemy for a few seconds.",
+        "p-icon": "assets/champ/jarvaniv/Ability/p.png",
+        "p-vid": "assets/champ/jarvaniv/Ability/p.webm"
+    },
+
+    {
+        "q-name": "dragon strike",
+        "q-desc": "Jarvan IV extends his lance, dealing physical damage and lowering the Armor of enemies in its path. Additionally, this will pull Jarvan to his Demacian Standard, knocking up enemies in his path.",
+        "q-icon": "assets/champ/jarvaniv/Ability/q.png",
+        "q-vid": "assets/champ/jarvaniv/Ability/q.webm"
+    },
+
+    {
+        "w-name": "golden aegis",
+        "w-desc": "Jarvan IV calls upon the ancient kings of Demacia to shield him from harm and slow surrounding enemies.",
+        "w-icon": "assets/champ/jarvaniv/Ability/w.png",
+        "w-vid": "assets/champ/jarvaniv/Ability/w.webm"
+    },
+
+    {
+        "e-name": "demacian standard",
+        "e-desc": "Jarvan IV carries the pride of Demacia, passively granting him bonus Attack Speed. Activating Demacian Standard allows Jarvan IV to place a Demacian flag that deals magic damage on impact and grants Attack Speed to nearby allied champions.",
+        "e-icon": "assets/champ/jarvaniv/Ability/e.png",
+        "e-vid": "assets/champ/jarvaniv/Ability/e.webm"
+    },
+
+    {
+        "r-name": "cataclysm",
+        "r-desc": "Jarvan IV heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
+        "r-icon": "assets/champ/jarvaniv/Ability/r.png",
+        "r-vid": "assets/champ/jarvaniv/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/viktor.png",
+        "splash": "assets/champ/Viktor_0.jpg",
+        "name": "Viktor",
+        "title": "The Machine Herald",
+        "lore": "The herald of a new age of technology, Viktor has devoted his life to the advancement of humankind. An idealist who seeks to lift the people of Zaun to a new level of understanding, he believes that only by embracing a glorious evolution of technology can humanity's full potential be realized. With a body augmented by steel and science, Viktor is zealous in his pursuit of this bright future."
+    
+    },
+    
+    {
+        "health": "600",
+        "health-regen": "8",
+        "armor": "23",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "405",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "53",
+        "attack-speed": "0.658",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Battlemage",
+        "role-desc": "Battlemages (also known as Warlocks) get into the middle of the fray, seeking to wreak havoc upon the entire enemy team with their overwhelming sustained area damage. Due to their relatively short (but not melee) combat ranges and the need to burn down their opponents over time, Battle Mages have significant defensive capabilities that range from sustaining endlessly to literally defying death for a short period of time."
+    },
+
+    {   
+        "p-name": "glorious evolution",
+        "p-desc": "Viktor can augment his basic abilities when he gets kills on enemies.",
+        "p-icon": "assets/champ/viktor/Ability/p.png",
+        "p-vid": "assets/champ/viktor/Ability/p.webm"
+    },
+
+    {
+        "q-name": "siphon power",
+        "q-desc": "Viktor blasts an enemy unit dealing magic damage, gaining a shield and empowering his next basic attack. Augment: Siphon Power's shield is increased by 60% and Viktor gains bonus Move Speed after casting.",
+        "q-icon": "assets/champ/viktor/Ability/q.png",
+        "q-vid": "assets/champ/viktor/Ability/q.webm"
+    },
+
+    {
+        "w-name": "gravity field",
+        "w-desc": "Viktor conjures a heavy gravitational field that slows enemies in its radius. Enemies who stay within the device for too long are stunned. Augment: Viktor's non-periodic spells apply a slow to enemies.",
+        "w-icon": "assets/champ/viktor/Ability/w.png",
+        "w-vid": "assets/champ/viktor/Ability/w.webm"
+    },
+
+    {
+        "e-name": "death ray",
+        "e-desc": "Viktor uses his robotic arm to fire a chaos beam that cuts across the field in a line, dealing damage to all enemies in its path. Augment: An explosion follows the Death Ray's wake, dealing magic damage.",
+        "e-icon": "assets/champ/viktor/Ability/e.png",
+        "e-vid": "assets/champ/viktor/Ability/e.webm"
+    },
+
+    {
+        "r-name": "chaos storm",
+        "r-desc": "Viktor conjures a singularity on the field which deals magic damage and interrupts enemy channels. The singularity then periodically does magic damage to all nearby enemies. Viktor can redirect the singularity. Augment: The Chaos Storm moves 25% faster.",
+        "r-icon": "assets/champ/viktor/Ability/r.png",
+        "r-vid": "assets/champ/viktor/Ability/r.webm"
+    }
+]

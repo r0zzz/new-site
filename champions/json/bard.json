@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/bard.png",
+        "splash": "assets/champ/Bard_0.jpg",
+        "name": "Bard",
+        "title": "The Wandering Caretaker",
+        "lore": "A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic vagabond is drawn to artifacts of great magical power. Surrounded by a jubilant choir of helpful spirit meeps, it is impossible to mistake his actions as malevolent, as Bard always serves the greater good... in his own odd way."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "5.5",
+        "armor": "34",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "52",
+        "attack-speed": "0.625",
+        "attack-range": "500"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Catcher",
+        "role-desc": "Catchers specialize in locking down opponents or, in some cases, entire battlefields by creating intense zones of threat that only foolish enemies would dare wade through. Although not as reliant on their friends as Enchanters, the fragile Catchers greatly benefit from allied presence - both to deter incoming danger and to help capitalize on targets they've locked down."
+    },
+
+    {   
+        "p-name": "traveler's call",
+        "p-desc": "Meeps: Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage. When Bard has collected enough Chimes, his meeps will also deal damage in an area and slow enemies hit. Chimes: Ancient chimes randomly appear for Bard to collect. These grant experience, restore mana, and provide out of combat Move Speed.",
+        "p-icon": "assets/champ/bard/Ability/p.png",
+        "p-vid": "assets/champ/bard/Ability/p.webm"
+    },
+
+    {
+        "q-name": "cosmic finding",
+        "q-desc": "Bard fires a missile which will slow the first enemy struck, and continue onward. If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+        "q-icon": "assets/champ/bard/Ability/q.png",
+        "q-vid": "assets/champ/bard/Ability/q.webm"
+    },
+
+    {
+        "w-name": "caretaker's shrine",
+        "w-desc": "Reveals a Health shrine which powers up over a short time, disappearing after healing and speeding up the first ally that touches it.",
+        "w-icon": "assets/champ/bard/Ability/w.png",
+        "w-vid": "assets/champ/bard/Ability/w.webm"
+    },
+
+    {
+        "e-name": "magical journey",
+        "e-desc": "Bard opens a portal in nearby terrain. Allies and enemies alike can take a one-way trip through that terrain by moving into the portal.",
+        "e-icon": "assets/champ/bard/Ability/e.png",
+        "e-vid": "assets/champ/bard/Ability/e.webm"
+    },
+
+    {
+        "r-name": "tempered fate",
+        "r-desc": "Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
+        "r-icon": "assets/champ/bard/Ability/r.png",
+        "r-vid": "assets/champ/bard/Ability/r.webm"
+    }
+]

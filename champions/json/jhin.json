@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/jhin.png",
+        "splash": "assets/champ/Jhin_0.jpg",
+        "name": "Jhin",
+        "title": "The Virtuoso",
+        "lore": "Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia's ruling council, the serial killer now works as their cabal's assassin. Using his gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror."
+    
+    },
+    
+    {
+        "health": "655",
+        "health-regen": "3.75",
+        "armor": "24",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "59",
+        "attack-speed": "0.625",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "whisper",
+        "p-desc": "Jhin's hand cannon, Whisper, is a precise instrument designed to deal superior damage. It fires at a fixed rate and carries only four shots. Jhin imbues the final bullet with dark magics to critically strike and deal bonus execute damage. Whenever Whisper crits, it inspires Jhin with a burst of Move Speed.",
+        "p-icon": "assets/champ/jhin/Ability/p.png",
+        "p-vid": "assets/champ/jhin/Ability/p.webm"
+    },
+
+    {
+        "q-name": "dancing grenade",
+        "q-desc": "Jhin launches a magical cartridge at an enemy. It can hit up to four targets and gains damage each time it kills.",
+        "q-icon": "assets/champ/jhin/Ability/q.png",
+        "q-vid": "assets/champ/jhin/Ability/q.webm"
+    },
+
+    {
+        "w-name": "deadly flourish",
+        "w-desc": "Jhin brandishes his cane, firing a single shot with incredible range. It pierces through minions and monsters, but stops on the first champion hit. If the target was recently struck by Jhin's allies, lotus traps, or damaged by Jhin, they are rooted.",
+        "w-icon": "assets/champ/jhin/Ability/w.png",
+        "w-vid": "assets/champ/jhin/Ability/w.webm"
+    },
+
+    {
+        "e-name": "captive audience",
+        "e-desc": "Jhin places an invisible lotus trap that blooms when walked over. It slows nearby enemies before dealing damage with an explosion of serrated petals. Beauty in Death - When Jhin kills an enemy champion, a lotus trap will bloom near their corpse.",
+        "e-icon": "assets/champ/jhin/Ability/e.png",
+        "e-vid": "assets/champ/jhin/Ability/e.webm"
+    },
+
+    {
+        "r-name": "curtain call",
+        "r-desc": "Jhin channels, transforming Whisper into a shoulder-mounted mega-cannon. It is able to fire 4 super shots at extreme range that pierce through minions and monsters, but stop on the first champion impacted. Whisper cripples enemies hit, which slows them and deals execute damage. The 4th shot is perfectly crafted, epically powerful, and guaranteed to critically strike.",
+        "r-icon": "assets/champ/jhin/Ability/r.png",
+        "r-vid": "assets/champ/jhin/Ability/r.webm"
+    }
+]

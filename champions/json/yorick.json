@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/yorick.png",
+        "splash": "assets/champ/Yorick_0.jpg",
+        "name": "Yorick",
+        "title": "Shepherd of Souls",
+        "lore": "The last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking spirits that he gathers to him. Yorick's monstrous actions belie his noble purpose: to free his home from the curse of the Ruination."
+    
+    },
+    
+    {
+        "health": "650",
+        "health-regen": "8",
+        "armor": "39",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "62",
+        "attack-speed": "0.625",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "shepherd of souls",
+        "p-desc": "The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies.",
+        "p-icon": "assets/champ/yorick/Ability/p.png",
+        "p-vid": "assets/champ/yorick/Ability/p.webm"
+    },
+
+    {
+        "q-name": "last rites",
+        "q-desc": "Yorick deals bonus damage on his next attack and heals himself. If the target dies a grave will be dug.",
+        "q-icon": "assets/champ/yorick/Ability/q.png",
+        "q-vid": "assets/champ/yorick/Ability/q.webm"
+    },
+
+    {
+        "w-name": "dark procession",
+        "w-desc": "Yorick summons a destructible wall at target location that will block enemy movement.",
+        "w-icon": "assets/champ/yorick/Ability/w.png",
+        "w-vid": "assets/champ/yorick/Ability/w.webm"
+    },
+
+    {
+        "e-name": "mourning mist",
+        "e-desc": "Yorick throws a globule of Black Mist that damages, slows and marks enemies.",
+        "e-icon": "assets/champ/yorick/Ability/e.png",
+        "e-vid": "assets/champ/yorick/Ability/e.webm"
+    },
+
+    {
+        "r-name": "eulogy of the isles",
+        "r-desc": "Yorick summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.",
+        "r-icon": "assets/champ/yorick/Ability/r.png",
+        "r-vid": "assets/champ/yorick/Ability/r.webm"
+    }
+]

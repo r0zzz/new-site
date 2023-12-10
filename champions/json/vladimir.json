@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/vladimir.png",
+        "splash": "assets/champ/Vladimir_0.jpg",
+        "name": "Vladimir",
+        "title": "The Crimson Reaper",
+        "lore": "A fiend with a thirst for mortal blood, Vladimir has influenced the affairs of Noxus since the empire's earliest days. In addition to unnaturally extending his life, his mastery of hemomancy allows him to control the minds and bodies of others as easily as his own. In the flamboyant salons of the Noxian aristocracy, this has enabled him to build a fanatical cult of personality around himself—while in the lowest back alleys, it allows him to bleed his enemies dry."
+    
+    },
+    
+    {
+        "health": "607",
+        "health-regen": "7",
+        "armor": "27",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "55",
+        "attack-speed": "0.658",
+        "attack-range": "450"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Battlemage",
+        "role-desc": "Battlemages (also known as Warlocks) get into the middle of the fray, seeking to wreak havoc upon the entire enemy team with their overwhelming sustained area damage. Due to their relatively short (but not melee) combat ranges and the need to burn down their opponents over time, Battle Mages have significant defensive capabilities that range from sustaining endlessly to literally defying death for a short period of time."
+    },
+
+    {   
+        "p-name": "crimson pact",
+        "p-desc": "Every 30 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.6 bonus Health (does not stack with itself).",
+        "p-icon": "assets/champ/vladimir/Ability/p.png",
+        "p-vid": "assets/champ/vladimir/Ability/p.webm"
+    },
+
+    {
+        "q-name": "transfusion",
+        "q-desc": "Vladimir steals life from the target enemy. When Vladimir's resource is full, Transfusion will benefit from massively increased damage and healing for a brief time.",
+        "q-icon": "assets/champ/vladimir/Ability/q.png",
+        "q-vid": "assets/champ/vladimir/Ability/q.webm"
+    },
+
+    {
+        "w-name": "sanguine pool",
+        "w-desc": "Vladimir sinks into a pool of blood, becoming untargetable for 2 seconds. Additionally, enemies on the pool are slowed and Vladimir siphons life from them.",
+        "w-icon": "assets/champ/vladimir/Ability/w.png",
+        "w-vid": "assets/champ/vladimir/Ability/w.webm"
+    },
+
+    {
+        "e-name": "tides of blood",
+        "e-desc": "Vladimir pays his own health to charge up a reservoir of blood which, when released, deals damage in the area around him but can be blocked by enemy units.",
+        "e-icon": "assets/champ/vladimir/Ability/e.png",
+        "e-vid": "assets/champ/vladimir/Ability/e.webm"
+    },
+
+    {
+        "r-name": "hemoplague",
+        "r-desc": "Vladimir infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals Vladimir for each enemy Champion hit.",
+        "r-icon": "assets/champ/vladimir/Ability/r.png",
+        "r-vid": "assets/champ/vladimir/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/ivern.png",
+        "splash": "assets/champ/Ivern_0.jpg",
+        "name": "Ivern",
+        "title": "The Green Father",
+        "lore": "Ivern Bramblefoot, known to many as the Green Father, is a peculiar half man, half tree who roams Runeterra's forests, cultivating life everywhere he goes. He knows the secrets of the natural world, and holds deep friendships with all things that grow, fly, and scuttle. Ivern wanders the wilderness, imparting strange wisdom to any he meets, enriching the forests, and occasionally entrusting loose-lipped butterflies with his secrets."
+    
+    },
+    
+    {
+        "health": "655",
+        "health-regen": "7",
+        "armor": "27",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "450",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "50",
+        "attack-speed": "0.644",
+        "attack-range": "475"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Catcher",
+        "role-desc": "Catchers specialize in locking down opponents or, in some cases, entire battlefields by creating intense zones of threat that only foolish enemies would dare wade through. Although not as reliant on their friends as Enchanters, the fragile Catchers greatly benefit from allied presence - both to deter incoming danger and to help capitalize on targets they've locked down."
+    },
+
+    {   
+        "p-name": "friend of the forest",
+        "p-desc": "Ivern cannot attack or be attacked by non-epic monsters. Ivern can create magical groves on jungle camps which grow over time. When the grove is fully grown, Ivern may free the monsters to receive gold and experience.",
+        "p-icon": "assets/champ/ivern/Ability/p.png",
+        "p-vid": "assets/champ/ivern/Ability/p.webm"
+    },
+
+    {
+        "q-name": "rootcaller",
+        "q-desc": "Ivern conjures a vine, dealing damage and rooting enemy targets hit. Ivern's allies can dash to the rooted target.",
+        "q-icon": "assets/champ/ivern/Ability/q.png",
+        "q-vid": "assets/champ/ivern/Ability/q.webm"
+    },
+
+    {
+        "w-name": "brushmaker",
+        "w-desc": "In brush, Ivern and his nearby allies attacks deal bonus magic damage. Ivern can activate this ability to create a patch of brush.",
+        "w-icon": "assets/champ/ivern/Ability/w.png",
+        "w-vid": "assets/champ/ivern/Ability/w.webm"
+    },
+
+    {
+        "e-name": "triggerseed",
+        "e-desc": "Ivern places a shield on an ally which explodes after a short duration slowing and damaging enemies. The shield refreshes if it hits no enemies.",
+        "e-icon": "assets/champ/ivern/Ability/e.png",
+        "e-vid": "assets/champ/ivern/Ability/e.webm"
+    },
+
+    {
+        "r-name": "daisy!",
+        "r-desc": "Ivern summons his Sentinel friend Daisy to fight with him. Re-cast command Daisy to attack or move.",
+        "r-icon": "assets/champ/ivern/Ability/r.png",
+        "r-vid": "assets/champ/ivern/Ability/r.webm"
+    }
+]

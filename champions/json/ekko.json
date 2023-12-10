@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/ekko.png",
+        "splash": "assets/champ/Ekko_0.jpg",
+        "name": "Ekko",
+        "title": "The Boy Who Shattered Time",
+        "lore": "A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this freedom, when there's a threat to his friends he'll do anything to defend them. To outsiders, Ekko seems to achieve the impossible the first time, every time."
+    
+    },
+    
+    {
+        "health": "655",
+        "health-regen": "9",
+        "armor": "32",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "280",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "58",
+        "attack-speed": "0.688",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "z-drive resonance",
+        "p-desc": "Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion.",
+        "p-icon": "assets/champ/ekko/Ability/p.png",
+        "p-vid": "assets/champ/ekko/Ability/p.webm"
+    },
+
+    {
+        "q-name": "timewinder",
+        "q-desc": "Ekko throws a temporal grenade that expands into a time-distortion field upon hitting an enemy champion, slowing and damaging anyone caught inside. After a delay, the grenade rewinds back to Ekko, dealing damage on its return.",
+        "q-icon": "assets/champ/ekko/Ability/q.png",
+        "q-vid": "assets/champ/ekko/Ability/q.webm"
+    },
+
+    {
+        "w-name": "parallel convergence",
+        "w-desc": "Ekko's basic attacks deal bonus magic damage to low health enemies. He can cast Parallel Convergence to split the timeline, creating an anomaly after a few seconds that slows enemies caught inside. If Ekko enters the anomaly, he gains shielding and stuns enemies by suspending them in time.",
+        "w-icon": "assets/champ/ekko/Ability/w.png",
+        "w-vid": "assets/champ/ekko/Ability/w.webm"
+    },
+
+    {
+        "e-name": "phase dive",
+        "e-desc": "Ekko rolls evasively while charging up his Z-Drive. His next attack deals bonus damage and warps reality, teleporting him to his target.",
+        "e-icon": "assets/champ/ekko/Ability/e.png",
+        "e-vid": "assets/champ/zed/Ability/e.webm"
+    },
+
+    {
+        "r-name": "chronobreak",
+        "r-desc": "Ekko shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.",
+        "r-icon": "assets/champ/ekko/Ability/r.png",
+        "r-vid": "assets/champ/ekko/Ability/r.webm"
+    }
+]

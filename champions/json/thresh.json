@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/thresh.png",
+        "splash": "assets/champ/Thresh_0.jpg",
+        "name": "Thresh",
+        "title": "The Chain Warden",
+        "lore": "Sadistic and cunning, Thresh is an ambitious and restless spirit of the Shadow Isles. Once the custodian of countless arcane secrets, he was undone by a power greater than life or death, and now sustains himself by tormenting and breaking others with slow, excruciating inventiveness. His victims suffer far beyond their brief mortal coil as Thresh wreaks agony upon their souls, imprisoning them in his unholy lantern to torture for all eternity."
+    
+    },
+    
+    {
+        "health": "600",
+        "health-regen": "7",
+        "armor": "28",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "274",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "56",
+        "attack-speed": "0.625",
+        "attack-range": "450"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Catcher",
+        "role-desc": "Catchers specialize in locking down opponents or, in some cases, entire battlefields by creating intense zones of threat that only foolish enemies would dare wade through. Although not as reliant on their friends as Enchanters, the fragile Catchers greatly benefit from allied presence - both to deter incoming danger and to help capitalize on targets they've locked down."
+    },
+
+    {   
+        "p-name": "damnation",
+        "p-desc": "Thresh can harvest the souls of enemies that die near him, permanently granting him Armor and Ability Power.",
+        "p-icon": "assets/champ/thresh/Ability/p.png",
+        "p-vid": "assets/champ/thresh/Ability/p.webm"
+    },
+
+    {
+        "q-name": "death sentence",
+        "q-desc": "Thresh binds an enemy in chains and pulls them toward him. Activating this ability a second time pulls Thresh to the enemy.",
+        "q-icon": "assets/champ/thresh/Ability/q.png",
+        "q-vid": "assets/champ/thresh/Ability/q.webm"
+    },
+
+    {
+        "w-name": "dark passage",
+        "w-desc": "Thresh throws out a lantern that shields nearby allied Champions from damage. Allies can click the lantern to dash to Thresh.",
+        "w-icon": "assets/champ/thresh/Ability/w.png",
+        "w-vid": "assets/champ/thresh/Ability/w.webm"
+    },
+
+    {
+        "e-name": "flay",
+        "e-desc": "Thresh's attacks wind up, dealing more damage the longer he waits between attacks. When activated, Thresh sweeps his chain, knocking all enemies hit in the direction of the blow.",
+        "e-icon": "assets/champ/thresh/Ability/e.png",
+        "e-vid": "assets/champ/thresh/Ability/e.webm"
+    },
+
+    {
+        "r-name": "the box",
+        "r-desc": "A prison of walls that slow and deal damage if broken.",
+        "r-icon": "assets/champ/thresh/Ability/r.png",
+        "r-vid": "assets/champ/thresh/Ability/r.webm"
+    }
+]

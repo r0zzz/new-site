@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/caitlyn.png",
+        "splash": "assets/champ/Caitlyn_0.jpg",
+        "name": "Caitlyn",
+        "title": "The Sheriff of Piltover",
+        "lore": "Renowned as its finest peacekeeper, Caitlyn is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn's most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress."
+    
+    },
+    
+    {
+        "health": "580",
+        "health-regen": "3.5",
+        "armor": "27",
+        "magic-resist": "30",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "315",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.4",
+        "attack-damage": "60",
+        "attack-speed": "0.681",
+        "attack-range": "650"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "headshot",
+        "p-desc": "Every few basic attacks, or against a target she has trapped or netted, Caitlyn will fire a headshot dealing bonus damage that scales with her critical strike chance. On trapped or netted targets, Caitlyn's Headshot attack range is doubled.",
+        "p-icon": "assets/champ/caitlyn/Ability/p.png",
+        "p-vid": "assets/champ/caitlyn/Ability/p.webm"
+    },
+
+    {
+        "q-name": "piltover peacemaker",
+        "q-desc": "Caitlyn revs up her rifle for 1 second to unleash a penetrating shot that deals physical damage (deals less damage to subsequent targets).",
+        "q-icon": "assets/champ/caitlyn/Ability/q.png",
+        "q-vid": "assets/champ/caitlyn/Ability/q.webm"
+    },
+
+    {
+        "w-name": "yordle snap trap",
+        "w-desc": "Caitlyn sets a trap that, when sprung, reveals and immobilizes the enemy champion for 1.5 seconds, granting Caitlyn an empowered Headshot.",
+        "w-icon": "assets/champ/caitlyn/Ability/w.png",
+        "w-vid": "assets/champ/caitlyn/Ability/w.webm"
+    },
+
+    {
+        "e-name": "90 caliber net",
+        "e-desc": "Caitlyn fires a heavy net to slow her target. The recoil knocks Caitlyn back.",
+        "e-icon": "assets/champ/caitlyn/Ability/e.png",
+        "e-vid": "assets/champ/caitlyn/Ability/e.webm"
+    },
+
+    {
+        "r-name": "ace in the hole",
+        "r-desc": "Caitlyn takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.",
+        "r-icon": "assets/champ/caitlyn/Ability/r.png",
+        "r-vid": "assets/champ/caitlyn/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/zeri.png",
+        "splash": "assets/champ/Zeri_0.jpg",
+        "name": "Zeri",
+        "title": "The Spark of Zaun",
+        "lore": "A headstrong, spirited young woman from Zaun's working-class, Zeri channels her electric magic to charge herself and her custom-crafted gun. Her volatile power mirrors her emotions, its sparks reflecting her lightning-fast approach to life. Deeply compassionate toward others, Zeri carries the love of her family and her home into every fight. Though her eagerness to help can sometimes backfire, Zeri believes one truth to be certain: stand up for your community, and it will stand up with you."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "3.25",
+        "armor": "24",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "250",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "53",
+        "attack-speed": "0.658",
+        "attack-range": "500"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "living battery",
+        "p-desc": "Zeri's Attacks deal magic damage and are treated as Abilities. Moving and casting Burst Fire stores up energy in Zeri's Sparkpack. When fully charged her next Attack deals bonus damage.",
+        "p-icon": "assets/champ/zeri/Ability/p.png",
+        "p-vid": "assets/champ/zeri/Ability/p.webm"
+    },
+
+    {
+        "q-name": "burst fire",
+        "q-desc": "Burst Fire shoots a burst of 7 rounds that deal attack damage to the first enemy hit. This Ability is treated as an Attack.",
+        "q-icon": "assets/champ/zeri/Ability/q.png",
+        "q-vid": "assets/champ/zeri/Ability/q.webm"
+    },
+
+    {
+        "w-name": "ultrashock laser",
+        "w-desc": "Zeri fires an electric pulse that slows and damages the first enemy hit. If the pulse hits a wall it expands into a long range laser.",
+        "w-icon": "assets/champ/zeri/Ability/w.png",
+        "w-vid": "assets/champ/zeri/Ability/w.webm"
+    },
+
+    {
+        "e-name": "spark surge",
+        "e-desc": "Zeri dashes a short distance and energizes her next 3 shots of Burst Fire, causing them to pierce through enemies. She will vault and grind over any terrain she touches.",
+        "e-icon": "assets/champ/zeri/Ability/e.png",
+        "e-vid": "assets/champ/zeri/Ability/e.webm"
+    },
+
+    {
+        "r-name": "lightning crash",
+        "r-desc": "Zeri discharges a nova of electricity and overcharges herself, gaining increased damage and stacking Move Speed that refreshes and gets stronger every time she hits an enemy champion. While overcharged, Burst fire becomes a faster triple shot that chains lightning between enemies.",
+        "r-icon": "assets/champ/zeri/Ability/r.png",
+        "r-vid": "assets/champ/zeri/Ability/r.webm"
+    }
+]

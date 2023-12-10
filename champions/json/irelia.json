@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/irelia.png",
+        "splash": "assets/champ/Irelia_0.jpg",
+        "name": "Irelia",
+        "title": "The Blade Dancer",
+        "lore": "The Noxian occupation of Ionia produced many heroes, none more unlikely than young Irelia of Navori. Trained in the ancient dances of her province, she adapted her art for war, using the graceful and carefully practised movements to levitate a host of deadly blades. After proving herself as a fighter, she was thrust into the role of resistance leader and figurehead, and to this day remains dedicated to the preservation of her homeland."
+    
+    },
+    
+    {
+        "health": "590",
+        "health-regen": "8.5",
+        "armor": "36",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "65",
+        "attack-speed": "0.656",
+        "attack-range": "200"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "ionian fervor",
+        "p-desc": "When Irelia strikes enemies with spells she gains stacking bonus Attack Speed. At maximum stacks she also gains bonus damage on hit.",
+        "p-icon": "assets/champ/irelia/Ability/p.png",
+        "p-vid": "assets/champ/irelia/Ability/p.webm"
+    },
+
+    {
+        "q-name": "bladesurge",
+        "q-desc": "Irelia dashes forward to strike her target, healing herself. If the target is Marked or dies to Bladesurge, its cooldown refreshes.",
+        "q-icon": "assets/champ/irelia/Ability/q.png",
+        "q-vid": "assets/champ/irelia/Ability/q.webm"
+    },
+
+    {
+        "w-name": "defiant dance",
+        "w-desc": "Irelia charges a strike that deals more damage as she charges. She takes reduced physical damage during the charge.",
+        "w-icon": "assets/champ/irelia/Ability/w.png",
+        "w-vid": "assets/champ/irelia/Ability/w.webm"
+    },
+
+    {
+        "e-name": "flawless duet",
+        "e-desc": "Irelia sends out two blades which converge on each other. Enemies caught in between are damaged, stunned and Marked.",
+        "e-icon": "assets/champ/irelia/Ability/e.png",
+        "e-vid": "assets/champ/irelia/Ability/e.webm"
+    },
+
+    {
+        "r-name": "vanguard's edge",
+        "r-desc": "Irelia fires a massive number of blades that explode outward upon hitting an enemy champion. Enemies hit by the blades are damaged and Marked. Afterwards the blades form a wall that will damage and slow enemies that walk through it.",
+        "r-icon": "assets/champ/irelia/Ability/r.png",
+        "r-vid": "assets/champ/irelia/Ability/r.webm"
+    }
+]

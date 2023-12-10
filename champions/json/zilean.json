@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/zilean.png",
+        "splash": "assets/champ/Zilean_0.jpg",
+        "name": "Zilean",
+        "title": "The Chronokeeper",
+        "lore": "Once a powerful Icathian mage, Zilean became obsessed with the passage of time after witnessing his homeland's destruction by the Void. Unable to spare even a minute to grieve the catastrophic loss, he called upon ancient temporal magic to divine all possible outcomes. Having become functionally immortal, Zilean now drifts through the past, present, and future, bending and warping the flow of time around him, always searching for that elusive moment that will turn back the clock and undo Icathia's destruction."
+    
+    },
+    
+    {
+        "health": "574",
+        "health-regen": "5.5",
+        "armor": "24",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "452",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.35",
+        "attack-damage": "52",
+        "attack-speed": "0.658",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute, including many of the pre-7.10 Specialists."
+    },
+
+    {   
+        "p-name": "time in a bottle",
+        "p-desc": "Zilean stores time as Experience and can grant it to his allies. When he has enough Experience to finish an ally's level up, he can right-click them to impart it. Zilean receives as much Experience as he gives.",
+        "p-icon": "assets/champ/zilean/Ability/p.png",
+        "p-vid": "assets/champ/zilean/Ability/p.webm"
+    },
+
+    {
+        "q-name": "time bomb",
+        "q-desc": "Tosses a bomb to target area that sticks to units that come near it (prioritizes Champions). It detonates after 3 seconds, dealing area of effect damage. If a Time Bomb is detonated early by another Time Bomb, it also stuns enemies.",
+        "q-icon": "assets/champ/zilean/Ability/q.png",
+        "q-vid": "assets/champ/zilean/Ability/q.webm"
+    },
+
+    {
+        "w-name": "rewind",
+        "w-desc": "Zilean can prepare himself for future confrontations, reducing the cooldowns of his other basic abilities.",
+        "w-icon": "assets/champ/zilean/Ability/w.png",
+        "w-vid": "assets/champ/zilean/Ability/w.webm"
+    },
+
+    {
+        "e-name": "time warp",
+        "e-desc": "Zilean bends time around any unit, decreasing an enemy's Move Speed or increasing an ally's Move Speed for a short time.",
+        "e-icon": "assets/champ/zilean/Ability/e.png",
+        "e-vid": "assets/champ/zilean/Ability/e.webm"
+    },
+
+    {
+        "r-name": "chronoshift",
+        "r-desc": "Zilean places a protective time rune on an allied champion, teleporting the champion back in time if they take lethal damage.",
+        "r-icon": "assets/champ/zilean/Ability/r.png",
+        "r-vid": "assets/champ/zilean/Ability/r.webm"
+    }
+]

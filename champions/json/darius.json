@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/darius.png",
+        "splash": "assets/champ/Darius_0.jpg",
+        "name": "Darius",
+        "title": "The Hand of Noxus",
+        "lore": "There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened commander. Rising from humble origins to become the Hand of Noxus, he cleaves through the empire's enemies—many of them Noxians themselves. Knowing that he never doubts his cause is just, and never hesitates once his axe is raised, those who stand against the leader of the Trifarian Legion can expect no mercy."
+    
+    },
+    
+    {
+        "health": "652",
+        "health-regen": "10",
+        "armor": "39",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "263",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6.6",
+        "attack-damage": "64",
+        "attack-speed": "0.625",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "hemorrhage",
+        "p-desc": "Darius' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times. Darius enrages and gains massive Attack Damage when his target reaches max stacks.",
+        "p-icon": "assets/champ/darius/Ability/p.png",
+        "p-vid": "assets/champ/darius/Ability/p.webm"
+    },
+
+    {
+        "q-name": "decimate",
+        "q-desc": "Darius winds up and swings his axe in a wide circle. Enemies struck by the blade take more damage than those struck by the handle. Darius heals based on enemy champions and large monsters hit by the blade.",
+        "q-icon": "assets/champ/darius/Ability/q.png",
+        "q-vid": "assets/champ/darius/Ability/q.webm"
+    },
+
+    {
+        "w-name": "crippling strike",
+        "w-desc": "Darius's next attack strikes an enemy's crucial artery. As they bleed out, their Move Speed is slowed.",
+        "w-icon": "assets/champ/darius/Ability/w.png",
+        "w-vid": "assets/champ/darius/Ability/w.webm"
+    },
+
+    {
+        "e-name": "apprehend",
+        "e-desc": "Darius hones his axe, passively causing his physical damage to ignore a percentage of his target's Armor. When activated, Darius sweeps up his enemies with his axe's hook and pulls them to him.",
+        "e-icon": "assets/champ/darius/Ability/e.png",
+        "e-vid": "assets/champ/darius/Ability/e.webm"
+    },
+
+    {
+        "r-name": "noxian guillotine",
+        "r-desc": "Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target. If Noxian Guillotine is a killing blow, its cooldown is refreshed for a brief duration.",
+        "r-icon": "assets/champ/darius/Ability/r.png",
+        "r-vid": "assets/champ/darius/Ability/r.webm"
+    }
+]

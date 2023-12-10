@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/volibear.png",
+        "splash": "assets/champ/Volibear_0.jpg",
+        "name": "Volibear",
+        "title": "The Relentless Storm",
+        "lore": "To those who still revere him, the Volibear is the storm made manifest. Destructive, wild, and stubbornly resolute, he existed before mortals walked the Freljord's tundra, and is fiercely protective of the lands that he and his demi-god kin created. Cultivating a deep hatred of civilization and the weakness it brought with it, he now fights to return to the old ways—when the land was untamed, and blood spilled freely—and eagerly battles all who oppose him, with tooth, claw, and thundering domination."
+    
+    },
+    
+    {
+        "health": "650",
+        "health-regen": "9",
+        "armor": "31",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6.25",
+        "attack-damage": "60",
+        "attack-speed": "0.625",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "the relentless storm",
+        "p-desc": "Volibear's Attacks and abilities grant Attack Speed, and eventually cause his Attacks to deal bonus magic damage to nearby enemies.",
+        "p-icon": "assets/champ/volibear/Ability/p.png",
+        "p-vid": "assets/champ/volibear/Ability/p.webm"
+    },
+
+    {
+        "q-name": "thundering smash",
+        "q-desc": "Volibear gains speed towards enemies, Stunning and damaging the first one he Attacks.",
+        "q-icon": "assets/champ/volibear/Ability/q.png",
+        "q-vid": "assets/champ/volibear/Ability/q.webm"
+    },
+
+    {
+        "w-name": "frenzied maul",
+        "w-desc": "Volibear damages an enemy, applying on-hit effects and marking them. Casting this ability again on the same target deals bonus damage and Heals Volibear.",
+        "w-icon": "assets/champ/volibear/Ability/w.png",
+        "w-vid": "assets/champ/volibear/Ability/w.webm"
+    },
+
+    {
+        "e-name": "sky splitter",
+        "e-desc": "Volibear summons a lightning bolt at a location, dealing damage and Slowing enemies while granting Volibear a Shield if he's inside the blast radius.",
+        "e-icon": "assets/champ/volibear/Ability/e.png",
+        "e-vid": "assets/champ/volibear/Ability/e.webm"
+    },
+
+    {
+        "r-name": "stormbringer",
+        "r-desc": "Volibear leaps to a target location, Slowing and damaging enemies beneath him while gaining bonus Health. Enemy towers near his landing location become temporarily disabled.",
+        "r-icon": "assets/champ/volibear/Ability/r.png",
+        "r-vid": "assets/champ/volibear/Ability/r.webm"
+    }
+]

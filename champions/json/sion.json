@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/sion.png",
+        "splash": "assets/champ/Sion_0.jpg",
+        "name": "Sion",
+        "title": "The Undead Juggernaut",
+        "lore": "A war hero from a bygone era, Sion was revered in Noxus for choking the life out of a Demacian king with his bare hands—but, denied oblivion, he was resurrected to serve his empire even in death. His indiscriminate slaughter claimed all who stood in his way, regardless of allegiance, proving he no longer retained his former humanity. Even so, with crude armor bolted onto rotten flesh, Sion continues to charge into battle with reckless abandon, struggling to remember his true self between the swings of his mighty axe."
+    
+    },
+    
+    {
+        "health": "655",
+        "health-regen": "7.5",
+        "armor": "32",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "400",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "68",
+        "attack-speed": "0.679",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "glory in death",
+        "p-desc": "After being killed, Sion will temporarily reanimate with rapidly decaying Health. His attacks become very rapid, heal him, and deal bonus damage based on his target's maximum Health.",
+        "p-icon": "assets/champ/sion/Ability/p.png",
+        "p-vid": "assets/champ/sion/Ability/p.webm"
+    },
+
+    {
+        "q-name": "decimating smash",
+        "q-desc": "Sion charges a powerful swing in an area in front of himself that will deal damage to enemies when released. If he charges for enough time, enemies hit by the swing will also be knocked up and stunned.",
+        "q-icon": "assets/champ/sion/Ability/q.png",
+        "q-vid": "assets/champ/sion/Ability/q.webm"
+    },
+
+    {
+        "w-name": "soul furnace",
+        "w-desc": "Sion shields himself and can reactivate after 3 seconds to deal Magic Damage to enemies nearby. When Sion kills enemies, he passively gains maximum Health.",
+        "w-icon": "assets/champ/sion/Ability/w.png",
+        "w-vid": "assets/champ/sion/Ability/w.webm"
+    },
+
+    {
+        "e-name": "roar of the slayer",
+        "e-desc": "Sion fires a short range shockwave that damages and slows and reduces the Armor of the first enemy hit. If the shockwave hits a minion or monster, it will be knocked back, damaging, slowing, and reducing the Armor of all enemies that it passes through.",
+        "e-icon": "assets/champ/sion/Ability/e.png",
+        "e-vid": "assets/champ/sion/Ability/e.webm"
+    },
+
+    {
+        "r-name": "unstoppable onslaught",
+        "r-desc": "Sion charges in a direction, ramping up speed over time. He can steer his charge slightly with the mouse cursor location. When he collides with an enemy he deals damage and knocks them up based on the distance he has charged.",
+        "r-icon": "assets/champ/sion/Ability/r.png",
+        "r-vid": "assets/champ/sion/Ability/r.webm"
+    }
+]

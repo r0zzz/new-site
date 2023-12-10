@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/yone.png",
+        "splash": "assets/champ/Yone_0.jpg",
+        "name": "Yone",
+        "title": "The Unforgotten",
+        "lore": "In life, he was Yone—half-brother of Yasuo, and renowned student of his village's sword school. But upon his death at the hands of his brother, he found himself hunted by a malevolent entity of the spirit realm, and was forced to slay it with its own sword. Now, cursed to wear its demonic mask upon his face, Yone tirelessly hunts all such creatures in order to understand what he has become."
+    
+    },
+    
+    {
+        "health": "620",
+        "health-regen": "7.5",
+        "armor": "30",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "60",
+        "attack-speed": "0.625",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "way of the hunter",
+        "p-desc": "Yone deals magic damage with every second Attack. In addition, his critical strike chance is increased.",
+        "p-icon": "assets/champ/yone/Ability/p.png",
+        "p-vid": "assets/champ/yone/Ability/p.webm"
+    },
+
+    {
+        "q-name": "mortal steel",
+        "q-desc": "Thrusts forward, damaging all enemies in a line. On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Mortal Steel dashes Yone forward with a gust of wind knocking enemies Airborne. Mortal Steel is treated as a basic attack and scales with all the same things.",
+        "q-icon": "assets/champ/yone/Ability/q.png",
+        "q-vid": "assets/champ/yone/Ability/q.webm"
+    },
+
+    {
+        "w-name": "spirit cleave",
+        "w-desc": "Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone, the value is increased by the number of champions hit by the swipe. Spirit Cleave's cooldown and cast time scale with attack speed.",
+        "w-icon": "assets/champ/yone/Ability/w.png",
+        "w-vid": "assets/champ/yone/Ability/w.webm"
+    },
+
+    {
+        "e-name": "soul unbound",
+        "e-desc": "Yone's spirit leaves his body behind, gaining Move Speed. When this skill ends, Yone's spirit is forced back to his body and he repeats a portion of the damage he dealt as a spirit.",
+        "e-icon": "assets/champ/yone/Ability/e.png",
+        "e-vid": "assets/champ/yone/Ability/e.webm"
+    },
+
+    {
+        "r-name": "fate sealed",
+        "r-desc": "Yone blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.",
+        "r-icon": "assets/champ/yone/Ability/r.png",
+        "r-vid": "assets/champ/yone/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/blitzcrank.png",
+        "splash": "assets/champ/Blitzcrank_0.jpg",
+        "name": "Blitzcrank",
+        "title": "The Great Steam Golem",
+        "lore": "Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump. Blitzcrank selflessly uses his strength and durability to protect others, extending a helpful metal fist or burst of energy to subdue any troublemakers."
+    
+    },
+    
+    {
+        "health": "650",
+        "health-regen": "7.5",
+        "armor": "40",
+        "magic-resist": "32",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "267",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.5",
+        "attack-damage": "62",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Catcher",
+        "role-desc": "Catchers specialize in locking down opponents or, in some cases, entire battlefields by creating intense zones of threat that only foolish enemies would dare wade through. Although not as reliant on their friends as Enchanters, the fragile Catchers greatly benefit from allied presence - both to deter incoming danger and to help capitalize on targets they've locked down."
+    },
+
+    {   
+        "p-name": "mana barrier",
+        "p-desc": "Blitzcrank gains a shield based on their mana when dropping to low health.",
+        "p-icon": "assets/champ/blitzcrank/Ability/p.png",
+        "p-vid": "assets/champ/blitzcrank/Ability/p.webm"
+    },
+
+    {
+        "q-name": "rocket grab",
+        "q-desc": "Blitzcrank fires their right hand to grab an opponent on its path, dealing damage and dragging it back to them.",
+        "q-icon": "assets/champ/blitzcrank/Ability/q.png",
+        "q-vid": "assets/champ/blitzcrank/Ability/q.webm"
+    },
+
+    {
+        "w-name": "overdrive",
+        "w-desc": "Blitzcrank super charges themself to get dramatically increased Move and Attack Speed. They are temporarily slowed after the effect ends.",
+        "w-icon": "assets/champ/blitzcrank/Ability/w.png",
+        "w-vid": "assets/champ/blitzcrank/Ability/w.webm"
+    },
+
+    {
+        "e-name": "power fist",
+        "e-desc": "Blitzcrank charges up their fist to make the next attack deal double damage and pop their target up in the air.",
+        "e-icon": "assets/champ/blitzcrank/Ability/e.png",
+        "e-vid": "assets/champ/blitzcrank/Ability/e.webm"
+    },
+
+    {
+        "r-name": "static field",
+        "r-desc": "Enemies attacked by Blitzcrank are marked and take lightning damage after 1 second. Additionally, Blitzcrank can activate this ability to remove nearby enemies' shields, damage them, and silence them briefly.",
+        "r-icon": "assets/champ/blitzcrank/Ability/r.png",
+        "r-vid": "assets/champ/blitzcrank/Ability/r.webm"
+    }
+]

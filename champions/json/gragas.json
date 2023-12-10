@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/gragas.png",
+        "splash": "assets/champ/Gragas_0.jpg",
+        "name": "Gragas",
+        "title": "The Rabble Rouser",
+        "lore": "Equal parts jolly and imposing, Gragas is a massive, rowdy brewmaster on his own quest for the perfect pint of ale. Hailing from parts unknown, he now searches for rare ingredients among the unblemished wastes of the Freljord, trying each recipe as he goes. Often intoxicated and extremely impulsive, he is legendary for the brawls he starts, which often end in all-night parties and widespread property damage. Any appearance from Gragas must surely foreshadow drinking and destruction—in that order."
+    
+    },
+    
+    {
+        "health": "670",
+        "health-regen": "5.5",
+        "armor": "38",
+        "magic-resist": "32",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "400",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "64",
+        "attack-speed": "0.675",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "happy hour",
+        "p-desc": "Gragas periodically heals upon using a skill.",
+        "p-icon": "assets/champ/gragas/Ability/p.png",
+        "p-vid": "assets/champ/gragas/Ability/p.webm"
+    },
+
+    {
+        "q-name": "barrel roll",
+        "q-desc": "Gragas rolls his cask to a location, which can be activated to explode or will explode on its own after 4 seconds. The potency of the explosion increases over time. Enemies struck by the blast have their Move Speed slowed.",
+        "q-icon": "assets/champ/gragas/Ability/q.png",
+        "q-vid": "assets/champ/gragas/Ability/q.webm"
+    },
+
+    {
+        "w-name": "drunken rage",
+        "w-desc": "Gragas guzzles down brew from his cask for 1 second. After finishing, he becomes drunkenly empowered, dealing magic damage to all nearby enemies on his next basic attack and reducing damage received.",
+        "w-icon": "assets/champ/gragas/Ability/w.png",
+        "w-vid": "assets/champ/gragas/Ability/w.webm"
+    },
+
+    {
+        "e-name": "body slam",
+        "e-desc": "Gragas charges to a location and collides with the first enemy unit he comes across, dealing damage to all nearby enemy units and stunning them.",
+        "e-icon": "assets/champ/gragas/Ability/e.png",
+        "e-vid": "assets/champ/gragas/Ability/e.webm"
+    },
+
+    {
+        "r-name": "explosive cask",
+        "r-desc": "Gragas hurls his cask to a location, dealing damage and knocking back enemies caught in the blast radius.",
+        "r-icon": "assets/champ/gragas/Ability/r.png",
+        "r-vid": "assets/champ/gragas/Ability/r.webm"
+    }
+]
