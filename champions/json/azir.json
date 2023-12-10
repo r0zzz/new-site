@@ -1,0 +1,71 @@
+[
+    {
+        "bg": "assets/bgprofile/azir.png",
+        "splash": "assets/champ/Azir_0.jpg",
+        "name": "Azir",
+        "title": "The Emperor of the Sands",
+        "lore": "Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended being of immense power. With his buried city risen from the sand, Azir seeks to restore Shurima to its former glory."
+    
+    },
+    
+    {
+        "health": "550",
+        "health-regen": "7",
+        "armor": "22",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "320",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "52",
+        "attack-speed": "0.625",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+
+    {   
+        "p-name": "shurima's legacy",
+        "p-desc": "Azir can summon the Disc of the Sun from the ruins of allied or enemy turrets.",
+        "p-icon": "assets/champ/azir/Ability/p.png",
+        "p-vid": "assets/champ/azir/Ability/p.webm"
+    },
+
+    {
+        "q-name": "conquering sands",
+        "q-desc": "Azir sends all Sand Soldiers towards a location. Sand Soldiers deal magic damage to enemies they pass through and apply a slow for 1 second.",
+        "q-icon": "assets/champ/azir/Ability/q.png",
+        "q-vid": "assets/champ/azir/Ability/q.webm"
+    },
+
+    {
+        "w-name": "arise!",
+        "w-desc": "Azir summons a Sand Soldier to attack nearby targets for him, replacing his basic attack against targets within the soldier's range. Their attacks deal magic damage to enemies in a line. Arise! also passively grants attack speed to Azir and his Sand Soldiers.",
+        "w-icon": "assets/champ/azir/Ability/w.png",
+        "w-vid": "assets/champ/azir/Ability/w.webm"
+    },
+
+    {
+        "e-name": "shifting sands",
+        "e-desc": "Azir shields himself briefly and dashes to one of his Sand Soldiers, damaging enemies. If he hits an enemy champion, he instantly readies a new Sand Soldier for deployment and halts his dash.",
+        "e-icon": "assets/champ/azir/Ability/e.png",
+        "e-vid": "assets/champ/azir/Ability/e.webm"
+    },
+
+    {
+        "r-name": "emperor's divide",
+        "r-desc": "Azir summons a wall of soldiers which charge forward, knocking back and damaging enemies.",
+        "r-icon": "assets/champ/azir/Ability/r.png",
+        "r-vid": "assets/champ/azir/Ability/r.webm"
+    }
+]

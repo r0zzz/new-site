@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/akshan.png",
+        "splash": "assets/champ/Akshan_0.jpg",
+        "name": "Akshan",
+        "title": "The Rogue Sentinel",
+        "lore": "Raising an eyebrow in the face of danger, Akshan fights evil with dashing charisma, righteous vengeance, and a conspicuous lack of shirts. He is highly skilled in the art of stealth combat, able to evade the eyes of his enemies and reappear when they least expect him. With a keen sense of justice and a legendary death-reversing weapon, he rights the wrongs of Runeterra's many scoundrels while living by his own moral code: “Don't be an ass.”"
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "3.75",
+        "armor": "26",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.2",
+        "attack-damage": "52",
+        "attack-speed": "0.638",
+        "attack-range": "500"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "dirty fighting",
+        "p-desc": "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion. When Akshan Attacks, he fires an additional Attack for reduced damage. If he cancels the additional Attack, he instead gains Move Speed.",
+        "p-icon": "assets/champ/akshan/Ability/p.png",
+        "p-vid": "assets/champ/akshan/Ability/p.webm"
+    },
+
+    {
+        "q-name": "avengerang",
+        "q-desc": "Akshan throws a boomerang that deals damage going out and coming back, extending its range each time it hits an enemy.",
+        "q-icon": "assets/champ/akshan/Ability/q.png",
+        "q-vid": "assets/champ/akshan/Ability/q.webm"
+    },
+
+    {
+        "w-name": "going rogue",
+        "w-desc": "Akshan passively marks enemy champions as Scoundrels when they kill his ally champions. If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks. When activated, Akshan enters camouflage and gains Move Speed and Mana Regen while moving towards Scoundrels. Akshan loses the camouflage quickly while he is not in brush or near terrain.",
+        "w-icon": "assets/champ/akshan/Ability/w.png",
+        "w-vid": "assets/champ/akshan/Ability/w.webm"
+    },
+
+    {
+        "e-name": "heroic swing",
+        "e-desc": "Akshan fires a grappling hook into terrain then swings around it, repeatedly firing at the nearest enemy while swinging. He can jump off early or gets knocked off when colliding with champions or terrain.",
+        "e-icon": "assets/champ/akshan/Ability/e.png",
+        "e-vid": "assets/champ/akshan/Ability/e.webm"
+    },
+
+    {
+        "r-name": "comeuppance",
+        "r-desc": "Akshan locks onto an enemy champion and starts storing bullets. When released, he fires all stored bullets, dealing damage based on missing health to the first champion, minion, or structure hit.",
+        "r-icon": "assets/champ/akshan/Ability/r.png",
+        "r-vid": "assets/champ/akshan/Ability/r.webm"
+    }
+]

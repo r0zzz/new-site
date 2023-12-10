@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/amumu.png",
+        "splash": "assets/champ/Amumu_0.jpg",
+        "name": "Amumu",
+        "title": "The Sad Mummy",
+        "lore": "Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe a living cadaver, small in stature and wrapped in creeping bandages. Amumu has inspired myths, songs, and folklore told and retold for generations—such that it is impossible to separate truth from fiction."
+    
+    },
+    
+    {
+        "health": "685",
+        "health-regen": "9",
+        "armor": "30",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "285",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.4",
+        "attack-damage": "53",
+        "attack-speed": "0.736",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "cursed touch",
+        "p-desc": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+        "p-icon": "assets/champ/amumu/Ability/p.png",
+        "p-vid": "assets/champ/amumu/Ability/p.webm"
+    },
+
+    {
+        "q-name": "bandage toss",
+        "q-desc": "Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.",
+        "q-icon": "assets/champ/amumu/Ability/q.png",
+        "q-vid": "assets/champ/amumu/Ability/q.webm"
+    },
+
+    {
+        "w-name": "despair",
+        "w-desc": "Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed.",
+        "w-icon": "assets/champ/amumu/Ability/w.png",
+        "w-vid": "assets/champ/amumu/Ability/w.webm"
+    },
+
+    {
+        "e-name": "tantrum",
+        "e-desc": "Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on Tantrum is reduced.",
+        "e-icon": "assets/champ/amumu/Ability/e.png",
+        "e-vid": "assets/champ/amumu/Ability/e.webm"
+    },
+
+    {
+        "r-name": "curse of the sad mummy",
+        "r-desc": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
+        "r-icon": "assets/champ/amumu/Ability/r.png",
+        "r-vid": "assets/champ/amumu/Ability/r.webm"
+    }
+]

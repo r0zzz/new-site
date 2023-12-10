@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/ahri.png",
+        "splash": "assets/champ/Ahri_0.jpg",
+        "name": "Ahri",
+        "title": "The Nine-tailed Fox",
+        "lore": "Innately connected to the magic of the spirit realm, Ahri is a fox-like vastaya who can manipulate her prey's emotions and consume their essence—receiving flashes of their memory and insight from each soul she consumes. Once a powerful yet wayward predator, Ahri is now traveling the world in search of remnants of her ancestors while also trying to replace her stolen memories with ones of her own making."
+    
+    },
+    
+    {
+        "health": "590",
+        "health-regen": "2.5",
+        "armor": "21",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "418",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "53",
+        "attack-speed": "0.668",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Burst Mage",
+        "role-desc": "Burst Mages aim to single out vulnerable targets by locking them down and following up with a devastating barrage of damage from range. They are strongest when using their full suite of spells executed perfectly to maximum effect, and most vulnerable when they cannot deliver."
+    },
+
+    {   
+        "p-name": "essence theft",
+        "p-desc": "After killing 9 minions or monsters, Ahri heals. After taking down an enemy champion, Ahri heals for a greater amount.",
+        "p-icon": "assets/champ/ahri/Ability/p.png",
+        "p-vid": "assets/champ/ahri/Ability/p.webm"
+    },
+
+    {
+        "q-name": "orb of deception",
+        "q-desc": "Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back.",
+        "q-icon": "assets/champ/ahri/Ability/q.png",
+        "q-vid": "assets/champ/ahri/Ability/q.webm"
+    },
+
+    {
+        "w-name": "fox-fire",
+        "w-desc": "Ahri gains a brief burst of Move Speed and releases three fox-fires, that lock onto and attack nearby enemies.",
+        "w-icon": "assets/champ/ahri/Ability/w.png",
+        "w-vid": "assets/champ/ahri/Ability/w.webm"
+    },
+
+    {
+        "e-name": "charm",
+        "e-desc": "Ahri blows a kiss that damages and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her.",
+        "e-icon": "assets/champ/ahri/Ability/e.png",
+        "e-vid": "assets/champ/ahri/Ability/e.webm"
+    },
+
+    {
+        "r-name": "spirit rush",
+        "r-desc": "Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown, and gains additional recasts when taking down enemy champions.",
+        "r-icon": "assets/champ/ahri/Ability/r.png",
+        "r-vid": "assets/champ/ahri/Ability/r.webm"
+    }
+]

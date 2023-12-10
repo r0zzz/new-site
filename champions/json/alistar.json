@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/alistar.png",
+        "splash": "assets/champ/Alistar_0.jpg",
+        "name": "Alistar",
+        "title": "The Minotaur",
+        "lore": "Always a mighty warrior with a fearsome reputation, Alistar seeks revenge for the death of his clan at the hands of the Noxian empire. Though he was enslaved and forced into the life of a gladiator, his unbreakable will was what kept him from truly becoming a beast. Now, free of the chains of his former masters, he fights in the name of the downtrodden and the disadvantaged, his rage as much a weapon as his horns, hooves and fists."
+    
+    },
+    
+    {
+        "health": "685",
+        "health-regen": "8.5",
+        "armor": "47",
+        "magic-resist": "32",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.5",
+        "attack-damage": "62",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "triumphant roar",
+        "p-desc": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die. When fully charged he heals himself all nearby allied champions.",
+        "p-icon": "assets/champ/alistar/Ability/p.png",
+        "p-vid": "assets/champ/alistar/Ability/p.webm"
+    },
+
+    {
+        "q-name": "pulverize",
+        "q-desc": "Alistar smashes the ground, dealing damage to nearby enemies and tossing them into the air.",
+        "q-icon": "assets/champ/alistar/Ability/q.png",
+        "q-vid": "assets/champ/alistar/Ability/q.webm"
+    },
+
+    {
+        "w-name": "headbutt",
+        "w-desc": "Alistar rams a target with his head, dealing damage and knocking the target back.",
+        "w-icon": "assets/champ/alistar/Ability/w.png",
+        "w-vid": "assets/champ/alistar/Ability/w.webm"
+    },
+
+    {
+        "e-name": "trample",
+        "e-desc": "Alistar tramples nearby enemy units, ignoring unit collision and gaining stacks if he damages an enemy champion. At full stacks Alistar's next basic attack against an enemy champion deals additional magic damage and stuns them.",
+        "e-icon": "assets/champ/alistar/Ability/e.png",
+        "e-vid": "assets/champ/alistar/Ability/e.webm"
+    },
+
+    {
+        "r-name": "unbreakable will",
+        "r-desc": "Alistar lets out a wild roar, removing all crowd control effects on himself, and reducing incoming physical and magical damage for the duration.",
+        "r-icon": "assets/champ/alistar/Ability/r.png",
+        "r-vid": "assets/champ/alistar/Ability/r.webm"
+    }
+]

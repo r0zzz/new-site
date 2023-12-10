@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/ashe.png",
+        "splash": "assets/champ/Ashe_0.jpg",
+        "name": "Ashe",
+        "title": "The Frost Archer",
+        "lore": "Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice. With her people's belief that she is the mythological hero Avarosa reincarnated, Ashe hopes to unify the Freljord once more by retaking their ancient, tribal lands."
+    
+    },
+    
+    {
+        "health": "640",
+        "health-regen": "3.5",
+        "armor": "26",
+        "magic-resist": "30",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "280",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "59",
+        "attack-speed": "0.658",
+        "attack-range": "600"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "frost shot",
+        "p-desc": "Ashe's attacks slow their target, causing her to deal increased damage to these targets. Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target.",
+        "p-icon": "assets/champ/ashe/Ability/p.png",
+        "p-vid": "assets/champ/ashe/Ability/p.webm"
+    },
+
+    {
+        "q-name": "ranger's focus",
+        "q-desc": "Ashe builds up Focus by attacking. At maximum Focus, Ashe can cast Ranger's Focus to consume all stacks of Focus, temporarily increasing her Attack Speed and transforming her basic attack into a powerful flurry attack for the duration.",
+        "q-icon": "assets/champ/ashe/Ability/q.png",
+        "q-vid": "assets/champ/ashe/Ability/q.webm"
+    },
+
+    {
+        "w-name": "volley",
+        "w-desc": "Ashe fires arrows in a cone for increased damage. Also applies Frost Shot.",
+        "w-icon": "assets/champ/ashe/Ability/w.png",
+        "w-vid": "assets/champ/ashe/Ability/w.webm"
+    },
+
+    {
+        "e-name": "hawkshot",
+        "e-desc": "Ashe sends her Hawk Spirit on a scouting mission anywhere on the map.",
+        "e-icon": "assets/champ/ashe/Ability/e.png",
+        "e-vid": "assets/champ/ashe/Ability/e.webm"
+    },
+
+    {
+        "r-name": "enchanted crystal arrow",
+        "r-desc": "Ashe fires a missile of ice in a straight line. If the arrow collides with an enemy Champion, it deals damage and stuns the Champion, stunning for longer the farther arrow has traveled. In addition, surrounding enemy units take damage and are slowed.",
+        "r-icon": "assets/champ/ashe/Ability/r.png",
+        "r-vid": "assets/champ/ashe/Ability/r.webm"
+    }
+]

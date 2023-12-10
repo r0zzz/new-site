@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/aphelios.png",
+        "splash": "assets/champ/Aphelios.jpg",
+        "name": "Aphelios",
+        "title": "The Weapon of the Faithful",
+        "lore": "Emerging from moonlight's shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by his sister Alune. From her distant temple sanctuary, she pushes an arsenal of moonstone weapons into his hands. For as long as the moon shines overhead, Aphelios will never be alone."
+    
+    },
+    
+    {
+        "health": "580",
+        "health-regen": "3.25",
+        "armor": "26",
+        "magic-resist": "30",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "348",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6.5",
+        "attack-damage": "55",
+        "attack-speed": "0.64",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "the hitman and the seer",
+        "p-desc": "Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one main-hand and one off-hand. Each weapon has a unique Basic Attack and Ability. Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5.",
+        "p-icon": "assets/champ/aphelios/Ability/p.png",
+        "p-vid": "assets/champ/aphelios/Ability/p.webm"
+    },
+
+    {
+        "q-name": "weapon abilities",
+        "q-desc": "Aphelios has 5 different activated abilities, based on his main-hand weapon: Calibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack. Severum (Scythe Pistol): Run fast while attacking nearby enemies with both weapons. Gravitum (Cannon): Root all enemies slowed by this weapon. Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon. Crescendum (Chakram): Deploy a sentry that shoots your off-hand weapon.",
+        "q-icon": "assets/champ/aphelios/Ability/q.png",
+        "q-vid": "assets/champ/aphelios/Ability/q.webm"
+    },
+
+    {
+        "w-name": "phase",
+        "w-desc": "Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+        "w-icon": "assets/champ/aphelios/Ability/w.png",
+        "w-vid": "assets/champ/aphelios/Ability/w.webm"
+    },
+
+    {
+        "e-name": "weapon queue system",
+        "e-desc": "Aphelios has no third ability. This slot shows the next weapon Alune will give him. Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.",
+        "e-icon": "assets/champ/aphelios/Ability/e.png",
+        "e-vid": "assets/champ/aphelios/Ability/e.webm"
+    },
+
+    {
+        "r-name": "moonlight vigil",
+        "r-desc": "Fire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of Aphelios' main-hand gun.",
+        "r-icon": "assets/champ/aphelios/Ability/r.png",
+        "r-vid": "assets/champ/aphelios/Ability/r.webm"
+    }
+]
