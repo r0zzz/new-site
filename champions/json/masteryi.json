@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/masteryi.png",
+        "splash": "assets/champ/MasterYi_0.jpg",
+        "name": "Master Yi",
+        "title": "The Wuju Bladesman",
+        "lore": "Master Yi has tempered his body and sharpened his mind, so that thought and action have become almost as one. Though he chooses to enter into violence only as a last resort, the grace and speed of his blade ensures resolution is always swift. As one of the last living practitioners of the Ionian art of Wuju, Yi has devoted his life to continuing the legacy of his people—scrutinizing potential new disciples with the Seven Lenses of Insight to identify the most worthy among them."
+    
+    },
+    
+    {
+        "health": "669",
+        "health-regen": "7.5",
+        "armor": "33",
+        "magic-resist": "32",
+        "movement-speed": "355"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "251",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.25",
+        "attack-damage": "65",
+        "attack-speed": "0.679",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "double strike",
+        "p-desc": "Every few consecutive basic attack, Master Yi strikes twice.",
+        "p-icon": "assets/champ/masteryi/Ability/p.png",
+        "p-vid": "assets/champ/masteryi/Ability/p.webm"
+    },
+
+    {
+        "q-name": "alpha strike",
+        "q-desc": "Master Yi teleports across the battlefield with blinding speed, dealing physical damage to multiple units in his path, while simultaneously becoming untargetable. Alpha Strike can critically strike and deals bonus physical damage to monsters. Basic attacks reduce Alpha Strike's cooldown.",
+        "q-icon": "assets/champ/masteryi/Ability/q.png",
+        "q-vid": "assets/champ/masteryi/Ability/q.webm"
+    },
+
+    {
+        "w-name": "meditate",
+        "w-desc": "Master Yi rejuvenates his body by focus of mind, restoring Health and taking reduced damage for a short time. In addition, Master Yi will gain stacks of Double Strike and pause the remaining duration on Wuju Style and Highlander for each second he channels.",
+        "w-icon": "assets/champ/masteryi/Ability/w.png",
+        "w-vid": "assets/champ/masteryi/Ability/w.webm"
+    },
+
+    {
+        "e-name": "wuju style",
+        "e-desc": "Grants bonus true damage on basic attacks.",
+        "e-icon": "assets/champ/masteryi/Ability/e.png",
+        "e-vid": "assets/champ/masteryi/Ability/e.webm"
+    },
+
+    {
+        "r-name": "highlander",
+        "r-desc": "Master Yi moves with unparalleled agility, temporarily increasing his Move Speed and Attack Speed as well as making him immune to all slowing effects. While active, Champion kills or assists extend Highlander's duration. Passively reduces cooldown for his other abilities on a kill or assist.",
+        "r-icon": "assets/champ/masteryi/Ability/r.png",
+        "r-vid": "assets/champ/masteryi/Ability/r.webm"
+    }
+]

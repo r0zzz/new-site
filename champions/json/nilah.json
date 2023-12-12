@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/nilah.png",
+        "splash": "assets/champ/Nilah_0.jpg",
+        "name": "Nilah",
+        "title": "The Joy Unbound",
+        "lore": "Nilah is an ascetic warrior from a distant land, seeking the world's deadliest, most titanic opponents so that she might challenge and destroy them. Having won her power through an encounter with the long-imprisoned demon of joy, she has no emotions other than unceasing jubilation—a small price to pay for the vast strength she now possesses. Channeling the demon's liquid form into a blade of unparalleled might, she stands defiant against ancient threats long forgotten."
+    
+    },
+    
+    {
+        "health": "570",
+        "health-regen": "4",
+        "armor": "27",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.2",
+        "attack-damage": "58",
+        "attack-speed": "0.697",
+        "attack-range": "225"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "joy unending",
+        "p-desc": "Nilah gains increased experience from last-hitting minions along with the ability to enhance and share nearby healing and shielding from her allies.",
+        "p-icon": "assets/champ/nilah/Ability/p.png",
+        "p-vid": "assets/champ/nilah/Ability/p.webm"
+    },
+
+    {
+        "q-name": "formless blade",
+        "q-desc": "With a snap of her whip-blade, Nilah damages any enemies she hits in a straight line in her chosen direction. This action extends her attack range for a short duration.",
+        "q-icon": "assets/champ/nilah/Ability/q.png",
+        "q-vid": "assets/champ/nilah/Ability/q.webm"
+    },
+
+    {
+        "w-name": "jubilant veil",
+        "w-desc": "Nilah envelops herself in mist, increasing her movement speed and allowing her to gracefully dodge all incoming attacks. Any allies she touches during the mist's duration will also gain this effect.",
+        "w-icon": "assets/champ/nilah/Ability/w.png",
+        "w-vid": "assets/champ/nilah/Ability/w.webm"
+    },
+
+    {
+        "e-name": "slipstream",
+        "e-desc": "Nilah enthusiastically dashes toward her target, dealing damage to any enemies she passes through on the way.",
+        "e-icon": "assets/champ/nilah/Ability/e.png",
+        "e-vid": "assets/champ/nilah/Ability/e.webm"
+    },
+
+    {
+        "r-name": "apotheosis",
+        "r-desc": "Twirling her whip-blade in joyful exuberance, Nilah deals damage to enemies around her before pulling them closer with her weapon.",
+        "r-icon": "assets/champ/nilah/Ability/r.png",
+        "r-vid": "assets/champ/nilah/Ability/r.webm"
+    }
+]

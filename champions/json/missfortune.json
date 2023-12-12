@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/missfortune.png",
+        "splash": "assets/champ/MissFortune_0.jpg",
+        "name": "Miss Fortune",
+        "title": "The Bounty Hunter",
+        "lore": "A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally avenged years later, blowing up his flagship while he was still aboard. Those who underestimate her will face a beguiling and unpredictable opponent… and, likely, a bullet or two in their guts."
+    
+    },
+    
+    {
+        "health": "640",
+        "health-regen": "3.75",
+        "armor": "28",
+        "magic-resist": "30",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "52",
+        "attack-speed": "0.656",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "love tap",
+        "p-desc": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target.",
+        "p-icon": "assets/champ/missfortune/Ability/p.png",
+        "p-vid": "assets/champ/missfortune/Ability/p.webm"
+    },
+
+    {
+        "q-name": "double up",
+        "q-desc": "Miss Fortune fires a bullet at an enemy, damaging them and a target behind them. Both strikes can also apply Love Tap.",
+        "q-icon": "assets/champ/missfortune/Ability/q.png",
+        "q-vid": "assets/champ/missfortune/Ability/q.webm"
+    },
+
+    {
+        "w-name": "strut",
+        "w-desc": "Miss Fortune passively gains Move Speed when not attacked. This ability can be activated to grant bonus Attack Speed for a short duration. While it's on cooldown, Love Taps reduce the remaining cooldown of Strut.",
+        "w-icon": "assets/champ/missfortune/Ability/w.png",
+        "w-vid": "assets/champ/missfortune/Ability/w.webm"
+    },
+
+    {
+        "e-name": "make it rain",
+        "e-desc": "Miss Fortune reveals an area with a flurry of bullets, dealing waves of damage to opponents and slowing them.",
+        "e-icon": "assets/champ/missfortune/Ability/e.png",
+        "e-vid": "assets/champ/missfortune/Ability/e.webm"
+    },
+
+    {
+        "r-name": "bullet time",
+        "r-desc": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies. Each wave of Bullet Time can critically strike.",
+        "r-icon": "assets/champ/missfortune/Ability/r.png",
+        "r-vid": "assets/champ/missfortune/Ability/r.webm"
+    }
+]

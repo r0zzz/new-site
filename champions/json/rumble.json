@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/rumble.png",
+        "splash": "assets/champ/Rumble_0.jpg",
+        "name": "Rumble",
+        "title": "The Mechanized Menace",
+        "lore": "Rumble is a young inventor with a temper. Using nothing more than his own two hands and a heap of scrap, the feisty yordle constructed a colossal mech suit outfitted with an arsenal of electrified harpoons and incendiary rockets. Though others may scoff and sneer at his junkyard creations, Rumble doesn't mind—after all, he's the one with the flamespitter."
+    
+    },
+    
+    {
+        "health": "625",
+        "health-regen": "7",
+        "armor": "36",
+        "magic-resist": "28",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "61",
+        "attack-speed": "0.644",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Battlemage",
+        "role-desc": "Battlemages (also known as Warlocks) get into the middle of the fray, seeking to wreak havoc upon the entire enemy team with their overwhelming sustained area damage. Due to their relatively short (but not melee) combat ranges and the need to burn down their opponents over time, Battle Mages have significant defensive capabilities that range from sustaining endlessly to literally defying death for a short period of time."
+    },
+
+    {   
+        "p-name": "junkyard titan",
+        "p-desc": "Every spell Rumble casts gives him Heat. When he reaches 50% Heat he reaches Danger Zone, granting all his basic abilities bonus effects. When he reaches 100% Heat, he starts Overheating, gaining bonus Attack Speed and granting his basic attacks bonus damage, but making him unable to cast spells for a few seconds.",
+        "p-icon": "assets/champ/rumble/Ability/p.png",
+        "p-vid": "assets/champ/rumble/Ability/p.webm"
+    },
+
+    {
+        "q-name": "flamespitter",
+        "q-desc": "Rumble torches opponents in front of him, dealing magic damage in a cone for 3 seconds. While in Danger Zone this damage is increased.",
+        "q-icon": "assets/champ/rumble/Ability/q.png",
+        "q-vid": "assets/champ/rumble/Ability/q.webm"
+    },
+
+    {
+        "w-name": "scrap shield",
+        "w-desc": "Rumble pulls up a shield, protecting him from damage and granting him a quick burst of speed. While in Danger Zone, the shield strength and speed bonus is increased.",
+        "w-icon": "assets/champ/rumble/Ability/w.png",
+        "w-vid": "assets/champ/rumble/Ability/w.webm"
+    },
+
+    {
+        "e-name": "electro harpoon",
+        "e-desc": "Rumble launches a harpoon, electrocuting his target with magic damage, slowing their Move Speed, and reducing their Magic Resist. Rumble can carry 2 harpoons at a time. While in Danger Zone the damage and slow percentage is increased.",
+        "e-icon": "assets/champ/rumble/Ability/e.png",
+        "e-vid": "assets/champ/rumble/Ability/e.webm"
+    },
+
+    {
+        "r-name": "the equalizer",
+        "r-desc": "Rumble fires off a group of rockets, creating a wall of flames that damages and slows enemies.",
+        "r-icon": "assets/champ/rumble/Ability/r.png",
+        "r-vid": "assets/champ/rumble/Ability/r.webm"
+    }
+]

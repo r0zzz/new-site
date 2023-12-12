@@ -1,0 +1,71 @@
+[
+    {
+        "bg": "assets/bgprofile/kayle.png",
+        "splash": "assets/champ/Kayle_0.jpg",
+        "name": "Kayle",
+        "title": "The Righteous",
+        "lore": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother's legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years—until Kayle became disillusioned with the repeated failings of mortals, and abandoned this realm altogether. Still, legends are told of her punishing the unjust with her fiery swords, and many hope that she will one day return…"
+    
+    },
+    
+    {
+        "health": "670",
+        "health-regen": "5",
+        "armor": "26",
+        "magic-resist": "22",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "330",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "50",
+        "attack-speed": "0.625",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+
+    {   
+        "p-name": "divine ascent",
+        "p-desc": "Kayle's attacks are empowered by the heavens as she levels up and spends skill points. Her wings are lit aflame as she progressively gains Attack Speed, Move Speed, Attack Range, and waves of fire on her attacks.",
+        "p-icon": "assets/champ/kayle/Ability/p.png",
+        "p-vid": "assets/champ/kayle/Ability/p.webm"
+    },
+
+    {
+        "q-name": "radiant blast",
+        "q-desc": "Kayle conjures a portal, summoning a celestial sword that pierces through enemies, slowing, damaging, and reducing the resistances of all hit.",
+        "q-icon": "assets/champ/kayle/Ability/q.png",
+        "q-vid": "assets/champ/kayle/Ability/q.webm"
+    },
+
+    {
+        "w-name": "celestial blessing",
+        "w-desc": "Blessed by the divine, Kayle heals and grants Move Speed to herself and the nearest ally.",
+        "w-icon": "assets/champ/kayle/Ability/w.png",
+        "w-vid": "assets/champ/kayle/Ability/w.webm"
+    },
+
+    {
+        "e-name": "starfire spellblade",
+        "e-desc": "Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks. Active: Kayle's next attack smites her target with celestial fire, dealing bonus damage proportionate to their missing health.",
+        "e-icon": "assets/champ/kayle/Ability/e.png",
+        "e-vid": "assets/champ/kayle/Ability/e.webm"
+    },
+
+    {
+        "r-name": "divine judgement",
+        "r-desc": "Kayle makes an ally invulnerable and calls upon former Aspects of Justice to purify the area around her target with a holy rain of swords.",
+        "r-icon": "assets/champ/kayle/Ability/r.png",
+        "r-vid": "assets/champ/kayle/Ability/r.webm"
+    }
+]

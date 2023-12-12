@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/riven.png",
+        "splash": "assets/champ/Riven_0.jpg",
+        "name": "Riven",
+        "title": "The Exile",
+        "lore": "Once a swordmaster in the warhosts of Noxus, Riven is an expatriate in a land she previously tried to conquer. She rose through the ranks on the strength of her conviction and brutal efficiency, and was rewarded with a legendary runic blade and a warband of her own. However, on the Ionian front, Riven's faith in her homeland was tested and ultimately broken. Having severed all ties to the empire, she now seeks to find her place in a shattered world, even as rumors abound that Noxus itself has been reforged..."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "8.5",
+        "armor": "33",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "64",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "runic blade",
+        "p-desc": "Riven's abilities charge her blade, and her basic attacks expend charges to deal an additional damage.",
+        "p-icon": "assets/champ/riven/Ability/p.png",
+        "p-vid": "assets/champ/riven/Ability/p.webm"
+    },
+
+    {
+        "q-name": "broken wings",
+        "q-desc": "Riven lashes out in a series of strikes. This ability can be reactivated three times in a short time frame with the third hit knocking back nearby enemies.",
+        "q-icon": "assets/champ/riven/Ability/q.png",
+        "q-vid": "assets/champ/riven/Ability/q.webm"
+    },
+
+    {
+        "w-name": "ki burst",
+        "w-desc": "Riven emits a Ki Burst, damaging and stunning nearby enemies.",
+        "w-icon": "assets/champ/riven/Ability/w.png",
+        "w-vid": "assets/champ/riven/Ability/w.webm"
+    },
+
+    {
+        "e-name": "valor",
+        "e-desc": "Riven steps forward a short distance and blocks incoming damage.",
+        "e-icon": "assets/champ/riven/Ability/e.png",
+        "e-vid": "assets/champ/riven/Ability/e.webm"
+    },
+
+    {
+        "r-name": "blade of the exile",
+        "r-desc": "Riven empowers her keepsake weapon with energy, and gains Attack Damage and Range. During this time, she also gains the ability to use Wind Slash, a powerful ranged attack, once.",
+        "r-icon": "assets/champ/riven/Ability/r.png",
+        "r-vid": "assets/champ/riven/Ability/r.webm"
+    }
+]

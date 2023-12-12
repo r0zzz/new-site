@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/karthus.png",
+        "splash": "assets/champ/Karthus_0.jpg",
+        "name": "Karthus",
+        "title": "The Deathsinger",
+        "lore": "The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath, but Karthus sees only beauty and purity in its embrace, a perfect union of life and death. When Karthus emerges from the Shadow Isles, it is to bring the joy of death to mortals, an apostle of the unliving."
+    
+    },
+    
+    {
+        "health": "620",
+        "health-regen": "6.5",
+        "armor": "21",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "467",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "46",
+        "attack-speed": "0.625",
+        "attack-range": "450"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Battlemage",
+        "role-desc": "Battlemages (also known as Warlocks) get into the middle of the fray, seeking to wreak havoc upon the entire enemy team with their overwhelming sustained area damage. Due to their relatively short (but not melee) combat ranges and the need to burn down their opponents over time, Battle Mages have significant defensive capabilities that range from sustaining endlessly to literally defying death for a short period of time."
+    },
+
+    {   
+        "p-name": "death defied",
+        "p-desc": "Upon dying, Karthus enters a spirit form that allows him to continue casting spells.",
+        "p-icon": "assets/champ/karthus/Ability/p.png",
+        "p-vid": "assets/champ/karthus/Ability/p.webm"
+    },
+
+    {
+        "q-name": "lay waste",
+        "q-desc": "Karthus unleashes a delayed blast at a location, dealing damage to nearby enemies. Deals increased damage to isolated enemies.",
+        "q-icon": "assets/champ/karthus/Ability/q.png",
+        "q-vid": "assets/champ/karthus/Ability/q.webm"
+    },
+
+    {
+        "w-name": "wall of pain",
+        "w-desc": "Karthus creates a passable screen of leeching energy. Any enemy units that walk through the screen have their Move Speed and Magic Resist reduced for a period.",
+        "w-icon": "assets/champ/karthus/Ability/w.png",
+        "w-vid": "assets/champ/karthus/Ability/w.webm"
+    },
+
+    {
+        "e-name": "defile",
+        "e-desc": "Karthus passively steals energy from his victims, gaining Mana on each kill. Alternatively, Karthus can surround himself in the souls of his prey, dealing damage to nearby enemies, but quickly draining his own Mana.",
+        "e-icon": "assets/champ/karthus/Ability/e.png",
+        "e-vid": "assets/champ/karthus/Ability/e.webm"
+    },
+
+    {
+        "r-name": "requiem",
+        "r-desc": "After channeling for 3 seconds, Karthus deals damage to all enemy champions.",
+        "r-icon": "assets/champ/karthus/Ability/r.png",
+        "r-vid": "assets/champ/karthus/Ability/r.webm"
+    }
+]

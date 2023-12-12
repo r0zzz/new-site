@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/lucian.png",
+        "splash": "assets/champ/Lucian_0.jpg",
+        "name": "Lucian",
+        "title": "The Purifier",
+        "lore": "Lucian, a Sentinel of Light, is a grim hunter of undying spirits, pursuing them relentlessly and annihilating them with his twin relic pistols. After the wraith Thresh slew his wife, Lucian embarked on the path of vengeance—but even with her return to life, his rage is undiminished. Merciless and single-minded, Lucian will stop at nothing to protect the living from the long-dead horrors of the Black Mist."
+    
+    },
+    
+    {
+        "health": "641",
+        "health-regen": "3.75",
+        "armor": "28",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "320",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "60",
+        "attack-speed": "0.638",
+        "attack-range": "500"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+    
+    {   
+        "p-name": "lightsslinger",
+        "p-desc": "Whenever Lucian uses an ability, his next attack becomes a double-shot. When Lucian is healed or shielded by an ally, or when a nearby enemy Champion is immobilized, his next 2 basic attacks will deal bonus magic damage.",
+        "p-icon": "assets/champ/lucian/Ability/p.png",
+        "p-vid": "assets/champ/lucian/Ability/p.webm"
+    },
+
+    {
+        "q-name": "piercing light",
+        "q-desc": "Lucian shoots a bolt of piercing light through a target.",
+        "q-icon": "assets/champ/lucian/Ability/q.png",
+        "q-vid": "assets/champ/lucian/Ability/q.webm"
+    },
+
+    {
+        "w-name": "ardeent blaze",
+        "w-desc": "Lucian shoots a missile that explodes in a star shape, marking and briefly revealing enemies. Lucian gains Move Speed for attacking marked enemies.",
+        "w-icon": "assets/champ/lucian/Ability/w.png",
+        "w-vid": "assets/champ/lucian/Ability/w.webm"
+    },
+
+    {
+        "e-name": "relentless pursuit",
+        "e-desc": "Lucian quickly dashes a short distance. Lightslinger attacks reduce Relentless Pursuit's cooldown.",
+        "e-icon": "assets/champ/lucian/Ability/e.png",
+        "e-vid": "assets/champ/lucian/Ability/e.webm"
+    },
+
+    {
+        "r-name": "the culling",
+        "r-desc": "Lucian unleashes a torrent of shots from his weapons.",
+        "r-icon": "assets/champ/lucian/Ability/r.png",
+        "r-vid": "assets/champ/lucian/Ability/r.webm"
+    }
+]

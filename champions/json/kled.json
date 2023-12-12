@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/kled.png",
+        "splash": "assets/champ/Kled_0.jpg",
+        "name": "Kled",
+        "title": "The Cantankerous Cavalier",
+        "lore": "A warrior as fearless as he is ornery, the yordle Kled embodies the furious bravado of Noxus. He is an icon beloved by the empire's soldiers, distrusted by its officers, and loathed by the nobility. Many claim Kled has fought in every campaign the legions have waged, has “acquired” every military title, and has never once backed down from a fight. Though the truth of the matter is often questionable, one part of his legend is undeniable: Charging into battle on his un-trusty steed, Skaarl, Kled fights to protect what's his… and to take whatever he can get."
+    
+    },
+    
+    {
+        "health": "810",
+        "health-regen": "6",
+        "armor": "35",
+        "magic-resist": "28",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "65",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "skaarl, the cowardly lizard",
+        "p-desc": "Kled rides his trusty steed, Skaarl, who takes damage for him. When Skaarl's health depletes, Kled dismounts. While dismounted, Kled's abilities change and he deals less damage to champions. Kled can restore Skaarl's courage by fighting enemies. At maximum courage, Kled remounts with a portion of Skaarl's health.",
+        "p-icon": "assets/champ/kled/Ability/p.png",
+        "p-vid": "assets/champ/kled/Ability/p.webm"
+    },
+
+    {
+        "q-name": "bear trap on a rope",
+        "q-desc": "Kled throws a bear trap that damages and hooks an enemy champion. If shackled for a short duration, the target takes additional physical damage and is yanked toward Kled. When dismounted, this ability is replaced by Pocket Pistol, a ranged gun blast that knocks back Kled and restores courage.",
+        "q-icon": "assets/champ/kled/Ability/q.png",
+        "q-vid": "assets/champ/kled/Ability/q.webm"
+    },
+
+    {
+        "w-name": "violent tendencies",
+        "w-desc": "Kled gains massive attack speed for four attacks. The fourth attack deals more damage.",
+        "w-icon": "assets/champ/kled/Ability/w.png",
+        "w-vid": "assets/champ/kled/Ability/w.webm"
+    },
+
+    {
+        "e-name": "jousting",
+        "e-desc": "Kled dashes, dealing physical damage and gaining a short burst of speed. Kled can cast this ability again to dash back through his initial target, dealing the same damage.",
+        "e-icon": "assets/champ/kled/Ability/e.png",
+        "e-vid": "assets/champ/kled/Ability/e.webm"
+    },
+
+    {
+        "r-name": "chaaaaaaaarge!!!",
+        "r-desc": "Kled and Skaarl charge to a location, leaving a speed-granting trail behind them and gaining a shield. Skaarl locks onto and rams the first enemy champion encountered.",
+        "r-icon": "assets/champ/kled/Ability/r.png",
+        "r-vid": "assets/champ/kled/Ability/r.webm"
+    }
+]

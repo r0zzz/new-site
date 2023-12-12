@@ -1,0 +1,71 @@
+[
+    {
+        "bg": "assets/bgprofile/rakan.png",
+        "splash": "assets/champ/Rakan_0.jpg",
+        "name": "Rakan",
+        "title": "The Charmer",
+        "lore": "As mercurial as he is charming, Rakan is an infamous vastayan troublemaker and the greatest battle-dancer in Lhotlan tribal history. To the humans of the Ionian highlands, his name has long been synonymous with wild festivals, uncontrollable parties, and anarchic music. Few would suspect this energetic, traveling showman is also partner to the rebel Xayah, and is dedicated to her cause."
+    
+    },
+    
+    {
+        "health": "610",
+        "health-regen": "5",
+        "armor": "30",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "315",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.75",
+        "attack-damage": "62",
+        "attack-speed": "0.635",
+        "attack-range": "300"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Catcher",
+        "role-desc": "Catchers specialize in locking down opponents or, in some cases, entire battlefields by creating intense zones of threat that only foolish enemies would dare wade through. Although not as reliant on their friends as Enchanters, the fragile Catchers greatly benefit from allied presence - both to deter incoming danger and to help capitalize on targets they've locked down."
+    },
+
+
+    {   
+        "p-name": "fey feathers",
+        "p-desc": "Rakan periodically gains a shield.",
+        "p-icon": "assets/champ/rakan/Ability/p.png",
+        "p-vid": "assets/champ/rakan/Ability/p.webm"
+    },
+
+    {
+        "q-name": "gleaming quill",
+        "q-desc": "Flings a magical feather that deals magic damage. Striking a champion or epic monster enables Rakan to heal his allies.",
+        "q-icon": "assets/champ/rakan/Ability/q.png",
+        "q-vid": "assets/champ/rakan/Ability/q.webm"
+    },
+
+    {
+        "w-name": "grand entrance",
+        "w-desc": "Dashes to a location, knocking up nearby enemies on arrival.",
+        "w-icon": "assets/champ/rakan/Ability/w.png",
+        "w-vid": "assets/champ/rakan/Ability/w.webm"
+    },
+
+    {
+        "e-name": "battle dance",
+        "e-desc": "Flies to an allied champion granting them a shield. Can be re-cast for free for a short duration.",
+        "e-icon": "assets/champ/rakan/Ability/e.png",
+        "e-vid": "assets/champ/rakan/Ability/e.webm"
+    },
+
+    {
+        "r-name": "the quickness",
+        "r-desc": "Gains Move Speed, charming and dealing magic damage to enemies touched.",
+        "r-icon": "assets/champ/rakan/Ability/r.png",
+        "r-vid": "assets/champ/rakan/Ability/r.webm"
+    }
+]

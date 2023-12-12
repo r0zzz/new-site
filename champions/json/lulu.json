@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/lulu.png",
+        "splash": "assets/champ/Lulu_0.jpg",
+        "name": "Lulu",
+        "title": "The Fae Sorceress",
+        "lore": "The yordle mage Lulu is known for conjuring dreamlike illusions and fanciful creatures as she roams Runeterra with her fairy companion Pix. Lulu shapes reality on a whim, warping the fabric of the world, and what she views as the constraints of this mundane, physical realm. While others might consider her magic at best unnatural, and at worst dangerous, she believes everyone could use a touch of enchantment."
+    
+    },
+    
+    {
+        "health": "595",
+        "health-regen": "6",
+        "armor": "26",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "350",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11",
+        "attack-damage": "47",
+        "attack-speed": "0.625",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Enchanter",
+        "role-desc": "Enchanters focus on amplifying their allies' effectiveness by directly augmenting them and defending them from incoming threats. Enchanters themselves are often quite fragile and bring relatively low damage to the table, meaning they really only shine when grouped together with others."
+    },
+
+    {   
+        "p-name": "pix, faerie companion",
+        "p-desc": "Pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit. These bolts are homing, but can be intercepted by other units.",
+        "p-icon": "assets/champ/lulu/Ability/p.png",
+        "p-vid": "assets/champ/lulu/Ability/p.webm"
+    },
+
+    {
+        "q-name": "glitterlance",
+        "q-desc": "Pix and Lulu each fire a bolt of magical energy that damages and heavily slows all enemies it hits.",
+        "q-icon": "assets/champ/lulu/Ability/q.png",
+        "q-vid": "assets/champ/lulu/Ability/q.webm"
+    },
+
+    {
+        "w-name": "whimsy",
+        "w-desc": "If cast on an ally, grants them Attack Speed and Move Speed for a short time. If cast on an enemy, turns them into an adorable critter that can't attack or cast spells.",
+        "w-icon": "assets/champ/lulu/Ability/w.png",
+        "w-vid": "assets/champ/lulu/Ability/w.webm"
+    },
+
+    {
+        "e-name": "help, pix!",
+        "e-desc": "If cast on an ally, commands Pix to jump to an ally and shield them. He then follows them and aids their attacks. If cast on an enemy, commands Pix to jump to an enemy and damage them. He then follows them and grants you vision of that enemy.",
+        "e-icon": "assets/champ/lulu/Ability/e.png",
+        "e-vid": "assets/champ/lulu/Ability/e.webm"
+    },
+
+    {
+        "r-name": "wild growth",
+        "r-desc": "Lulu enlarges an ally, knocking nearby enemies into the air and granting the ally a large amount of bonus health. For the next few seconds, that ally gains an aura that slows nearby enemies.",
+        "r-icon": "assets/champ/lulu/Ability/r.png",
+        "r-vid": "assets/champ/lulu/Ability/r.webm"
+    }
+]

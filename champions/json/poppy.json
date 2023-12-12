@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/poppy.png",
+        "splash": "assets/champ/Poppy_0.jpg",
+        "name": "Poppy",
+        "title": "Keeper of the Hammer",
+        "lore": "Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing the legendary hammer of Orlon, a weapon twice her size, this determined yordle has spent untold years searching in secret for the fabled “Hero of Demacia,” said to be its rightful wielder. Until then, she dutifully charges into battle, pushing back the kingdom's enemies with every whirling strike."
+    
+    },
+    
+    {
+        "health": "610",
+        "health-regen": "8",
+        "armor": "38",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "280",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "64",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Warden",
+        "role-desc": "Wardens are defensive tanks. Wardens stand steadfast, seeking to hold the line by persistently locking down any on-comers who try to pass them. Wardens keep their allies out of harm’s way and allow them to safely deal with enemies caught in the fray."
+    },
+
+    {   
+        "p-name": "iron ambassador",
+        "p-desc": "Poppy throws her buckler that bounces off the target. Poppy can pick it up to gain a temporary shield.",
+        "p-icon": "assets/champ/poppy/Ability/p.png",
+        "p-vid": "assets/champ/poppy/Ability/p.webm"
+    },
+
+    {
+        "q-name": "hammer shock",
+        "q-desc": "Poppy swings her hammer, dealing damage and creating a zone that will slow enemies and explode after a delay.",
+        "q-icon": "assets/champ/poppy/Ability/q.png",
+        "q-vid": "assets/champ/poppy/Ability/q.webm"
+    },
+
+    {
+        "w-name": "steadfast presence",
+        "w-desc": "Poppy passively gains Armor and Magic Resist. This bonus increases when she is low on Health. Poppy can activate Steadfast Presence to gain Move Speed and stop enemy dashes around her. If a dash is stopped, the enemy is slowed and grounded.",
+        "w-icon": "assets/champ/poppy/Ability/w.png",
+        "w-vid": "assets/champ/poppy/Ability/w.webm"
+    },
+
+    {
+        "e-name": "heroic charge",
+        "e-desc": "Poppy dashes to the target and pushes it back. If the target is pushed into a wall, it is stunned.",
+        "e-icon": "assets/champ/poppy/Ability/e.png",
+        "e-vid": "assets/champ/poppy/Ability/e.webm"
+    },
+
+    {
+        "r-name": "keeper's verdict",
+        "r-desc": "Poppy channels a hammer strike that knocks enemies very far away.",
+        "r-icon": "assets/champ/poppy/Ability/r.png",
+        "r-vid": "assets/champ/poppy/Ability/r.webm"
+    }
+]

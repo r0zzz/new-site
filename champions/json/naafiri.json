@@ -1,0 +1,71 @@
+[
+    {
+        "bg": "assets/bgprofile/naafiri.png",
+        "splash": "assets/champ/Naafiri_0.jpg",
+        "name": "Naafiri",
+        "title": "The Hound of a Hundred Bites",
+        "lore": "Across the sands of Shurima, a chorus of howls rings out. It is the call of the dune hounds, voracious predators who form packs and compete for the right to hunt in these barren lands. Among them, one pack stands above all, for they are driven not only by canine instincts, but by the ancient power of the Darkin."
+    
+    },
+    
+    {
+        "health": "635",
+        "health-regen": "9",
+        "armor": "32",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "400",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "55",
+        "attack-speed": "0.663",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "we are wolves",
+        "p-desc": "Naafiri spawns packmates that attack the targets of her attacks and abilities.",
+        "p-icon": "assets/champ/naafiri/Ability/p.png",
+        "p-vid": "assets/champ/naafiri/Ability/p.webm"
+    },
+
+    {
+        "q-name": "darkin daggers",
+        "q-desc": "Naafiri hurls up to two daggers, each inflicting bleed, or each inflicting bonus damage if the target is already bleeding. Packmates leap to attack champions hit by this skill.",
+        "q-icon": "assets/champ/naafiri/Ability/q.png",
+        "q-vid": "assets/champ/naafiri/Ability/q.webm"
+    },
+
+    {
+        "w-name": "hounds' pursuit",
+        "w-desc": "Naafiri and her packmates dash at an enemy, colliding with the first champion hit and dealing damage.",
+        "w-icon": "assets/champ/naafiri/Ability/w.png",
+        "w-vid": "assets/champ/naafiri/Ability/w.webm"
+    },
+
+    {
+        "e-name": "eviscerate",
+        "e-desc": "Naafiri dashes and damages enemies in an area around her, recalling her packmates and fully healing them.",
+        "e-icon": "assets/champ/naafiri/Ability/e.png",
+        "e-vid": "assets/champ/naafiri/Ability/e.webm"
+    },
+
+    {
+        "r-name": "the call of the pack",
+        "r-desc": "Naafiri empowers her pack and spawns additional packmates, instantly receiving a burst of speed and vision and gaining a shield the first time she hits another champion. After killing another champion for the first time, all effects are refreshed.",
+        "r-icon": "assets/champ/naafiri/Ability/r.png",
+        "r-vid": "assets/champ/naafiri/Ability/r.webm"
+    }
+
+]

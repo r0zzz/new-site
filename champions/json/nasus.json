@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/nasus.png",
+        "splash": "assets/champ/Nasus_0.jpg",
+        "name": "Nasus",
+        "title": "The Curator of the Sands",
+        "lore": "Nasus is an imposing, jackal-headed Ascended being from ancient Shurima, a heroic figure regarded as a demigod by the people of the desert. Fiercely intelligent, he was a guardian of knowledge and peerless strategist whose wisdom guided the ancient empire of Shurima to greatness for many centuries. After the fall of the empire, he went into self-imposed exile, becoming little more than a legend. Now that the ancient city of Shurima has risen once more, he has returned, determined to ensure it never falls again."
+    
+    },
+    
+    {
+        "health": "631",
+        "health-regen": "9",
+        "armor": "34",
+        "magic-resist": "32",
+        "movement-speed": "350"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "326",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.45",
+        "attack-damage": "67",
+        "attack-speed": "0.638",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "soul eater",
+        "p-desc": "Nasus drains his foe's spiritual energy, giving him bonus Life Steal.",
+        "p-icon": "assets/champ/nasus/Ability/p.png",
+        "p-vid": "assets/champ/nasus/Ability/p.webm"
+    },
+
+    {
+        "q-name": "siphoning strike",
+        "q-desc": "Nasus strikes his foe, dealing damage and increasing the power of his future Siphoning Strikes if he slays his target.",
+        "q-icon": "assets/champ/nasus/Ability/q.png",
+        "q-vid": "assets/champ/nasus/Ability/q.webm"
+    },
+
+    {
+        "w-name": "wither",
+        "w-desc": "Nasus ages an enemy champion, decelerating their Move Speed and Attack Speed over time.",
+        "w-icon": "assets/champ/nasus/Ability/w.png",
+        "w-vid": "assets/champ/nasus/Ability/w.webm"
+    },
+
+    {
+        "e-name": "spirit fire",
+        "e-desc": "Nasus unleashes a spirit flame at a location, dealing damage and reducing the Armor of enemies who stand on it.",
+        "e-icon": "assets/champ/nasus/Ability/e.png",
+        "e-vid": "assets/champ/nasus/Ability/e.webm"
+    },
+
+    {
+        "r-name": "fury of the sands",
+        "r-desc": "Nasus unleashes a mighty sandstorm that batters nearby enemies. While the storm rages, he gains increased Health, Attack Range, damages nearby enemies, has a reduced cooldown on Siphoning Strike, and gains bonus Armor and Magic Resistance.",
+        "r-icon": "assets/champ/nasus/Ability/r.png",
+        "r-vid": "assets/champ/nasus/Ability/r.webm"
+    }
+]

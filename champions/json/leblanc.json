@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/leblanc.png",
+        "splash": "assets/champ/Leblanc_0.jpg",
+        "name": "LeBlanc",
+        "title": "The Deceiver",
+        "lore": "Mysterious even to other members of the Black Rose cabal, LeBlanc is but one of many names for a pale woman who has manipulated people and events since the earliest days of Noxus. Using her magic to mirror herself, the sorceress can appear to anyone, anywhere, and even be in many places at once. Always plotting just out of sight, LeBlanc's true motives are as inscrutable as her shifting identity."
+    
+    },
+    
+    {
+        "health": "598",
+        "health-regen": "7.5",
+        "armor": "22",
+        "magic-resist": "39",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "400",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "55",
+        "attack-speed": "0.658",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Burst Mage",
+        "role-desc": "Burst Mages aim to single out vulnerable targets by locking them down and following up with a devastating barrage of damage from range. They are strongest when using their full suite of spells executed perfectly to maximum effect, and most vulnerable when they cannot deliver."
+    },
+
+    {   
+        "p-name": "mirror image",
+        "p-desc": "When LeBlanc drops below 40% Health, she becomes invisible for 1 second and creates a Mirror Image that deals no damage and lasts for up to 8 seconds.",
+        "p-icon": "assets/champ/leblanc/Ability/p.png",
+        "p-vid": "assets/champ/leblanc/Ability/p.webm"
+    },
+
+    {
+        "q-name": "sigil of malice",
+        "q-desc": "LeBlanc projects a sigil, dealing damage and marking the target for 3.5 seconds. Damaging the marked target with an ability detonates the sigil, dealing additional damage. If either part kills the target, Leblanc refunds the Mana cost and part of this spell's remaining Cooldown.",
+        "q-icon": "assets/champ/leblanc/Ability/q.png",
+        "q-vid": "assets/champ/leblanc/Ability/q.webm"
+    },
+
+    {
+        "w-name": "distortion",
+        "w-desc": "LeBlanc dashes to a location, dealing damage to enemies near her destination. For the next 4 seconds, activate Distortion again to return LeBlanc to her starting location.",
+        "w-icon": "assets/champ/leblanc/Ability/w.png",
+        "w-vid": "assets/champ/leblanc/Ability/w.webm"
+    },
+
+    {
+        "e-name": "ethereal chains",
+        "e-desc": "LeBlanc launches a chain that shackles the first enemy hit. If the target remains shackled for 1.5 seconds, LeBlanc roots them and deals additional damage.",
+        "e-icon": "assets/champ/leblanc/Ability/e.png",
+        "e-vid": "assets/champ/leblanc/Ability/e.webm"
+    },
+
+    {
+        "r-name": "mimic",
+        "r-desc": "LeBlanc casts a mimicked version of one of her basic spells.",
+        "r-icon": "assets/champ/leblanc/Ability/r.png",
+        "r-vid": "assets/champ/leblanc/Ability/r.webm"
+    }
+]

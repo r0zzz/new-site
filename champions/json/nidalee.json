@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/nidalee.png",
+        "splash": "assets/champ/Nidalee_0.jpg",
+        "name": "Nidalee",
+        "title": "The Bestial Huntress",
+        "lore": "Raised in the deepest jungle, Nidalee is a master tracker who can shapeshift into a ferocious cougar at will. Neither wholly woman nor beast, she viciously defends her territory from any and all trespassers, with carefully placed traps and deft spear throws. She cripples her quarry before pouncing on them in feline form—the lucky few who survive tell tales of a wild woman with razor-sharp instincts, and even sharper claws..."
+    
+    },
+    
+    {
+        "health": "610",
+        "health-regen": "6",
+        "armor": "32",
+        "magic-resist": "30",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "295",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6",
+        "attack-damage": "58",
+        "attack-speed": "0.638",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Specialist",
+        "role-desc": "Specialists are a diverse group of champions who do not \"fit into a neat little box\" in regards to other class/subclass specifications. Specialists exhibit \"zone control\" either as a dominant or secondary attribute."
+    },
+
+    {   
+        "p-name": "prowl",
+        "p-desc": "Moving through brush increases Nidalee's Move Speed by 10% for 2 seconds, increased to 30% toward visible enemy champions within 1400 range. Hitting champions or monsters with Javelin Toss or Bushwhack triggers a Hunt, granting True Sight of them for 4 seconds. During this time, Nidalee gains 10% Move Speed (increased to 30% toward the Hunted target) and her Takedown and Pounce are enhanced against them.",
+        "p-icon": "assets/champ/nidalee/Ability/p.png",
+        "p-vid": "assets/champ/nidalee/Ability/p.webm"
+    },
+
+    {
+        "q-name": "javelin toss / takedown",
+        "q-desc": "In human form, Nidalee throws a spiked javelin at her target that gains damage as it flies. As a cougar, her next attack will attempt to fatally wound her target, dealing more damage the less life they have.",
+        "q-icon": "assets/champ/nidalee/Ability/q.png",
+        "q-vid": "assets/champ/nidalee/Ability/q.webm"
+    },
+
+    {
+        "w-name": "bushwhack / pounce",
+        "w-desc": "In human form, Nidalee lays a trap for unwary opponents that, when sprung, damages and reveals its target. As a cougar, she jumps in a direction, dealing damage in an area where she lands.",
+        "w-icon": "assets/champ/nidalee/Ability/w.png",
+        "w-vid": "assets/champ/nidalee/Ability/w.webm"
+    },
+
+    {
+        "e-name": "primal surge / swipe",
+        "e-desc": "In human form, Nidalee channels the spirit of the cougar to heal her allies and imbue them with Attack Speed for a short duration. As a cougar, she claws in a direction, dealing damage to enemies in front of her.",
+        "e-icon": "assets/champ/nidalee/Ability/e.png",
+        "e-vid": "assets/champ/nidalee/Ability/e.webm"
+    },
+
+    {
+        "r-name": "aspect of the cougar",
+        "r-desc": "Nidalee transforms into a cougar, gaining new abilities.",
+        "r-icon": "assets/champ/nidalee/Ability/r.png",
+        "r-vid": "assets/champ/nidalee/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/rengar.png",
+        "splash": "assets/champ/Rengar_0.jpg",
+        "name": "Rengar",
+        "title": "The Pridestalker",
+        "lore": "Rengar is a ferocious vastayan trophy hunter who lives for the thrill of tracking down and killing dangerous creatures. He scours the world for the most fearsome beasts he can find, especially seeking any trace of Kha'Zix, the void creature who scratched out his eye. Rengar stalks his prey neither for food nor glory, but for the sheer beauty of the pursuit."
+    
+    },
+    
+    {
+        "health": "620",
+        "health-regen": "6",
+        "armor": "34",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "68",
+        "attack-speed": "0.667",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "unseen predator",
+        "p-desc": "While in Brush, Rengar leaps at his target with his basic attack. Rengar generates Ferocity whenever he casts an ability. At Max Ferocity, his next ability is empowered. Killing enemy champions awards trophies on Rengar's Bonetooth Necklace, granting bonus attack damage.",
+        "p-icon": "assets/champ/rengar/Ability/p.png",
+        "p-vid": "assets/champ/rengar/Ability/p.webm"
+    },
+
+    {
+        "q-name": "savagery",
+        "q-desc": "Rengar's next attack brutally stabs his target for bonus damage. Ferocity effect: deals increased damage and grants Attack Speed.",
+        "q-icon": "assets/champ/rengar/Ability/q.png",
+        "q-vid": "assets/champ/rengar/Ability/q.webm"
+    },
+
+    {
+        "w-name": "battle roar",
+        "w-desc": "Rengar lets out a battle roar, damaging enemies and healing for some of the recent damage he has taken. Ferocity effect: additionally breaks crowd control effects.",
+        "w-icon": "assets/champ/rengar/Ability/w.png",
+        "w-vid": "assets/champ/rengar/Ability/w.webm"
+    },
+
+    {
+        "e-name": "bola strike",
+        "e-desc": "Rengar throws a bola, slowing the first target hit for a short duration. Ferocity effect: roots the target.",
+        "e-icon": "assets/champ/rengar/Ability/e.png",
+        "e-vid": "assets/champ/rengar/Ability/e.webm"
+    },
+
+    {
+        "r-name": "thrill of the hunt",
+        "r-desc": "Rengar's predatory instincts take over, Camouflaging him and revealing the nearest enemy champion in a large radius around him. During Thrill of the Hunt, Rengar gains Move Speed and he can leap to the tracked enemy without being in brush, reducing their armor.",
+        "r-icon": "assets/champ/rengar/Ability/r.png",
+        "r-vid": "assets/champ/rengar/Ability/r.webm"
+    }
+]

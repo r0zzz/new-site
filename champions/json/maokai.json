@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/maokai.png",
+        "splash": "assets/champ/Maokai_0.jpg",
+        "name": "Maokai",
+        "title": "The Twisted Treant",
+        "lore": "Maokai is a rageful, towering treant who fights the unnatural horrors of the Shadow Isles. He was twisted into a force of vengeance after a magical cataclysm destroyed his home, surviving undeath only through the Waters of Life infused within his heartwood. Once a peaceful nature spirit, Maokai now furiously battles to banish the scourge of unlife from the Shadow Isles and restore his home to its former beauty."
+    
+    },
+    
+    {
+        "health": "635",
+        "health-regen": "5",
+        "armor": "39",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "375",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.2",
+        "attack-damage": "64",
+        "attack-speed": "0.8",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "sap magic",
+        "p-desc": "Maokai's basic attack also heals him and deals additional damage on a moderate cooldown. Each time Maokai casts a spell or is struck by an enemy's spell, this cooldown is reduced.",
+        "p-icon": "assets/champ/maokai/Ability/p.png",
+        "p-vid": "assets/champ/maokai/Ability/p.webm"
+    },
+
+    {
+        "q-name": "bramble smash",
+        "q-desc": "Maokai knocks back nearby enemies with a shockwave, dealing magic damage and slowing them.",
+        "q-icon": "assets/champ/maokai/Ability/q.png",
+        "q-vid": "assets/champ/maokai/Ability/q.webm"
+    },
+
+    {
+        "w-name": "twisted advance",
+        "w-desc": "Maokai contorts into a mass of moving roots, becoming untargetable and dashing to the target. Upon arrival, he roots the target.",
+        "w-icon": "assets/champ/maokai/Ability/w.png",
+        "w-vid": "assets/champ/maokai/Ability/w.webm"
+    },
+
+    {
+        "e-name": "sapling toss",
+        "e-desc": "Maokai flings a sapling to the target area to stand guard. More effective in brush.",
+        "e-icon": "assets/champ/maokai/Ability/e.png",
+        "e-vid": "assets/champ/maokai/Ability/e.webm"
+    },
+
+    {
+        "r-name": "nature's grasp",
+        "r-desc": "Maokai summons a colossal wall of brambles and thorns that slowly advances forwards, damaging and rooting any enemies in the path.",
+        "r-icon": "assets/champ/maokai/Ability/r.png",
+        "r-vid": "assets/champ/maokai/Ability/r.webm"
+    }
+]

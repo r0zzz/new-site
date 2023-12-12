@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/mordekaiser.png",
+        "splash": "assets/champ/Mordekaiser_0.jpg",
+        "name": "Mordekaiser",
+        "title": "The Iron Revenant",
+        "lore": "Twice slain and thrice born, Mordekaiser is a brutal warlord from a foregone epoch who uses his necromantic sorcery to bind souls into an eternity of servitude. Few now remain who remember his earlier conquests, or know the true extent of his powers—but there are some ancient souls that do, and they fear the day when he may return to claim dominion over both the living and the dead."
+    
+    },
+    
+    {
+        "health": "645",
+        "health-regen": "5",
+        "armor": "37",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "61",
+        "attack-speed": "0.625",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Juggernaut",
+        "role-desc": "Juggernauts are melee titans who relentlessly march down the opposition and devastate those foolish enough to get within their grasp. They are the only subclass who excel at both dealing and taking significant amounts of damage, but in turn they have a tough time closing in on targets due to their low range and extremely limited mobility."
+    },
+
+    {   
+        "p-name": "darkness rise",
+        "p-desc": "Mordekaiser gains a powerful damage aura and Move Speed after landing 3 attacks or spells against champions or monsters.",
+        "p-icon": "assets/champ/mordekaiser/Ability/p.png",
+        "p-vid": "assets/champ/mordekaiser/Ability/p.webm"
+    },
+
+    {
+        "q-name": "obliterate",
+        "q-desc": "Mordekaiser smashes the ground with his mace dealing damage to each enemy struck. Damage is increased when hitting a single enemy.",
+        "q-icon": "assets/champ/mordekaiser/Ability/q.png",
+        "q-vid": "assets/champ/mordekaiser/Ability/q.webm"
+    },
+
+    {
+        "w-name": "indestructible",
+        "w-desc": "Mordekaiser stores damage he deals and takes to create a shield. He may consume the shield to heal.",
+        "w-icon": "assets/champ/mordekaiser/Ability/w.png",
+        "w-vid": "assets/champ/mordekaiser/Ability/w.webm"
+    },
+
+    {
+        "e-name": "death's grasp",
+        "e-desc": "Mordekaiser pulls all enemies in an area.",
+        "e-icon": "assets/champ/mordekaiser/Ability/e.png",
+        "e-vid": "assets/champ/mordekaiser/Ability/e.webm"
+    },
+
+    {
+        "r-name": "realm of death",
+        "r-desc": "Mordekaiser drags his victim to a different dimension with him and steals a portion of their stats. If he kills them, he keeps the stats until the victim respawns.",
+        "r-icon": "assets/champ/mordekaiser/Ability/r.png",
+        "r-vid": "assets/champ/mordekaiser/Ability/r.webm"
+    }
+]

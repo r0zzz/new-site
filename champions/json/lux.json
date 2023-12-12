@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/lux.png",
+        "splash": "assets/champ/Lux_0.jpg",
+        "name": "Lux",
+        "title": "The Lady of Luminosity",
+        "lore": "Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland."
+    
+    },
+    
+    {
+        "health": "560",
+        "health-regen": "5.5",
+        "armor": "19",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "480",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "54",
+        "attack-speed": "0.669",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Burst Mage",
+        "role-desc": "Burst Mages aim to single out vulnerable targets by locking them down and following up with a devastating barrage of damage from range. They are strongest when using their full suite of spells executed perfectly to maximum effect, and most vulnerable when they cannot deliver."
+    },
+
+    {   
+        "p-name": "illumination",
+        "p-desc": "Lux's damaging spells charge the target with energy for a few seconds. Lux's next attack ignites the energy, dealing bonus magic damage (depending on Lux's level) to the target.",
+        "p-icon": "assets/champ/lux/Ability/p.png",
+        "p-vid": "assets/champ/lux/Ability/p.webm"
+    },
+
+    {
+        "q-name": "light binding",
+        "q-desc": "Lux releases a sphere of light that binds and deals damage to up to two enemy units.",
+        "q-icon": "assets/champ/lux/Ability/q.png",
+        "q-vid": "assets/champ/lux/Ability/q.webm"
+    },
+
+    {
+        "w-name": "prismatic barrier",
+        "w-desc": "Lux throws her wand and bends the light around any friendly target it touches, protecting them from enemy damage.",
+        "w-icon": "assets/champ/lux/Ability/w.png",
+        "w-vid": "assets/champ/lux/Ability/w.webm"
+    },
+
+    {
+        "e-name": "lucent singularity",
+        "e-desc": "Fires an anomaly of twisted light to an area, which slows nearby enemies. Lux can detonate it to damage enemies in the area of effect.",
+        "e-icon": "assets/champ/lux/Ability/e.png",
+        "e-vid": "assets/champ/lux/Ability/e.webm"
+    },
+
+    {
+        "r-name": "final spark",
+        "r-desc": "After gathering energy, Lux fires a beam of light that deals damage to all targets in the area. In addition, triggers Lux's passive ability and refreshes the Illumination debuff duration.",
+        "r-icon": "assets/champ/lux/Ability/r.png",
+        "r-vid": "assets/champ/lux/Ability/r.webm"
+    }
+]

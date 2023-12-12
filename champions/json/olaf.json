@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/olaf.png",
+        "splash": "assets/champ/Olaf_0.jpg",
+        "name": "Olaf",
+        "title": "The Berserker",
+        "lore": "An unstoppable force of destruction, the axe-wielding Olaf wants nothing but to die in glorious combat. Hailing from the brutal Freljordian peninsula of Lokfar, he once received a prophecy foretelling his peaceful passing—a coward's fate, and a great insult among his people. Seeking death, and fueled by rage, he rampaged across the land, slaughtering scores of great warriors and legendary beasts in search of any opponent who could stop him. Now a brutal enforcer for the Winter's Claw, he seeks his end in the great wars to come."
+    
+    },
+    
+    {
+        "health": "645",
+        "health-regen": "6.5",
+        "armor": "35",
+        "magic-resist": "32",
+        "movement-speed": "350"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "316",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.5",
+        "attack-damage": "68",
+        "attack-speed": "0.694",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "berserker rage",
+        "p-desc": "Olaf gains Attack Speed and Life Steal based on his missing Health.",
+        "p-icon": "assets/champ/olaf/Ability/p.png",
+        "p-vid": "assets/champ/olaf/Ability/p.webm"
+    },
+
+    {
+        "q-name": "undertow",
+        "q-desc": "Olaf throws an axe into the ground at a target location, dealing damage to enemies it passes through and reducing their Armor and Move Speed. If Olaf picks up the axe, the ability's cooldown is reset.",
+        "q-icon": "assets/champ/olaf/Ability/q.png",
+        "q-vid": "assets/champ/olaf/Ability/q.webm"
+    },
+
+    {
+        "w-name": "tough it out",
+        "w-desc": "Olaf's Attack Speed is increased, he reduces incoming damage, and he gains a Shield.",
+        "w-icon": "assets/champ/olaf/Ability/w.png",
+        "w-vid": "assets/champ/olaf/Ability/w.webm"
+    },
+
+    {
+        "e-name": "reckless swing",
+        "e-desc": "Olaf attacks with such force that it deals true damage to his target and himself, refunding the Health cost if he destroys the target.",
+        "e-icon": "assets/champ/olaf/Ability/e.png",
+        "e-vid": "assets/champ/olaf/Ability/e.webm"
+    },
+
+    {
+        "r-name": "ragnarok",
+        "r-desc": "Olaf passively gains increased armor and magic resist. He can activate this ability to become immune to disables for as long as he keeps attacking.",
+        "r-icon": "assets/champ/olaf/Ability/r.png",
+        "r-vid": "assets/champ/olaf/Ability/r.webm"
+    }
+]

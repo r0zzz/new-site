@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/morgana.png",
+        "splash": "assets/champ/Morgana_0.jpg",
+        "name": "Morgana",
+        "title": "The Fallen",
+        "lore": "Conflicted between her celestial and mortal natures, Morgana bound her wings to embrace humanity, and inflicts her pain and bitterness upon the dishonest and the corrupt. She rejects laws and traditions she believes are unjust, and fights for truth from the shadows of Demacia—even as others seek to repress it—by casting shields and chains of dark fire. More than anything else, Morgana truly believes that even the banished and outcast may one day rise again."
+    
+    },
+    
+    {
+        "health": "630",
+        "health-regen": "5.5",
+        "armor": "25",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "340",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11",
+        "attack-damage": "56",
+        "attack-speed": "0.625",
+        "attack-range": "450"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Catcher",
+        "role-desc": "Catchers specialize in locking down opponents or, in some cases, entire battlefields by creating intense zones of threat that only foolish enemies would dare wade through. Although not as reliant on their friends as Enchanters, the fragile Catchers greatly benefit from allied presence - both to deter incoming danger and to help capitalize on targets they've locked down."
+    },
+
+    {   
+        "p-name": "soul siphon",
+        "p-desc": "Morgana drains spirit from her enemies, healing as she deals damage to champions, large minions, and medium and larger jungler monsters.",
+        "p-icon": "assets/champ/morgana/Ability/p.png",
+        "p-vid": "assets/champ/morgana/Ability/p.webm"
+    },
+
+    {
+        "q-name": "dark binding",
+        "q-desc": "Morgana binds an enemy in place with dark magic, forcing them to feel the pain they've caused and dealing magic damage.",
+        "q-icon": "assets/champ/morgana/Ability/q.png",
+        "q-vid": "assets/champ/morgana/Ability/q.webm"
+    },
+
+    {
+        "w-name": "tormented shadow",
+        "w-desc": "Morgana casts a cursed shadow on an area, damaging enemies who dare stand in her dark circle. They receive magic damage over time, which increases the lower health they are.",
+        "w-icon": "assets/champ/morgana/Ability/w.png",
+        "w-vid": "assets/champ/morgana/Ability/w.webm"
+    },
+
+    {
+        "e-name": "black shield",
+        "e-desc": "Morgana anoints an ally with a protective barrier of starfire, which absorbs magical damage and disabling effects until it is broken.",
+        "e-icon": "assets/champ/morgana/Ability/e.png",
+        "e-vid": "assets/champ/morgana/Ability/e.webm"
+    },
+
+    {
+        "r-name": "soul shackles",
+        "r-desc": "Morgana unleashes the full force of her Celestial power as she unbinds her wings and hovers above the ground. She lashes chains of dark pain onto nearby enemy champions, gaining Move Speed towards them. The chains slow and deal initial damage and, after a delay, stun those who are unable to break them.",
+        "r-icon": "assets/champ/morgana/Ability/r.png",
+        "r-vid": "assets/champ/morgana/Ability/r.webm"
+    }
+]

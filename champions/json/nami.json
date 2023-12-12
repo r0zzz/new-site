@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/nami.png",
+        "splash": "assets/champ/Nami_0.jpg",
+        "name": "Nami",
+        "title": "The Tidecaller",
+        "lore": "A headstrong young vastaya of the seas, Nami was the first of the Marai tribe to leave the waves and venture onto dry land, when their ancient accord with the Targonians was broken. With no other option, she took it upon herself to complete the sacred ritual that would ensure the safety of her people. Amidst the chaos of this new age, Nami faces an uncertain future with grit and determination, using her Tidecaller staff to summon the strength of the oceans themselves."
+    
+    },
+    
+    {
+        "health": "560",
+        "health-regen": "5.5",
+        "armor": "29",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "365",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.5",
+        "attack-damage": "51",
+        "attack-speed": "0.644",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Enchanter",
+        "role-desc": "Enchanters focus on amplifying their allies' effectiveness by directly augmenting them and defending them from incoming threats. Enchanters themselves are often quite fragile and bring relatively low damage to the table, meaning they really only shine when grouped together with others."
+    },
+
+    {   
+        "p-name": "surging tides",
+        "p-desc": "When Nami's Abilities hit allied champions they gain Move Speed for a short duration.",
+        "p-icon": "assets/champ/nami/Ability/p.png",
+        "p-vid": "assets/champ/nami/Ability/p.webm"
+    },
+
+    {
+        "q-name": "aqua prison",
+        "q-desc": "Sends a bubble to a target area, dealing damage and stunning all enemies on impact.",
+        "q-icon": "assets/champ/nami/Ability/q.png",
+        "q-vid": "assets/champ/nami/Ability/q.webm"
+    },
+
+    {
+        "w-name": "ebb and flow",
+        "w-desc": "Unleashes a stream of water that bounces back and forth between allied and enemy champions, healing allies and damaging enemies.",
+        "w-icon": "assets/champ/nami/Ability/w.png",
+        "w-vid": "assets/champ/nami/Ability/w.webm"
+    },
+
+    {
+        "e-name": "tidecaller's blessing",
+        "e-desc": "Empowers an allied champion for a short duration. The ally's basic attacks and spells deal bonus magic damage and slow the target.",
+        "e-icon": "assets/champ/nami/Ability/e.png",
+        "e-vid": "assets/champ/nami/Ability/e.webm"
+    },
+
+    {
+        "r-name": "tidal wave",
+        "r-desc": "Summons a massive Tidal Wave that knocks up, slows, and damages enemies. Allies hit gain double the effect of Surging Tides.",
+        "r-icon": "assets/champ/nami/Ability/r.png",
+        "r-vid": "assets/champ/nami/Ability/r.webm"
+    }
+]

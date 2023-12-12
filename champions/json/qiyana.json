@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/qiyana.png",
+        "splash": "assets/champ/Qiyana_0.jpg",
+        "name": "Qiyana",
+        "title": "Empress of the Elements",
+        "lore": "In the jungle city of Ixaocan, Qiyana plots her own ruthless path to the high seat of the Yun Tal. Last in line to succeed her parents, she faces those who stand in her way with brash confidence and unprecedented mastery over elemental magic. With the land itself obeying her every command, Qiyana sees herself as the greatest elementalist in the history of Ixaocan—and by that right, deserving of not only a city, but an empire"
+    
+    },
+    
+    {
+        "health": "590",
+        "health-regen": "6",
+        "armor": "28",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "320",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "66",
+        "attack-speed": "0.688",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "royal privilege",
+        "p-desc": "Qiyana's first basic attack or ability against each enemy deals bonus damage.",
+        "p-icon": "assets/champ/qiyana/Ability/p.png",
+        "p-vid": "assets/champ/qiyana/Ability/p.webm"
+    },
+
+    {
+        "q-name": "elemental wrath / edge of ixtal",
+        "q-desc": "Qiyana swings her weapon, dealing damage with a bonus effect based on her element.",
+        "q-icon": "assets/champ/qiyana/Ability/q.png",
+        "q-vid": "assets/champ/qiyana/Ability/q.webm"
+    },
+
+    {
+        "w-name": "terrashape",
+        "w-desc": "Qiyana dashes to a location and enchants her weapon with an element. Her attacks and abilities deal bonus damage while her weapon is enchanted.",
+        "w-icon": "assets/champ/qiyana/Ability/w.png",
+        "w-vid": "assets/champ/qiyana/Ability/w.webm"
+    },
+
+    {
+        "e-name": "audacity",
+        "e-desc": "Qiyana dashes to an enemy, damaging them.",
+        "e-icon": "assets/champ/qiyana/Ability/e.png",
+        "e-vid": "assets/champ/qiyana/Ability/e.webm"
+    },
+
+    {
+        "r-name": "supreme display of talent",
+        "r-desc": "Qiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
+        "r-icon": "assets/champ/qiyana/Ability/r.png",
+        "r-vid": "assets/champ/qiyana/Ability/r.webm"
+    }
+]

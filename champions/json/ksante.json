@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/ksante.png",
+        "splash": "assets/champ/KSante_0.jpg",
+        "name": "K'Sante",
+        "title": "The Pride of Nazumah",
+        "lore": "Defiant and courageous, K'Sante battles colossal beasts and ruthless Ascended to protect his home of Nazumah, a coveted oasis amid the sands of Shurima. But after a falling-out with his former partner, K'Sante realizes that in order to become a warrior worthy of leading his city, he must temper his single-minded drive for success. Only then can he avoid falling prey to his own pride and find the wisdom he needs to defeat the vicious monsters threatening his people."
+    
+    },
+    
+    {
+        "health": "570",
+        "health-regen": "9.5",
+        "armor": "33",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "290",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "64",
+        "attack-speed": "0.625",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Warden",
+        "role-desc": "Wardens are defensive tanks. Wardens stand steadfast, seeking to hold the line by persistently locking down any on-comers who try to pass them. Wardens keep their allies out of harm’s way and allow them to safely deal with enemies caught in the fray."
+    },
+
+    {   
+        "p-name": "dauntless instinct",
+        "p-desc": "K'Sante's Abilities mark targets to take more damage on his next Attack.",
+        "p-icon": "assets/champ/ksante/Ability/p.png",
+        "p-vid": "assets/champ/ksante/Ability/p.webm"
+    },
+
+    {
+        "q-name": "ntofo strikes",
+        "q-desc": "Strike a weapon forward, damaging and slowing all enemies in a short line. On hit, grants a stack for a few seconds. At 2 stacks, this skill fires a shockwave that pulls enemies in.",
+        "q-icon": "assets/champ/ksante/Ability/q.png",
+        "q-vid": "assets/champ/ksante/Ability/q.webm"
+    },
+
+    {
+        "w-name": "path maker",
+        "w-desc": "K'Sante charges up before dashing. K'Sante is unstoppable and takes less damage while charging. Any targets hit by the dash are knocked to the end of the dash and stunned.",
+        "w-icon": "assets/champ/ksante/Ability/w.png",
+        "w-vid": "assets/champ/ksante/Ability/w.webm"
+    },
+
+    {
+        "e-name": "footwork",
+        "e-desc": "K'Sante will dash to an ally and both will gain a shield. If there is no ally, K'Sante will still dash to the location at a reduced range and gain a shield.",
+        "e-icon": "assets/champ/ksante/Ability/e.png",
+        "e-vid": "assets/champ/braum/Ability/e.webm"
+    },
+
+    {
+        "r-name": "all out",
+        "r-desc": "K'Sante smashes an enemy away. If the enemy hits a wall they will go through the wall taking more damage. K'Sante will appear behind the target and goes All Out by shredding his defenses but greatly increasing his damage.",
+        "r-icon": "assets/champ/ksante/Ability/r.png",
+        "r-vid": "assets/champ/ksante/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/kalista.png",
+        "splash": "assets/champ/Kalista_0.jpg",
+        "name": "Kalista",
+        "title": "The Spear of Vengeance",
+        "lore": "A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to hunt deceivers and traitors. The betrayed may cry out in blood to be avenged, but Kalista only answers those willing to pay with their very souls. Those who become the focus of Kalista's wrath should make their final peace, for any pact sealed with this grim hunter can only end with the cold, piercing fire of her soul-spears."
+    
+    },
+    
+    {
+        "health": "600",
+        "health-regen": "4",
+        "armor": "24",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "6.3",
+        "attack-damage": "61",
+        "attack-speed": "0.694",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "martial poise",
+        "p-desc": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack.",
+        "p-icon": "assets/champ/kalista/Ability/p.png",
+        "p-vid": "assets/champ/kalista/Ability/p.webm"
+    },
+
+    {
+        "q-name": "pierce",
+        "q-desc": "Throw a fast moving spear that passes through enemies it kills.",
+        "q-icon": "assets/champ/kalista/Ability/q.png",
+        "q-vid": "assets/champ/kalista/Ability/q.webm"
+    },
+
+    {
+        "w-name": "sentinel",
+        "w-desc": "Gain bonus damage when Kalista and her Oathsworn strike the same target. Activate to send a soul to scout out the path, revealing the area in front of it.",
+        "w-icon": "assets/champ/kalista/Ability/w.png",
+        "w-vid": "assets/champ/kalista/Ability/w.webm"
+    },
+
+    {
+        "e-name": "rend",
+        "e-desc": "Attacks impale their targets with spears. Activate to rip the spears out, slowing and dealing escalating damage.",
+        "e-icon": "assets/champ/kalista/Ability/e.png",
+        "e-vid": "assets/champ/kalista/Ability/e.webm"
+    },
+
+    {
+        "r-name": "fate's call",
+        "r-desc": "Kalista teleports the Oathsworn ally to herself. They gain the ability to dash toward a position, knocking enemy champions back.",
+        "r-icon": "assets/champ/kalista/Ability/r.png",
+        "r-vid": "assets/champ/kalista/Ability/r.webm"
+    }
+]

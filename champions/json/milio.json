@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/milio.png",
+        "splash": "assets/champ/Milio_0.jpg",
+        "name": "Milio",
+        "title": "The Gentle Flame",
+        "lore": "Milio is a warmhearted boy from Ixtal who has, despite his young age, mastered the fire axiom and discovered something new: soothing fire. With this newfound power, Milio plans to help his family escape their exile by joining the Yun Tal—just like his grandmother once did. Having traveled through the Ixtal jungles to the capital of Ixaocan, Milio now prepares to face the Vidalion and join the Yun Tal, unaware of the trials—and dangers—that await him."
+    
+    },
+    
+    {
+        "health": "560",
+        "health-regen": "5",
+        "armor": "26",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "365",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.5",
+        "attack-damage": "48",
+        "attack-speed": "0.625",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/sp.png",
+        "role-icon": "assets/role/support.png",
+        "role-name": "Enchanter",
+        "role-desc": "Enchanters focus on amplifying their allies' effectiveness by directly augmenting them and defending them from incoming threats. Enchanters themselves are often quite fragile and bring relatively low damage to the table, meaning they really only shine when grouped together with others."
+    },
+
+    {   
+        "p-name": "fired up!",
+        "p-desc": "Milio's abilities enchant allies on touch, making their next damage deal a burst of extra damage and burn the target.",
+        "p-icon": "assets/champ/milio/Ability/p.png",
+        "p-vid": "assets/champ/milio/Ability/p.webm"
+    },
+
+    {
+        "q-name": "ultra mega fire kick",
+        "q-desc": "Kick a ball that knocks back an enemy. The ball launches upward on hit and falls toward the enemy, damaging and slowing enemies in the area upon impact.",
+        "q-icon": "assets/champ/milio/Ability/q.png",
+        "q-vid": "assets/champ/milio/Ability/q.webm"
+    },
+
+    {
+        "w-name": "cozy campfire",
+        "w-desc": "Create an empowering zone that heals allies and increases attack range to those inside. The zone follows the ally nearest to the cast point.",
+        "w-icon": "assets/champ/milio/Ability/w.png",
+        "w-vid": "assets/champ/milio/Ability/w.webm"
+    },
+
+    {
+        "e-name": "warm hugs",
+        "e-desc": "Milio tosses a shield to an ally, temporarily increasing their movement speed. This ability has 2 charges.",
+        "e-icon": "assets/champ/milio/Ability/e.png",
+        "e-vid": "assets/champ/milio/Ability/e.webm"
+    },
+
+    {
+        "r-name": "breath of life",
+        "r-desc": "Milio unleashes a wave of soothing flames that heal and remove crowd control effects from allies in range.",
+        "r-icon": "assets/champ/milio/Ability/r.png",
+        "r-vid": "assets/champ/milio/Ability/r.webm"
+    }
+]

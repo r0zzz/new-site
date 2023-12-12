@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/pyke.png",
+        "splash": "assets/champ/Pyke_0.jpg",
+        "name": "Pyke",
+        "title": "The Bloodharbor Ripper",
+        "lore": "A renowned harpooner from the slaughter docks of Bilgewater, Pyke should have met his death in the belly of a gigantic jaull-fish… and yet, he returned. Now, stalking the dank alleys and backways of his former hometown, he uses his new supernatural gifts to bring a swift and gruesome end to those who make their fortune by exploiting others—and a city that prides itself on hunting monsters now finds a monster hunting them."
+    
+    },
+    
+    {
+        "health": "670",
+        "health-regen": "7",
+        "armor": "45",
+        "magic-resist": "32",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "415",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "62",
+        "attack-speed": "0.667",
+        "attack-range": "150"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "gift of the drowned ones",
+        "p-desc": "When Pyke is hidden from enemies, he regenerates damage that he has recently taken from champions. Pyke also cannot gain extra Maximum Health from any source, and instead gains Bonus AD.",
+        "p-icon": "assets/champ/pyke/Ability/p.png",
+        "p-vid": "assets/champ/pyke/Ability/p.webm"
+    },
+
+    {
+        "q-name": "bone skewer",
+        "q-desc": "Pyke either stabs an enemy in front of him or pulls an enemy towards him.",
+        "q-icon": "assets/champ/pyke/Ability/q.png",
+        "q-vid": "assets/champ/pyke/Ability/q.webm"
+    },
+
+    {
+        "w-name": "ghostwater dive",
+        "w-desc": "Pyke enters Camouflage and gains significant Move Speed that decays over time.",
+        "w-icon": "assets/champ/pyke/Ability/w.png",
+        "w-vid": "assets/champ/pyke/Ability/w.webm"
+    },
+
+    {
+        "e-name": "phantom undertow",
+        "e-desc": "Pyke dashes and leaves behind a phantom that will return to him, stunning enemy champions along its path.",
+        "e-icon": "assets/champ/pyke/Ability/e.png",
+        "e-vid": "assets/champ/pyke/Ability/e.webm"
+    },
+
+    {
+        "r-name": "death from below",
+        "r-desc": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
+        "r-icon": "assets/champ/pyke/Ability/r.png",
+        "r-vid": "assets/champ/pyke/Ability/r.webm"
+    }
+]

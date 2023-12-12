@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/quinn.png",
+        "splash": "assets/champ/Quinn_0.jpg",
+        "name": "Quinn",
+        "title": "Demacia's Wings",
+        "lore": "Quinn is an elite ranger-knight of Demacia, who undertakes dangerous missions deep in enemy territory. She and her legendary eagle, Valor, share an unbreakable bond, and their foes are often slain before they realize they are fighting not one, but two of the kingdom's greatest heroes. Nimble and acrobatic when required, Quinn takes aim with her crossbow while Valor marks their elusive targets from above, making them a deadly pair on the battlefield."
+    
+    },
+    
+    {
+        "health": "565",
+        "health-regen": "5.5",
+        "armor": "28",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "269",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "59",
+        "attack-speed": "0.668",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "harrier",
+        "p-desc": "Valor, Quinn's Demacian eagle, periodically marks enemies as Vulnerable. Quinn's first basic attack against Vulnerable targets will deal bonus physical damage.",
+        "p-icon": "assets/champ/quinn/Ability/p.png",
+        "p-vid": "assets/champ/quinn/Ability/p.webm"
+    },
+
+    {
+        "q-name": "blinding assault",
+        "q-desc": "Quinn calls Valor to mark an enemy and hinder its vision before damaging all enemies in the immediate area.",
+        "q-icon": "assets/champ/quinn/Ability/q.png",
+        "q-vid": "assets/champ/quinn/Ability/q.webm"
+    },
+
+    {
+        "w-name": "heigthened senses",
+        "w-desc": "Passively grants Quinn Attack Speed and Move Speed after she attacks a Vulnerable target. Activate to have Valor reveal a large area nearby.",
+        "w-icon": "assets/champ/quinn/Ability/w.png",
+        "w-vid": "assets/champ/quinn/Ability/w.webm"
+    },
+
+    {
+        "e-name": "vault",
+        "e-desc": "Quinn dashes to an enemy, dealing physical damage and slowing the target's Move Speed. Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range away from the target.",
+        "e-icon": "assets/champ/quinn/Ability/e.png",
+        "e-vid": "assets/champ/quinn/Ability/e.webm"
+    },
+
+    {
+        "r-name": "behind enemy lines",
+        "r-desc": "Quinn and Valor team up to fly around at great speed. Ending the ability casts Skystrike, which deals damage to nearby enemies and marks champions as Vulnerable.",
+        "r-icon": "assets/champ/quinn/Ability/r.png",
+        "r-vid": "assets/champ/quinn/Ability/r.webm"
+    }
+]

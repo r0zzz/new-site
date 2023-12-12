@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/kogmaw.png",
+        "splash": "assets/champ/Kogmaw_0.jpg",
+        "name": "Kogmaw",
+        "title": "The Mouth of the Abyss",
+        "lore": "Belched forth from a rotting Void incursion deep in the wastelands of Icathia, Kog'Maw is an inquisitive yet putrid creature with a caustic, gaping mouth. This particular Void-spawn needs to gnaw and drool on anything within reach to truly understand it. Though not inherently evil, Kog'Maw's beguiling naiveté is dangerous, as it often precedes a feeding frenzy—not for sustenance, but to satisfy its unending curiosity."
+    
+    },
+    
+    {
+        "health": "635",
+        "health-regen": "3.75",
+        "armor": "24",
+        "magic-resist": "30",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "325",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.75",
+        "attack-damage": "61",
+        "attack-speed": "0.665",
+        "attack-range": "500"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "icathian surprise",
+        "p-desc": "4 seconds after dying, Kogmaw explodes, dealing true damage to surrounding enemies.",
+        "p-icon": "assets/champ/kogmaw/Ability/p.png",
+        "p-vid": "assets/champ/kogmaw/Ability/p.webm"
+    },
+
+    {
+        "q-name": "caustic spittle",
+        "q-desc": "Kog'Maw launches a corrosive projectile which deals magic damage and corrodes the target's armor and magic resist for a short time. Kog'Maw also gains additional attack speed.",
+        "q-icon": "assets/champ/kogmaw/Ability/q.png",
+        "q-vid": "assets/champ/kogmaw/Ability/q.webm"
+    },
+
+    {
+        "w-name": "bio-arcane barrage",
+        "w-desc": "Kog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage.",
+        "w-icon": "assets/champ/kogmaw/Ability/w.png",
+        "w-vid": "assets/champ/kogmaw/Ability/w.webm"
+    },
+
+    {
+        "e-name": "void ooze",
+        "e-desc": "Kog'Maw launches a peculiar ooze which damages all enemies it passes through and leaves a trail which slows enemies who stand on it.",
+        "e-icon": "assets/champ/kogmaw/Ability/e.png",
+        "e-vid": "assets/champ/kogmaw/Ability/e.webm"
+    },
+
+    {
+        "r-name": "living artillery",
+        "r-desc": "Kog'Maw fires an artillery shell at a great distance dealing magic damage (increased significantly on low health enemies) and revealing non-stealthed targets. Additionally, multiple Living Artilleries in a short period of time cause them to cost additional Mana.",
+        "r-icon": "assets/champ/kogmaw/Ability/r.png",
+        "r-vid": "assets/champ/kogmaw/Ability/r.webm"
+    }
+]

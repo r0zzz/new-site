@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/kayn.png",
+        "splash": "assets/champ/Kayn_0.jpg",
+        "name": "Kayn",
+        "title": "The Shadow Reaper",
+        "lore": "A peerless practitioner of lethal shadow magic, Shieda Kayn battles to achieve his true destiny—to one day lead the Order of Shadow into a new era of Ionian supremacy. He wields the sentient darkin weapon Rhaast, undeterred by its creeping corruption of his body and mind. There are only two possible outcomes: either Kayn bends the weapon to his will... or the malevolent blade consumes him completely, paving the way for the destruction of all Runeterra."
+    
+    },
+    
+    {
+        "health": "655",
+        "health-regen": "8",
+        "armor": "38",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "410",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.5",
+        "attack-damage": "68",
+        "attack-speed": "0.669",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },
+
+    {   
+        "p-name": "the darkin scythe",
+        "p-desc": "Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the Darkin will triumph, or Kayn will master Rhaast and become the Shadow Assassin. Darkin: Heal for a percentage of spell damage dealt to champions. Shadow Assassin: For the first few seconds in combat with enemy champions, deal bonus damage.",
+        "p-icon": "assets/champ/kayn/Ability/p.png",
+        "p-vid": "assets/champ/kayn/Ability/p.webm"
+    },
+
+    {
+        "q-name": "reaping slash",
+        "q-desc": "Kayn dashes, then slashes. Both deal damage.",
+        "q-icon": "assets/champ/kayn/Ability/q.png",
+        "q-vid": "assets/champ/kayn/Ability/q.webm"
+    },
+
+    {
+        "w-name": "blade's reach",
+        "w-desc": "Kayn damages and slows targets in a line.",
+        "w-icon": "assets/champ/kayn/Ability/w.png",
+        "w-vid": "assets/champ/kayn/Ability/w.webm"
+    },
+
+    {
+        "e-name": "shadow step",
+        "e-desc": "Kayn can walk through terrain.",
+        "e-icon": "assets/champ/kayn/Ability/e.png",
+        "e-vid": "assets/champ/kayn/Ability/e.webm"
+    },
+
+    {
+        "r-name": "umbral trespass",
+        "r-desc": "Kayn hides in an enemy's body, dealing massive damage when he bursts out.",
+        "r-icon": "assets/champ/kayn/Ability/r.png",
+        "r-vid": "assets/champ/kayn/Ability/r.webm"
+    }
+]

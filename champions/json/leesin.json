@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/leesin.png",
+        "splash": "assets/champ/LeeSin_0.jpg",
+        "name": "Lee Sin",
+        "title": "The Blind Monk",
+        "lore": "A master of Ionia's ancient martial arts, Lee Sin is a principled fighter who channels the essence of the dragon spirit to face any challenge. Though he lost his sight many years ago, the warrior-monk has devoted his life to protecting his homeland against any who would dare upset its sacred balance. Enemies who underestimate his meditative demeanor will endure his fabled burning fists and blazing roundhouse kicks."
+    
+    },
+    
+    {
+        "health": "645",
+        "health-regen": "7.5",
+        "armor": "36",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "energy",
+        "resource": "200",
+        "resource-regen-name": "energy regen",
+        "resource-regen": "50",
+        "attack-damage": "66",
+        "attack-speed": "o.651",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "flurry",
+        "p-desc": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
+        "p-icon": "assets/champ/leesin/Ability/p.png",
+        "p-vid": "assets/champ/leesin/Ability/p.webm"
+    },
+
+    {
+        "q-name": "sonic wave / resonating strike",
+        "q-desc": "Sonic Wave: Lee Sin projects a discordant wave of sound to locate his enemies, dealing physical damage to the first enemy it encounters. If Sonic Wave hits, Lee Sin can cast Resonating Strike for the next 3 seconds. Resonating Strike: Lee Sin dashes to the enemy hit by Sonic Wave, dealing physical damage based on the target's missing Health.",
+        "q-icon": "assets/champ/leesin/Ability/q.png",
+        "q-vid": "assets/champ/leesin/Ability/q.webm"
+    },
+
+    {
+        "w-name": "safeguard / iron will",
+        "w-desc": "Safeguard: Lee Sin rushes to target ally, shielding himself from damage. If the ally is a champion, they are also shielded. After using Safeguard, Lee Sin can cast Iron Will for the next 3 seconds. Iron Will: Lee Sin's intense training allows him to thrive in battle. For 4 seconds, Lee Sin gains Life Steal and Spell Vamp.",
+        "w-icon": "assets/champ/leesin/Ability/w.png",
+        "w-vid": "assets/champ/leesin/Ability/w.webm"
+    },
+
+    {
+        "e-name": "tempest / cripple",
+        "e-desc": "Tempest: Lee Sin smashes the ground, sending out a shockwave that deals magic damage and reveals enemy units hit. If Tempest hits an enemy, Lee Sin can cast cripple for the next 3 seconds. Cripple: Lee Sin cripples nearby enemies damaged by Tempest, reducing their Move Speed for 4 seconds. Move Speed recovers gradually over the duration.",
+        "e-icon": "assets/champ/leesin/Ability/e.png",
+        "e-vid": "assets/champ/leesin/Ability/e.webm"
+    },
+
+    {
+        "r-name": "dragon's rage",
+        "r-desc": "Lee Sin performs a powerful roundhouse kick launching his target back, dealing physical damage to the target and any enemies they collide with. Enemies the target collides with are knocked into the air for a short duration. This technique was taught to him by Jesse Perring, although Lee Sin does not kick players off the map.",
+        "r-icon": "assets/champ/leesin/Ability/r.png",
+        "r-vid": "assets/champ/leesin/Ability/r.webm"
+    }
+]

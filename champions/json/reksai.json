@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/reksai.png",
+        "splash": "assets/champ/RekSai_0.jpg",
+        "name": "Rek'Sai",
+        "title": "the void burrower",
+        "lore": "An apex predator, Rek'Sai is a merciless Void-spawn that tunnels beneath the ground to ambush and devour unsuspecting prey. Her insatiable hunger has laid waste to entire regions of the once-great empire of Shurima—merchants, traders, even armed caravans, will go hundreds of miles out of their way to avoid her and her offspring's hunting grounds. All know that once Rek'Sai is seen on the horizon, death from below is all but guaranteed."
+    
+    },
+    
+    {
+        "health": "600",
+        "health-regen": "7.5",
+        "armor": "36",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "58",
+        "attack-speed": "0.667",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "fury of the xer'sai",
+        "p-desc": "Rek'Sai generates Fury by Attack and hitting with basic abilities. She consumes this Fury while Burrowed to restore health.",
+        "p-icon": "assets/champ/reksai/Ability/p.png",
+        "p-vid": "assets/champ/reksai/Ability/p.webm"
+    },
+
+    {
+        "q-name": "queen's wrath / prey seeker",
+        "q-desc": "Rek'Sai's next 3 basic attacks deal bonus Physical Damage to nearby enemies. While Burrowed, Rek'Sai launches a burst of void-charged earth that deals Physical Damage and reveals enemies hit.",
+        "q-icon": "assets/champ/reksai/Ability/q.png",
+        "q-vid": "assets/champ/reksai/Ability/q.webm"
+    },
+
+    {
+        "w-name": "burrow / un-burrow",
+        "w-desc": "Rek'Sai burrows into the ground, gaining new abilities and increased Move Speed. Her vision range is reduced and she cannot use basic attacks. While Burrowed, Rek'Sai may cast Un-burrow to knock up and damage nearby enemies.",
+        "w-icon": "assets/champ/reksai/Ability/w.png",
+        "w-vid": "assets/champ/reksai/Ability/w.webm"
+    },
+
+    {
+        "e-name": "furious bite / tunnel",
+        "e-desc": "Rek'Sai bites her target, dealing double and True Damage if she has max Fury. While Burrowed, Rek'Sai creates a re-usable, long lasting tunnel. Enemies can destroy it by standing on top of either entrance.",
+        "e-icon": "assets/champ/reksai/Ability/e.png",
+        "e-vid": "assets/champ/reksai/Ability/e.webm"
+    },
+
+    {
+        "r-name": "void rush",
+        "r-desc": "Rek'sai passively marks targets by damaging them. She can activate this ability to become briefly untargetable and lunge at a marked target for heavy damage based on their missing health.",
+        "r-icon": "assets/champ/reksai/Ability/r.png",
+        "r-vid": "assets/champ/reksai/Ability/r.webm"
+    }
+]

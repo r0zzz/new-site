@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/lillia.png",
+        "splash": "assets/champ/Lillia_0.jpg",
+        "name": "Lillia",
+        "title": "The Bashful Bloom",
+        "lore": "Intensely shy, the fae fawn Lillia skittishly wanders Ionia's forests. Hiding just out of sight of mortals—whose mysterious natures have long captivated, but intimidated, her—Lillia hopes to discover why their dreams no longer reach the ancient Dreaming Tree. She now travels Ionia with a magical branch in hand, in an effort to find people's unrealized dreams. Only then can Lillia herself bloom and help others untangle their fears to find the sparkle within. Eep!"
+    
+    },
+    
+    {
+        "health": "605",
+        "health-regen": "2.5",
+        "armor": "22",
+        "magic-resist": "32",
+        "movement-speed": "330"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "410",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "11.5",
+        "attack-damage": "61",
+        "attack-speed": "0.625",
+        "attack-range": "325"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Skirmisher",
+        "role-desc": "Skirmishers (also known as Duelists) aim to shred through any nearby enemy that approaches. Because Skirmishers lack high-end burst damage or reliable ways of closing in on high-priority targets, they are instead armed with situationally powerful defensive tools to survive in the fray, along with extreme sustained damage to cut down even the most durable targets."
+    },  
+
+    {   
+        "p-name": "dream-laden bough",
+        "p-desc": "Hitting a champion or monster with a skill will deal additional max Health damage over time.",
+        "p-icon": "assets/champ/lillia/Ability/p.png",
+        "p-vid": "assets/champ/lillia/Ability/p.webm"
+    },
+
+    {
+        "q-name": "blooming blows",
+        "q-desc": "Passively, Lillia gains stacking Move Speed when hitting enemies with spells. She can activate this to deal magic damage to nearby enemies, dealing extra true damage on the edge.",
+        "q-icon": "assets/champ/lillia/Ability/q.png",
+        "q-vid": "assets/champ/lillia/Ability/q.webm"
+    },
+
+    {
+        "w-name": "watch out! eep!",
+        "w-desc": "Lillia deals damage in a nearby area, dealing heavy damage in the center.",
+        "w-icon": "assets/champ/lillia/Ability/w.png",
+        "w-vid": "assets/champ/lillia/Ability/w.webm"
+    },
+
+    {
+        "e-name": "swirlseed",
+        "e-desc": "Lillia hurls a seed that damages and slows those it lands on. If it doesn't hit anything, it will continue rolling until it hits a wall or target.",
+        "e-icon": "assets/champ/lillia/Ability/e.png",
+        "e-vid": "assets/champ/lillia/Ability/e.webm"
+    },
+
+    {
+        "r-name": "lilting lullaby",
+        "r-desc": "Lillia causes all enemies with Dream Dust on them to become Drowsy before falling asleep. Those enemies will take extra damage on being forcibly woken up.",
+        "r-icon": "assets/champ/lillia/Ability/r.png",
+        "r-vid": "assets/champ/lillia/Ability/r.webm"
+    }
+]

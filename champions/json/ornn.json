@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/ornn.png",
+        "splash": "assets/champ/Ornn_0.jpg",
+        "name": "Ornn",
+        "title": "The Fire Below the Mountain",
+        "lore": "Ornn is the Freljordian spirit of forging and craftsmanship. He works in the solitude of a massive smithy, hammered out from the lava caverns beneath the volcano Hearth-Home. There he stokes bubbling cauldrons of molten rock to purify ores and fashion items of unsurpassed quality. When other deities—especially Volibear—walk the earth and meddle in mortal affairs, Ornn arises to put these impetuous beings back in their place, either with his trusty hammer or the fiery power of the mountains themselves."
+    
+    },
+    
+    {
+        "health": "660",
+        "health-regen": "9",
+        "armor": "33",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "341",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "69",
+        "attack-speed": "0.625",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "living forge",
+        "p-desc": "Ornn gains an additional bonus Armor and Magic Resistance from all sources. Ornn can spend gold to forge non-consumable items anywhere. Additionally, he can create masterwork items for himself and for his allies.",
+        "p-icon": "assets/champ/ornn/Ability/p.png",
+        "p-vid": "assets/champ/ornn/Ability/p.webm"
+    },
+
+    {
+        "q-name": "volcanic rupture",
+        "q-desc": "Ornn slams the ground, sending out a fissure dealing damage and slowing enemies hit. After a small delay, a magma pillar forms at the end location.",
+        "q-icon": "assets/champ/ornn/Ability/q.png",
+        "q-vid": "assets/champ/ornn/Ability/q.webm"
+    },
+
+    {
+        "w-name": "bellows breath",
+        "w-desc": "Ornn advances, breathing fire. Enemies hit by the final gout of flame become Brittle.",
+        "w-icon": "assets/champ/ornn/Ability/w.png",
+        "w-vid": "assets/champ/ornn/Ability/w.webm"
+    },
+
+    {
+        "e-name": "searing charge",
+        "e-desc": "Ornn charges, dealing damage to enemies he passes through. If Ornn collides with terrain while charging, the impact creates a shockwave around him which deals damage and knocks up enemies.",
+        "e-icon": "assets/champ/ornn/Ability/e.png",
+        "e-vid": "assets/champ/ornn/Ability/e.webm"
+    },
+
+    {
+        "r-name": "call of the forge god",
+        "r-desc": "Ornn summons a massive elemental at a location which travels toward him with increasing speed. Enemies run over by the elemental take damage, are slowed and are made Brittle. Ornn can recast the ability to charge into the elemental, redirecting it in the direction he hits it, causing the elemental to affect any enemies it runs over to be knocked up, dealing the same damage and re-applying Brittle.",
+        "r-icon": "assets/champ/ornn/Ability/r.png",
+        "r-vid": "assets/champ/ornn/Ability/r.webm"
+    }
+]

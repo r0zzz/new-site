@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/nocturne.png",
+        "splash": "assets/champ/Nocturne_0.jpg",
+        "name": "Nocturne",
+        "title": "The Eternal Nightmare",
+        "lore": "A demonic amalgamation drawn from the nightmares that haunt every sentient mind, the thing known as Nocturne has become a primordial force of pure evil. It is liquidly chaotic in aspect, a faceless shadow with cold eyes and armed with wicked-looking blades. After freeing itself from the spirit realm, Nocturne descended upon the waking world, to feed upon the kind of terror that can only thrive in true darkness."
+    
+    },
+    
+    {
+        "health": "655",
+        "health-regen": "7",
+        "armor": "38",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "275",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "62",
+        "attack-speed": "0.721",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "umbra blades",
+        "p-desc": "Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself. Nocturne's basic attacks reduce this cooldown.",
+        "p-icon": "assets/champ/nocturne/Ability/p.png",
+        "p-vid": "assets/champ/nocturne/Ability/p.webm"
+    },
+
+    {
+        "q-name": "duskbringer",
+        "q-desc": "Nocturne throws a shadow blade that deals damage, leaves a Dusk Trail, and causes champions to leave a Dusk Trail. While on the trail, Nocturne can move through units and has increased Move Speed and Attack Damage.",
+        "q-icon": "assets/champ/nocturne/Ability/q.png",
+        "q-vid": "assets/champ/nocturne/Ability/q.webm"
+    },
+
+    {
+        "w-name": "shroud of darkness",
+        "w-desc": "Nocturne empowers his blades, passively gaining Attack Speed. Activating Shroud of Darkness allows Nocturne to fade into the shadows, creating a magical barrier which blocks a single enemy ability and doubles his passive Attack Speed if successful.",
+        "w-icon": "assets/champ/nocturne/Ability/w.png",
+        "w-vid": "assets/champ/nocturne/Ability/w.webm"
+    },
+
+    {
+        "e-name": "unspeakable horror",
+        "e-desc": "Nocturne plants a nightmare into his target's mind, dealing damage each second and applying fear to the target if they do not get out of range by the end of the duration.",
+        "e-icon": "assets/champ/nocturne/Ability/e.png",
+        "e-vid": "assets/champ/nocturne/Ability/e.webm"
+    },
+
+    {
+        "r-name": "paranoia",
+        "r-desc": "Nocturne reduces the sight radius of all enemy champions and removes their ally vision in the process. He can then launch himself at a nearby enemy champion.",
+        "r-icon": "assets/champ/nocturne/Ability/r.png",
+        "r-vid": "assets/champ/nocturne/Ability/r.webm"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/nunuandwillump.png",
+        "splash": "assets/champ/Nunu_0.jpg",
+        "name": "Nunu & Willump",
+        "title": "The Boy And His Yeti",
+        "lore": "Once upon a time, there was a boy who wanted to prove he was a hero by slaying a fearsome monster—only to discover that the beast, a lonely and magical yeti, merely needed a friend. Bound together by ancient power and a shared love of snowballs, Nunu and Willump now ramble wildly across the Freljord, breathing life into imagined adventures. They hope that somewhere out there, they will find Nunu's mother. If they can save her, maybe they will be heroes after all…"
+    
+    },
+    
+    {
+        "health": "610",
+        "health-regen": "5",
+        "armor": "29",
+        "magic-resist": "32",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "280",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7",
+        "attack-damage": "61",
+        "attack-speed": "0.625",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "call of the freljord",
+        "p-desc": "Nunu increases the attack speed and Move Speed of Willump and a nearby ally, and causes Willump's basic attacks to damage enemies around the target.",
+        "p-icon": "assets/champ/nunuandwillump/Ability/p.png",
+        "p-vid": "assets/champ/nunuandwillump/Ability/p.webm"
+    },
+
+    {
+        "q-name": "consume",
+        "q-desc": "Willump takes a bite out of a minion, monster, or enemy champion, dealing damage and healing himself.",
+        "q-icon": "assets/champ/nunuandwillump/Ability/q.png",
+        "q-vid": "assets/champ/nunuandwillump/Ability/q.webm"
+    },
+
+    {
+        "w-name": "biggest snowball ever!",
+        "w-desc": "Willump creates a snowball that grows in size and speed as he rolls it. The snowball damages and knocks up enemies.",
+        "w-icon": "assets/champ/nunuandwillump/Ability/w.png",
+        "w-vid": "assets/champ/nunuandwillump/Ability/w.webm"
+    },
+
+    {
+        "e-name": "snowball barrage",
+        "e-desc": "Nunu throws multiple snowballs that damage enemies. When he's finished, Willump roots any champions or large monsters that were hit by a snowball.",
+        "e-icon": "assets/champ/nunuandwillump/Ability/e.png",
+        "e-vid": "assets/champ/nunuandwillump/Ability/e.webm"
+    },
+
+    {
+        "r-name": "absolute zero",
+        "r-desc": "Nunu & Willump create a powerful blizzard in an area that slows enemies and deals massive damage at the end.",
+        "r-icon": "assets/champ/nunuandwillump/Ability/r.png",
+        "r-vid": "assets/champ/nunuandwillump/Ability/r.webm"
+    }
+]

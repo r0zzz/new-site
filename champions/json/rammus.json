@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/rammus.png",
+        "splash": "assets/champ/Rammus_0.jpg",
+        "name": "Rammus",
+        "title": "The Armordillo",
+        "lore": "Idolized by many, dismissed by some, mystifying to all, the curious being Rammus is an enigma. Protected by a spiked shell, he inspires increasingly disparate theories on his origin wherever he goes—from demigod, to sacred oracle, to a mere beast transformed by magic. Whatever the truth may be, Rammus keeps his own counsel and stops for no one as he roams the Shuriman desert."
+    
+    },
+    
+    {
+        "health": "675",
+        "health-regen": "8",
+        "armor": "40",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "310",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.85",
+        "attack-damage": "55",
+        "attack-speed": "0.656",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "spiked shell",
+        "p-desc": "Rammus' basic attacks deal bonus magic damage, scaling with his Armor.",
+        "p-icon": "assets/champ/rammus/Ability/p.png",
+        "p-vid": "assets/champ/rammus/Ability/p.webm"
+    },
+
+    {
+        "q-name": "powerball",
+        "q-desc": "Rammus accelerates in a ball towards his enemies, dealing damage and slowing targets affected by the impact.",
+        "q-icon": "assets/champ/rammus/Ability/q.png",
+        "q-vid": "assets/champ/rammus/Ability/q.webm"
+    },
+
+    {
+        "w-name": "defensive ball curl",
+        "w-desc": "Rammus goes into a defensive formation, vastly increasing his Armor and Magic Resistance, amplifying Spiked Shells' damage, and returning damage to enemies that basic attack him.",
+        "w-icon": "assets/champ/rammus/Ability/w.png",
+        "w-vid": "assets/champ/rammus/Ability/w.webm"
+    },
+
+    {
+        "e-name": "frenzying taunt",
+        "e-desc": "Rammus taunts an enemy champion or monster into a reckless assault against him. Additionally, he gains increased Attack Speed for a short time, but this bonus is extended by having any of his other spells active.",
+        "e-icon": "assets/champ/rammus/Ability/e.png",
+        "e-vid": "assets/champ/rammus/Ability/e.webm"
+    },
+
+    {
+        "r-name": "soaring slam",
+        "r-desc": "Rammus hops into the air and slams down at a target area, dealing magic damage and slowing enemies. If cast while Rammus is in Powerball, Rammus knocks up enemies near the center as well.",
+        "r-icon": "assets/champ/rammus/Ability/r.png",
+        "r-vid": "assets/champ/rammus/Ability/r.webm"
+    }
+]

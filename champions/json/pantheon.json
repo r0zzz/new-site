@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/pantheon.png",
+        "splash": "assets/champ/Pantheon_0.jpg",
+        "name": "Pantheon",
+        "title": "The Unbreakable Spear",
+        "lore": "Once an unwilling host to the Aspect of War, Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon reborn, his unbreakable will fueling the fallen Aspect's weapons on the field of battle."
+    
+    },
+    
+    {
+        "health": "650",
+        "health-regen": "6",
+        "armor": "40",
+        "magic-resist": "28",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "317",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "7.35",
+        "attack-damage": "64",
+        "attack-speed": "0.658",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "mortal will",
+        "p-desc": "Every few spells or attacks, Pantheon's next spell is empowered.",
+        "p-icon": "assets/champ/pantheon/Ability/p.png",
+        "p-vid": "assets/champ/pantheon/Ability/p.webm"
+    },
+
+    {
+        "q-name": "comet spear",
+        "q-desc": "Pantheon either thrusts his spear or throws his spear in the chosen direction.",
+        "q-icon": "assets/champ/pantheon/Ability/q.png",
+        "q-vid": "assets/champ/pantheon/Ability/q.webm"
+    },
+
+    {
+        "w-name": "shield vault",
+        "w-desc": "Pantheon dashes to a target, damaging and stunning them.",
+        "w-icon": "assets/champ/pantheon/Ability/w.png",
+        "w-vid": "assets/champ/pantheon/Ability/w.webm"
+    },
+
+    {
+        "e-name": "aegis assault",
+        "e-desc": "Pantheon sets his shield, becoming invulnerable to damage from the front and striking repeatedly with his spear.",
+        "e-icon": "assets/champ/pantheon/Ability/e.png",
+        "e-vid": "assets/champ/pantheon/Ability/e.webm"
+    },
+
+    {
+        "r-name": "grand starfall",
+        "r-desc": "Pantheon composes himself and then leaps into the air, landing at a chosen location as a comet.",
+        "r-icon": "assets/champ/pantheon/Ability/r.png",
+        "r-vid": "assets/champ/pantheon/Ability/r.webm"
+    }
+]

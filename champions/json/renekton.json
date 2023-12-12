@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/renekton.png",
+        "splash": "assets/champ/Renekton_0.jpg",
+        "name": "Renekton",
+        "title": "The Butcher of the Sands",
+        "lore": "Renekton is a terrifying, rage-fueled Ascended being from the scorched deserts of Shurima. Once, he was his empire's most esteemed warrior, leading the nation's armies to countless victories. However, after the empire's fall, Renekton was entombed beneath the sands, and slowly, as the world turned and changed, he succumbed to insanity. Now free once more, he is utterly consumed with finding and killing his brother, Nasus, who he blames, in his madness, for the centuries he spent in darkness."
+    
+    },
+    
+    {
+        "health": "660",
+        "health-regen": "8",
+        "armor": "35",
+        "magic-resist": "28",
+        "movement-speed": "345"
+    },
+
+    {
+        "resource-name": "resource",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "69",
+        "attack-speed": "0.665",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/ft.png",
+        "role-icon": "assets/role/fighter.png",
+        "role-name": "Diver",
+        "role-desc": "Divers are the more mobile portion of the Fighter class. Divers excel at singling out high-priority targets to blitz toward, immediately forcing those targets (and their teammates) to deal with the diver’s presence. Divers are not as durable as the tanks or juggernauts of the world, but Divers can take their fair share of punishment while bringing enough damage to be a real kill threat if left unchecked."
+    },
+
+    {   
+        "p-name": "reign of anger",
+        "p-desc": "Renekton's attacks generate Fury, increased when he is low on life. This Fury can empower his abilities with bonus effects.",
+        "p-icon": "assets/champ/renekton/Ability/p.png",
+        "p-vid": "assets/champ/renekton/Ability/p.webm"
+    },
+
+    {
+        "q-name": "cull the meek",
+        "q-desc": "Renekton swings his blade, dealing moderate physical damage to all targets around him, and heals for a small portion of the damage dealt. If he has more than 50 Fury, his damage and heal are increased.",
+        "q-icon": "assets/champ/renekton/Ability/q.png",
+        "q-vid": "assets/champ/renekton/Ability/q.webm"
+    },
+
+    {
+        "w-name": "ruthless predator",
+        "w-desc": "Renekton slashes his target twice, dealing moderate physical damage and stuns them for 0.75 seconds. If Renekton has more than 50 Fury, he slashes his target three times, destroying damage shields on the target, dealing high physical damage, and stunning them for 1.5 seconds.",
+        "w-icon": "assets/champ/renekton/Ability/w.png",
+        "w-vid": "assets/champ/renekton/Ability/w.webm"
+    },
+
+    {
+        "e-name": "slice and dice",
+        "e-desc": "Renekton dashes, dealing damage to units along the way. Empowered, Renekton deals bonus damage and reduces the Armor of units hit.",
+        "e-icon": "assets/champ/renekton/Ability/e.png",
+        "e-vid": "assets/champ/renekton/Ability/e.webm"
+    },
+
+    {
+        "r-name": "dominus",
+        "r-desc": "Renekton transforms into the Tyrant form, gaining bonus Health and dealing damage to enemies around him. While in this form, Renekton gains Fury periodically.",
+        "r-icon": "assets/champ/renekton/Ability/r.png",
+        "r-vid": "assets/champ/renekton/Ability/r.webm"
+    }
+]

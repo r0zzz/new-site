@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/nautilus.png",
+        "splash": "assets/champ/Nautilus_0.jpg",
+        "name": "Nautilus",
+        "title": "The Titan of the Depths",
+        "lore": "A lonely legend as old as the first piers sunk in Bilgewater, the armored goliath known as Nautilus roams the dark waters off the coast of the Blue Flame Isles. Driven by a forgotten betrayal, he strikes without warning, swinging his enormous anchor to save the wretched, and drag the greedy to their doom. It is said he comes for those who forget to pay the “Bilgewater tithe”, pulling them down beneath the waves with him—an iron-clad reminder that none can escape the depths."
+    
+    },
+    
+    {
+        "health": "646",
+        "health-regen": "8.5",
+        "armor": "39",
+        "magic-resist": "32",
+        "movement-speed": "325"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "400",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.65",
+        "attack-damage": "61",
+        "attack-speed": "0.706",
+        "attack-range": "175"   
+    },
+
+    {
+        "role-bg": "assets/role/tk.png",
+        "role-icon": "assets/role/tank.png",
+        "role-name": "Vanguard",
+        "role-desc": "Vanguards are offensive tanks. Vanguards lead the charge for their team and specialize at bringing the action. Their explosive team fight initiation seeks to catch enemies out of position while allowing allies to follow-up to devastating effect."
+    },
+
+    {   
+        "p-name": "staggering blow",
+        "p-desc": "Nautilus' first Attack against a target deals increased physical damage and roots them briefly.",
+        "p-icon": "assets/champ/nautilus/Ability/p.png",
+        "p-vid": "assets/champ/nautilus/Ability/p.webm"
+    },
+
+    {
+        "q-name": "dredge line",
+        "q-desc": "Nautilus hurls his anchor forward. Colliding with an enemy pulls them and Nautilus together, dealing magic damage. Colliding with terrain pulls Nautilus towards it.",
+        "q-icon": "assets/champ/nautilus/Ability/q.png",
+        "q-vid": "assets/champ/nautilus/Ability/q.webm"
+    },
+
+    {
+        "w-name": "titan's wrath",
+        "w-desc": "Nautilus gains a temporary Shield. While it persists, his Attacks deal damage over time to his target and surrounding enemies.",
+        "w-icon": "assets/champ/nautilus/Ability/w.png",
+        "w-vid": "assets/champ/nautilus/Ability/w.webm"
+    },
+
+    {
+        "e-name": "riptide",
+        "e-desc": "Nautilus creates three exploding waves around himself. Each explosion damages and slows enemies.",
+        "e-icon": "assets/champ/nautilus/Ability/e.png",
+        "e-vid": "assets/champ/nautilus/Ability/e.webm"
+    },
+
+    {
+        "r-name": "depth charge",
+        "r-desc": "Nautilus fires a shockwave into the earth that chases an opponent. This shockwave rips up the earth above it, knocking enemies into the air. When it reaches the opponent, the shockwave erupts, knocking his target into the air and stunning them.",
+        "r-icon": "assets/champ/nautilus/Ability/r.png",
+        "r-vid": "assets/champ/nautilus/Ability/r.webm"
+    }
+]

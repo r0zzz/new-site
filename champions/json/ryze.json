@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/ryze.png",
+        "splash": "assets/champ/Ryze_0.jpg",
+        "name": "Ryze",
+        "title": "The Rune Mage",
+        "lore": "Widely considered one of the most adept sorcerers on Runeterra, Ryze is an ancient, hard-bitten archmage with an impossibly heavy burden to bear. Armed with immense arcane power and a boundless constitution, he tirelessly hunts for World Runes—fragments of the raw magic that once shaped the world from nothingness. He must retrieve these artifacts before they fall into the wrong hands, for Ryze understands the horrors they could unleash on Runeterra."
+    
+    },
+    
+    {
+        "health": "645",
+        "health-regen": "8",
+        "armor": "22",
+        "magic-resist": "32",
+        "movement-speed": "340"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "300",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8",
+        "attack-damage": "58",
+        "attack-speed": "0.658",
+        "attack-range": "550"   
+    },
+
+    {
+        "role-bg": "assets/role/mg.png",
+        "role-icon": "assets/role/mage.png",
+        "role-name": "Battlemage",
+        "role-desc": "Battlemages (also known as Warlocks) get into the middle of the fray, seeking to wreak havoc upon the entire enemy team with their overwhelming sustained area damage. Due to their relatively short (but not melee) combat ranges and the need to burn down their opponents over time, Battle Mages have significant defensive capabilities that range from sustaining endlessly to literally defying death for a short period of time."
+    },
+
+    {   
+        "p-name": "arcane mastery",
+        "p-desc": "Ryze's spells deal extra damage based on his Bonus Mana, and he gains a percentage increase to his maximum Mana based on his Ability Power.",
+        "p-icon": "assets/champ/ryze/Ability/p.png",
+        "p-vid": "assets/champ/ryze/Ability/p.webm"
+    },
+
+    {
+        "q-name": "overload",
+        "q-desc": "Passively, Ryze's other basic abilities reset the cooldown of Overload and charge a rune. When Ryze casts Overload with 2 runes charged, he gains a brief burst of Move Speed. On cast, Ryze throws a charge of pure energy in a line, dealing damage to the first enemy struck. If the target has Flux on it, Overload deals extra damage and bounces to nearby enemies with Flux.",
+        "q-icon": "assets/champ/ryze/Ability/q.png",
+        "q-vid": "assets/champ/ryze/Ability/q.webm"
+    },
+
+    {
+        "w-name": "rune prison",
+        "w-desc": "Ryze traps a target in a cage of runes, damaging them and slowing their movement. If the target has Flux on it, they are instead rooted.",
+        "w-icon": "assets/champ/ryze/Ability/w.png",
+        "w-vid": "assets/champ/ryze/Ability/w.webm"
+    },
+
+    {
+        "e-name": "spell flux",
+        "e-desc": "Ryze releases an orb of pure magical power that damages an enemy and debuffs all nearby enemies. Ryze's spells have additional effects against the debuffed enemy.",
+        "e-icon": "assets/champ/ryze/Ability/e.png",
+        "e-vid": "assets/champ/ryze/Ability/e.webm"
+    },
+
+    {
+        "r-name": "realm warp",
+        "r-desc": "Passively, Overload deals even more damage against targets with Flux. On cast, Ryze creates a portal to a nearby location. After a few seconds, allies standing near the portal are teleported to the target location.",
+        "r-icon": "assets/champ/ryze/Ability/r.png",
+        "r-vid": "assets/champ/ryze/Ability/r.webm"
+    }
+]

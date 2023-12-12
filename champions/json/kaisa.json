@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/kaisa.png",
+        "splash": "assets/champ/Kaisa_0.jpg",
+        "name": "Kai'Sa",
+        "title": "Daughter of the Void",
+        "lore": "Claimed by the Void when she was only a child, Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered into an uneasy symbiosis with a living Void carapace, the time will soon come when she must decide whether to forgive those mortals who would call her a monster, and defeat the coming darkness together… or simply to forget, as the Void consumes the world that left her behind."
+    
+    },
+    
+    {
+        "health": "640",
+        "health-regen": "3.5",
+        "armor": "25",
+        "magic-resist": "30",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "mana",
+        "resource": "345",
+        "resource-regen-name": "mana regen",
+        "resource-regen": "8.2",
+        "attack-damage": "59",
+        "attack-speed": "0.644",
+        "attack-range": "525"   
+    },
+
+    {
+        "role-bg": "assets/role/mm.png",
+        "role-icon": "assets/role/marksman.png",
+        "role-name": "Marksman",
+        "role-desc": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance, marksmen are capable of taking down even the toughest of opponents when positioned behind the safety of their team"
+    },
+
+    {   
+        "p-name": "second skin",
+        "p-desc": "Kai'Sa's basic attacks stack Plasma, dealing increasing bonus magic damage. Allies' immobilizing effects help stack Plasma. Additionally, Kai'Sa's item purchases upgrade her basic spells to have more powerful properties.",
+        "p-icon": "assets/champ/kaisa/Ability/p.png",
+        "p-vid": "assets/champ/kaisa/Ability/p.webm"
+    },
+
+    {
+        "q-name": "icathian rain",
+        "q-desc": "Kai'Sa shoots a swarm of missiles that seek out nearby targets. Living Weapon: Icathian Rain is upgraded to shoot more missiles.",
+        "q-icon": "assets/champ/kaisa/Ability/q.png",
+        "q-vid": "assets/champ/kaisa/Ability/q.webm"
+    },
+
+    {
+        "w-name": "void seeker",
+        "w-desc": "Kai'Sa shoots a long range missile, marking enemies with her passive. Living Weapon: Void Seeker is upgraded to apply more passive marks and reduce cooldown on champion hit.",
+        "w-icon": "assets/champ/kaisa/Ability/w.png",
+        "w-vid": "assets/champ/kaisa/Ability/w.webm"
+    },
+
+    {
+        "e-name": "supercharge",
+        "e-desc": "Kai'Sa briefly increases her Move Speed, then increases her Attack Speed. Living Weapon: Supercharge is upgraded to briefly grant Invisibility.",
+        "e-icon": "assets/champ/kaisa/Ability/e.png",
+        "e-vid": "assets/champ/kaisa/Ability/e.webm"
+    },
+
+    {
+        "r-name": "killer instinct",
+        "r-desc": "Kai'Sa dashes near an enemy champion.",
+        "r-icon": "assets/champ/kaisa/Ability/r.png",
+        "r-vid": "assets/champ/kaisa/Ability/r.webm"
+    }
+]

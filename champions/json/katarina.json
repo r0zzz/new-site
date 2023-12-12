@@ -1,0 +1,70 @@
+[
+    {
+        "bg": "assets/bgprofile/katarina.png",
+        "splash": "assets/champ/Katarina_0.jpg",
+        "name": "Katarina",
+        "title": "The Sinister Blade",
+        "lore": "Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber. Eldest daughter to the legendary General Du Couteau, she made her talents known with swift kills against unsuspecting enemies. Her fiery ambition has driven her to pursue heavily-guarded targets, even at the risk of endangering her allies—but no matter the mission, Katarina will not hesitate to execute her duty amid a whirlwind of serrated daggers."
+    
+    },
+    
+    {
+        "health": "672",
+        "health-regen": "7.5",
+        "armor": "28",
+        "magic-resist": "32",
+        "movement-speed": "335"
+    },
+
+    {
+        "resource-name": "resouce",
+        "resource": "n/a",
+        "resource-regen-name": "resource regen",
+        "resource-regen": "n/a",
+        "attack-damage": "58",
+        "attack-speed": "0.658",
+        "attack-range": "125"   
+    },
+
+    {
+        "role-bg": "assets/role/as.png",
+        "role-icon": "assets/role/assassin.png",
+        "role-name": "Assassin",
+        "role-desc": "Assassins specialize in infiltrating enemy lines with their unrivaled mobility to quickly dispatch high-priority targets. Due to their mostly melee nature, Assassins must put them themselves into dangerous positions in order to execute their targets. Luckily, they often have defensive tricks up their sleeves that, if used cleverly, allow them to effectively avoid incoming damage."
+    },
+
+    {   
+        "p-name": "voracity",
+        "p-desc": "Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced. If Katarina picks up a Dagger, she uses it to slash through all nearby enemies, dealing magic damage.",
+        "p-icon": "assets/champ/katarina/Ability/p.png",
+        "p-vid": "assets/champ/katarina/Ability/p.webm"
+    },
+
+    {
+        "q-name": "bouncing blade",
+        "q-desc": "Katarina throws a Dagger at the target that then bounces to nearby enemies before ricocheting onto the ground.",
+        "q-icon": "assets/champ/katarina/Ability/q.png",
+        "q-vid": "assets/champ/katarina/Ability/q.webm"
+    },
+
+    {
+        "w-name": "preparation",
+        "w-desc": "Katarina gains a burst of Move Speed, tossing a Dagger into the air directly above herself.",
+        "w-icon": "assets/champ/katarina/Ability/w.png",
+        "w-vid": "assets/champ/katarina/Ability/w.webm"
+    },
+
+    {
+        "e-name": "shunpo",
+        "e-desc": "Katarina blinks to the target, striking it if its an enemy, or striking the nearest enemy otherwise.",
+        "e-icon": "assets/champ/katarina/Ability/e.png",
+        "e-vid": "assets/champ/katarina/Ability/e.webm"
+    },
+
+    {
+        "r-name": "death lotus",
+        "r-desc": "Katarina becomes a flurry of blades, dealing massive magic damage while she channels to the 3 nearest enemy champions.",
+        "r-icon": "assets/champ/katarina/Ability/r.png",
+        "r-vid": "assets/champ/katarina/Ability/r.webm"
+    }
+]
